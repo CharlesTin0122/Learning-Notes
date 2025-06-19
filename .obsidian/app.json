@@ -1,0 +1,21 @@
+{
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "./attachments",
+  "alwaysUpdateLinks": true,
+  "spellcheck": false,
+  "defaultViewMode": "source",
+  "showLineNumber": true,
+  "trashOption": "system",
+  "newFileLocation": "current",
+  "showUnsupportedFiles": true,
+  "newLinkFormat": "relative",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "readableLineLength": false,
+  "rightToLeft": false
+}
