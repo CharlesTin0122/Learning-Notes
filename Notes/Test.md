@@ -1,3 +1,7 @@
-/Script/Engine.StaticMesh'/Game/Weapon/Weapon_Sword/SM_Sword_Iron_Lv01.SM_Sword_Iron_Lv01'
-/Script/Engine.StaticMesh'/Game/Weapon/Weapon_Sword/SM_Sword_Iron_Lv02.SM_Sword_Iron_Lv02'
-
+- 空翻动画两套，各八方向，先做四方向
+	- ButterflyKick
+	- ButterflyTwist
+- 八方向
+	- 左后：是正左方向 90
+	- 左：是正左方向向前偏移20
+	- 左前：是正左方向向前偏移40

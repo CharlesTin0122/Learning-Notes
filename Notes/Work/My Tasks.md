@@ -9,6 +9,15 @@ kanban-plugin: board
 - [ ] ## 任务名称：
 	## 策划：
 	### 任务内容：
+- [ ] ## 任务名称：秽魔新增动画
+	## 策划：刘恺
+	### 任务内容：
+	- 回魔新增变形和装备
+	- H:\Project_PJX\Monster\Mummy\怪物动作需求模板-秽魔-刘恺.xlsx
+- [ ] ## 任务名称：施法动画
+	## 策划：卢旭
+	### 任务内容：
+	- H:\Project_PJX\Animation\magic
 - [ ] ## 任务名称：人形怪驯养
 	
 	### 任务内容：
@@ -28,9 +37,13 @@ kanban-plugin: board
 	- H:\Project_PJX\Animal\Wolf
 	- Wolf_BeginningShow_Montage
 	- 一个精英狼出场动画不用太长
-- [ ] ## 任务名称：用葫芦喝酒
+- [ ] ## 任务名称：用葫芦动画
 	## 策划：董建成
 	### 任务内容：
+	- H:\Project_PJX\Animation\HuLu
+	- 喝酒
+	- 装酒
+	- 换葫芦
 	- Anim_Human_Live_Drink_01_Montage
 	- SM_Gourd_001
 - [ ] ## 任务名称：蹲伏采集动画
@@ -49,6 +62,25 @@ kanban-plugin: board
 	### 任务内容：
 	- "H:\Project_PJX\DOC\法器武器动作需求-王大伟.xlsx"
 	-
+
+
+## # 进行中
+
+- [ ] ## 任务名称：新体型，服装，头发
+	## 策划：
+	### 任务内容：
+	- 服装
+	- 头发
+	- 胡须
+	- 新形体：男人02，女人02，小孩
+- [ ] ## 任务名称：物理资产
+	## 策划：李嘉明
+	### 任务内容：
+	- 鸟怪导入
+- [ ] ## 任务名称：空翻动画
+	## 策划：卢旭
+	### 任务内容：
+	- RM_ButterflyKick_LB
 - [ ] ## 任务名称：渡劫化解天雷的技能
 	## 策划：薛剑
 	### 任务内容：
@@ -58,24 +90,6 @@ kanban-plugin: board
 	https://www.bilibili.com/video/BV1fL411y75v/?spm_id_from=333.337.search-card.all.click&vd_source=3c20e77f2ef2f5bc41104060216452b9  
 	12分00到12分05  
 	有点点像只狼里的雷电奉还，但是我们这个是往天上丢
-
-
-## # 进行中
-
-- [ ] ## 任务名称：小孩体型，服装，头发
-	## 策划：
-	### 任务内容：
-	- H:\Project_PJX\Cloth\import\SK_Cloth_F_Chushi
-	- H:\Project_PJX\Cloth\import\Hair\new
-	- H:\Project_PJX\Cloth\import\beard\New
-- [ ] ## 任务名称：物理资产
-	## 策划：李嘉明
-	### 任务内容：
-	- 鸟怪导入
-- [ ] ## 任务名称：空翻动画
-	## 策划：卢旭
-	### 任务内容：
-	- RM_ButterflyKick_LB
 - [ ] ## 任务名称：移动中出入武器
 	## 策划：卢旭
 	### 任务内容：
@@ -89,6 +103,10 @@ kanban-plugin: board
 ## # 已完成
 
 **完成**
+- [x] ## 任务名称：帧率修改
+	## 策划：郑亚楠
+	### 任务内容：
+	- /Game/Monster/BiGou/Animation/A_BiGou_Attack_Special_end1、A_BiGou_Attack_Special_end2、A_BiGou_Attack_Special_end3、A_BiGou_Attack_Special_end4、A_BiGou_Disappear_Air  这五个动画不是30帧的
 - [x] ## 任务名称：女主角变形重新制作
 	## 策划：
 	### 任务内容：
