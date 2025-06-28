@@ -12,6 +12,10 @@ iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 ```
 scoop help
 ```
+# 安装 lux
+```
+scoop install lux
+```
 # Usage:
 - 语法：`lux [OPTIONS] URL [URL...]
 1. 下载视频
