@@ -507,6 +507,53 @@ cube.setMatrix(target_matrix)
 ```
 
 # 其他
+## 删除未知节点
+```python
+import pymel.core as pm
+
+def cleanup_unknown_nodes():
+    """
+    查找并删除场景中所有的“未知节点”(unknown nodes)。
+    如果节点被锁定，会先解锁再删除。
+    """
+    # 1. 获取所有类型为 'unknown' 的节点
+    # MEL: string $unknownNodes[] = `lsType unknown`;
+    unknown_nodes = pm.ls(type='unknown')
+
+    # 2. 遍历所有找到的未知节点
+    # MEL: for($node in $unknownNodes){ ... }
+    for node in unknown_nodes:
+        # MEL: if($node=="<done>") break;
+        # 注意: pm.ls 返回的是 PyNode 对象，而不是字符串。
+        # 直接与字符串 "<done>" 比较通常没有意义，因为 `pm.ls` 不会返回这个值。
+        # 为了忠实于原始脚本，我们比较节点的名称，但这在实践中可以省略。
+        if node.name() == "<done>":
+            break
+
+        # 3. 检查节点是否存在（在 PyMEL 中这通常是隐式的，但保留可以增加代码的健壮性）
+        # MEL: if(`objExists $node`)
+        # 在这个循环中，因为我们刚从 `pm.ls` 得到节点列表，所以节点肯定是存在的。
+        # 但如果循环内部有其他可能删除节点的操作，这个检查就是个好习惯。
+        if node.exists():
+            # 4. 检查节点是否被锁定
+            # MEL: int $lockState[] = `lockNode -q -l $node`; if($lockState[0]==1)
+            if node.isLocked():
+                # 5. 如果锁定，则解锁
+                # MEL: lockNode -l off $node;
+                node.setLocked(False)
+            
+            # 6. 删除节点
+            # MEL: delete $node;
+            try:
+                pm.delete(node)
+                print(f"已删除未知节点: {node.name()}")
+            except Exception as e:
+                print(f"删除节点 {node.name()} 时出错: {e}")
+
+# --- 执行函数 ---
+cleanup_unknown_nodes()
+print("未知节点清理完成。")
+```
 
 ## 将路径添加到maya环境
 ```python

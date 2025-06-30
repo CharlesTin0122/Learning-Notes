@@ -196,10 +196,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bf4e310a1ebc662c",
+  "active": "6c4cbb6491a6afbc",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "Notes/Misc/feedback&workflow.md",
+    "Notes/Misc/attachments/feedback&workflow-8.png",
+    "Notes/Misc/attachments/feedback&workflow-7.png",
+    "Notes/Misc/attachments/feedback&workflow-6.png",
     "Notes/Misc/attachments/feedback&workflow-5.png.nssyncsc",
     "Notes/Misc/attachments/Pasted image 20250628071556.png.nssyncsc",
     "Notes/Misc/attachments/feedback&workflow-4.png.nssyncsc",
@@ -219,9 +222,6 @@
     "Notes/Unreal/项目规范/UE5 Secondary Animation in Maya and Unreal.md",
     "Notes/Unreal/项目规范/游戏中断肢效果处理(Dismemberment System ).md",
     "Notes/Unreal/项目规范/虚幻引擎中的布料资产处理.md",
-    "Notes/Unreal/项目规范/attachments/UE5次级动画解决方案-33.png",
-    "Notes/Unreal/项目规范/attachments/UE5次级动画解决方案-32.png",
-    "Notes/Unreal/项目规范/attachments/UE5次级动画解决方案-31.png",
     "Notes/Unreal/项目规范/attachments/Pasted image 20250625204158.png.nssyncsc",
     "Notes/Unreal/项目规范/attachments/Pasted image 20250625201317.png.nssyncsc",
     "Notes/math/3.0-矩阵（Matrix ）.md",
@@ -239,7 +239,6 @@
     "Notes/Unreal/Lyra/1.3.0-八向移动.md",
     "Notes/Unreal/Lyra/1.2.2-步幅匹配、同步组.md",
     "Notes/Unreal/Lyra/1.2.1-同步组.md",
-    "Notes/Unreal/基础知识/12.0-虚拟骨骼.md",
     "Notes/Unreal/项目规范/attachments/Pasted image 20250625110519.png.nssyncsc",
     "Notes/Unreal/项目规范/attachments/Pasted image 20250625103335.png.nssyncsc",
     "Notes/Unreal/项目规范/attachments",
