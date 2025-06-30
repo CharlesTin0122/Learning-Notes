@@ -6,10 +6,17 @@
 - ![|300](attachments/feedback&workflow-1.png)
 - 身体模型在关节转折处有过多的星状点和三角面，可能会影响变形效果
 - ![](attachments/feedback&workflow-3.png)
+- 提供的base_skeletono.fbx参考骨骼，对位基本是正确的，但是根据大腿小腿和脚部骨骼计算出来的极向量位置偏向外侧，需要轻微向内调整膝盖关节位置。
+- ![](attachments/feedback&workflow-4.png)
+- 提供的base_skeletono.fbx参考骨骼，ik_foot_l和ik_foot_r上仍有动画帧未清理
+- ![](attachments/feedback&workflow-5.png)
 ## workflow
+### 概述
 - 根据测试需求的描述，Master Key模型可以使用熟悉的工具进行绑定，主要考察关节放置和变形效果。为了节省时间，不再采用手工绑定的模式。
 - 我熟悉的绑定工具有mGear绑定框架和Advanced Skeleton绑定插件。而mGear绑定框架绑定的模型必须在安装该框架的maya环境中才能使用，所以这里使用Advanced Skeleton绑定插件进行绑定。
 - maya软件版本为2024.2，轴向为Y轴向上，单位为厘米。Advanced Skeleton绑定插件版本为Advanced Skeleton-6.574
+### 添加次级动画骨骼
+
 # rigging of Minigun
 ## feedback
 ## workflow

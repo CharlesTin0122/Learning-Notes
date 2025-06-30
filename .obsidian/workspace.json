@@ -4,25 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "9a47df5b6df40e6b",
+        "id": "4f6940eeb51d9278",
         "type": "tabs",
         "children": [
           {
-            "id": "fca7be96f652941f",
+            "id": "bf4e310a1ebc662c",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "Notes/Misc/feedback&workflow.md",
+                "bFile": "Notes/Misc/feedback&workflow.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: feedback&workflow"
+            }
+          },
+          {
+            "id": "47d3f1a265e80b56",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Misc/feedback&workflow.md",
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "feedback&workflow"
+              "title": "conflict-files-obsidian-git"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Misc/feedback&workflow.md",
+                "file": "Notes/misc/feedback&workflow.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -180,7 +195,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 361.5
+    "width": 660.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,10 +211,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6c4cbb6491a6afbc",
+  "active": "47d3f1a265e80b56",
   "lastOpenFiles": [
-    "Notes/MAYA/mayaPython案例.md",
+    "conflict-files-obsidian-git.md",
+    "Notes/Misc/feedback&workflow.md",
+    "Notes/Misc/attachments/feedback&workflow-5.png.nssyncsc",
+    "Notes/Misc/attachments/Pasted image 20250628071556.png.nssyncsc",
+    "Notes/Misc/attachments/feedback&workflow-4.png.nssyncsc",
+    "Notes/Misc/attachments/feedback&workflow-4-冲突-CharlesTin_Win10.png",
+    "Notes/Misc/attachments/28ed1e2b6c1f45f70fd9883650e78878_MD5.jpeg",
+    "Notes/Misc/attachments/28813ce2730dbff97be9bfaf8233962f_MD5.jpeg",
+    "Notes/Misc/attachments/feedback&workflow-5.png",
+    "Notes/Misc/attachments/feedback&workflow-4.png",
     "Notes/Work/My Tasks.md",
+    "Notes/misc/attachments/feedback&workflow-5.png",
+    "Notes/misc/attachments/feedback&workflow-4.png",
+    "Notes/misc/lux 视频下载工具的使用.md",
     "Notes/Unreal/Unreal Python/02-UnrealPython方法使用.md",
     "Notes/Unreal/Unreal Python/01 - UnrealPython入门.md",
     "Notes/Work/Project_PJX.md",
@@ -210,14 +237,7 @@
     "Notes/Unreal/项目规范/attachments/UE5次级动画解决方案-33.png",
     "Notes/Unreal/项目规范/attachments/UE5次级动画解决方案-32.png",
     "Notes/Unreal/项目规范/attachments/UE5次级动画解决方案-31.png",
-    "Notes/Unreal/项目规范/attachments/UE5次级动画解决方案-30.png",
-    "Notes/Unreal/项目规范/attachments/UE5次级动画解决方案-29.png",
-    "Notes/Unreal/项目规范/attachments/UE5次级动画解决方案-28.png",
-    "Notes/Unreal/项目规范/attachments/UE5次级动画解决方案-27.png",
-    "Notes/Unreal/项目规范/attachments/UE5次级动画解决方案-26.png",
     "Notes/Unreal/项目规范/attachments/Pasted image 20250625204158.png.nssyncsc",
-    "Notes/Unreal/项目规范/attachments/UE5次级动画解决方案-25.png",
-    "Notes/Unreal/项目规范/attachments/UE5次级动画解决方案-24.png",
     "Notes/Unreal/项目规范/attachments/Pasted image 20250625201317.png.nssyncsc",
     "Notes/math/3.0-矩阵（Matrix ）.md",
     "Notes/math/Quaternion_Rotation.md",
@@ -235,16 +255,11 @@
     "Notes/Unreal/Lyra/1.2.2-步幅匹配、同步组.md",
     "Notes/Unreal/Lyra/1.2.1-同步组.md",
     "Notes/Unreal/基础知识/12.0-虚拟骨骼.md",
-    "Notes/Unreal/基础知识/11.0-UE4分层混合节点Layered Blend Per Bone设置.md",
-    "Notes/Unreal/基础知识/10.0-Set By-Ref Var.md",
     "Notes/Unreal/项目规范/attachments/Pasted image 20250625110519.png.nssyncsc",
     "Notes/Unreal/项目规范/attachments/Pasted image 20250625103335.png.nssyncsc",
     "Notes/Unreal/项目规范/attachments",
     "Notes/Misc/attachments/feedback&workflow-3.png.nssyncsc",
     "Notes/Misc/attachments/Pasted image 20250623230157.png.nssyncsc",
-    "Notes/Misc/attachments/feedback&workflow-2.png.nssyncsc",
-    "Notes/Misc/attachments/Pasted image 20250623225504.png.nssyncsc",
-    "Notes/Misc/attachments/feedback&workflow-1.png.nssyncsc",
     "Notes/Unreal/Unreal Python/未命名.canvas",
     "未命名.canvas",
     "Notes/program/数据结构与算法/数据结构与算法——施磊/未命名.canvas",
