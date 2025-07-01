@@ -7,7 +7,7 @@
 - 身体模型在关节转折处有过多的星状点和三角面，可能会影响变形效果
 - ![](attachments/feedback&workflow-3.png)
 - 提供的base_skeletono.fbx参考骨骼，对位基本是正确的，大腿关节thigh位置稍微偏上，但是在可以接受的范围内。但是根据大腿小腿和脚部骨骼向量计算出来的极向量位置偏向外侧，需要轻微向内调整膝盖关节位置。
-- ![](attachments/feedback&workflow-4.png)
+- ![](attachments/feedback&workflow-9.png)
 - 计算极向量脚本
 ```python
 import pymel.core as pm
@@ -50,7 +50,7 @@ if __name__ == '__main__':
     控制器就被摆放在正确的位置上,通过ctrl_length_scale数值来调整控制器和骨骼距离。
     """
     jnt_1, jnt_2, jnt_3, ctrl_pv = pm.selected()
-    get_pole_vector_position(jnt_1, jnt_2, jnt_3, ctrl_pv, 5)
+    get_pole_vector_position(jnt_1, jnt_2, jnt_3, ctrl_pv, 15)
 ```
 - 提供的base_skeletono.fbx参考骨骼，ik_foot_l和ik_foot_r上仍有动画帧未清理
 - ![](attachments/feedback&workflow-5.png)
@@ -69,8 +69,19 @@ if __name__ == '__main__':
 - 使用Advanced Skeleton绑定插件进行绑定，可以使用其NameMatcher工具生成绑定。
 - ![](attachments/feedback&workflow-6.png)
 ### 导入引擎
-
+- 将模型导入引擎
+- ![](attachments/feedback&workflow-10.png)
+- 设置骨骼平移重定向选项
+- ![](attachments/feedback&workflow-11.png)
+- 设置角色主物理资产
+- ![](attachments/feedback&workflow-12.png)
 ### 处理次级动画
+- 处理次级动画在这里使用SkeletalMesh动画后处理的方式来实现
+- ![](attachments/feedback&workflow-13.png)
+
+- 添加ControlRig来处理扭曲（Twist）骨骼的旋转
+- 使用RigidBody节点和物理资产来处理钥匙挂件和头发的次级运动
+- 使用代理布料来处理服装的飘动效果
 # rigging of Minigun
 ## feedback
 ## workflow

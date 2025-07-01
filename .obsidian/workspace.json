@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4f6940eeb51d9278",
+        "id": "9a47df5b6df40e6b",
         "type": "tabs",
         "children": [
           {
-            "id": "bf4e310a1ebc662c",
+            "id": "fca7be96f652941f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Misc/feedback&workflow.md",
+                "file": "Notes/misc/feedback&workflow.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -180,7 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 660.5
+    "width": 393.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,25 +196,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6c4cbb6491a6afbc",
+  "active": "fca7be96f652941f",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Notes/Misc/feedback&workflow.md",
-    "Notes/Misc/attachments/feedback&workflow-8.png",
-    "Notes/Misc/attachments/feedback&workflow-7.png",
-    "Notes/Misc/attachments/feedback&workflow-6.png",
-    "Notes/Misc/attachments/feedback&workflow-5.png.nssyncsc",
-    "Notes/Misc/attachments/Pasted image 20250628071556.png.nssyncsc",
-    "Notes/Misc/attachments/feedback&workflow-4.png.nssyncsc",
-    "Notes/Misc/attachments/feedback&workflow-4-冲突-CharlesTin_Win10.png",
-    "Notes/Misc/attachments/28ed1e2b6c1f45f70fd9883650e78878_MD5.jpeg",
-    "Notes/Misc/attachments/28813ce2730dbff97be9bfaf8233962f_MD5.jpeg",
-    "Notes/Misc/attachments/feedback&workflow-5.png",
-    "Notes/Misc/attachments/feedback&workflow-4.png",
-    "Notes/Work/My Tasks.md",
+    "Notes/misc/attachments/feedback&workflow-13.png",
+    "Notes/misc/attachments/feedback&workflow-12.png",
+    "Notes/misc/attachments/feedback&workflow-11.png",
+    "Notes/misc/attachments/feedback&workflow-10.png",
+    "Notes/misc/attachments/feedback&workflow-9.png",
+    "Notes/misc/attachments/feedback&workflow-5.png.nssyncsc",
+    "Notes/misc/attachments/feedback&workflow-4.png.nssyncsc",
+    "Notes/misc/attachments/Pasted image 20250628071556.png.nssyncsc",
+    "Notes/misc/attachments/feedback&workflow-8.png",
+    "Notes/misc/attachments/feedback&workflow-7.png",
+    "Notes/misc/attachments/feedback&workflow-6.png",
+    "Notes/MAYA/mayaPython案例.md",
+    "Notes/misc/feedback&workflow.md",
     "Notes/misc/attachments/feedback&workflow-5.png",
     "Notes/misc/attachments/feedback&workflow-4.png",
     "Notes/misc/lux 视频下载工具的使用.md",
+    "Notes/Work/My Tasks.md",
     "Notes/Unreal/Unreal Python/02-UnrealPython方法使用.md",
     "Notes/Unreal/Unreal Python/01 - UnrealPython入门.md",
     "Notes/Work/Project_PJX.md",
@@ -222,6 +222,7 @@
     "Notes/Unreal/项目规范/UE5 Secondary Animation in Maya and Unreal.md",
     "Notes/Unreal/项目规范/游戏中断肢效果处理(Dismemberment System ).md",
     "Notes/Unreal/项目规范/虚幻引擎中的布料资产处理.md",
+    "Notes/Unreal/项目规范/attachments/UE5次级动画解决方案-33.png",
     "Notes/Unreal/项目规范/attachments/Pasted image 20250625204158.png.nssyncsc",
     "Notes/Unreal/项目规范/attachments/Pasted image 20250625201317.png.nssyncsc",
     "Notes/math/3.0-矩阵（Matrix ）.md",
