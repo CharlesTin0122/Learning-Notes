@@ -7,7 +7,7 @@
 - 身体模型在关节转折处有过多的星状点和三角面，可能会影响变形效果
 - ![](attachments/feedback&workflow-3.png)
 - 提供的base_skeletono.fbx参考骨骼，对位基本是正确的，大腿关节thigh位置稍微偏上，但是在可以接受的范围内。但是根据大腿小腿和脚部骨骼向量计算出来的极向量位置偏向外侧，需要轻微向内调整膝盖关节位置。
-- ![](attachments/3139c95dacab89a6ed8d9b6a093f7584_MD5.jpeg)
+- ![](attachments/9adfa3673605a1408b5c286be6f88bb8_MD5.jpeg)
 - 计算极向量脚本
 ```python
 import pymel.core as pm
@@ -61,27 +61,34 @@ if __name__ == '__main__':
 - maya软件版本为2024.2，轴向为Y轴向上，单位为厘米。Advanced Skeleton绑定插件版本为Advanced Skeleton-6.574。蒙皮工具为ngSkinTools-2.4.0。
 ### 添加次级动画骨骼
 - 添加次级动画骨骼并调整骨骼朝向
-- ![](attachments/436de670ce026c5e7146473a71d91e7c_MD5.jpeg)
+- ![](attachments/d224eed156547157116aeab98229282e_MD5.jpeg)
 ### 蒙皮
 - 采用ngSkinTools进行蒙皮
-- ![](attachments/aaab2fe131d61f120e27ee5f9f3bc488_MD5.jpeg)
+- ![](attachments/56326c8f9f753824348c0cedc18bab6f_MD5.jpeg)
 ### 进行绑定
 - 使用Advanced Skeleton绑定插件进行绑定，可以使用其NameMatcher工具生成绑定。
-- ![](attachments/312acebdbcf17bc3758acf538338374b_MD5.jpeg)
+- ![](attachments/71a5c69956a824cc4ea5c3eaf540927b_MD5.jpeg)
 ### 导入引擎
 - 将模型导入引擎
-- ![](attachments/156fa612a81ce69e4112007b15bf09f7_MD5.jpeg)
+- ![](attachments/5e6c54adef5440a6dd4a89992e516d09_MD5.jpeg)
 - 设置骨骼平移重定向选项
-- ![](attachments/4d96eeeb8d8e6b555b2f3e731193f20c_MD5.jpeg)
+- ![](attachments/b6de3573a08a19925569aa50d44deb74_MD5.jpeg)
 - 设置角色主物理资产
-- ![](attachments/2d985ddd3ac66d58302842ea46728489_MD5.jpeg)
+- ![](attachments/2e2ca14819a51de21e1c0ce691b69ecb_MD5.jpeg)
 ### 处理次级动画
 - 处理次级动画在这里使用SkeletalMesh动画后处理的方式来实现
-- ![](attachments/27f35d0ac8674656e819981326cc5e02_MD5.jpeg)
+- ![](attachments/5393f7870d21a8c57f42d9f53788403e_MD5.jpeg)
 
 - 添加ControlRig来处理扭曲（Twist）骨骼的旋转
+- ![|500](attachments/feedback&workflow-6.png)![|500](attachments/feedback&workflow-7.png)
 - 使用RigidBody节点和物理资产来处理钥匙挂件和头发的次级运动
+- ![|500](attachments/feedback&workflow-8.png)
 - 使用代理布料来处理服装的飘动效果
+- ![](attachments/feedback&workflow-10.png)
+- 最终后处理动画蓝图
+- ![](attachments/feedback&workflow-11.png)
+- 最终动画效果
+- ![](attachments/feedback&workflow-12.png)
 # rigging of Minigun
 ## feedback
 ## workflow
