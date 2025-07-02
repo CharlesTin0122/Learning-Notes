@@ -28,6 +28,15 @@ kanban-plugin: board
 	- 扛着NPC待机（互动）
 	- 主角放下NPC平躺（互动）
 	- NPC平躺到蹲伏
+- [ ] ## 任务名称：用葫芦动画
+	## 策划：董建成
+	### 任务内容：
+	- H:\Project_PJX\Animation\HuLu
+	- 喝酒：
+	- 装酒：空手，6-7s
+	- 换葫芦
+	- Anim_Human_Live_Drink_01_Montage
+	- SM_Gourd_001
 - [ ] ## 任务名称：鹿动画重定向
 	## 策划：李晨阳
 	### 任务内容：H:\Project_PJX\Animal\deer
@@ -37,15 +46,6 @@ kanban-plugin: board
 	- H:\Project_PJX\Animal\Wolf
 	- Wolf_BeginningShow_Montage
 	- 一个精英狼出场动画不用太长
-- [ ] ## 任务名称：用葫芦动画
-	## 策划：董建成
-	### 任务内容：
-	- H:\Project_PJX\Animation\HuLu
-	- 喝酒
-	- 装酒
-	- 换葫芦
-	- Anim_Human_Live_Drink_01_Montage
-	- SM_Gourd_001
 - [ ] ## 任务名称：蹲伏采集动画
 	## 策划：徐大禹
 	### 任务内容：

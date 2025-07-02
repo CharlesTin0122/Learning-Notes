@@ -2,7 +2,7 @@
 
 在平时我们进行游戏开发的时候，经常会围绕着角色与动画这两元素进行整体的开发工作，因此角色与动画的性能优化将重中之重，因为他们决定着游戏的游玩体验。今天将与大家分享一些角色与动画方面的性能优化经验，帮助大家在开发过程中提高游戏性能，并且尽可能照顾有着不同知识储备的开发者。
 
-本文出自**https://www.youtube.com/watch?v=N_suMyUuork**，讲者是Matthew Lake。
+本文出自[[https://www.youtube.com/watch?v=N_suMyUuork]]，讲者是Matthew Lake。
 
 ![图片](attachments/54a1c63d6d72122b50df9f0b5b0e68e2_MD5.webp)
 

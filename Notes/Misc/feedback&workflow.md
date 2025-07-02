@@ -61,13 +61,13 @@ if __name__ == '__main__':
 - maya软件版本为2024.2，轴向为Y轴向上，单位为厘米。Advanced Skeleton绑定插件版本为Advanced Skeleton-6.574。蒙皮工具为ngSkinTools-2.4.0。
 ### 添加次级动画骨骼
 - 添加次级动画骨骼并调整骨骼朝向
-- ![](attachments/feedback&workflow-7.png)
+- ![](attachments/436de670ce026c5e7146473a71d91e7c_MD5.jpeg)
 ### 蒙皮
 - 采用ngSkinTools进行蒙皮
-- ![](attachments/feedback&workflow-8.png)
+- ![](attachments/aaab2fe131d61f120e27ee5f9f3bc488_MD5.jpeg)
 ### 进行绑定
 - 使用Advanced Skeleton绑定插件进行绑定，可以使用其NameMatcher工具生成绑定。
-- ![](attachments/feedback&workflow-6.png)
+- ![](attachments/312acebdbcf17bc3758acf538338374b_MD5.jpeg)
 ### 导入引擎
 
 ### 处理次级动画

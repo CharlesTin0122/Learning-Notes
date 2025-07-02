@@ -4,22 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4f6940eeb51d9278",
+        "id": "c792d2e6a55169ae",
         "type": "tabs",
         "children": [
           {
-            "id": "bf4e310a1ebc662c",
+            "id": "a0b9757189014e10",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Notes/Misc/feedback&workflow.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "aFile": "Notes/Work/My Tasks.md",
+                "bFile": "Notes/Work/My Tasks.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "feedback&workflow"
+              "icon": "diff",
+              "title": "Diff: My Tasks"
             }
           }
         ]
@@ -79,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 453.5
+    "width": 331.5
   },
   "right": {
     "id": "9a963b05dd42da39",
@@ -122,13 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/misc/feedback&workflow.md",
+                "file": "Notes/Unreal/UnrealFest演讲精粹/UnrealFest演讲精粹-在虚幻5.4中探索下一代动画工具.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "feedback&workflow 的大纲"
+              "title": "UnrealFest演讲精粹-在虚幻5.4中探索下一代动画工具 的大纲"
             }
           },
           {
@@ -180,7 +179,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 660.5
+    "width": 313.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,10 +195,38 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6c4cbb6491a6afbc",
+  "active": "a0b9757189014e10",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Notes/Misc/feedback&workflow.md",
+    "Notes/program/Scoop使用入门.md",
+    "Notes/MAYA/Rigging/进阶/2.0-No Flip IK.md",
+    "Notes/MAYA/Rigging/进阶/3.0-Hind Leg.md",
+    "Notes/MAYA/Rigging/进阶/4.0-ArmRig.md",
+    "Notes/MAYA/Rigging/进阶/5.0-Spine Rig.md",
+    "Notes/MAYA/Rigging/进阶/7.0-Create Export Joints.md",
+    "Notes/MAYA/Rigging/进阶/6.0-Twist & Roll.md",
+    "Notes/MAYA/Rigging/进阶/1.0-反转脚.md",
+    "Notes/Work/My Tasks.md",
+    "Notes/Unreal/项目规范/UE5 Secondary Animation in Maya and Unreal.md",
+    "Notes/program/Git入门指南.md",
+    "Notes/program/CMake简明教程.md",
+    "Notes/program/C++/C++高级/03 体验一下智能指针的强大/3.2 不带引用计数的智能指针.md",
+    "Notes/program/C++/C++高级/03 体验一下智能指针的强大/3.1 智能指针基础知识.md",
+    "Notes/program/C++/C++高级/02 对象被优化以后才是高效的C++编程/2.7 移动构造函数和移动赋值运算符.md",
+    "Notes/program/C++/C++高级/02 对象被优化以后才是高效的C++编程/2.6 move移动语义和forward类型完美转发.md",
+    "Notes/program/C++/C++高级/02 对象被优化以后才是高效的C++编程/2.5 添加带右值引用参数的拷贝构造和赋值函数.md",
+    "Notes/program/C++/C++高级/02 对象被优化以后才是高效的C++编程/2.4 CMyString的代码问题.md",
+    "Notes/program/C++/C++高级/02 对象被优化以后才是高效的C++编程/2.3 总结三条对象优化的规则.md",
+    "Notes/program/C++/C++高级/02 对象被优化以后才是高效的C++编程/2.2 函数调用过程中对象背后调用的方法太多.md",
+    "Notes/program/C++/C++高级/02 对象被优化以后才是高效的C++编程/2.1 对象使用过程中背后调用了哪些方法.md",
+    "Notes/program/C++/C++高级/01 我们在这一系列课程要学习什么/未命名.md",
+    "Notes/program/C++/手动编译代码.md",
+    "Notes/program/C++/C++ 常用面试题整理.md",
+    "Notes/program/C++/C++ 技术面试基础知识总结.md",
+    "Notes/program/C++/C++动态内存管理.md",
+    "Notes/Unreal/虚幻动画系统深入浅出.canvas",
+    "Notes/Misc/attachments/312acebdbcf17bc3758acf538338374b_MD5.jpeg",
+    "Notes/Misc/attachments/aaab2fe131d61f120e27ee5f9f3bc488_MD5.jpeg",
+    "Notes/Misc/attachments/436de670ce026c5e7146473a71d91e7c_MD5.jpeg",
     "Notes/Misc/attachments/feedback&workflow-8.png",
     "Notes/Misc/attachments/feedback&workflow-7.png",
     "Notes/Misc/attachments/feedback&workflow-6.png",
@@ -210,35 +237,8 @@
     "Notes/Misc/attachments/28ed1e2b6c1f45f70fd9883650e78878_MD5.jpeg",
     "Notes/Misc/attachments/28813ce2730dbff97be9bfaf8233962f_MD5.jpeg",
     "Notes/Misc/attachments/feedback&workflow-5.png",
-    "Notes/Misc/attachments/feedback&workflow-4.png",
-    "Notes/Work/My Tasks.md",
-    "Notes/misc/attachments/feedback&workflow-5.png",
-    "Notes/misc/attachments/feedback&workflow-4.png",
-    "Notes/misc/lux 视频下载工具的使用.md",
-    "Notes/Unreal/Unreal Python/02-UnrealPython方法使用.md",
-    "Notes/Unreal/Unreal Python/01 - UnrealPython入门.md",
-    "Notes/Work/Project_PJX.md",
-    "Notes/Work/English.md",
-    "Notes/Unreal/项目规范/UE5 Secondary Animation in Maya and Unreal.md",
-    "Notes/Unreal/项目规范/游戏中断肢效果处理(Dismemberment System ).md",
-    "Notes/Unreal/项目规范/虚幻引擎中的布料资产处理.md",
     "Notes/Unreal/项目规范/attachments/Pasted image 20250625204158.png.nssyncsc",
     "Notes/Unreal/项目规范/attachments/Pasted image 20250625201317.png.nssyncsc",
-    "Notes/math/3.0-矩阵（Matrix ）.md",
-    "Notes/math/Quaternion_Rotation.md",
-    "Notes/Unreal/UE游戏框架：从int main到BeginPlay.md",
-    "Notes/Unreal/UE5 增强输入系统（蓝图篇）.md",
-    "Notes/Unreal/UE5 增强输入系统（基础篇）.md",
-    "Notes/Unreal/UE4无缝动画系统 ALS-V4 分析.md",
-    "Notes/Unreal/学习路线.md",
-    "Notes/Unreal/虚幻动画系统深入浅出.canvas",
-    "Notes/Unreal/虚幻5蓝图基础（2），蓝图之间的通信.md",
-    "Notes/Unreal/虚幻5蓝图基础（1），虚幻5蓝图零基础入门.md",
-    "Notes/Unreal/【UE4】用老罗 多人运动的方式”快速”打开并掌握 UE4蓝图BP(Blueprint)基础知识.md",
-    "Notes/Unreal/【UE4】通俗易懂 用蓝图来学习 C++ 基础知识.md",
-    "Notes/Unreal/Lyra/1.3.0-八向移动.md",
-    "Notes/Unreal/Lyra/1.2.2-步幅匹配、同步组.md",
-    "Notes/Unreal/Lyra/1.2.1-同步组.md",
     "Notes/Unreal/项目规范/attachments/Pasted image 20250625110519.png.nssyncsc",
     "Notes/Unreal/项目规范/attachments/Pasted image 20250625103335.png.nssyncsc",
     "Notes/Unreal/项目规范/attachments",
