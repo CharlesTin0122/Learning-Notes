@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "45d6ad819d83d002",
+        "id": "645b239479eab4fb",
         "type": "tabs",
         "children": [
           {
-            "id": "a77ed80ee5469dac",
+            "id": "1a2a62d0a8c73e03",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Misc/feedback&workflow.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "feedback&workflow"
+              "title": "新标签页"
             }
           }
         ]
@@ -122,13 +117,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Misc/feedback&workflow.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "feedback&workflow 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -196,8 +190,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a77ed80ee5469dac",
+  "active": "1a2a62d0a8c73e03",
   "lastOpenFiles": [
+    "Notes/Misc/feedback&workflow.md",
     "Notes/Misc/lux 视频下载工具的使用.md",
     "conflict-files-obsidian-git.md",
     "Notes/Misc/attachments/4d96eeeb8d8e6b555b2f3e731193f20c_MD5.jpeg",
@@ -233,7 +228,6 @@
     "Notes/program/C++/C++高级/02 对象被优化以后才是高效的C++编程/2.1 对象使用过程中背后调用了哪些方法.md",
     "Notes/program/C++/C++高级/01 我们在这一系列课程要学习什么/未命名.md",
     "Notes/program/C++/手动编译代码.md",
-    "Notes/program/C++/C++ 常用面试题整理.md",
     "Notes/Unreal/虚幻动画系统深入浅出.canvas",
     "Notes/Misc/attachments/feedback&workflow-5.png.nssyncsc",
     "Notes/Misc/attachments/Pasted image 20250628071556.png.nssyncsc",

@@ -78,10 +78,13 @@ if __name__ == '__main__':
 ### 处理次级动画
 - 处理次级动画在这里使用SkeletalMesh动画后处理的方式来实现
 - ![](attachments/27f35d0ac8674656e819981326cc5e02_MD5.jpeg)
-
 - 添加ControlRig来处理扭曲（Twist）骨骼的旋转
-- 使用RigidBody节点和物理资产来处理钥匙挂件和头发的次级运动
+- 
 - 使用代理布料来处理服装的飘动效果
+- 
+- 使用RigidBody节点和物理资产来处理钥匙挂件和头发的次级运动
+- 
+
 # rigging of Minigun
 ## feedback
 ## workflow
