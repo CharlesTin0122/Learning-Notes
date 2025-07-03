@@ -57,16 +57,16 @@
 
 ## 动画蓝图
 - ![](attachments/UE5次级动画解决方案-26.png)
-- 将姿势资产载入PoseDriver节点，并选择源骨骼
+- 将姿势资产载入PoseDriver节点
 - ![](attachments/UE5次级动画解决方案-30.png)
-- ![](attachments/UE5次级动画解决方案-31.png)
-- 添加变形目标，可以选择从姿势资产复制所有，如果在maya中使用 PoseWrangler插件，可使用 Pose Driver Connect虚幻插件导入数据
+- 载入驱动骨骼和被驱动骨骼
+- ![](attachments/UE5%20Secondary%20Animation%20in%20Maya%20and%20Unreal.png)
+- 添加姿态目标，可以选择从姿势资产复制所有，如果在maya中使用 PoseWrangler插件，可使用 Pose Driver Connect虚幻插件导入数据
 - ![](attachments/UE5次级动画解决方案-29.png)
-- RBF设置
-- ![](attachments/UE5次级动画解决方案-33.png)
+- RBF设置， 可勾选自动半径
+- ![](attachments/UE5%20Secondary%20Animation%20in%20Maya%20and%20Unreal-1.png)
 - 设置驱动源和驱动输出，可以选择Rotation或Translation来驱动曲线(混合变形)或姿势（骨骼变形和混合变形）
-- ![](attachments/UE5次级动画解决方案-32.png)
 - 所有节点选项
-- ![](attachments/UE5次级动画解决方案-28.png)
+- ![](attachments/UE5%20Secondary%20Animation%20in%20Maya%20and%20Unreal-2.png)
 # 布料
 详见[虚幻引擎中的布料资产处理](虚幻引擎中的布料资产处理.md)

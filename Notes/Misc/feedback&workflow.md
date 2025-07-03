@@ -57,8 +57,9 @@ if __name__ == '__main__':
 ## workflow
 ### 概述
 - 根据测试需求的描述，Master Key模型可以使用熟悉的工具进行绑定，主要考察关节放置和变形效果。为了节省时间，不再采用手工绑定的模式。
-- 我熟悉的绑定工具有mGear绑定框架和Advanced Skeleton绑定插件。而mGear绑定框架绑定的模型必须在安装该框架的maya环境中才能使用，所以这里使用Advanced Skeleton绑定插件进行绑定。
-- maya软件版本为2024.2，轴向为Y轴向上，单位为厘米。Advanced Skeleton绑定插件版本为Advanced Skeleton-6.574。蒙皮工具为ngSkinTools-2.4.0。
+- 我熟悉的绑定工具有mGear绑定框架和 Advanced Skeleton 绑定插件。而 mGear 绑定框架绑定的模型必须在安装该框架的maya环境中才能使用，所以这里使用Advanced Skeleton绑定插件进行绑定。
+- maya软件版本为2024.2，轴向为Y轴向上，单位为厘米。Advanced Skeleton绑定插件版本为 Advanced Skeleton-6.574。蒙皮工具为 ngSkinTools-2.4.0。
+- 虚幻引擎版本为 UnrealEngine-5.5.4
 ### 添加次级动画骨骼
 - 添加次级动画骨骼并调整骨骼朝向
 - ![](attachments/d224eed156547157116aeab98229282e_MD5.jpeg)
@@ -76,30 +77,23 @@ if __name__ == '__main__':
 - 设置角色主物理资产
 - ![](attachments/2e2ca14819a51de21e1c0ce691b69ecb_MD5.jpeg)
 ### 处理次级动画
-- 处理次级动画在这里使用SkeletalMesh动画后处理的方式来实现
-<<<<<<< HEAD
-- ![](attachments/27f35d0ac8674656e819981326cc5e02_MD5.jpeg)
-- 添加ControlRig来处理扭曲（Twist）骨骼的旋转
-- 
-- 使用代理布料来处理服装的飘动效果
-- 
-- 使用RigidBody节点和物理资产来处理钥匙挂件和头发的次级运动
-- 
-
-=======
+- 处理次级动画在这里使用SkeletalMesh添加动画后处理的方式来实现
 - ![](attachments/5393f7870d21a8c57f42d9f53788403e_MD5.jpeg)
-
+- 添加PoseDriver节点来处理衣服裙摆次级动画，在制作过程中引擎数次崩溃，5.5.4的PoseDriver的功能还不是很稳定。
+- ![|400](attachments/feedback&workflow-13.png)
 - 添加ControlRig来处理扭曲（Twist）骨骼的旋转
-- ![|500](attachments/feedback&workflow-6.png)![|500](attachments/feedback&workflow-7.png)
+- ![|400](attachments/feedback&workflow-6.png)![|400](attachments/feedback&workflow-7.png)
 - 使用RigidBody节点和物理资产来处理钥匙挂件和头发的次级运动
 - ![|500](attachments/feedback&workflow-8.png)
-- 使用代理布料来处理服装的飘动效果
+- 使用代理布料来处理服装的飘动效果，裙摆的次级动画效果是 PoseDriver + 布料
 - ![](attachments/feedback&workflow-10.png)
 - 最终后处理动画蓝图
-- ![](attachments/feedback&workflow-11.png)
+- ![](attachments/feedback&workflow-14.png)
 - 最终动画效果
 - ![](attachments/feedback&workflow-12.png)
->>>>>>> origin/main
+- 直接在编辑器中播放以下动画资产，即可看到次级动画效果。他们重定向自官方第三人称示例。
+	- /Game/character/MasterKey/Anim/MM_Run_Fwd.MM_Run_Fwd
+	- /Game/character/MasterKey/Anim/MM_Walk_Fwd.MM_Walk_Fwd
 # rigging of Minigun
 ## feedback
 ## workflow
