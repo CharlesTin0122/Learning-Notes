@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "645b239479eab4fb",
+        "id": "e9caa329dabfcfa2",
         "type": "tabs",
         "children": [
           {
-            "id": "1a2a62d0a8c73e03",
+            "id": "65e0d9ecf38dffbd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Misc/feedback&workflow.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "feedback&workflow"
+              "title": "新标签页"
             }
           }
         ]
@@ -196,21 +191,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1a2a62d0a8c73e03",
+  "active": "6c4cbb6491a6afbc",
   "lastOpenFiles": [
-    "Notes/Misc/feedback&workflow.md",
-    "Notes/Misc/lux 视频下载工具的使用.md",
     "conflict-files-obsidian-git.md",
-    "Notes/Misc/attachments/4d96eeeb8d8e6b555b2f3e731193f20c_MD5.jpeg",
-    "Notes/Misc/attachments/3139c95dacab89a6ed8d9b6a093f7584_MD5.jpeg",
-    "Notes/Misc/attachments/2d985ddd3ac66d58302842ea46728489_MD5.jpeg",
-    "Notes/Misc/attachments/27f35d0ac8674656e819981326cc5e02_MD5.jpeg",
-    "Notes/Misc/attachments/156fa612a81ce69e4112007b15bf09f7_MD5.jpeg",
-    "Notes/Misc/attachments/feedback&workflow-10.png",
     "Notes/Misc/attachments/feedback&workflow-9.png",
-    "Notes/Misc/attachments/feedback&workflow-13.png",
+    "Notes/Misc/attachments/feedback&workflow-8.png",
+    "Notes/Misc/attachments/feedback&workflow-7.png",
+    "Notes/Misc/attachments/feedback&workflow-6.png",
     "Notes/Misc/attachments/feedback&workflow-12.png",
     "Notes/Misc/attachments/feedback&workflow-11.png",
+    "Notes/Misc/attachments/feedback&workflow-10.png",
+    "Notes/Misc/attachments/d224eed156547157116aeab98229282e_MD5.jpeg",
+    "Notes/Misc/attachments/b6de3573a08a19925569aa50d44deb74_MD5.jpeg",
+    "Notes/Misc/attachments/9adfa3673605a1408b5c286be6f88bb8_MD5.jpeg",
+    "Notes/Misc/feedback&workflow.md",
+    "Notes/Misc/lux 视频下载工具的使用.md",
     "Notes/program/Scoop使用入门.md",
     "Notes/MAYA/Rigging/进阶/2.0-No Flip IK.md",
     "Notes/MAYA/Rigging/进阶/3.0-Hind Leg.md",
@@ -233,7 +228,6 @@
     "Notes/program/C++/C++高级/02 对象被优化以后才是高效的C++编程/2.2 函数调用过程中对象背后调用的方法太多.md",
     "Notes/program/C++/C++高级/02 对象被优化以后才是高效的C++编程/2.1 对象使用过程中背后调用了哪些方法.md",
     "Notes/program/C++/C++高级/01 我们在这一系列课程要学习什么/未命名.md",
-    "Notes/program/C++/手动编译代码.md",
     "Notes/Unreal/虚幻动画系统深入浅出.canvas",
     "Notes/Misc/attachments/feedback&workflow-5.png.nssyncsc",
     "Notes/Misc/attachments/Pasted image 20250628071556.png.nssyncsc",
