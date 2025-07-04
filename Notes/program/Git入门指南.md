@@ -28,10 +28,16 @@ git config --global https.proxy socks5://127.0.0.1:7890
   
 
 ### v2rayN代理端口
+- 代理主机的协议和端口socks:10808、http:10809
 ```bash
 git config --global http.proxy socks5://127.0.0.1:10808
 
 git config --global https.proxy socks5://127.0.0.1:10808
+
+https_proxy=[https://192.168.50.17:10809](https://192.168.50.17:10809/)  
+http_proxy=[http://192.168.50.17:10809](http://192.168.50.17:10809/)  
+HTTPS_PROXY=[https://192.168.50.17:10809](https://192.168.50.17:10809/)  
+HTTP_PROXY=[http://192.168.50.17:10809](http://192.168.50.17:10809/)
 ```
 
 ### 检查代理是否生效：

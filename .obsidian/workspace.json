@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e9caa329dabfcfa2",
+        "id": "8d89945615821e96",
         "type": "tabs",
         "children": [
           {
-            "id": "65e0d9ecf38dffbd",
+            "id": "b8f3b7cf4c6a0667",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -117,13 +117,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Misc/feedback&workflow.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "feedback&workflow 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -193,18 +192,31 @@
   },
   "active": "6c4cbb6491a6afbc",
   "lastOpenFiles": [
+    "Notes/program/PowerShell入门.md",
+    "Notes/program/Git入门指南.md",
+    "Notes/program/API key.md",
+    "Notes/MAYA/mayaPython案例.md",
+    "Notes/MAYA/Tips.md",
+    "Notes/MAYA/Spring Magic 原理简析.md",
+    "Notes/MAYA/Python for Maya2018脚本编程实战案例教程.md",
+    "Notes/MAYA/maya节点学习.md",
+    "Notes/MAYA/动画曲线编辑辅助工具原理.md",
+    "Notes/MAYA/创建控制器所用的曲线属性.md",
+    "Notes/MAYA/常用插件和工具.md",
+    "Notes/MAYA/Rigging/基础知识/冻结变换FreezeTransformations.md",
+    "Notes/MAYA/Rigging/基础知识/手动修改局部旋转轴为何要zeroScaleOrient.md",
+    "Notes/Misc/feedback&workflow.md",
+    "Notes/Misc/attachments/4006ad5d528d2005ec1b0f690480e134_MD5.jpeg",
+    "Notes/Misc/attachments/fdfb059260dbf924e77e643dfb5bce5f_MD5.jpeg",
+    "Notes/Misc/attachments/7c69c42f6b479502b73d8f1e61ba23c3_MD5.jpeg",
+    "Notes/Misc/attachments/bcfe8437f7285d7c539f98aaf191afdb_MD5.jpeg",
+    "Notes/Misc/attachments/43a3f3d23cbf4725616c22093e63fe2a_MD5.jpeg",
+    "Notes/Misc/attachments/89735643b3c1a467cd78ee5875b1b457_MD5.jpeg",
     "conflict-files-obsidian-git.md",
     "Notes/Misc/attachments/feedback&workflow-9.png",
     "Notes/Misc/attachments/feedback&workflow-8.png",
     "Notes/Misc/attachments/feedback&workflow-7.png",
     "Notes/Misc/attachments/feedback&workflow-6.png",
-    "Notes/Misc/attachments/feedback&workflow-12.png",
-    "Notes/Misc/attachments/feedback&workflow-11.png",
-    "Notes/Misc/attachments/feedback&workflow-10.png",
-    "Notes/Misc/attachments/d224eed156547157116aeab98229282e_MD5.jpeg",
-    "Notes/Misc/attachments/b6de3573a08a19925569aa50d44deb74_MD5.jpeg",
-    "Notes/Misc/attachments/9adfa3673605a1408b5c286be6f88bb8_MD5.jpeg",
-    "Notes/Misc/feedback&workflow.md",
     "Notes/Misc/lux 视频下载工具的使用.md",
     "Notes/program/Scoop使用入门.md",
     "Notes/MAYA/Rigging/进阶/2.0-No Flip IK.md",
@@ -216,18 +228,6 @@
     "Notes/MAYA/Rigging/进阶/1.0-反转脚.md",
     "Notes/Work/My Tasks.md",
     "Notes/Unreal/项目规范/UE5 Secondary Animation in Maya and Unreal.md",
-    "Notes/program/Git入门指南.md",
-    "Notes/program/CMake简明教程.md",
-    "Notes/program/C++/C++高级/03 体验一下智能指针的强大/3.2 不带引用计数的智能指针.md",
-    "Notes/program/C++/C++高级/03 体验一下智能指针的强大/3.1 智能指针基础知识.md",
-    "Notes/program/C++/C++高级/02 对象被优化以后才是高效的C++编程/2.7 移动构造函数和移动赋值运算符.md",
-    "Notes/program/C++/C++高级/02 对象被优化以后才是高效的C++编程/2.6 move移动语义和forward类型完美转发.md",
-    "Notes/program/C++/C++高级/02 对象被优化以后才是高效的C++编程/2.5 添加带右值引用参数的拷贝构造和赋值函数.md",
-    "Notes/program/C++/C++高级/02 对象被优化以后才是高效的C++编程/2.4 CMyString的代码问题.md",
-    "Notes/program/C++/C++高级/02 对象被优化以后才是高效的C++编程/2.3 总结三条对象优化的规则.md",
-    "Notes/program/C++/C++高级/02 对象被优化以后才是高效的C++编程/2.2 函数调用过程中对象背后调用的方法太多.md",
-    "Notes/program/C++/C++高级/02 对象被优化以后才是高效的C++编程/2.1 对象使用过程中背后调用了哪些方法.md",
-    "Notes/program/C++/C++高级/01 我们在这一系列课程要学习什么/未命名.md",
     "Notes/Unreal/虚幻动画系统深入浅出.canvas",
     "Notes/Misc/attachments/feedback&workflow-5.png.nssyncsc",
     "Notes/Misc/attachments/Pasted image 20250628071556.png.nssyncsc",

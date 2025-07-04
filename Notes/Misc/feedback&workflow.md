@@ -90,15 +90,15 @@ if __name__ == '__main__':
 - ![](attachments/5393f7870d21a8c57f42d9f53788403e_MD5.jpeg)
 
 - 添加ControlRig来处理扭曲（Twist）骨骼的旋转
-- ![|500](attachments/feedback&workflow-6.png)![|500](attachments/feedback&workflow-7.png)
+- ![|500](attachments/89735643b3c1a467cd78ee5875b1b457_MD5.jpeg)![|500](attachments/43a3f3d23cbf4725616c22093e63fe2a_MD5.jpeg)
 - 使用RigidBody节点和物理资产来处理钥匙挂件和头发的次级运动
-- ![|500](attachments/feedback&workflow-8.png)
+- ![|500](attachments/bcfe8437f7285d7c539f98aaf191afdb_MD5.jpeg)
 - 使用代理布料来处理服装的飘动效果
-- ![](attachments/feedback&workflow-10.png)
+- ![](attachments/7c69c42f6b479502b73d8f1e61ba23c3_MD5.jpeg)
 - 最终后处理动画蓝图
-- ![](attachments/feedback&workflow-11.png)
+- ![](attachments/fdfb059260dbf924e77e643dfb5bce5f_MD5.jpeg)
 - 最终动画效果
-- ![](attachments/feedback&workflow-12.png)
+- ![](attachments/4006ad5d528d2005ec1b0f690480e134_MD5.jpeg)
 >>>>>>> origin/main
 # rigging of Minigun
 ## feedback

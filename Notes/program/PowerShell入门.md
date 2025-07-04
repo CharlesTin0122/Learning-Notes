@@ -137,5 +137,10 @@ PowerShell 是一种基于任务的命令行 shell 和脚本语言，专为系�
    Get-Host  # 获取 PowerShell 环境信息
    Get-WmiObject -Class Win32_OperatingSystem  # 获取操作系统信息
    ```
+### 10.设置代理
+```
+$env:HTTP_PROXY="http://127.0.0.1:10809"
+$env:HTTPS_PROXY="http://127.0.0.1:10809"
+```
 
 PowerShell 以其强大的自动化和管理功能成为 Windows 管理员的首选工具，它的对象处理和与 .NET 框架的集成让它具有非常灵活的操作能力。
