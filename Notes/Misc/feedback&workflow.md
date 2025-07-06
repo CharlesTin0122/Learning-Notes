@@ -68,7 +68,7 @@ if __name__ == '__main__':
 - ![](attachments/56326c8f9f753824348c0cedc18bab6f_MD5.jpeg)
 ### 进行绑定
 - 使用Advanced Skeleton绑定插件进行绑定，可以使用其NameMatcher工具生成绑定。
-- ![](attachments/71a5c69956a824cc4ea5c3eaf540927b_MD5.jpeg)
+- ![](attachments/feedback&workflow-15.png)
 ### 导入引擎
 - 将模型导入引擎
 - ![](attachments/5e6c54adef5440a6dd4a89992e516d09_MD5.jpeg)
@@ -85,17 +85,18 @@ if __name__ == '__main__':
 - ![|400](attachments/feedback&workflow-6.png)![|400](attachments/feedback&workflow-7.png)
 - 使用RigidBody节点和物理资产来处理钥匙挂件和头发的次级运动
 - ![|500](attachments/feedback&workflow-8.png)
-- 使用代理布料来处理服装的飘动效果，裙摆的次级动画效果是 PoseDriver + 布料
-- ![](attachments/feedback&workflow-10.png)
 - 最终后处理动画蓝图
-- ![](attachments/feedback&workflow-14.png)
-- 最终动画效果
-- ![](attachments/feedback&workflow-12.png)
-- 直接在编辑器中播放以下动画资产，即可看到次级动画效果。他们重定向自官方第三人称示例。
+- ![](attachments/feedback&workflow-16.png)
+- 直接在编辑器中播放以下动画资产，即可看到次级动画效果。他们重定向自官方 Lyra 示例。
 	- /Game/character/MasterKey/Anim/MM_Run_Fwd.MM_Run_Fwd
 	- /Game/character/MasterKey/Anim/MM_Walk_Fwd.MM_Walk_Fwd
 # rigging of Minigun
 ## feedback
+- 模型朝向不正确，当maya环境为Z 轴向上时，模型应面向-Y轴。当maya环境为Y 轴向上时，模型应面向+Z轴。而武器模型在Z轴向上时面向+Y轴。
 ## workflow
-# Simulate Physics In-Engine
-## workflow
+### 概述
+- 根据测试需求的描述，Fortnite_Minigun模型需手工绑定不能借助绑定工具。
+- maya软件版本为2024.2，轴向跟角色一致为Y轴向上，单位为厘米。
+### 添加骨骼
+- 根据提供的参考视频，添加骨骼
+- 
