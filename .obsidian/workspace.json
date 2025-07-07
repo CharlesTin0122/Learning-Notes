@@ -4,22 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "2405bf87318842f0",
+        "id": "133ef3725712731a",
         "type": "tabs",
         "children": [
           {
-            "id": "286d11dbc0cf8611",
+            "id": "b6003b7124e5a7ce",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "Notes/Misc/feedback&workflow.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "Notes/Work/My Tasks.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": []
+                }
               },
-              "icon": "lucide-file",
-              "title": "feedback&workflow"
+              "icon": "lucide-trello",
+              "title": "My Tasks"
             }
           }
         ]
@@ -179,7 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,8 +196,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "286d11dbc0cf8611",
+  "active": "b6003b7124e5a7ce",
   "lastOpenFiles": [
+    "Notes/Work/My Tasks.md",
+    "Notes/Misc/feedback&workflow.md",
     "Notes/Misc/attachments/4ba1f25b3534d6e9aff8061bddf9b3ef_MD5.jpeg",
     "Notes/Misc/attachments/34f6172df107d80ab49e58d64d38fe78_MD5.jpeg",
     "conflict-files-obsidian-git.md",
@@ -208,10 +211,7 @@
     "Notes/Misc/attachments/df323233d354b95c7fab720c3c3c2996_MD5.jpeg",
     "Notes/Misc/attachments/bd208a46f2bfd19996c9af49bfffa82d_MD5.jpeg",
     "Notes/Misc/attachments/ad9b83756d693ec242748ed942c4aec9_MD5.jpeg",
-    "Notes/Misc/attachments/61d83531841a32dd39647d10a5eaf86e_MD5.jpeg",
-    "Notes/Misc/feedback&workflow.md",
     "Notes/Misc/lux 视频下载工具的使用.md",
-    "Notes/Work/My Tasks.md",
     "未命名.md",
     "Notes/Unreal/项目规范/UE5 Secondary Animation in Maya and Unreal.md",
     "Notes/program/PowerShell入门.md",

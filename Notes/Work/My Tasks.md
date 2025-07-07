@@ -55,15 +55,6 @@ kanban-plugin: board
 	## 策划：卢旭
 	### 任务内容：
 	- 空手，单手和长柄武器到集动画重新设计
-- [ ] ## 任务名称：用葫芦动画
-	## 策划：董建成
-	### 任务内容：
-	- H:\Project_PJX\Animation\HuLu
-	- 喝酒：
-	- 装酒：空手，6-7s
-	- 换葫芦
-	- Anim_Human_Live_Drink_01_Montage
-	- SM_Gourd_001
 - [ ] ## 任务名称：精英狼展示动画
 	## 策划：刘凯
 	### 任务内容：
@@ -90,6 +81,15 @@ kanban-plugin: board
 ## # 已完成
 
 **完成**
+- [x] ## 任务名称：用葫芦动画
+	## 策划：董建成
+	### 任务内容：
+	- H:\Project_PJX\Animation\HuLu
+	- 喝酒：
+	- 装酒：空手，6-7s
+	- 换葫芦
+	- Anim_Human_Live_Drink_01_Montage
+	- SM_Gourd_001
 - [x] ## 任务名称：化解动画调整
 	## 策划：卢旭
 	### 任务内容：
