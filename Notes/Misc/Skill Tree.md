@@ -1,0 +1,51 @@
+- C++语言(入门)
+- Python语言（熟练）
+- 基本的数据结构和算法（入门）
+- 线性代数（入门，可以计算基本的向量，矩阵和四元数，类似计算极IK极向量位置 、向量朝向转欧拉旋转，世界矩阵和局部矩阵变换等）
+
+- Game Animation Development Pipeline ( Maya&Unreal )  
+- maya软件
+	- 绑定模块
+		- 手动绑定能力
+		- 游戏表情动画解决方案
+		- 绑定工具使用
+			- advanced skeleton绑定插件
+			- mGear绑定框架
+		- maya脚本工具的编写
+	- 动画模块
+		- 手调动画
+		- 动补动画
+			- 动补动画重定向
+				- MotionBuilder动画重定向 ( HumanIK )
+				- Unreal 动画重定向 ( IK Rig )
+			- 动补动画精修
+
+	- 编程模块
+		- 编写绑定和动画工具
+			- mel 语言
+			- cmds 库
+			- pymel 库
+				- 批量FBX动画导入maya控制器动画
+				- 批量动画导出插件
+				- 编写修复抖动和脚滑的专门工具
+				- 编写动画曲线过滤的专门工具（Butterworth，Dampn，Smooth, Simplify,）
+				- 编写原地动画转根动画，根动画转原地动画的工具
+			- maya C++ API 和Python API （还在学习中）
+
+- Unreal软件
+	- 模型和动画资产管理和维护
+	- 基本虚幻蓝图（角色蓝图，动画蓝图，状态机）
+		- Advanced Locomotion System动画框架
+		- Lyra动画框架
+	- Unreal control Rig 系统（入门，在引擎中实现过几个maya绑定案例和二足生物绑定）和动画后处理
+	- Unreal 布料系统
+	- 物理结算系统
+		- Physics Assets
+		- KawaiiPhysics插件：[KawaiiPhysics ](https://github.com/pafuhana1213/KawaiiPhysics)
+		- SPCR Joint Dynamics插件：[SPCRJointDynamics](https://github.com/SPARK-inc/SPCRJointDynamicsUE4)
+	- Unreal编程
+		- Unreal  C++编程（初级能力，能看懂官方案例）
+		- Unreal Python API（初级能力，编写简单工具类似动画资产IK骨骼匹配手脚骨骼之类的）
+		- Unreal 蓝图
+
+
