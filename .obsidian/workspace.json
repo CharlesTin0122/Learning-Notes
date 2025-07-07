@@ -11,16 +11,14 @@
             "id": "b634da57da5499b3",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "split-diff-view",
               "state": {
-                "file": "Notes/Work/My Tasks.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": []
-                }
+                "aFile": "Notes/Work/My Tasks.md",
+                "bFile": "Notes/Work/My Tasks.md",
+                "aRef": ""
               },
-              "icon": "lucide-trello",
-              "title": "My Tasks"
+              "icon": "diff",
+              "title": "Diff: My Tasks"
             }
           }
         ]
@@ -180,7 +178,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 748.5
+    "width": 353.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,9 +196,11 @@
   },
   "active": "b634da57da5499b3",
   "lastOpenFiles": [
+    "Notes/Misc/feedback&workflow.md",
+    "Notes/Misc/lux 视频下载工具的使用.md",
+    "Notes/Work/My Tasks.md",
     "未命名.md",
     "conflict-files-obsidian-git.md",
-    "Notes/Misc/feedback&workflow.md",
     "Notes/Unreal/项目规范/UE5 Secondary Animation in Maya and Unreal.md",
     "Notes/Unreal/项目规范/attachments/2093c2527669c7eaa6ac1faaf438cf02_MD5.jpeg",
     "Notes/Unreal/项目规范/attachments/4d750423f78893f15b6e9949ac86d519_MD5.jpeg",
@@ -225,7 +225,6 @@
     "Notes/MAYA/常用插件和工具.md",
     "Notes/MAYA/Rigging/基础知识/冻结变换FreezeTransformations.md",
     "Notes/MAYA/Rigging/基础知识/手动修改局部旋转轴为何要zeroScaleOrient.md",
-    "Notes/Misc/lux 视频下载工具的使用.md",
     "Notes/program/Scoop使用入门.md",
     "Notes/MAYA/Rigging/进阶/2.0-No Flip IK.md",
     "Notes/MAYA/Rigging/进阶/3.0-Hind Leg.md",
@@ -233,7 +232,6 @@
     "Notes/MAYA/Rigging/进阶/5.0-Spine Rig.md",
     "Notes/MAYA/Rigging/进阶/7.0-Create Export Joints.md",
     "Notes/MAYA/Rigging/进阶/6.0-Twist & Roll.md",
-    "Notes/MAYA/Rigging/进阶/1.0-反转脚.md",
     "Notes/Unreal/虚幻动画系统深入浅出.canvas",
     "Notes/Misc/attachments/feedback&workflow-5.png.nssyncsc",
     "Notes/Misc/attachments/Pasted image 20250628071556.png.nssyncsc",
