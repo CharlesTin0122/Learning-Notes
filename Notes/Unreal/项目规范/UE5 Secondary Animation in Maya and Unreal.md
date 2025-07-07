@@ -1,5 +1,5 @@
 # Spring Controller
-- spring controller节点一般用于果冻效果单根骨骼弹簧结算，一般用于乳房和屁股颤动的效果，是一个简单高效的节点，没有碰撞。
+- spring controller节点一般用于果冻效果单根骨骼弹簧结算，一般用于简单的颤动效果，是一个简单高效的节点，没有碰撞。
 - ![](attachments/UE5次级动画解决方案-1.png)
 - 可以通过Alpha值(0.5)来调整颤动幅度
 - 节点设置
@@ -7,14 +7,10 @@
 # AnimDynamics
 - AnimDynamics[动画蓝图](https://dev.epicgames.com/documentation/zh-cn/unreal-engine/animation-blueprints-in-unreal-engine?application_version=5.5)节点是一种轻量级的物理模拟解决方案。你可以用它在运行时对角色的部分[骨架网格体](https://dev.epicgames.com/documentation/zh-cn/unreal-engine/skeletal-mesh-assets-in-unreal-engine?application_version=5.5)应用基于物理的附属动画。与使用角色[物理资产](https://dev.epicgames.com/documentation/zh-cn/unreal-engine/physics-asset-editor-in-unreal-engine?application_version=5.5)的[RigidBody](https://dev.epicgames.com/documentation/zh-cn/unreal-engine/animation-blueprint-rigid-body-in-unreal-engine?application_version=5.5)节点不同，AnimDynamics节点可以模拟自己的物理刚体，以提升项目性能。
 - 类似于一个简化版的KawaiiPhysics，不建议使用。
-- ![](attachments/UE5次级动画解决方案-8.png)
+- ![](attachments/UE5%20Secondary%20Animation%20in%20Maya%20and%20Unreal-1.png)
 - ![](attachments/UE5次级动画解决方案-9.png)
 - 节点设置
-- ![](attachments/UE5次级动画解决方案-10.png)
-- 设置物理体（盒体）属性
-- ![](attachments/UE5次级动画解决方案-11.png)
-- 设置碰撞（限制）属性
-- ![](attachments/UE5次级动画解决方案-12.png)
+![](attachments/UE5%20Secondary%20Animation%20in%20Maya%20and%20Unreal.png)
 # KawaiiPhysics
 - KawaiiPhysics是一个轻量级的次级动画结算插件，是一个伪物理插件。它允许您为头发、裙子和乳房等对象创建简单可爱的动画。
 - ![](attachments/UE5次级动画解决方案-13.png)
