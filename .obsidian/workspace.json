@@ -11,10 +11,15 @@
             "id": "286d11dbc0cf8611",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Misc/feedback&workflow.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "feedback&workflow"
             }
           }
         ]
@@ -190,7 +195,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6c4cbb6491a6afbc",
+  "active": "286d11dbc0cf8611",
   "lastOpenFiles": [
     "Notes/Misc/attachments/4ba1f25b3534d6e9aff8061bddf9b3ef_MD5.jpeg",
     "Notes/Misc/attachments/34f6172df107d80ab49e58d64d38fe78_MD5.jpeg",
