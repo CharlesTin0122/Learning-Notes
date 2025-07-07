@@ -60,13 +60,13 @@
 - 将姿势资产载入PoseDriver节点
 - ![](attachments/UE5次级动画解决方案-30.png)
 - 载入驱动骨骼和被驱动骨骼
-- ![](attachments/b2b7af5119c91f3f0dfe50493dc1bc4c_MD5.jpeg)
+- ![](attachments/e5e0a7c9b1c11acd2d8319ca3edcaf6b_MD5.jpeg)
 - 添加姿态目标，可以选择从姿势资产复制所有，如果在maya中使用 PoseWrangler插件，可使用 Pose Driver Connect虚幻插件导入数据
 - ![](attachments/UE5次级动画解决方案-29.png)
 - RBF设置， 可勾选自动半径
-- ![](attachments/4d750423f78893f15b6e9949ac86d519_MD5.jpeg)
+- ![](attachments/46912ca7722814b869121394dab5e859_MD5.jpeg)
 - 设置驱动源和驱动输出，可以选择Rotation或Translation来驱动曲线(混合变形)或姿势（骨骼变形和混合变形）
 - 所有节点选项
-- ![](attachments/2093c2527669c7eaa6ac1faaf438cf02_MD5.jpeg)
+- ![](attachments/2a4e49f59b9a97b22241e76e7e2261da_MD5.jpeg)
 # 布料
 详见[虚幻引擎中的布料资产处理](虚幻引擎中的布料资产处理.md)
