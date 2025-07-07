@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "201b63b363d07a53",
+        "id": "706d2aac623a20d1",
         "type": "tabs",
         "children": [
           {
-            "id": "b634da57da5499b3",
+            "id": "4ef6377581292837",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "Notes/Work/My Tasks.md",
-                "bFile": "Notes/Work/My Tasks.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: My Tasks"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -194,7 +190,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b634da57da5499b3",
+  "active": "6c4cbb6491a6afbc",
   "lastOpenFiles": [
     "Notes/Misc/feedback&workflow.md",
     "Notes/Misc/lux 视频下载工具的使用.md",
