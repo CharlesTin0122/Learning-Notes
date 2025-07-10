@@ -87,7 +87,7 @@ if __name__ == '__main__':
 - ![|500](attachments/ad9b83756d693ec242748ed942c4aec9_MD5.jpeg)
 - 最终后处理动画蓝图
 - ![](attachments/4ba1f25b3534d6e9aff8061bddf9b3ef_MD5.jpeg)
-- 直接在编辑器中播放以下动画资产，即可看到次级动画效果。动画重定向自官方 Lyra 示例。因此不再创建GameMode、角色蓝图，动画蓝图。
+- 直接在编辑器中播放以下动画资产，即可看到次级动画效果。动画重定向自官方 Lyra 示例。因此不再创建GameMode、角色蓝图，动画蓝图的GamePlay逻辑。
 	- /Game/character/MasterKey/Anim/MM_Run_Fwd.MM_Run_Fwd
 	- /Game/character/MasterKey/Anim/MM_Walk_Fwd.MM_Walk_Fwd
 # rigging of Minigun

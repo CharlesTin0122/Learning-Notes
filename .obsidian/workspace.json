@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7e2a6851f2b78f8d",
+        "id": "af33b6324744e67e",
         "type": "tabs",
         "children": [
           {
-            "id": "d164a05e4b8fa810",
+            "id": "352a4d89eb6ac919",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -193,7 +193,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 562.5
+    "width": 288.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,8 +211,8 @@
   },
   "active": "c5096204f27d1aa8",
   "lastOpenFiles": [
-    "Notes/misc/BSR模式.md",
     "Notes/misc/feedback&workflow.md",
+    "Notes/misc/BSR模式.md",
     "Notes/misc/attachments/dbb0b875cdbb5fb6e62b65489b98577f_MD5.jpeg",
     "Notes/misc/attachments/Pasted image 20250711062406.png",
     "Notes/misc/attachments/18838f6061ffc276545c63937ac275a7_MD5.jpeg",
