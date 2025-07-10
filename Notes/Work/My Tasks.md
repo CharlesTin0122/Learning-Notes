@@ -28,24 +28,9 @@ kanban-plugin: board
 	- 扛着NPC待机（互动）
 	- 主角放下NPC平躺（互动）
 	- NPC平躺到蹲伏
-- [ ] ## 任务名称：用葫芦动画
-	## 策划：董建成
-	### 任务内容：
-	- H:\Project_PJX\Animation\HuLu
-	- 喝酒：
-	- 装酒：空手，6-7s
-	- 换葫芦
-	- Anim_Human_Live_Drink_01_Montage
-	- SM_Gourd_001
 - [ ] ## 任务名称：鹿动画重定向
 	## 策划：李晨阳
 	### 任务内容：H:\Project_PJX\Animal\deer
-- [ ] ## 任务名称：精英狼展示动画
-	## 策划：刘凯
-	### 任务内容：
-	- H:\Project_PJX\Animal\Wolf
-	- Wolf_BeginningShow_Montage
-	- 一个精英狼出场动画不用太长
 - [ ] ## 任务名称：蹲伏采集动画
 	## 策划：徐大禹
 	### 任务内容：
@@ -66,6 +51,16 @@ kanban-plugin: board
 
 ## # 进行中
 
+- [ ] ## 任务名称：待机动画重新设计
+	## 策划：卢旭
+	### 任务内容：
+	- 空手，单手和长柄武器到集动画重新设计
+- [ ] ## 任务名称：精英狼展示动画
+	## 策划：刘凯
+	### 任务内容：
+	- H:\Project_PJX\Animal\Wolf
+	- Wolf_BeginningShow_Montage
+	- 一个精英狼出场动画不用太长
 - [ ] ## 任务名称：新体型，服装，头发
 	## 策划：
 	### 任务内容：
@@ -77,11 +72,29 @@ kanban-plugin: board
 	## 策划：李嘉明
 	### 任务内容：
 	- 鸟怪导入
-- [ ] ## 任务名称：空翻动画
+- [ ] ## 任务名称：移动中出入武器
 	## 策划：卢旭
 	### 任务内容：
-	- RM_ButterflyKick_LB
-- [ ] ## 任务名称：渡劫化解天雷的技能
+	- H:\Project_PJX\Animation\Anim_1h\Equip
+
+
+## # 已完成
+
+**完成**
+- [x] ## 任务名称：用葫芦动画
+	## 策划：董建成
+	### 任务内容：
+	- H:\Project_PJX\Animation\HuLu
+	- 喝酒：
+	- 装酒：空手，6-7s
+	- 换葫芦
+	- Anim_Human_Live_Drink_01_Montage
+	- SM_Gourd_001
+- [x] ## 任务名称：化解动画调整
+	## 策划：卢旭
+	### 任务内容：
+	- 使用卧龙的转身化解1H_Sword_Dodge_F替换现在的滑行化解
+- [x] ## 任务名称：渡劫化解天雷的技能
 	## 策划：薛剑
 	### 任务内容：
 	渡劫想做个化解天雷的技能，玩家的化解动画要用新的，就是接住雷然后轮一圈忘天上丢，这个化解动画可以不分方向  
@@ -90,19 +103,10 @@ kanban-plugin: board
 	https://www.bilibili.com/video/BV1fL411y75v/?spm_id_from=333.337.search-card.all.click&vd_source=3c20e77f2ef2f5bc41104060216452b9  
 	12分00到12分05  
 	有点点像只狼里的雷电奉还，但是我们这个是往天上丢
-- [ ] ## 任务名称：移动中出入武器
+- [x] ## 任务名称：空翻动画
 	## 策划：卢旭
 	### 任务内容：
-	- H:\Project_PJX\Animation\Anim_1h\Equip
-- [ ] ## 任务名称：化解动画调整
-	## 策划：卢旭
-	### 任务内容：
-	- 使用卧龙的转身化解1H_Sword_Dodge_F替换现在的滑行化解
-
-
-## # 已完成
-
-**完成**
+	- RM_ButterflyKick_LB
 - [x] ## 任务名称：帧率修改
 	## 策划：郑亚楠
 	### 任务内容：

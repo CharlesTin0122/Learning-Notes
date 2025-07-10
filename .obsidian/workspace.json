@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "21a22fdaffc9e44d",
+        "id": "2ed34ed3da92f2be",
         "type": "tabs",
         "children": [
           {
-            "id": "9d54d9a276a8ea16",
+            "id": "187ca86cf5736fa3",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Notes/Misc/feedback&workflow.md",
-                "bFile": "Notes/Misc/feedback&workflow.md",
-                "aRef": ""
+                "file": "Notes/misc/BSR模式.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: feedback&workflow"
+              "icon": "lucide-file",
+              "title": "BSR模式"
             }
           }
         ]
@@ -150,8 +150,8 @@
                 "showSearch": false,
                 "searchQuery": ""
               },
-              "icon": "lucide-archive",
-              "title": "添加笔记属性"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           },
           {
@@ -173,6 +173,24 @@
               "icon": "lucide-file",
               "title": "插件不再活动"
             }
+          },
+          {
+            "id": "d5e4a79dad28b392",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
           }
         ],
         "currentTab": 3
@@ -183,35 +201,38 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-kanban:创建新看板": false,
-      "oz-clear-unused-images:Clear Unused Images": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "daily-notes:打开/创建今天的日记": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "command-palette:打开命令面板": false,
       "templates:插入模板": false,
-      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-kanban:创建新看板": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "9d54d9a276a8ea16",
+  "active": "187ca86cf5736fa3",
   "lastOpenFiles": [
     "Notes/misc/feedback&workflow.md",
+    "Notes/misc/attachments/dbb0b875cdbb5fb6e62b65489b98577f_MD5.jpeg",
+    "Notes/misc/attachments/Pasted image 20250711062406.png",
+    "Notes/misc/attachments/18838f6061ffc276545c63937ac275a7_MD5.jpeg",
+    "Notes/misc/attachments/Pasted image 20250711062336.png",
+    "Notes/misc/attachments/d66a3eb8f3bdeb3f0abee6949056e105_MD5.jpeg",
+    "Notes/misc/attachments/Pasted image 20250711062252.png",
+    "Notes/misc/Animation Pipeline.canvas",
     "Notes/MAYA/Rigging/初级/1.10-Squash & Stretch.md",
+    "conflict-files-obsidian-git.md",
+    "README.md",
+    "Notes/Unreal/项目规范/attachments/UE5 Secondary Animation in Maya and Unreal.png",
+    "Notes/Unreal/项目规范/attachments/UE5 Secondary Animation in Maya and Unreal-1.png",
+    "Notes/misc/attachments/BSR模式.png",
+    "Notes/misc/attachments/BSR模式-6.png",
+    "Notes/misc/BSR模式.md",
     "Notes/MAYA/Rigging/初级/1.09-Roll & Twist Joints.md",
     "Notes/MAYA/Rigging/初级/1.05-Limb Rigging.md",
-    "conflict-files-obsidian-git.md",
-    "Notes/Unreal/项目规范/attachments/e5e0a7c9b1c11acd2d8319ca3edcaf6b_MD5.jpeg",
-    "Notes/Unreal/项目规范/attachments/46912ca7722814b869121394dab5e859_MD5.jpeg",
-    "Notes/Unreal/项目规范/attachments/2a4e49f59b9a97b22241e76e7e2261da_MD5.jpeg",
-    "Notes/misc/attachments/df323233d354b95c7fab720c3c3c2996_MD5.jpeg",
-    "Notes/misc/attachments/ad9b83756d693ec242748ed942c4aec9_MD5.jpeg",
-    "Notes/misc/attachments/3e8a729abef76fccf5e363cd69883995_MD5.jpeg",
-    "Notes/misc/attachments/bd208a46f2bfd19996c9af49bfffa82d_MD5.jpeg",
-    "Notes/misc/attachments/0d44b78a5946a39954f4507328d73831_MD5.jpeg",
-    "Notes/misc/attachments/61d83531841a32dd39647d10a5eaf86e_MD5.jpeg",
-    "Notes/misc/attachments/09999bc5ef8f3b0c82d4e6d5634981aa_MD5.jpeg",
     "Notes/MAYA/Rigging/基础知识/手动修改局部旋转轴为何要zeroScaleOrient.md",
     "Notes/Unreal/项目规范/UE5 Secondary Animation in Maya and Unreal.md",
     "Notes/Unreal/UnrealFest演讲精粹/attachments",
@@ -237,9 +258,6 @@
     "Notes/Unreal/UE4无缝动画系统 ALS-V4 分析.md",
     "Notes/Unreal/学习路线.md",
     "Notes/Unreal/虚幻动画系统深入浅出.canvas",
-    "Notes/Unreal/虚幻5蓝图基础（2），蓝图之间的通信.md",
-    "Notes/Unreal/虚幻5蓝图基础（1），虚幻5蓝图零基础入门.md",
-    "Notes/Unreal/【UE4】用老罗 多人运动的方式”快速”打开并掌握 UE4蓝图BP(Blueprint)基础知识.md",
     "Notes/Unreal/项目规范/attachments/Pasted image 20250625110519.png.nssyncsc",
     "Notes/Unreal/项目规范/attachments/Pasted image 20250625103335.png.nssyncsc",
     "Notes/Unreal/项目规范/attachments",

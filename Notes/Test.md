@@ -1,7 +1,4 @@
-- 空翻动画两套，各八方向，先做四方向
-	- ButterflyKick
-	- ButterflyTwist
-- 八方向
-	- 左后：是正左方向 90
-	- 左：是正左方向向前偏移20
-	- 左前：是正左方向向前偏移40
+
+- BigGuy_barehands_hitted_toDown_mid_south
+- BigGuy_barehands_KnockDown_GetUP_Front
+- Flashkick_barehands_KnockDown_GetUP_Front

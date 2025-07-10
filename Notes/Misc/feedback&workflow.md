@@ -68,7 +68,7 @@ if __name__ == '__main__':
 - ![](attachments/56326c8f9f753824348c0cedc18bab6f_MD5.jpeg)
 ### 进行绑定
 - 使用Advanced Skeleton绑定插件进行绑定，可以使用其NameMatcher工具生成绑定。
-- ![](attachments/feedback&workflow-15.png)
+- ![](attachments/34f6172df107d80ab49e58d64d38fe78_MD5.jpeg)
 ### 导入引擎
 - 将模型导入引擎
 - ![](attachments/5e6c54adef5440a6dd4a89992e516d09_MD5.jpeg)
@@ -82,34 +82,14 @@ if __name__ == '__main__':
 - 添加PoseDriver节点来处理衣服裙摆次级动画，在制作过程中引擎数次崩溃，5.5.4的PoseDriver的功能还不是很稳定。
 - ![|400](attachments/0d44b78a5946a39954f4507328d73831_MD5.jpeg)
 - 添加ControlRig来处理扭曲（Twist）骨骼的旋转
-<<<<<<< HEAD
 - ![|500](attachments/3e8a729abef76fccf5e363cd69883995_MD5.jpeg)![|500](attachments/61d83531841a32dd39647d10a5eaf86e_MD5.jpeg)
 - 使用RigidBody节点和物理资产来处理钥匙挂件和头发的次级运动
 - ![|500](attachments/ad9b83756d693ec242748ed942c4aec9_MD5.jpeg)
-- 使用代理布料来处理服装的飘动效果
-- ![](attachments/bd208a46f2bfd19996c9af49bfffa82d_MD5.jpeg)
 - 最终后处理动画蓝图
-- ![](attachments/df323233d354b95c7fab720c3c3c2996_MD5.jpeg)
-- 最终动画效果
-- ![](attachments/09999bc5ef8f3b0c82d4e6d5634981aa_MD5.jpeg)
->>>>>>> origin/main
-=======
-- ![|400](attachments/feedback&workflow-6.png)![|400](attachments/feedback&workflow-7.png)
-- 使用RigidBody节点和物理资产来处理钥匙挂件和头发的次级运动
-- ![|500](attachments/feedback&workflow-8.png)
-- 最终后处理动画蓝图
-<<<<<<< HEAD
-- ![](attachments/feedback&workflow-16.png)
-- 直接在编辑器中播放以下动画资产，即可看到次级动画效果。他们重定向自官方 Lyra 示例。
-=======
-- ![](attachments/2c32f2938ee62ced65b952f3e4f01669_MD5.jpeg)
-- 最终动画效果
-- ![](attachments/feedback&workflow-12.png)
-- 直接在编辑器中播放以下动画资产，即可看到次级动画效果。他们重定向自官方第三人称示例。
->>>>>>> origin/main
+- ![](attachments/4ba1f25b3534d6e9aff8061bddf9b3ef_MD5.jpeg)
+- 直接在编辑器中播放以下动画资产，即可看到次级动画效果。动画重定向自官方 Lyra 示例。因此不再创建GameMode、角色蓝图，动画蓝图。
 	- /Game/character/MasterKey/Anim/MM_Run_Fwd.MM_Run_Fwd
 	- /Game/character/MasterKey/Anim/MM_Walk_Fwd.MM_Walk_Fwd
->>>>>>> origin/main
 # rigging of Minigun
 ## feedback
 - 模型朝向不正确，当maya环境为Z 轴向上时，模型应面向-Y轴。当maya环境为Y 轴向上时，模型应面向+Z轴。而武器模型在Z轴向上时面向+Y轴。
@@ -119,4 +99,13 @@ if __name__ == '__main__':
 - maya软件版本为2024.2，轴向跟角色一致为Y轴向上，单位为厘米。
 ### 添加骨骼
 - 根据提供的参考视频，添加骨骼
+- [[Notes/misc/attachments/d66a3eb8f3bdeb3f0abee6949056e105_MD5.jpeg|Open: Pasted image 20250711062252.png]]
+![[Notes/misc/attachments/d66a3eb8f3bdeb3f0abee6949056e105_MD5.jpeg]]
+- 添加蒙皮
+- [[Notes/misc/attachments/18838f6061ffc276545c63937ac275a7_MD5.jpeg|Open: Pasted image 20250711062336.png]]
+![[Notes/misc/attachments/18838f6061ffc276545c63937ac275a7_MD5.jpeg]]
+- 创建控制器
+- [[Notes/misc/attachments/dbb0b875cdbb5fb6e62b65489b98577f_MD5.jpeg|Open: Pasted image 20250711062406.png]]
+![[Notes/misc/attachments/dbb0b875cdbb5fb6e62b65489b98577f_MD5.jpeg]]
+- 制作变形动画
 - 
