@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "af33b6324744e67e",
+        "id": "f7fd4e652cadaeb3",
         "type": "tabs",
         "children": [
           {
-            "id": "352a4d89eb6ac919",
+            "id": "5a00d169c1e50a66",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Notes/misc/feedback&workflow.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "feedback&workflow"
             }
           }
         ]
@@ -209,7 +213,7 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "c5096204f27d1aa8",
+  "active": "5a00d169c1e50a66",
   "lastOpenFiles": [
     "Notes/misc/feedback&workflow.md",
     "Notes/misc/BSR模式.md",
