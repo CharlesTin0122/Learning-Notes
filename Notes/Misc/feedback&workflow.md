@@ -87,7 +87,7 @@ if __name__ == '__main__':
 - ![|500](attachments/ad9b83756d693ec242748ed942c4aec9_MD5.jpeg)
 - 最终后处理动画蓝图
 - ![](attachments/4ba1f25b3534d6e9aff8061bddf9b3ef_MD5.jpeg)
-- 直接在编辑器中播放以下动画资产，即可看到次级动画效果。他们重定向自官方 Lyra 示例。
+- 直接在编辑器中播放以下动画资产，即可看到次级动画效果。动画重定向自官方 Lyra 示例。因此不再创建GameMode、角色蓝图，动画蓝图的GamePlay逻辑。
 	- /Game/character/MasterKey/Anim/MM_Run_Fwd.MM_Run_Fwd
 	- /Game/character/MasterKey/Anim/MM_Walk_Fwd.MM_Walk_Fwd
 # rigging of Minigun
@@ -99,4 +99,13 @@ if __name__ == '__main__':
 - maya软件版本为2024.2，轴向跟角色一致为Y轴向上，单位为厘米。
 ### 添加骨骼
 - 根据提供的参考视频，添加骨骼
+- [[Notes/misc/attachments/d66a3eb8f3bdeb3f0abee6949056e105_MD5.jpeg|Open: Pasted image 20250711062252.png]]
+![[Notes/misc/attachments/d66a3eb8f3bdeb3f0abee6949056e105_MD5.jpeg]]
+- 添加蒙皮
+- [[Notes/misc/attachments/18838f6061ffc276545c63937ac275a7_MD5.jpeg|Open: Pasted image 20250711062336.png]]
+![[Notes/misc/attachments/18838f6061ffc276545c63937ac275a7_MD5.jpeg]]
+- 创建控制器
+- [[Notes/misc/attachments/dbb0b875cdbb5fb6e62b65489b98577f_MD5.jpeg|Open: Pasted image 20250711062406.png]]
+![[Notes/misc/attachments/dbb0b875cdbb5fb6e62b65489b98577f_MD5.jpeg]]
+- 制作变形动画
 - 

@@ -1,0 +1,267 @@
+{
+  "main": {
+    "id": "580fdffef7254d03",
+    "type": "split",
+    "children": [
+      {
+        "id": "af33b6324744e67e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "352a4d89eb6ac919",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2360baf39a5aabd3",
+    "type": "split",
+    "children": [
+      {
+        "id": "0b6fd79ec409e1c2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c5096204f27d1aa8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "7474d219278daa55",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "73b8183c90a53805",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 387.5
+  },
+  "right": {
+    "id": "9a963b05dd42da39",
+    "type": "split",
+    "children": [
+      {
+        "id": "2f5e82f48f1481b2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be415f082570314c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Notes/program/C++/C++进阶/6.9 继承多态笔试题实战分析.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "6.9 继承多态笔试题实战分析 的出链列表"
+            }
+          },
+          {
+            "id": "592fa326af58bbc7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "875f5477b8266d87",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Notes/misc/feedback&workflow.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "feedback&workflow 的大纲"
+            }
+          },
+          {
+            "id": "6c4cbb6491a6afbc",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "0b677775cff09acc",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-file",
+              "title": "插件不再活动"
+            }
+          },
+          {
+            "id": "2e3d726d674d645a",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "插件不再活动"
+            }
+          },
+          {
+            "id": "187c58ea1f4cb1cc",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "插件不再活动"
+            }
+          },
+          {
+            "id": "d5e4a79dad28b392",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 288.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "daily-notes:打开/创建今天的日记": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "command-palette:打开命令面板": false,
+      "templates:插入模板": false,
+      "obsidian-kanban:创建新看板": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false
+    }
+  },
+  "active": "c5096204f27d1aa8",
+  "lastOpenFiles": [
+    "Notes/misc/feedback&workflow.md",
+    "Notes/misc/BSR模式.md",
+    "Notes/misc/attachments/dbb0b875cdbb5fb6e62b65489b98577f_MD5.jpeg",
+    "Notes/misc/attachments/Pasted image 20250711062406.png",
+    "Notes/misc/attachments/18838f6061ffc276545c63937ac275a7_MD5.jpeg",
+    "Notes/misc/attachments/Pasted image 20250711062336.png",
+    "Notes/misc/attachments/d66a3eb8f3bdeb3f0abee6949056e105_MD5.jpeg",
+    "Notes/misc/attachments/Pasted image 20250711062252.png",
+    "Notes/misc/Animation Pipeline.canvas",
+    "Notes/MAYA/Rigging/初级/1.10-Squash & Stretch.md",
+    "conflict-files-obsidian-git.md",
+    "README.md",
+    "Notes/Unreal/项目规范/attachments/UE5 Secondary Animation in Maya and Unreal.png",
+    "Notes/Unreal/项目规范/attachments/UE5 Secondary Animation in Maya and Unreal-1.png",
+    "Notes/misc/attachments/BSR模式.png",
+    "Notes/misc/attachments/BSR模式-6.png",
+    "Notes/MAYA/Rigging/初级/1.09-Roll & Twist Joints.md",
+    "Notes/MAYA/Rigging/初级/1.05-Limb Rigging.md",
+    "Notes/MAYA/Rigging/基础知识/手动修改局部旋转轴为何要zeroScaleOrient.md",
+    "Notes/Unreal/项目规范/UE5 Secondary Animation in Maya and Unreal.md",
+    "Notes/Unreal/UnrealFest演讲精粹/attachments",
+    "Notes/misc/attachments/feedback&workflow-5.png.nssyncsc",
+    "Notes/misc/attachments/feedback&workflow-4.png.nssyncsc",
+    "Notes/misc/attachments/Pasted image 20250628071556.png.nssyncsc",
+    "Notes/MAYA/mayaPython案例.md",
+    "Notes/misc/lux 视频下载工具的使用.md",
+    "Notes/Work/My Tasks.md",
+    "Notes/Unreal/Unreal Python/02-UnrealPython方法使用.md",
+    "Notes/Unreal/Unreal Python/01 - UnrealPython入门.md",
+    "Notes/Work/Project_PJX.md",
+    "Notes/Work/English.md",
+    "Notes/Unreal/项目规范/游戏中断肢效果处理(Dismemberment System ).md",
+    "Notes/Unreal/项目规范/虚幻引擎中的布料资产处理.md",
+    "Notes/Unreal/项目规范/attachments/Pasted image 20250625204158.png.nssyncsc",
+    "Notes/Unreal/项目规范/attachments/Pasted image 20250625201317.png.nssyncsc",
+    "Notes/math/3.0-矩阵（Matrix ）.md",
+    "Notes/math/Quaternion_Rotation.md",
+    "Notes/Unreal/UE游戏框架：从int main到BeginPlay.md",
+    "Notes/Unreal/UE5 增强输入系统（蓝图篇）.md",
+    "Notes/Unreal/UE5 增强输入系统（基础篇）.md",
+    "Notes/Unreal/UE4无缝动画系统 ALS-V4 分析.md",
+    "Notes/Unreal/学习路线.md",
+    "Notes/Unreal/虚幻动画系统深入浅出.canvas",
+    "Notes/Unreal/项目规范/attachments/Pasted image 20250625110519.png.nssyncsc",
+    "Notes/Unreal/项目规范/attachments/Pasted image 20250625103335.png.nssyncsc",
+    "Notes/Unreal/项目规范/attachments",
+    "Notes/Misc/attachments/feedback&workflow-3.png.nssyncsc",
+    "Notes/Unreal/Unreal Python/未命名.canvas",
+    "未命名.canvas",
+    "Notes/program/数据结构与算法/数据结构与算法——施磊/未命名.canvas",
+    "Notes/Misc/Animation Pipeline.canvas",
+    "Test.canvas"
+  ]
+}
