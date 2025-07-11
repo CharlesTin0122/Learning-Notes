@@ -99,13 +99,10 @@ if __name__ == '__main__':
 - maya软件版本为2024.2，轴向跟角色一致为Y轴向上，单位为厘米。
 ### 添加骨骼
 - 根据提供的参考视频，添加骨骼
-- [[Notes/misc/attachments/d66a3eb8f3bdeb3f0abee6949056e105_MD5.jpeg|Open: Pasted image 20250711062252.png]]
-![[Notes/misc/attachments/d66a3eb8f3bdeb3f0abee6949056e105_MD5.jpeg]]
+- ![](attachments/feedback&workflow-7.png)
 - 添加蒙皮
-- [[Notes/misc/attachments/18838f6061ffc276545c63937ac275a7_MD5.jpeg|Open: Pasted image 20250711062336.png]]
-![[Notes/misc/attachments/18838f6061ffc276545c63937ac275a7_MD5.jpeg]]
+- ![](attachments/feedback&workflow-8.png)
 - 创建控制器
-- [[Notes/misc/attachments/dbb0b875cdbb5fb6e62b65489b98577f_MD5.jpeg|Open: Pasted image 20250711062406.png]]
-![[Notes/misc/attachments/dbb0b875cdbb5fb6e62b65489b98577f_MD5.jpeg]]
+- ![](attachments/feedback&workflow-9.png)
 - 制作变形动画
 - 

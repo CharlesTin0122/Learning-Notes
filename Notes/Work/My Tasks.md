@@ -9,6 +9,16 @@ kanban-plugin: board
 - [ ] ## 任务名称：
 	## 策划：
 	### 任务内容：
+- [ ] ## 任务名称：朝凤技能修改
+	## 策划：王亚楠
+	### 任务内容：
+	- "D:\Work_MobilGame\outsourcing\Submissions\Boss_ChaoFeng\嘲风动作提交_0726\max\Boss_CF_Attack_12.max"
+	- 拆分为三段：前摇，站起挠空气，落下
+- [ ] ## 任务名称：击倒和站起
+	## 策划：李嘉铭
+	### 任务内容：
+	- BigGuy_barehands_KnockDown_GetUp_Front
+	- BigGuy_barehands_hitted_toDown_mid_south
 - [ ] ## 任务名称：受击动画修改
 	## 策划：卢旭
 	### 任务内容：

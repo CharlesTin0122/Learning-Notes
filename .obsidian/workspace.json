@@ -4,17 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "af33b6324744e67e",
+        "id": "2b245247d7841068",
         "type": "tabs",
         "children": [
           {
-            "id": "352a4d89eb6ac919",
+            "id": "815ab7dcab9bd5f5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "kanban",
+              "state": {
+                "file": "Notes/Work/My Tasks.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": []
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "My Tasks"
             }
           }
         ]
@@ -74,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5
+    "width": 390.5
   },
   "right": {
     "id": "9a963b05dd42da39",
@@ -117,13 +123,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/misc/feedback&workflow.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "feedback&workflow 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -146,8 +151,8 @@
                 "showSearch": false,
                 "searchQuery": ""
               },
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
             }
           },
           {
@@ -169,99 +174,80 @@
               "icon": "lucide-file",
               "title": "插件不再活动"
             }
-          },
-          {
-            "id": "d5e4a79dad28b392",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "反向链接"
-            }
           }
         ],
         "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 288.5
+    "width": 325.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "daily-notes:打开/创建今天的日记": false,
+      "obsidian-kanban:创建新看板": false,
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "command-palette:打开命令面板": false,
       "templates:插入模板": false,
-      "obsidian-kanban:创建新看板": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false
+      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c5096204f27d1aa8",
+  "active": "815ab7dcab9bd5f5",
   "lastOpenFiles": [
-    "Notes/misc/feedback&workflow.md",
-    "Notes/misc/BSR模式.md",
-    "Notes/misc/attachments/dbb0b875cdbb5fb6e62b65489b98577f_MD5.jpeg",
-    "Notes/misc/attachments/Pasted image 20250711062406.png",
-    "Notes/misc/attachments/18838f6061ffc276545c63937ac275a7_MD5.jpeg",
-    "Notes/misc/attachments/Pasted image 20250711062336.png",
-    "Notes/misc/attachments/d66a3eb8f3bdeb3f0abee6949056e105_MD5.jpeg",
-    "Notes/misc/attachments/Pasted image 20250711062252.png",
-    "Notes/misc/Animation Pipeline.canvas",
-    "Notes/MAYA/Rigging/初级/1.10-Squash & Stretch.md",
-    "conflict-files-obsidian-git.md",
-    "README.md",
-    "Notes/Unreal/项目规范/attachments/UE5 Secondary Animation in Maya and Unreal.png",
-    "Notes/Unreal/项目规范/attachments/UE5 Secondary Animation in Maya and Unreal-1.png",
-    "Notes/misc/attachments/BSR模式.png",
-    "Notes/misc/attachments/BSR模式-6.png",
-    "Notes/MAYA/Rigging/初级/1.09-Roll & Twist Joints.md",
-    "Notes/MAYA/Rigging/初级/1.05-Limb Rigging.md",
-    "Notes/MAYA/Rigging/基础知识/手动修改局部旋转轴为何要zeroScaleOrient.md",
-    "Notes/Unreal/项目规范/UE5 Secondary Animation in Maya and Unreal.md",
-    "Notes/Unreal/UnrealFest演讲精粹/attachments",
-    "Notes/misc/attachments/feedback&workflow-5.png.nssyncsc",
-    "Notes/misc/attachments/feedback&workflow-4.png.nssyncsc",
-    "Notes/misc/attachments/Pasted image 20250628071556.png.nssyncsc",
-    "Notes/MAYA/mayaPython案例.md",
-    "Notes/misc/lux 视频下载工具的使用.md",
+    "Notes/Misc/feedback&workflow.md",
+    "Notes/Misc/attachments/feedback&workflow-9.png",
+    "Notes/Misc/attachments/feedback&workflow-8.png",
     "Notes/Work/My Tasks.md",
-    "Notes/Unreal/Unreal Python/02-UnrealPython方法使用.md",
-    "Notes/Unreal/Unreal Python/01 - UnrealPython入门.md",
-    "Notes/Work/Project_PJX.md",
-    "Notes/Work/English.md",
+    "Notes/Unreal/项目规范/UE5 Secondary Animation in Maya and Unreal.md",
+    "Notes/Misc/attachments/feedback&workflow-7.png",
+    "Notes/Misc/attachments/feedback&workflow-6.png",
+    "Notes/Misc/attachments/f5735dcd06b16d0e897cdb4732d17576_MD5.jpeg",
+    "Notes/Misc/attachments/5ba77b6a8acd56eb411ebb0865d79163_MD5.jpeg",
+    "Notes/Misc/attachments/728143a4965afbe31d2adaf2535e4749_MD5.jpeg",
+    "Notes/MAYA/Rigging/进阶/3.0-Hind Leg.md",
+    "Notes/MAYA/Rigging/进阶/4.0-ArmRig.md",
+    "Notes/MAYA/Rigging/进阶/2.0-No Flip IK.md",
+    "Notes/MAYA/Rigging/进阶/1.0-反转脚.md",
+    "Notes/MAYA/Rigging/进阶/6.0-Twist & Roll.md",
+    "Notes/Unreal/项目规范/attachments/UE5 Secondary Animation in Maya and Unreal-1.png",
+    "Notes/Unreal/项目规范/attachments/UE5 Secondary Animation in Maya and Unreal.png",
+    "Notes/Unreal/项目规范/Unreal引擎FBX资产导入注意事项.md",
     "Notes/Unreal/项目规范/游戏中断肢效果处理(Dismemberment System ).md",
     "Notes/Unreal/项目规范/虚幻引擎中的布料资产处理.md",
+    "Notes/Test.md",
+    "Notes/Work/English.md",
+    "Notes/Work/Project_PJX.md",
+    "Notes/Misc/Question.md",
+    "Notes/Misc/Skill Tree.md",
+    "Notes/Misc/SkillTree0.md",
+    "Notes/Misc/Tian Chao's resume.md",
+    "Notes/Misc/Win10激活.md",
+    "Notes/Misc/Tian Chao's resume_old.md",
+    "Notes/Misc/Obsidian Markdown Examples.md",
+    "Notes/Misc/lux 视频下载工具的使用.md",
+    "Notes/Misc/BSR模式.md",
+    "Notes/Misc/Animation Pipeline.canvas",
+    "Notes/Misc/爷爷的鬼把戏.md",
+    "Notes/Misc/问题回答.md",
+    "Notes/Misc/attachments/BSR模式.png",
+    "Notes/Unreal/虚幻动画系统深入浅出.canvas",
+    "Notes/Misc/attachments/feedback&workflow-5.png.nssyncsc",
+    "Notes/Misc/attachments/Pasted image 20250628071556.png.nssyncsc",
+    "Notes/Misc/attachments/feedback&workflow-4.png.nssyncsc",
     "Notes/Unreal/项目规范/attachments/Pasted image 20250625204158.png.nssyncsc",
     "Notes/Unreal/项目规范/attachments/Pasted image 20250625201317.png.nssyncsc",
-    "Notes/math/3.0-矩阵（Matrix ）.md",
-    "Notes/math/Quaternion_Rotation.md",
-    "Notes/Unreal/UE游戏框架：从int main到BeginPlay.md",
-    "Notes/Unreal/UE5 增强输入系统（蓝图篇）.md",
-    "Notes/Unreal/UE5 增强输入系统（基础篇）.md",
-    "Notes/Unreal/UE4无缝动画系统 ALS-V4 分析.md",
-    "Notes/Unreal/学习路线.md",
-    "Notes/Unreal/虚幻动画系统深入浅出.canvas",
     "Notes/Unreal/项目规范/attachments/Pasted image 20250625110519.png.nssyncsc",
     "Notes/Unreal/项目规范/attachments/Pasted image 20250625103335.png.nssyncsc",
     "Notes/Unreal/项目规范/attachments",
     "Notes/Misc/attachments/feedback&workflow-3.png.nssyncsc",
+    "Notes/Misc/attachments/Pasted image 20250623230157.png.nssyncsc",
     "Notes/Unreal/Unreal Python/未命名.canvas",
     "未命名.canvas",
     "Notes/program/数据结构与算法/数据结构与算法——施磊/未命名.canvas",
-    "Notes/Misc/Animation Pipeline.canvas",
     "Test.canvas"
   ]
 }
