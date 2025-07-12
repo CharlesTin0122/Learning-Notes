@@ -1,4 +1,10 @@
 # rigging of Master Key
+## 概述
+- 根据测试需求的描述，Master Key模型可以使用熟悉的工具进行绑定，主要考察关节放置和变形效果。为了节省时间，不再采用手工绑定的模式。
+- 我熟悉的绑定工具有mGear绑定框架和 Advanced Skeleton 绑定插件。而 mGear 绑定框架绑定的模型必须在安装该框架的maya环境中才能使用，所以这里使用Advanced Skeleton绑定插件进行绑定。
+- maya软件版本为2024.2，轴向为Y轴向上，单位为厘米。Advanced Skeleton绑定插件版本为 Advanced Skeleton-6.574。蒙皮工具为 ngSkinTools-2.4.0。
+- maya工具脚本采用pymel库，maya2023以上版本不再集成pymel库，需要自行安装。
+- 虚幻引擎版本为 UnrealEngine-5.5.4
 ## feedback
 - 眉毛模型Eyebrows_LOD0和眼睛模型Eyes_LOD0并未按照要求将模型冻结变换，其旋转属性仍有数值
 - ![](attachments/feedback&workflow.png)   ![](attachments/feedback&workflow-2.png) 
@@ -11,7 +17,6 @@
 - 计算极向量脚本
 ```python
 import pymel.core as pm
-
 
 def get_pole_vector_position(jnt1, jnt2, jnt3, pv_ctrl, ctrl_length_scale=1.0):
     """
@@ -55,11 +60,7 @@ if __name__ == '__main__':
 - 提供的base_skeletono.fbx参考骨骼，ik_foot_l和ik_foot_r上仍有动画帧未清理
 - ![](attachments/feedback&workflow-5.png)
 ## workflow
-### 概述
-- 根据测试需求的描述，Master Key模型可以使用熟悉的工具进行绑定，主要考察关节放置和变形效果。为了节省时间，不再采用手工绑定的模式。
-- 我熟悉的绑定工具有mGear绑定框架和 Advanced Skeleton 绑定插件。而 mGear 绑定框架绑定的模型必须在安装该框架的maya环境中才能使用，所以这里使用Advanced Skeleton绑定插件进行绑定。
-- maya软件版本为2024.2，轴向为Y轴向上，单位为厘米。Advanced Skeleton绑定插件版本为 Advanced Skeleton-6.574。蒙皮工具为 ngSkinTools-2.4.0。
-- 虚幻引擎版本为 UnrealEngine-5.5.4
+
 ### 添加次级动画骨骼
 - 添加次级动画骨骼并调整骨骼朝向
 - ![](attachments/d224eed156547157116aeab98229282e_MD5.jpeg)
@@ -91,21 +92,110 @@ if __name__ == '__main__':
 	- /Game/character/MasterKey/Anim/MM_Run_Fwd.MM_Run_Fwd
 	- /Game/character/MasterKey/Anim/MM_Walk_Fwd.MM_Walk_Fwd
 # rigging of Minigun
+## 概述
+- 根据测试需求的描述，Fortnite_Minigun模型需手工绑定不能借助绑定工具。
+- maya软件版本为2024.2，轴向跟角色一致为Y轴向上，单位为厘米。
 ## feedback
 - 模型朝向不正确，当maya环境为Z 轴向上时，模型应面向-Y轴。当maya环境为Y 轴向上时，模型应面向+Z轴。而武器模型在Z轴向上时面向+Y轴。
 ## workflow
-### 概述
-- 根据测试需求的描述，Fortnite_Minigun模型需手工绑定不能借助绑定工具。
-- maya软件版本为2024.2，轴向跟角色一致为Y轴向上，单位为厘米。
+
 ### 添加骨骼
 - 根据提供的参考视频，添加骨骼
-- [[Notes/misc/attachments/d66a3eb8f3bdeb3f0abee6949056e105_MD5.jpeg|Open: Pasted image 20250711062252.png]]
-![[Notes/misc/attachments/d66a3eb8f3bdeb3f0abee6949056e105_MD5.jpeg]]
-- 添加蒙皮
-- [[Notes/misc/attachments/18838f6061ffc276545c63937ac275a7_MD5.jpeg|Open: Pasted image 20250711062336.png]]
-![[Notes/misc/attachments/18838f6061ffc276545c63937ac275a7_MD5.jpeg]]
-- 创建控制器
-- [[Notes/misc/attachments/dbb0b875cdbb5fb6e62b65489b98577f_MD5.jpeg|Open: Pasted image 20250711062406.png]]
-![[Notes/misc/attachments/dbb0b875cdbb5fb6e62b65489b98577f_MD5.jpeg]]
-- 制作变形动画
+- ![](Notes/misc/attachments/e6b1583333a1bfa2ecf94c9a351fe321_MD5.jpeg)
+### 添加蒙皮
+- ![](Notes/misc/attachments/ef0809d8c599626d21fec21670281861_MD5.jpeg)
+### 创建控制器
+- ![](Notes/misc/attachments/67ebbc4488ee1ddedd930c7d3b5723f8_MD5.jpeg)
+	- 控制器父子约束对应骨骼，使得控制器可以控制骨骼的移动和旋转
+	- 因为武器的变形动画需要缩放来控制，这里不使用缩放约束，因为使用缩放约束会导致父骨骼控制器缩放时子骨骼也一起缩放，不便于制作缩放动画，因为有时候我们希望父骨骼控制器缩放时，子骨骼不参与缩放，而是手动的缩放子骨骼控制器。
+	- 所以对于缩放我们采用链接控制器和骨骼缩放属性方法来实现。
+	- ![](Notes/misc/attachments/2a6d58d0cb5c6b9754618b6e9b16f787_MD5.jpeg)
+	- 处理脚本如下
+	```python
+	import pymel.core as pc
+	# 通过根骨骼索取素有骨骼链骨骼
+	root_jnt = pc.selected()[0]
+	jnts = pc.ls(root_jnt, dag=True, type="joint")
+	# 属性链接
+	for jnt in jnts:
+	    jnt_name = jnt.name()
+	    ctrl = pc.PyNode(f"{jnt_name}_ctrl")
+	    ctrl.scale.connect(jnt.scale)
+	```
+	- 通过直接连接控制器的缩放属性到骨骼的缩放属性，可以实现每个骨骼的独立缩放，但这会导致全局控制器（总控制器）无法统一控制所有骨骼的缩放。
+	- 我们通过 multiplyDivide节点 将全局控制器的缩放与每个子控制器的缩放相乘，驱动对应骨骼的缩放属性，从而实现全局缩放和独立缩放的结合。
+	- 处理脚本如下，先选择总控制器，再选择所有子控制器，执行脚本
+	```python
+	import pymel.core as pm
+	
+	def setup_scale_controls():
+	    # 获取用户选择
+	    selection = pm.selected()
+	    if len(selection) < 2:
+	        pm.warning("Please select the global controller first, then all sub-controllers.")
+	        return
+	    
+	    # 第一个选择为全局控制器
+	    global_ctrl = selection[0]
+	    
+	    # 其余选择为子控制器
+	    sub_ctrls = selection[1:]
+	    
+	    # 检查全局控制器是否有效
+	    if not global_ctrl or not pm.objExists(global_ctrl):
+	        pm.error("Global controller does not exist.")
+	        return
+	    
+	    # 遍历每个子控制器
+	    for sub_ctrl in sub_ctrls:
+	        # 获取子控制器驱动的骨骼（假设通过 orientConstraint 或 parentConstraint 连接）
+	        constraints = pm.listConnections(sub_ctrl, type='constraint', destination=True)
+	        target_joint = None
+	        for constraint in constraints:
+	            targets = pm.listConnections(constraint, source=False, destination=True, type='joint')
+	            if targets:
+	                target_joint = targets[0]
+	                break
+	        
+	        if not target_joint:
+	            pm.warning(f"No joint found for controller {sub_ctrl}. Skipping.")
+	            continue
+	        
+	        # 创建 multiplyDivide 节点
+	        scale_mult = pm.createNode('multiplyDivide', name=f'scaleMult_{target_joint}')
+	        scale_mult.operation.set(1)  # 设置为 Multiply
+	        
+	        # 连接全局控制器的缩放
+	        pm.connectAttr(global_ctrl.scaleX, scale_mult.input1X)
+	        pm.connectAttr(global_ctrl.scaleY, scale_mult.input1Y)
+	        pm.connectAttr(global_ctrl.scaleZ, scale_mult.input1Z)
+	        
+	        # 连接子控制器的缩放
+	        pm.connectAttr(sub_ctrl.scaleX, scale_mult.input2X)
+	        pm.connectAttr(sub_ctrl.scaleY, scale_mult.input2Y)
+	        pm.connectAttr(sub_ctrl.scaleZ, scale_mult.input2Z)
+	        
+	        # 连接 multiplyDivide 输出到骨骼的缩放
+	        pm.connectAttr(scale_mult.outputX, target_joint.scaleX)
+	        pm.connectAttr(scale_mult.outputY, target_joint.scaleY)
+	        pm.connectAttr(scale_mult.outputZ, target_joint.scaleZ)
+	        
+	        # 确保骨骼的缩放继承开启
+	        target_joint.inheritsTransform.set(True)
+	        
+	        print(f"Setup scale for {sub_ctrl} -> {target_joint}")
+	
+	    pm.select(clear=True)
+	    print("Scale setup completed.")
+	
+	# 执行脚本
+	setup_scale_controls()
+	```
+	
+> [!WARNING] WARNING
+> - 控制器缩放仅能使用局部空间缩放（object），不能使用世界空间缩放（world）
+> - 使用世界空间缩放会警告：// Warning: Non object-space scale baked onto components.
+> - 无论使用缩放约束还是缩放属性链接都会出现此问题，此问题应该是是因为世界空间缩放操作与对象的变换矩阵或控制器层级冲突，我还没有研究明白，应该可以使用矩阵节点来解决。
+> - 但是不影响绑定使用，时间关系这里就先这样设置。
+### 制作变形动画
 - 
