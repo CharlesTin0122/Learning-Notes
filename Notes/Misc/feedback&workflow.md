@@ -88,9 +88,15 @@ if __name__ == '__main__':
 - ![|500](attachments/ad9b83756d693ec242748ed942c4aec9_MD5.jpeg)
 - 最终后处理动画蓝图
 - ![](attachments/4ba1f25b3534d6e9aff8061bddf9b3ef_MD5.jpeg)
-- 直接在编辑器中播放以下动画资产，即可看到次级动画效果。动画重定向自官方 Lyra 示例。因此不再创建GameMode、角色蓝图，动画蓝图的GamePlay逻辑。
-	- /Game/character/MasterKey/Anim/MM_Run_Fwd.MM_Run_Fwd
-	- /Game/character/MasterKey/Anim/MM_Walk_Fwd.MM_Walk_Fwd
+- 直接在编辑器中播放动画资产，即可看到次级动画效果。
+### 处理GamePlay动画逻辑
+
+- 因为本测试主要展示角色动画动态效果，因此不做过于复杂的Gameplay逻辑。本项目Gameplay逻辑参考自虚幻官方第三人称动画案例，包含：
+	- 增强输入系统
+	- GameMode
+	- Character Blueprint
+	- Animation Blueprint
+
 # rigging of Minigun
 ## 概述
 - 根据测试需求的描述，Fortnite_Minigun模型需手工绑定不能借助绑定工具。
@@ -101,101 +107,18 @@ if __name__ == '__main__':
 
 ### 添加骨骼
 - 根据提供的参考视频，添加骨骼
-- ![](Notes/misc/attachments/e6b1583333a1bfa2ecf94c9a351fe321_MD5.jpeg)
+![](Notes/misc/attachments/14365aac475f3a64a957a5d00a16092c_MD5.jpeg)
 ### 添加蒙皮
-- ![](Notes/misc/attachments/ef0809d8c599626d21fec21670281861_MD5.jpeg)
+![](Notes/misc/attachments/779ec0a8394a93c380a4f4f9d218f3eb_MD5.jpeg)
 ### 创建控制器
-- ![](Notes/misc/attachments/67ebbc4488ee1ddedd930c7d3b5723f8_MD5.jpeg)
-	- 控制器父子约束对应骨骼，使得控制器可以控制骨骼的移动和旋转
-	- 因为武器的变形动画需要缩放来控制，这里不使用缩放约束，因为使用缩放约束会导致父骨骼控制器缩放时子骨骼也一起缩放，不便于制作缩放动画，因为有时候我们希望父骨骼控制器缩放时，子骨骼不参与缩放，而是手动的缩放子骨骼控制器。
-	- 所以对于缩放我们采用链接控制器和骨骼缩放属性方法来实现。
-	- ![](Notes/misc/attachments/2a6d58d0cb5c6b9754618b6e9b16f787_MD5.jpeg)
-	- 处理脚本如下
-	```python
-	import pymel.core as pc
-	# 通过根骨骼索取素有骨骼链骨骼
-	root_jnt = pc.selected()[0]
-	jnts = pc.ls(root_jnt, dag=True, type="joint")
-	# 属性链接
-	for jnt in jnts:
-	    jnt_name = jnt.name()
-	    ctrl = pc.PyNode(f"{jnt_name}_ctrl")
-	    ctrl.scale.connect(jnt.scale)
-	```
-	- 通过直接连接控制器的缩放属性到骨骼的缩放属性，可以实现每个骨骼的独立缩放，但这会导致全局控制器（总控制器）无法统一控制所有骨骼的缩放。
-	- 我们通过 multiplyDivide节点 将全局控制器的缩放与每个子控制器的缩放相乘，驱动对应骨骼的缩放属性，从而实现全局缩放和独立缩放的结合。
-	- 处理脚本如下，先选择总控制器，再选择所有子控制器，执行脚本
-	```python
-	import pymel.core as pm
-	
-	def setup_scale_controls():
-	    # 获取用户选择
-	    selection = pm.selected()
-	    if len(selection) < 2:
-	        pm.warning("Please select the global controller first, then all sub-controllers.")
-	        return
-	    
-	    # 第一个选择为全局控制器
-	    global_ctrl = selection[0]
-	    
-	    # 其余选择为子控制器
-	    sub_ctrls = selection[1:]
-	    
-	    # 检查全局控制器是否有效
-	    if not global_ctrl or not pm.objExists(global_ctrl):
-	        pm.error("Global controller does not exist.")
-	        return
-	    
-	    # 遍历每个子控制器
-	    for sub_ctrl in sub_ctrls:
-	        # 获取子控制器驱动的骨骼（假设通过 orientConstraint 或 parentConstraint 连接）
-	        constraints = pm.listConnections(sub_ctrl, type='constraint', destination=True)
-	        target_joint = None
-	        for constraint in constraints:
-	            targets = pm.listConnections(constraint, source=False, destination=True, type='joint')
-	            if targets:
-	                target_joint = targets[0]
-	                break
-	        
-	        if not target_joint:
-	            pm.warning(f"No joint found for controller {sub_ctrl}. Skipping.")
-	            continue
-	        
-	        # 创建 multiplyDivide 节点
-	        scale_mult = pm.createNode('multiplyDivide', name=f'scaleMult_{target_joint}')
-	        scale_mult.operation.set(1)  # 设置为 Multiply
-	        
-	        # 连接全局控制器的缩放
-	        pm.connectAttr(global_ctrl.scaleX, scale_mult.input1X)
-	        pm.connectAttr(global_ctrl.scaleY, scale_mult.input1Y)
-	        pm.connectAttr(global_ctrl.scaleZ, scale_mult.input1Z)
-	        
-	        # 连接子控制器的缩放
-	        pm.connectAttr(sub_ctrl.scaleX, scale_mult.input2X)
-	        pm.connectAttr(sub_ctrl.scaleY, scale_mult.input2Y)
-	        pm.connectAttr(sub_ctrl.scaleZ, scale_mult.input2Z)
-	        
-	        # 连接 multiplyDivide 输出到骨骼的缩放
-	        pm.connectAttr(scale_mult.outputX, target_joint.scaleX)
-	        pm.connectAttr(scale_mult.outputY, target_joint.scaleY)
-	        pm.connectAttr(scale_mult.outputZ, target_joint.scaleZ)
-	        
-	        # 确保骨骼的缩放继承开启
-	        target_joint.inheritsTransform.set(True)
-	        
-	        print(f"Setup scale for {sub_ctrl} -> {target_joint}")
-	
-	    pm.select(clear=True)
-	    print("Scale setup completed.")
-	
-	# 执行脚本
-	setup_scale_controls()
-	```
-	
-> [!WARNING] WARNING
-> - 控制器缩放仅能使用局部空间缩放（object），不能使用世界空间缩放（world）
-> - 使用世界空间缩放会警告：// Warning: Non object-space scale baked onto components.
-> - 无论使用缩放约束还是缩放属性链接都会出现此问题，此问题应该是是因为世界空间缩放操作与对象的变换矩阵或控制器层级冲突，我还没有研究明白，应该可以使用矩阵节点来解决。
-> - 但是不影响绑定使用，时间关系这里就先这样设置。
+![](Notes/misc/attachments/a82ce74d760056faef647dd23f3f378e_MD5.jpeg)
 ### 制作变形动画
-- 
+![](Notes/misc/attachments/f26f620f7b97737092e735be8e3436da_MD5.jpeg)
+# 最终提交文件
+
+![](Notes/misc/attachments/a67965480c3f9a9b8f1b30b733b6af56_MD5.jpeg)
+- EpicTest文件夹：MasterKey角色动画效果虚幻引擎项目工程
+- rigging_Master_Key.mb：MasterKey角色绑定场景文件
+- rigging_Master_Key_deformation.mb：MasterKey角色绑定变形效果场景文件
+- Rig_Fortnite_Minigun.mb：Minigun武器绑定场景文件
+- Rig_Fortnite_Minigun_deformation.mb：Minigun武器绑定变形效果场景文件

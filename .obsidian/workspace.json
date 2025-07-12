@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/misc/feedback&workflow.md",
+                "file": "Notes/Test.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "feedback&workflow"
+              "title": "Test"
             }
           }
         ]
@@ -121,13 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/misc/feedback&workflow.md",
+                "file": "Notes/Test.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "feedback&workflow 的大纲"
+              "title": "Test 的大纲"
             }
           },
           {
@@ -213,21 +213,25 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "5a00d169c1e50a66",
+  "active": "6c4cbb6491a6afbc",
   "lastOpenFiles": [
-    "Notes/misc/Obsidian Markdown Examples.md",
+    "Notes/Unreal/UEC++/2.1 基本架构导航.md",
+    "Notes/Unreal/UEC++/2.2-构建配置.md",
     "Notes/misc/feedback&workflow.md",
-    "Notes/misc/attachments/2a6d58d0cb5c6b9754618b6e9b16f787_MD5.jpeg",
-    "Notes/misc/attachments/Pasted image 20250712060659.png",
+    "Notes/Unreal/UEC++/1.1 设置UNreal引擎.md",
+    "Notes/Unreal/UEC++/1.2 设置Visual Studio.md",
+    "Notes/misc/attachments/a67965480c3f9a9b8f1b30b733b6af56_MD5.jpeg",
+    "Notes/misc/attachments/Pasted image 20250713002223.png",
+    "Notes/misc/attachments/f26f620f7b97737092e735be8e3436da_MD5.jpeg",
+    "Notes/misc/attachments/Pasted image 20250712234440.png",
+    "Notes/misc/attachments/fabaa33444ceca1a708e6f6019bbe05f_MD5.jpeg",
+    "Notes/misc/attachments/Pasted image 20250712234155.png",
+    "Notes/misc/attachments/a82ce74d760056faef647dd23f3f378e_MD5.jpeg",
+    "Notes/misc/attachments/Pasted image 20250712234135.png",
+    "Notes/misc/attachments/779ec0a8394a93c380a4f4f9d218f3eb_MD5.jpeg",
+    "Notes/misc/attachments/Pasted image 20250712234036.png",
+    "Notes/misc/Obsidian Markdown Examples.md",
     "conflict-files-obsidian-git.md",
-    "Notes/misc/attachments/67ebbc4488ee1ddedd930c7d3b5723f8_MD5.jpeg",
-    "Notes/misc/attachments/ef0809d8c599626d21fec21670281861_MD5.jpeg",
-    "Notes/misc/attachments/e6b1583333a1bfa2ecf94c9a351fe321_MD5.jpeg",
-    "Notes/misc/attachments/feedback&workflow-9.png",
-    "Notes/misc/attachments/feedback&workflow-8.png",
-    "Notes/misc/attachments/feedback&workflow-7.png",
-    "Notes/misc/attachments/feedback&workflow-6.png",
-    "Notes/misc/attachments/f5735dcd06b16d0e897cdb4732d17576_MD5.jpeg",
     "Notes/misc/BSR模式.md",
     "Notes/misc/Animation Pipeline.canvas",
     "Notes/MAYA/Rigging/初级/1.10-Squash & Stretch.md",
@@ -254,10 +258,6 @@
     "Notes/math/3.0-矩阵（Matrix ）.md",
     "Notes/math/Quaternion_Rotation.md",
     "Notes/Unreal/UE游戏框架：从int main到BeginPlay.md",
-    "Notes/Unreal/UE5 增强输入系统（蓝图篇）.md",
-    "Notes/Unreal/UE5 增强输入系统（基础篇）.md",
-    "Notes/Unreal/UE4无缝动画系统 ALS-V4 分析.md",
-    "Notes/Unreal/学习路线.md",
     "Notes/Unreal/虚幻动画系统深入浅出.canvas",
     "Notes/Unreal/项目规范/attachments/Pasted image 20250625110519.png.nssyncsc",
     "Notes/Unreal/项目规范/attachments/Pasted image 20250625103335.png.nssyncsc",
