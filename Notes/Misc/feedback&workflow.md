@@ -107,16 +107,16 @@ if __name__ == '__main__':
 
 ### 添加骨骼
 - 根据提供的参考视频，添加骨骼
-![](Notes/misc/attachments/14365aac475f3a64a957a5d00a16092c_MD5.jpeg)
+![](attachments/348c6a88f9bffad1ef0ceed10c46ff40_MD5.jpeg)
 ### 添加蒙皮
-![](Notes/misc/attachments/779ec0a8394a93c380a4f4f9d218f3eb_MD5.jpeg)
+![](attachments/59124b8bf07a4b062ffc5e6e08144b15_MD5.jpeg)
 ### 创建控制器
-![](Notes/misc/attachments/a82ce74d760056faef647dd23f3f378e_MD5.jpeg)
+![](attachments/70a0a610d5cab85ca2a0f547b1597454_MD5.jpeg)
 ### 制作变形动画
-![](Notes/misc/attachments/f26f620f7b97737092e735be8e3436da_MD5.jpeg)
+![](attachments/17610dc1e6c9b358b3ec341722ef3827_MD5.jpeg)
 # 最终提交文件
 
-![](Notes/misc/attachments/a67965480c3f9a9b8f1b30b733b6af56_MD5.jpeg)
+![](attachments/ec3e6ed303f10b6372ca72baeabcc857_MD5.jpeg)
 - EpicTest文件夹：MasterKey角色动画效果虚幻引擎项目工程
 - rigging_Master_Key.mb：MasterKey角色绑定场景文件
 - rigging_Master_Key_deformation.mb：MasterKey角色绑定变形效果场景文件
