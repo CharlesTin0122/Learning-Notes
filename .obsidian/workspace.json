@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Test.md",
+                "file": "Notes/math/3.0-矩阵（Matrix ）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Test"
+              "title": "3.0-矩阵（Matrix ）"
             }
           }
         ]
@@ -121,13 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Test.md",
+                "file": "Notes/math/3.0-矩阵（Matrix ）.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Test 的大纲"
+              "title": "3.0-矩阵（Matrix ） 的大纲"
             }
           },
           {
@@ -215,6 +215,12 @@
   },
   "active": "6c4cbb6491a6afbc",
   "lastOpenFiles": [
+    "Notes/math/attachments/883415453770a8303921a910920cd11a_MD5.jpeg",
+    "Notes/math/attachments/Pasted image 20250715062706.png",
+    "Notes/Test.md",
+    "Notes/math/3.0-矩阵（Matrix ）.md",
+    "Notes/math/2.0-向量(Vector).md",
+    "Notes/math/1.0-笛卡尔坐标系.md",
     "Notes/Unreal/UEC++/2.1 基本架构导航.md",
     "Notes/Unreal/UEC++/2.2-构建配置.md",
     "Notes/misc/feedback&workflow.md",
@@ -229,7 +235,6 @@
     "Notes/misc/attachments/a82ce74d760056faef647dd23f3f378e_MD5.jpeg",
     "Notes/misc/attachments/Pasted image 20250712234135.png",
     "Notes/misc/attachments/779ec0a8394a93c380a4f4f9d218f3eb_MD5.jpeg",
-    "Notes/misc/attachments/Pasted image 20250712234036.png",
     "Notes/misc/Obsidian Markdown Examples.md",
     "conflict-files-obsidian-git.md",
     "Notes/misc/BSR模式.md",
@@ -251,13 +256,8 @@
     "Notes/Unreal/Unreal Python/01 - UnrealPython入门.md",
     "Notes/Work/Project_PJX.md",
     "Notes/Work/English.md",
-    "Notes/Unreal/项目规范/游戏中断肢效果处理(Dismemberment System ).md",
-    "Notes/Unreal/项目规范/虚幻引擎中的布料资产处理.md",
     "Notes/Unreal/项目规范/attachments/Pasted image 20250625204158.png.nssyncsc",
     "Notes/Unreal/项目规范/attachments/Pasted image 20250625201317.png.nssyncsc",
-    "Notes/math/3.0-矩阵（Matrix ）.md",
-    "Notes/math/Quaternion_Rotation.md",
-    "Notes/Unreal/UE游戏框架：从int main到BeginPlay.md",
     "Notes/Unreal/虚幻动画系统深入浅出.canvas",
     "Notes/Unreal/项目规范/attachments/Pasted image 20250625110519.png.nssyncsc",
     "Notes/Unreal/项目规范/attachments/Pasted image 20250625103335.png.nssyncsc",
