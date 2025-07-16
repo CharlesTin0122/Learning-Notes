@@ -11,15 +11,14 @@
             "id": "7493b050d673c7e5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Notes/Misc/feedback&workflow.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "aFile": "Notes/Misc/feedback&workflow.md",
+                "bFile": "Notes/Misc/feedback&workflow.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "feedback&workflow"
+              "icon": "diff",
+              "title": "Diff: feedback&workflow"
             }
           }
         ]
@@ -79,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 390.5
+    "width": 267.5
   },
   "right": {
     "id": "9a963b05dd42da39",
@@ -179,7 +178,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 325.5
+    "width": 459.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,6 +197,20 @@
   "active": "7493b050d673c7e5",
   "lastOpenFiles": [
     "Notes/Work/My Tasks.md",
+    "Notes/Test.md",
+    "Notes/math/3.0-矩阵（Matrix ）.md",
+    "Notes/MAYA/mayaPython案例.md",
+    "Notes/Misc/Win10激活.md",
+    "Notes/Misc/Tian Chao's resume_old.md",
+    "Notes/Misc/Tian Chao's resume.md",
+    "Notes/Misc/SkillTree0.md",
+    "Notes/Misc/Skill Tree.md",
+    "Notes/Misc/Question.md",
+    "Notes/Misc/lux 视频下载工具的使用.md",
+    "Notes/Misc/feedback&workflow.md",
+    "Notes/Misc/BSR模式.md",
+    "Notes/Misc/爷爷的鬼把戏.md",
+    "Notes/Misc/问题回答.md",
     "Notes/Misc/attachments/fabaa33444ceca1a708e6f6019bbe05f_MD5.jpeg",
     "Notes/Misc/attachments/17610dc1e6c9b358b3ec341722ef3827_MD5.jpeg",
     "Notes/Misc/attachments/ef0809d8c599626d21fec21670281861_MD5.jpeg",
@@ -208,7 +221,6 @@
     "Notes/Misc/attachments/67ebbc4488ee1ddedd930c7d3b5723f8_MD5.jpeg",
     "Notes/Misc/attachments/2a6d58d0cb5c6b9754618b6e9b16f787_MD5.jpeg",
     "Notes/Misc/attachments/348c6a88f9bffad1ef0ceed10c46ff40_MD5.jpeg",
-    "Notes/Misc/feedback&workflow.md",
     "Notes/Unreal/项目规范/UE5 Secondary Animation in Maya and Unreal.md",
     "Notes/MAYA/Rigging/进阶/3.0-Hind Leg.md",
     "Notes/MAYA/Rigging/进阶/4.0-ArmRig.md",
@@ -218,21 +230,9 @@
     "Notes/Unreal/项目规范/Unreal引擎FBX资产导入注意事项.md",
     "Notes/Unreal/项目规范/游戏中断肢效果处理(Dismemberment System ).md",
     "Notes/Unreal/项目规范/虚幻引擎中的布料资产处理.md",
-    "Notes/Test.md",
     "Notes/Work/English.md",
     "Notes/Work/Project_PJX.md",
-    "Notes/Misc/Question.md",
-    "Notes/Misc/Skill Tree.md",
-    "Notes/Misc/SkillTree0.md",
-    "Notes/Misc/Tian Chao's resume.md",
-    "Notes/Misc/Win10激活.md",
-    "Notes/Misc/Tian Chao's resume_old.md",
-    "Notes/Misc/Obsidian Markdown Examples.md",
-    "Notes/Misc/lux 视频下载工具的使用.md",
-    "Notes/Misc/BSR模式.md",
     "Notes/Misc/Animation Pipeline.canvas",
-    "Notes/Misc/爷爷的鬼把戏.md",
-    "Notes/Misc/问题回答.md",
     "Notes/Unreal/虚幻动画系统深入浅出.canvas",
     "Notes/Misc/attachments/feedback&workflow-5.png.nssyncsc",
     "Notes/Misc/attachments/Pasted image 20250628071556.png.nssyncsc",

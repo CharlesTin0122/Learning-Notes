@@ -3,9 +3,19 @@
 
 ```python
 import pymel.core as pm
-selection = pm.selected() #根骨骼放入变量
-joints = pm.ls(selection[0], dag=True, type="joint") #列出骨骼链的所有骨骼，注意参数dag
-pm.select(joints)#选择所有骨骼
+
+# 获取选中的关节
+jnts = pm.selected(type='joint')
+
+# 检查是否选择了关节
+if not jnts:
+    pm.warning("未选择任何关节！")
+else:
+    # 获取所有选中关节的层级并展平
+    jnt_hierarchy = [jnt for jnt in pm.ls(jnts, dag=True, type="joint")]
+    
+    # 选择层级中的所有关节
+    pm.select(jnt_hierarchy)
 ```
 
 ## 确定镜像关节方向
