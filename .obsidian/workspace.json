@@ -11,16 +11,15 @@
             "id": "b167ffcb9b24920e",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "Notes/Work/My Tasks.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": []
-                }
+                "file": "Notes/Work/Project_PJX.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-trello",
-              "title": "My Tasks"
+              "icon": "lucide-file",
+              "title": "Project_PJX"
             }
           }
         ]
@@ -123,13 +122,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Work/My Tasks.md",
+                "file": "Notes/Work/Project_PJX.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "My Tasks 的大纲"
+              "title": "Project_PJX 的大纲"
             }
           },
           {
@@ -152,8 +151,8 @@
                 "showSearch": false,
                 "searchQuery": ""
               },
-              "icon": "lucide-archive",
-              "title": "添加笔记属性"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           },
           {
@@ -175,18 +174,37 @@
               "icon": "lucide-file",
               "title": "插件不再活动"
             }
+          },
+          {
+            "id": "df0b9825ba060c81",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Notes/Work/Project_PJX.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Project_PJX 的反向链接列表"
+            }
           }
         ],
         "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 459.5
+    "width": 334.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "daily-notes:打开/创建今天的日记": false,
       "obsidian-kanban:创建新看板": false,
-      "oz-clear-unused-images:Clear Unused Images": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -199,17 +217,44 @@
   },
   "active": "b167ffcb9b24920e",
   "lastOpenFiles": [
+    "-冲突-CharlesTin_Win11.gitignore",
+    "README-冲突-CharlesTin_Win11.md",
+    "Notes/program/PowerShell入门-冲突-CharlesTin_Win11.md",
+    "Notes/MAYA/Tips-冲突-CharlesTin_Win11.md",
+    "-冲突-CharlesTin_Win11.gitignore.nssyncsc",
+    "Notes/MAYA/Rigging/基础知识/手动修改局部旋转轴为何要zeroScaleOrient-冲突-CharlesTin_Win11.md",
+    "Notes/program/Git入门指南-冲突-CharlesTin_Win11.md",
+    "Notes/Unreal/UnrealFest演讲精粹/UnrealFest演讲精粹-角色与动画的性能优化-冲突-CharlesTin_Win11.md",
+    "README-冲突-CharlesTin_Win11.md.nssyncsc",
+    "Notes/program/PowerShell入门-冲突-CharlesTin_Win11.md.nssyncsc",
+    "Notes/MAYA/Tips-冲突-CharlesTin_Win11.md.nssyncsc",
+    "Notes/MAYA/Rigging/基础知识/手动修改局部旋转轴为何要zeroScaleOrient-冲突-CharlesTin_Win11.md.nssyncsc",
+    "Notes/program/Git入门指南-冲突-CharlesTin_Win11.md.nssyncsc",
+    "Notes/Unreal/UnrealFest演讲精粹/UnrealFest演讲精粹-角色与动画的性能优化-冲突-CharlesTin_Win11.md.nssyncsc",
+    "Notes/Unreal/项目规范/UE5 Secondary Animation in Maya and Unreal-冲突-CharlesTin_Win11.md",
+    "Notes/Work/My Tasks-冲突-CharlesTin_Win11.md",
+    "Notes/Test-冲突-CharlesTin_Win11.md",
+    "Notes/Misc/feedback&workflow-冲突-CharlesTin_Win11.md",
+    "Notes/MAYA/mayaPython案例-冲突-CharlesTin_Win11.md",
+    "Notes/Unreal/项目规范/UE5 Secondary Animation in Maya and Unreal-冲突-CharlesTin_Win11.md.nssyncsc",
+    "Notes/Work/My Tasks-冲突-CharlesTin_Win11.md.nssyncsc",
+    "Notes/Test-冲突-CharlesTin_Win11.md.nssyncsc",
+    "Notes/math/attachments/883415453770a8303921a910920cd11a_MD5.jpeg",
+    "Notes/Misc/attachments/a67965480c3f9a9b8f1b30b733b6af56_MD5.jpeg",
+    "Notes/Misc/attachments/f26f620f7b97737092e735be8e3436da_MD5.jpeg",
+    "Notes/Misc/attachments/a82ce74d760056faef647dd23f3f378e_MD5.jpeg",
+    "Notes/Misc/attachments/779ec0a8394a93c380a4f4f9d218f3eb_MD5.jpeg",
+    "Notes/Misc/attachments/14365aac475f3a64a957a5d00a16092c_MD5.jpeg",
+    "Notes/Work/My Tasks.md",
     "Notes/Unreal/项目规范/UE5 Secondary Animation in Maya and Unreal.md",
     "Notes/Unreal/项目规范/attachments/UE5 Secondary Animation in Maya and Unreal-6.png",
     "Notes/Unreal/项目规范/attachments/UE5 Secondary Animation in Maya and Unreal-5.png",
     "Notes/Unreal/项目规范/attachments/UE5 Secondary Animation in Maya and Unreal-4.png",
     "Notes/Unreal/项目规范/attachments/UE5 Secondary Animation in Maya and Unreal-3.png",
-    "Notes/Unreal/项目规范/attachments/UE5 Secondary Animation in Maya and Unreal-2.png",
     "Notes/Unreal/项目规范/Unreal引擎FBX资产导入注意事项.md",
     "Notes/Unreal/项目规范/UE5动画重定向.md",
     "Notes/Unreal/项目规范/游戏中断肢效果处理(Dismemberment System ).md",
     "Notes/Unreal/项目规范/虚幻引擎中的布料资产处理.md",
-    "Notes/Work/My Tasks.md",
     "Notes/Test.md",
     "Notes/math/3.0-矩阵（Matrix ）.md",
     "Notes/MAYA/mayaPython案例.md",
@@ -218,34 +263,8 @@
     "Notes/Misc/Tian Chao's resume.md",
     "Notes/Misc/SkillTree0.md",
     "Notes/Misc/Skill Tree.md",
-    "Notes/Misc/Question.md",
-    "Notes/Misc/lux 视频下载工具的使用.md",
-    "Notes/Misc/feedback&workflow.md",
-    "Notes/Misc/BSR模式.md",
-    "Notes/Misc/爷爷的鬼把戏.md",
-    "Notes/Misc/问题回答.md",
-    "Notes/Misc/attachments/fabaa33444ceca1a708e6f6019bbe05f_MD5.jpeg",
-    "Notes/Misc/attachments/17610dc1e6c9b358b3ec341722ef3827_MD5.jpeg",
-    "Notes/Misc/attachments/ef0809d8c599626d21fec21670281861_MD5.jpeg",
-    "Notes/Misc/attachments/e6b1583333a1bfa2ecf94c9a351fe321_MD5.jpeg",
-    "Notes/Misc/attachments/70a0a610d5cab85ca2a0f547b1597454_MD5.jpeg",
-    "Notes/MAYA/Rigging/进阶/3.0-Hind Leg.md",
-    "Notes/MAYA/Rigging/进阶/4.0-ArmRig.md",
-    "Notes/MAYA/Rigging/进阶/2.0-No Flip IK.md",
-    "Notes/MAYA/Rigging/进阶/1.0-反转脚.md",
-    "Notes/MAYA/Rigging/进阶/6.0-Twist & Roll.md",
     "Notes/Misc/Animation Pipeline.canvas",
     "Notes/Unreal/虚幻动画系统深入浅出.canvas",
-    "Notes/Misc/attachments/feedback&workflow-5.png.nssyncsc",
-    "Notes/Misc/attachments/Pasted image 20250628071556.png.nssyncsc",
-    "Notes/Misc/attachments/feedback&workflow-4.png.nssyncsc",
-    "Notes/Unreal/项目规范/attachments/Pasted image 20250625204158.png.nssyncsc",
-    "Notes/Unreal/项目规范/attachments/Pasted image 20250625201317.png.nssyncsc",
-    "Notes/Unreal/项目规范/attachments/Pasted image 20250625110519.png.nssyncsc",
-    "Notes/Unreal/项目规范/attachments/Pasted image 20250625103335.png.nssyncsc",
-    "Notes/Unreal/项目规范/attachments",
-    "Notes/Misc/attachments/feedback&workflow-3.png.nssyncsc",
-    "Notes/Misc/attachments/Pasted image 20250623230157.png.nssyncsc",
     "Notes/Unreal/Unreal Python/未命名.canvas",
     "未命名.canvas",
     "Notes/program/数据结构与算法/数据结构与算法——施磊/未命名.canvas",
