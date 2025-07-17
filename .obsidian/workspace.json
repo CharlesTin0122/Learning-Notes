@@ -4,21 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b9c8fb98a950378c",
+        "id": "c5905e9ae0d78d27",
         "type": "tabs",
         "children": [
           {
-            "id": "7493b050d673c7e5",
+            "id": "b167ffcb9b24920e",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Notes/Misc/feedback&workflow.md",
-                "bFile": "Notes/Misc/feedback&workflow.md",
-                "aRef": ""
+                "file": "Notes/Unreal/项目规范/UE5 Secondary Animation in Maya and Unreal.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "diff",
-              "title": "Diff: feedback&workflow"
+              "icon": "lucide-file",
+              "title": "UE5 Secondary Animation in Maya and Unreal"
             }
           }
         ]
@@ -121,12 +122,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Notes/Unreal/项目规范/UE5 Secondary Animation in Maya and Unreal.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "UE5 Secondary Animation in Maya and Unreal 的大纲"
             }
           },
           {
@@ -194,8 +196,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7493b050d673c7e5",
+  "active": "b167ffcb9b24920e",
   "lastOpenFiles": [
+    "Notes/Unreal/项目规范/attachments/UE5 Secondary Animation in Maya and Unreal-6.png",
+    "Notes/Unreal/项目规范/attachments/UE5 Secondary Animation in Maya and Unreal-5.png",
+    "Notes/Unreal/项目规范/attachments/UE5 Secondary Animation in Maya and Unreal-4.png",
+    "Notes/Unreal/项目规范/attachments/UE5 Secondary Animation in Maya and Unreal-3.png",
+    "Notes/Unreal/项目规范/attachments/UE5 Secondary Animation in Maya and Unreal-2.png",
+    "Notes/Unreal/项目规范/Unreal引擎FBX资产导入注意事项.md",
+    "Notes/Unreal/项目规范/UE5动画重定向.md",
+    "Notes/Unreal/项目规范/UE5 Secondary Animation in Maya and Unreal.md",
+    "Notes/Unreal/项目规范/游戏中断肢效果处理(Dismemberment System ).md",
+    "Notes/Unreal/项目规范/虚幻引擎中的布料资产处理.md",
     "Notes/Work/My Tasks.md",
     "Notes/Test.md",
     "Notes/math/3.0-矩阵（Matrix ）.md",
@@ -217,21 +229,11 @@
     "Notes/Misc/attachments/e6b1583333a1bfa2ecf94c9a351fe321_MD5.jpeg",
     "Notes/Misc/attachments/70a0a610d5cab85ca2a0f547b1597454_MD5.jpeg",
     "Notes/Misc/attachments/ec3e6ed303f10b6372ca72baeabcc857_MD5.jpeg",
-    "Notes/Misc/attachments/59124b8bf07a4b062ffc5e6e08144b15_MD5.jpeg",
-    "Notes/Misc/attachments/67ebbc4488ee1ddedd930c7d3b5723f8_MD5.jpeg",
-    "Notes/Misc/attachments/2a6d58d0cb5c6b9754618b6e9b16f787_MD5.jpeg",
-    "Notes/Misc/attachments/348c6a88f9bffad1ef0ceed10c46ff40_MD5.jpeg",
-    "Notes/Unreal/项目规范/UE5 Secondary Animation in Maya and Unreal.md",
     "Notes/MAYA/Rigging/进阶/3.0-Hind Leg.md",
     "Notes/MAYA/Rigging/进阶/4.0-ArmRig.md",
     "Notes/MAYA/Rigging/进阶/2.0-No Flip IK.md",
     "Notes/MAYA/Rigging/进阶/1.0-反转脚.md",
     "Notes/MAYA/Rigging/进阶/6.0-Twist & Roll.md",
-    "Notes/Unreal/项目规范/Unreal引擎FBX资产导入注意事项.md",
-    "Notes/Unreal/项目规范/游戏中断肢效果处理(Dismemberment System ).md",
-    "Notes/Unreal/项目规范/虚幻引擎中的布料资产处理.md",
-    "Notes/Work/English.md",
-    "Notes/Work/Project_PJX.md",
     "Notes/Misc/Animation Pipeline.canvas",
     "Notes/Unreal/虚幻动画系统深入浅出.canvas",
     "Notes/Misc/attachments/feedback&workflow-5.png.nssyncsc",

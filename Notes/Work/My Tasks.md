@@ -7,7 +7,12 @@ kanban-plugin: board
 ## # 待处理
 
 - [ ] ## 任务名称：各种怪物模型修改
-	## 策划：
+- [ ] ## 任务名称：鹿的被处决动画
+	### 任务内容：
+	- Anim_Human_Execution_1h_01_Att_Montage1
+	- 2H_spear_Skill_attack_Montage
+- [ ] ## 任务名称：圆盘启动动画
+	## 策划：李晨阳
 	### 任务内容：
 - [ ] ## 任务名称：胖裸模头发
 	## 策划：
