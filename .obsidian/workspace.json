@@ -151,8 +151,8 @@
                 "showSearch": false,
                 "searchQuery": ""
               },
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
             }
           },
           {
@@ -174,37 +174,18 @@
               "icon": "lucide-file",
               "title": "插件不再活动"
             }
-          },
-          {
-            "id": "df0b9825ba060c81",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Notes/Work/Project_PJX.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Project_PJX 的反向链接列表"
-            }
           }
         ],
         "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 334.5
+    "width": 608.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "daily-notes:打开/创建今天的日记": false,
       "obsidian-kanban:创建新看板": false,
+      "oz-clear-unused-images:Clear Unused Images": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -217,40 +198,45 @@
   },
   "active": "b167ffcb9b24920e",
   "lastOpenFiles": [
-    "-冲突-CharlesTin_Win11.gitignore",
+    "Notes/Misc/attachments/b4a11851c8420c85243836957cba5e48_MD5.jpeg",
+    "Notes/Misc/attachments/b4a11851c8420c85243836957cba5e48_MD5.jpeg.nssyncsc",
+    "Notes/Misc/attachments/Pasted image 20250717235956.png",
+    "Notes/Misc/attachments/Pasted image 20250717235956.png.nssyncsc",
+    "Notes/Misc/测试说明（中文）.md",
+    "Notes/Misc/Test Instruction（English）.md",
+    "Notes/Misc/Test Instruction（English）.md.nssyncsc",
+    "Notes/Misc/未命名.md",
+    "Notes/Misc/未命名.md.nssyncsc",
+    "Notes/Misc/测试说明（中文）.md.nssyncsc",
+    "Notes/Misc/Test Instruction.md",
+    "Notes/Misc/Test Instruction.md.nssyncsc",
+    "Notes/Misc/attachments/d40bc6f2fdb8e1d62708086868813ade_MD5.jpeg",
+    "Notes/Misc/attachments/d40bc6f2fdb8e1d62708086868813ade_MD5.jpeg.nssyncsc",
+    "Notes/Misc/attachments/Pasted image 20250717222213.png",
+    "Notes/Misc/attachments/Pasted image 20250717222213.png.nssyncsc",
+    "Notes/Misc/attachments/b75dde6ca0827816ca3323bf0df6c6a5_MD5.jpeg",
+    "Notes/Misc/attachments/b75dde6ca0827816ca3323bf0df6c6a5_MD5.jpeg.nssyncsc",
+    "Notes/Misc/attachments/Pasted image 20250717222127.png",
+    "Notes/Misc/attachments/Pasted image 20250717222127.png.nssyncsc",
+    "Notes/Misc/attachments/85f5246e13e2b145beafbfe4b7bad98c_MD5.jpeg",
+    "Notes/Misc/attachments/Pasted image 20250717221644.png",
+    "Notes/Misc/ReadMe.md",
     "README-冲突-CharlesTin_Win11.md",
     "Notes/program/PowerShell入门-冲突-CharlesTin_Win11.md",
     "Notes/MAYA/Tips-冲突-CharlesTin_Win11.md",
-    "-冲突-CharlesTin_Win11.gitignore.nssyncsc",
     "Notes/MAYA/Rigging/基础知识/手动修改局部旋转轴为何要zeroScaleOrient-冲突-CharlesTin_Win11.md",
     "Notes/program/Git入门指南-冲突-CharlesTin_Win11.md",
     "Notes/Unreal/UnrealFest演讲精粹/UnrealFest演讲精粹-角色与动画的性能优化-冲突-CharlesTin_Win11.md",
-    "README-冲突-CharlesTin_Win11.md.nssyncsc",
-    "Notes/program/PowerShell入门-冲突-CharlesTin_Win11.md.nssyncsc",
-    "Notes/MAYA/Tips-冲突-CharlesTin_Win11.md.nssyncsc",
-    "Notes/MAYA/Rigging/基础知识/手动修改局部旋转轴为何要zeroScaleOrient-冲突-CharlesTin_Win11.md.nssyncsc",
-    "Notes/program/Git入门指南-冲突-CharlesTin_Win11.md.nssyncsc",
-    "Notes/Unreal/UnrealFest演讲精粹/UnrealFest演讲精粹-角色与动画的性能优化-冲突-CharlesTin_Win11.md.nssyncsc",
     "Notes/Unreal/项目规范/UE5 Secondary Animation in Maya and Unreal-冲突-CharlesTin_Win11.md",
     "Notes/Work/My Tasks-冲突-CharlesTin_Win11.md",
     "Notes/Test-冲突-CharlesTin_Win11.md",
     "Notes/Misc/feedback&workflow-冲突-CharlesTin_Win11.md",
     "Notes/MAYA/mayaPython案例-冲突-CharlesTin_Win11.md",
-    "Notes/Unreal/项目规范/UE5 Secondary Animation in Maya and Unreal-冲突-CharlesTin_Win11.md.nssyncsc",
-    "Notes/Work/My Tasks-冲突-CharlesTin_Win11.md.nssyncsc",
-    "Notes/Test-冲突-CharlesTin_Win11.md.nssyncsc",
     "Notes/math/attachments/883415453770a8303921a910920cd11a_MD5.jpeg",
     "Notes/Misc/attachments/a67965480c3f9a9b8f1b30b733b6af56_MD5.jpeg",
     "Notes/Misc/attachments/f26f620f7b97737092e735be8e3436da_MD5.jpeg",
-    "Notes/Misc/attachments/a82ce74d760056faef647dd23f3f378e_MD5.jpeg",
-    "Notes/Misc/attachments/779ec0a8394a93c380a4f4f9d218f3eb_MD5.jpeg",
-    "Notes/Misc/attachments/14365aac475f3a64a957a5d00a16092c_MD5.jpeg",
     "Notes/Work/My Tasks.md",
     "Notes/Unreal/项目规范/UE5 Secondary Animation in Maya and Unreal.md",
-    "Notes/Unreal/项目规范/attachments/UE5 Secondary Animation in Maya and Unreal-6.png",
-    "Notes/Unreal/项目规范/attachments/UE5 Secondary Animation in Maya and Unreal-5.png",
-    "Notes/Unreal/项目规范/attachments/UE5 Secondary Animation in Maya and Unreal-4.png",
-    "Notes/Unreal/项目规范/attachments/UE5 Secondary Animation in Maya and Unreal-3.png",
     "Notes/Unreal/项目规范/Unreal引擎FBX资产导入注意事项.md",
     "Notes/Unreal/项目规范/UE5动画重定向.md",
     "Notes/Unreal/项目规范/游戏中断肢效果处理(Dismemberment System ).md",
@@ -258,11 +244,6 @@
     "Notes/Test.md",
     "Notes/math/3.0-矩阵（Matrix ）.md",
     "Notes/MAYA/mayaPython案例.md",
-    "Notes/Misc/Win10激活.md",
-    "Notes/Misc/Tian Chao's resume_old.md",
-    "Notes/Misc/Tian Chao's resume.md",
-    "Notes/Misc/SkillTree0.md",
-    "Notes/Misc/Skill Tree.md",
     "Notes/Misc/Animation Pipeline.canvas",
     "Notes/Unreal/虚幻动画系统深入浅出.canvas",
     "Notes/Unreal/Unreal Python/未命名.canvas",
