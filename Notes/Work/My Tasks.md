@@ -11,9 +11,13 @@ kanban-plugin: board
 	### 任务内容：
 	- Anim_Human_Execution_1h_01_Att_Montage1
 	- 2H_spear_Skill_attack_Montage
-- [ ] ## 任务名称：胖裸模头发
+- [ ] ## 任务名称：其他体型头发
 	## 策划：
 	### 任务内容：
+- [ ] ## 任务名称：女主角脸型替换
+	## 策划：
+	### 任务内容：
+	- "H:\Project_PJX\Character\Import\SK_Human_Female_02.fbx"
 - [ ] ## 任务名称：织布机动画
 	## 策划：黄益
 	### 任务内容：
