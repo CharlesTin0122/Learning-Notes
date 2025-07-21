@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c5905e9ae0d78d27",
+        "id": "9f7faa4a74ce320e",
         "type": "tabs",
         "children": [
           {
-            "id": "b167ffcb9b24920e",
+            "id": "7514c845866a74cf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/misc/学习计划.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "学习计划"
+              "title": "新标签页"
             }
           }
         ]
@@ -122,13 +117,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Work/Project_PJX.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Project_PJX 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -215,15 +209,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b167ffcb9b24920e",
+  "active": "7514c845866a74cf",
   "lastOpenFiles": [
+    "Notes/math/attachments/0.0-三角函数.md",
+    "Notes/math/Quaternion_Rotation.md",
+    "Notes/math/Maya Math.md",
+    "Notes/math/四元数（Quaternion）.md",
+    "Notes/math/数系与欧拉公式（Euler's formula）.md",
+    "Notes/math/实数、虚数和复数.md",
+    "Notes/math/3.0-矩阵（Matrix ）.md",
+    "Notes/math/2.0-向量(Vector).md",
+    "Notes/math/1.0-笛卡尔坐标系.md",
+    "Notes/misc/学习计划.md",
     "Notes/Unreal/Lyra/0.0-项目设置.md",
     "Notes/Unreal/Lyra/0.1-Lyra项目动画概述.md",
     "Notes/Unreal/Lyra/0.2-多线程动画.md",
     "Notes/Unreal/Lyra/0.3-动画优化.md",
     "Notes/Unreal/Lyra/0.4-SequencePlayer 和 SequenceEvaluator.md",
     "Notes/Unreal/Lyra/1.0-基础移动.md",
-    "Notes/misc/学习计划.md",
     "Notes/misc/测试说明（中文）.md",
     "Notes/Work/My Tasks.md",
     "Notes/misc/Test Instruction（English）.md",
@@ -250,19 +253,10 @@
     "Notes/MAYA/Rigging/基础知识/手动修改局部旋转轴为何要zeroScaleOrient-冲突-CharlesTin_Win11.md.nssyncsc",
     "Notes/program/Git入门指南-冲突-CharlesTin_Win11.md.nssyncsc",
     "Notes/Unreal/UnrealFest演讲精粹/UnrealFest演讲精粹-角色与动画的性能优化-冲突-CharlesTin_Win11.md.nssyncsc",
-    "Notes/Unreal/项目规范/UE5 Secondary Animation in Maya and Unreal-冲突-CharlesTin_Win11.md",
-    "Notes/Work/My Tasks-冲突-CharlesTin_Win11.md",
-    "Notes/Test-冲突-CharlesTin_Win11.md",
-    "Notes/Misc/feedback&workflow-冲突-CharlesTin_Win11.md",
-    "Notes/MAYA/mayaPython案例-冲突-CharlesTin_Win11.md",
     "Notes/Unreal/项目规范/UE5 Secondary Animation in Maya and Unreal-冲突-CharlesTin_Win11.md.nssyncsc",
     "Notes/Work/My Tasks-冲突-CharlesTin_Win11.md.nssyncsc",
     "Notes/math/attachments/883415453770a8303921a910920cd11a_MD5.jpeg",
     "Notes/Misc/attachments/a67965480c3f9a9b8f1b30b733b6af56_MD5.jpeg",
-    "Notes/Unreal/项目规范/UE5 Secondary Animation in Maya and Unreal.md",
-    "Notes/Unreal/项目规范/Unreal引擎FBX资产导入注意事项.md",
-    "Notes/Unreal/项目规范/UE5动画重定向.md",
-    "Notes/Unreal/项目规范/游戏中断肢效果处理(Dismemberment System ).md",
     "Notes/Misc/Animation Pipeline.canvas",
     "Notes/Unreal/虚幻动画系统深入浅出.canvas",
     "Notes/Unreal/Unreal Python/未命名.canvas",

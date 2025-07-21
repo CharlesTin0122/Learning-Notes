@@ -908,3 +908,76 @@ if __name__ == "__main__":
     sel_objs = pm.selected()
     clean_mesh(sel_objs)
 ```
+## 两个模型传递UV脚本
+```python
+import pymel.core as pm
+
+def transfer_uvs_final_version():
+    """
+    (最终修正版 - 使用 transferAttributes)
+    将UV信息（包括所有UV Set）从一个模型传递到另一个模型。
+    
+    此版本使用 Maya 核心的 `transferAttributes` 命令，与UI菜单中的
+    "Mesh > Transfer Attributes" 功能一致，具有最佳的兼容性和稳定性。
+
+    使用方法:
+    1. 在 Maya 场景中，首先选择源模型（提供UV信息的模型）。
+    2. 按住 Shift 键，加选目标模型（需要接收UV信息的模型）。
+    3. 在脚本编辑器中运行此脚本。
+    """
+    # 步骤 1: 获取当前选择的物体
+    selection = pm.ls(selection=True, transforms=True)
+
+    # 步骤 2: 验证选择是否正确
+    if len(selection) != 2:
+        pm.warning("操作失败：请先选择源模型，然后按住Shift加选目标模型，总共选择两个模型。")
+        return
+
+    source_model = selection[0]
+    target_model = selection[1]
+
+    # 确保选择的是多边形网格（Mesh）
+    try:
+        source_shape = source_model.getShape()
+        target_shape = target_model.getShape()
+        if not isinstance(source_shape, pm.nodetypes.Mesh) or not isinstance(target_shape, pm.nodetypes.Mesh):
+            pm.error("操作失败：请确保两个选择都是多边形网格模型。")
+            return
+    except AttributeError:
+        pm.error("操作失败：选择的对象没有有效的几何形状，请选择多边形网格模型。")
+        return
+
+    print(f"准备传递UV (最终版)...")
+    print(f"源模型 (Source): {source_model.name()}")
+    print(f"目标模型 (Target): {target_model.name()}")
+
+    # 步骤 3: 执行属性传递
+    try:
+        # 使用 transferAttributes 命令，这是Maya UI调用的标准方法
+        pm.transferAttributes(
+            source_model,               # 第一个参数是源
+            target_model,               # 第二个参数是目标
+            transferPositions=0,        # 0: 不传递顶点位置
+            transferNormals=0,          # 0: 不传递法线
+            transferUVs=2,              # 2: 传递所有UV集。 (1:只传递当前, 2:传递所有)
+            transferColors=0,           # 0: 不传递顶点色
+            sampleSpace=4,              # 4: 拓扑(Topology)。这是最关键的设置。
+                                        # (0:World, 1:UV, 2:Component, 3:Local, 4:Topology)
+            sourceUvSpace='map1',       # 指定源和目标的UV集，但当transferUVs=2时，此项会被忽略
+            targetUvSpace='map1',
+            searchMethod=3,             # 3: 最近的点(Closest to point)
+            flipUVs=0,                  # 0: 不翻转UV
+            colorBorders=1              # 1: 给颜色边界上色以调试
+        )
+
+        print(f"成功！已将UV信息从 '{source_model.name()}' 传递到 '{target_model.name()}'。")
+        pm.select(target_model)
+
+    except Exception as e:
+        pm.error(f"传递UV时发生错误: {e}")
+
+
+# --- 执行函数 ---
+if __name__ == "__main__":
+    transfer_uvs_final_version()
+```
