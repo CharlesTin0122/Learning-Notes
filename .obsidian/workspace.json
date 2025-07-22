@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9f7faa4a74ce320e",
+        "id": "cb73b768428c77dd",
         "type": "tabs",
         "children": [
           {
-            "id": "7514c845866a74cf",
+            "id": "0794f60b9f144e26",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Notes/math/3.0-矩阵（Matrix ）.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "3.0-矩阵（Matrix ）"
             }
           }
         ]
@@ -117,12 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Notes/math/3.0-矩阵（Matrix ）.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "3.0-矩阵（Matrix ） 的大纲"
             }
           },
           {
@@ -175,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/misc/Test Instruction（English）.md",
+                "file": "Notes/math/3.0-矩阵（Matrix ）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +190,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Test Instruction（English） 的反向链接列表"
+              "title": "3.0-矩阵（Matrix ） 的反向链接列表"
             }
           }
         ],
@@ -209,26 +214,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7514c845866a74cf",
+  "active": "0794f60b9f144e26",
   "lastOpenFiles": [
-    "Notes/math/attachments/0.0-三角函数.md",
-    "Notes/math/Quaternion_Rotation.md",
+    "Notes/math/attachments/18a1815c582b9e88d092e2430ded04bc_MD5.jpeg",
+    "Notes/math/attachments/Pasted image 20250722101443.png",
     "Notes/math/Maya Math.md",
-    "Notes/math/四元数（Quaternion）.md",
-    "Notes/math/数系与欧拉公式（Euler's formula）.md",
-    "Notes/math/实数、虚数和复数.md",
     "Notes/math/3.0-矩阵（Matrix ）.md",
     "Notes/math/2.0-向量(Vector).md",
     "Notes/math/1.0-笛卡尔坐标系.md",
-    "Notes/misc/学习计划.md",
+    "Notes/math/0.0-三角函数.md",
+    "Notes/Work/My Tasks.md",
+    "Notes/math/attachments/0.0-三角函数.md.nssyncsc",
+    "Notes/math/attachments/未命名.md",
+    "Notes/math/attachments/未命名.md.nssyncsc",
+    "Notes/MAYA/mayaPython案例.md",
+    "Notes/Misc/学习计划.md",
     "Notes/Unreal/Lyra/0.0-项目设置.md",
     "Notes/Unreal/Lyra/0.1-Lyra项目动画概述.md",
     "Notes/Unreal/Lyra/0.2-多线程动画.md",
     "Notes/Unreal/Lyra/0.3-动画优化.md",
     "Notes/Unreal/Lyra/0.4-SequencePlayer 和 SequenceEvaluator.md",
     "Notes/Unreal/Lyra/1.0-基础移动.md",
+    "Notes/misc/学习计划.md",
     "Notes/misc/测试说明（中文）.md",
-    "Notes/Work/My Tasks.md",
     "Notes/misc/Test Instruction（English）.md",
     "Notes/misc/attachments/b4a11851c8420c85243836957cba5e48_MD5.jpeg",
     "Notes/misc/attachments/Pasted image 20250717235956.png",
@@ -253,10 +261,7 @@
     "Notes/MAYA/Rigging/基础知识/手动修改局部旋转轴为何要zeroScaleOrient-冲突-CharlesTin_Win11.md.nssyncsc",
     "Notes/program/Git入门指南-冲突-CharlesTin_Win11.md.nssyncsc",
     "Notes/Unreal/UnrealFest演讲精粹/UnrealFest演讲精粹-角色与动画的性能优化-冲突-CharlesTin_Win11.md.nssyncsc",
-    "Notes/Unreal/项目规范/UE5 Secondary Animation in Maya and Unreal-冲突-CharlesTin_Win11.md.nssyncsc",
-    "Notes/Work/My Tasks-冲突-CharlesTin_Win11.md.nssyncsc",
     "Notes/math/attachments/883415453770a8303921a910920cd11a_MD5.jpeg",
-    "Notes/Misc/attachments/a67965480c3f9a9b8f1b30b733b6af56_MD5.jpeg",
     "Notes/Misc/Animation Pipeline.canvas",
     "Notes/Unreal/虚幻动画系统深入浅出.canvas",
     "Notes/Unreal/Unreal Python/未命名.canvas",
