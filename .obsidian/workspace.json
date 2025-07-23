@@ -11,10 +11,14 @@
             "id": "5587f7fdab468fd6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Notes/math/4.2.0-四元数（Quaternion）.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "4.2.0-四元数（Quaternion）"
             }
           }
         ]
@@ -209,15 +213,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6c4cbb6491a6afbc",
+  "active": "5587f7fdab468fd6",
   "lastOpenFiles": [
-    "Notes/math/4.0-欧拉旋转.md",
+    "Notes/math/Maya Math.md",
+    "Notes/math/markdown_math.md",
+    "Notes/math/数系与欧拉公式（Euler's formula）.md",
+    "Notes/math/实数、虚数和复数.md",
+    "Notes/math/4.2.0-四元数（Quaternion）.md",
+    "Notes/math/4.2.1-四元数原理.md",
+    "Notes/math/4.2.2-四元数描述旋转.md",
+    "Notes/math/4.1-欧拉旋转.md",
+    "Notes/math/attachments/d4b4cb469111711a38625bf3f5e97b97_MD5.jpeg",
+    "Notes/math/attachments/Pasted image 20250723095528.png",
+    "Notes/math/4.0-三维旋转.md",
+    "Notes/math/3.1-矩阵代码.md",
     "Notes/math/attachments/156d813a720f908325e855f25030d101_MD5.jpeg",
     "Notes/math/attachments/Pasted image 20250723065300.png",
     "Notes/math/2.0-向量(Vector).md",
-    "Notes/math/3.1-矩阵代码.md",
     "Notes/math/3.0-矩阵（Matrix ）.md",
-    "Notes/math/Maya Math.md",
     "Notes/Unreal/Control Rig/1.06 SplineIK.md",
     "Notes/Unreal/Control Rig/1.05-FKIK Switch & Snap.md",
     "Notes/Unreal/Control Rig/1.04-The Reverse Foot.md",
@@ -225,8 +238,6 @@
     "Notes/Unreal/Control Rig/1.02-Basic IK Leg.md",
     "Notes/Unreal/Control Rig/1.01-FK.md",
     "Notes/Unreal/Control Rig/1.00-Control Rig.md",
-    "Notes/math/四元数（Quaternion）.md",
-    "Notes/math/4.1-四元数.md",
     "Notes/math/attachments/18a1815c582b9e88d092e2430ded04bc_MD5.jpeg",
     "Notes/math/attachments/Pasted image 20250722101443.png",
     "Notes/math/1.0-笛卡尔坐标系.md",
@@ -238,16 +249,10 @@
     "Notes/MAYA/mayaPython案例.md",
     "Notes/Misc/学习计划.md",
     "Notes/Unreal/Lyra/0.0-项目设置.md",
-    "Notes/Unreal/Lyra/0.1-Lyra项目动画概述.md",
-    "Notes/Unreal/Lyra/0.2-多线程动画.md",
-    "Notes/Unreal/Lyra/0.3-动画优化.md",
-    "Notes/Unreal/Lyra/0.4-SequencePlayer 和 SequenceEvaluator.md",
     "Notes/misc/attachments/b4a11851c8420c85243836957cba5e48_MD5.jpeg",
     "Notes/misc/attachments/Pasted image 20250717235956.png",
     "Notes/misc/attachments/d40bc6f2fdb8e1d62708086868813ade_MD5.jpeg",
     "Notes/misc/attachments/Pasted image 20250717222213.png",
-    "Notes/misc/attachments/b75dde6ca0827816ca3323bf0df6c6a5_MD5.jpeg",
-    "Notes/misc/attachments/Pasted image 20250717222127.png",
     "-冲突-CharlesTin_Win11.gitignore",
     "-冲突-CharlesTin_Win11.gitignore.nssyncsc",
     "README-冲突-CharlesTin_Win11.md.nssyncsc",
