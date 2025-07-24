@@ -121,12 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Notes/math/4.2.1-四元数（Quaternion）.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "4.2.1-四元数（Quaternion） 的大纲"
             }
           },
           {
@@ -213,11 +214,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5587f7fdab468fd6",
+  "active": "6c4cbb6491a6afbc",
   "lastOpenFiles": [
+    "Notes/math/attachments/078c17c099d17afb46ee36bff855319b_MD5.jpeg",
+    "Notes/math/attachments/Pasted image 20250724123220.png",
+    "Notes/math/attachments/33b953306e02f06c6ac521db3cb57344_MD5.jpeg",
+    "Notes/math/attachments/Pasted image 20250724123207.png",
+    "Notes/math/attachments/c9b4d973702dd0870265a0353e1837d1_MD5.jpeg",
+    "Notes/math/attachments/Pasted image 20250724121830.png",
+    "Notes/math/attachments/505cf9c1705f19e81ff650e83ec1580c_MD5.jpeg",
+    "Notes/math/attachments/Pasted image 20250724121513.png",
+    "Notes/math/attachments/660c41fdd12bd60d5cda2744c9fe1dc1_MD5.jpeg",
+    "Notes/math/attachments/Pasted image 20250724120650.png",
+    "Notes/math/attachments/47c6f99462e63070e4c4ff994b3f2790_MD5.jpeg",
     "Notes/math/4.2.3-四元数描述旋转.md",
     "Notes/math/4.2.1-四元数（Quaternion）.md",
-    "Notes/math/attachments/Pasted image 20250724065403.png",
     "Notes/math/4.2.2-四元数原理.md",
     "Notes/math/Maya Math.md",
     "Notes/math/markdown_math.md",
@@ -228,10 +239,6 @@
     "Notes/math/4.0-三维旋转.md",
     "Notes/math/3.1-矩阵代码.md",
     "Notes/math/2.0-向量(Vector).md",
-    "Notes/math/attachments/d4b4cb469111711a38625bf3f5e97b97_MD5.jpeg",
-    "Notes/math/attachments/Pasted image 20250723095528.png",
-    "Notes/math/attachments/156d813a720f908325e855f25030d101_MD5.jpeg",
-    "Notes/math/attachments/Pasted image 20250723065300.png",
     "Notes/Unreal/Control Rig/1.06 SplineIK.md",
     "Notes/Unreal/Control Rig/1.05-FKIK Switch & Snap.md",
     "Notes/Unreal/Control Rig/1.04-The Reverse Foot.md",
@@ -239,8 +246,6 @@
     "Notes/Unreal/Control Rig/1.02-Basic IK Leg.md",
     "Notes/Unreal/Control Rig/1.01-FK.md",
     "Notes/Unreal/Control Rig/1.00-Control Rig.md",
-    "Notes/math/attachments/18a1815c582b9e88d092e2430ded04bc_MD5.jpeg",
-    "Notes/math/attachments/Pasted image 20250722101443.png",
     "Notes/math/1.0-笛卡尔坐标系.md",
     "Notes/math/0.0-三角函数.md",
     "Notes/Work/My Tasks.md",
@@ -249,9 +254,6 @@
     "Notes/math/attachments/未命名.md.nssyncsc",
     "Notes/MAYA/mayaPython案例.md",
     "Notes/Misc/学习计划.md",
-    "Notes/misc/attachments/b4a11851c8420c85243836957cba5e48_MD5.jpeg",
-    "Notes/misc/attachments/Pasted image 20250717235956.png",
-    "Notes/misc/attachments/d40bc6f2fdb8e1d62708086868813ade_MD5.jpeg",
     "-冲突-CharlesTin_Win11.gitignore",
     "-冲突-CharlesTin_Win11.gitignore.nssyncsc",
     "README-冲突-CharlesTin_Win11.md.nssyncsc",
