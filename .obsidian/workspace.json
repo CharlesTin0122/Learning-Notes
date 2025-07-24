@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/math/4.2.1-四元数（Quaternion）.md",
+                "file": "Notes/Misc/学习计划.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4.2.1-四元数（Quaternion）"
+              "title": "学习计划"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5
+    "width": 290.5
   },
   "right": {
     "id": "9a963b05dd42da39",
@@ -214,8 +214,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6c4cbb6491a6afbc",
+  "active": "5587f7fdab468fd6",
   "lastOpenFiles": [
+    "Notes/Misc/问题回答.md",
+    "Notes/MAYA/Rigging/初级/1.11-Space Switching.md",
+    "Notes/MAYA/Rigging/初级/1.12-GlobalControls & Scalability.md",
+    "Notes/MAYA/Rigging/初级/1.13- Face Rig - Joints & Controls.md",
+    "Notes/MAYA/Rigging/初级/2.01-四足动物绑定.md",
+    "Notes/MAYA/Rigging/进阶/7.0-Create Export Joints.md",
+    "Notes/MAYA/Rigging/进阶/6.0-Twist & Roll.md",
+    "Notes/MAYA/Rigging/进阶/5.0-Spine Rig.md",
+    "Notes/MAYA/Rigging/进阶/4.0-ArmRig.md",
+    "Notes/MAYA/Rigging/进阶/3.0-Hind Leg.md",
+    "Notes/MAYA/Rigging/进阶/2.0-No Flip IK.md",
+    "Notes/MAYA/Rigging/进阶/1.0-反转脚.md",
+    "Notes/math/4.2.1-四元数（Quaternion）.md",
+    "Notes/Unreal/Control Rig/1.05-FKIK Switch & Snap.md",
+    "Notes/Unreal/Control Rig/1.06 SplineIK.md",
+    "Notes/Unreal/Control Rig/1.04-The Reverse Foot.md",
+    "Notes/Unreal/Control Rig/1.03-Constraints.md",
+    "Notes/Unreal/Control Rig/1.02-Basic IK Leg.md",
+    "Notes/Unreal/Control Rig/1.01-FK.md",
+    "Notes/Unreal/Control Rig/1.00-Control Rig.md",
+    "Notes/MAYA/Matrix矩阵/5- Maya 矩阵节点：使用  offsetParentMatrix 进行空间切换.md",
+    "Notes/MAYA/Matrix矩阵/4- Maya 矩阵节点：分解旋转为摆动Swing 和扭曲 Twist.md",
+    "Notes/MAYA/Matrix矩阵/3- Maya 矩阵节点：矩阵铆钉Matrix rivet.md",
+    "Notes/MAYA/Matrix矩阵/2- Maya 矩阵节点：基于节点的矩阵扭曲计算器.md",
+    "Notes/MAYA/Matrix矩阵/1- Maya 矩阵节点：基于节点的矩阵约束.md",
+    "Notes/Misc/学习计划.md",
     "Notes/math/attachments/078c17c099d17afb46ee36bff855319b_MD5.jpeg",
     "Notes/math/attachments/Pasted image 20250724123220.png",
     "Notes/math/attachments/33b953306e02f06c6ac521db3cb57344_MD5.jpeg",
@@ -226,34 +252,8 @@
     "Notes/math/attachments/Pasted image 20250724121513.png",
     "Notes/math/attachments/660c41fdd12bd60d5cda2744c9fe1dc1_MD5.jpeg",
     "Notes/math/attachments/Pasted image 20250724120650.png",
-    "Notes/math/attachments/47c6f99462e63070e4c4ff994b3f2790_MD5.jpeg",
-    "Notes/math/4.2.3-四元数描述旋转.md",
-    "Notes/math/4.2.1-四元数（Quaternion）.md",
-    "Notes/math/4.2.2-四元数原理.md",
-    "Notes/math/Maya Math.md",
-    "Notes/math/markdown_math.md",
-    "Notes/math/4.2.0-实数、虚数和复数.md",
-    "Notes/math/3.0-矩阵（Matrix ）.md",
-    "Notes/math/数系与欧拉公式（Euler's formula）.md",
-    "Notes/math/4.1-欧拉旋转.md",
-    "Notes/math/4.0-三维旋转.md",
-    "Notes/math/3.1-矩阵代码.md",
-    "Notes/math/2.0-向量(Vector).md",
-    "Notes/Unreal/Control Rig/1.06 SplineIK.md",
-    "Notes/Unreal/Control Rig/1.05-FKIK Switch & Snap.md",
-    "Notes/Unreal/Control Rig/1.04-The Reverse Foot.md",
-    "Notes/Unreal/Control Rig/1.03-Constraints.md",
-    "Notes/Unreal/Control Rig/1.02-Basic IK Leg.md",
-    "Notes/Unreal/Control Rig/1.01-FK.md",
-    "Notes/Unreal/Control Rig/1.00-Control Rig.md",
-    "Notes/math/1.0-笛卡尔坐标系.md",
-    "Notes/math/0.0-三角函数.md",
-    "Notes/Work/My Tasks.md",
     "Notes/math/attachments/0.0-三角函数.md.nssyncsc",
-    "Notes/math/attachments/未命名.md",
     "Notes/math/attachments/未命名.md.nssyncsc",
-    "Notes/MAYA/mayaPython案例.md",
-    "Notes/Misc/学习计划.md",
     "-冲突-CharlesTin_Win11.gitignore",
     "-冲突-CharlesTin_Win11.gitignore.nssyncsc",
     "README-冲突-CharlesTin_Win11.md.nssyncsc",
