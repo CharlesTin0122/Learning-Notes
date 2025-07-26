@@ -1,3 +1,5 @@
+
+[Maya matrix nodes - Part 2: Node based matrix twist calculator | bindpose](https://bindpose.com/maya-matrix-nodes-part-2-node-based-matrix-twist-calculator/)
 计算扭曲是一种流行的绑定必要条件，因为通常我们宁愿沿着关节链平滑地插入它，而不是只在它的末端应用它。经典的例子是四肢，我们需要在前臂/胫骨区域进行一些扭转，以支持手腕或脚的旋转。一些流行的实现使用 ik 手柄或目标约束，但我发现它们对于这项任务来说有点矫枉过正。因此，今天我们将看看创建一个矩阵扭曲计算器，它既干净又快速评估。
 
 除了矩阵节点之外，我将使用几个四元数节点，但我保证它会非常简单，因为即使是我自己也不真正习惯使用它们。

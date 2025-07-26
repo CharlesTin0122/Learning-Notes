@@ -6,24 +6,12 @@ kanban-plugin: board
 
 ## # 待处理
 
-- [ ] ## 任务名称：各种怪物模型修改
-- [ ] ## 任务名称：其他体型头发
-	## 策划：
-	### 任务内容：
 - [ ] ## 任务名称：织布机动画
 	## 策划：黄益
 	### 任务内容：
-- [ ] ## 任务名称：朝凤技能修改
-	## 策划：王亚楠
+- [ ] ## 任务名称：狼和秽魔的处决动画
+	## 策划：刘凯
 	### 任务内容：
-	- "D:\Work_MobilGame\outsourcing\Submissions\Boss_ChaoFeng\嘲风动作提交_0726\max\Boss_CF_Attack_12.max"
-	- 拆分为三段：前摇，站起挠空气，落下
-- [ ] ## 任务名称：受击动画修改
-	## 策划：卢旭
-	### 任务内容：
-	* 受击动画不再制作回到初始姿态的部分
-	* 回到初始姿态使用引擎混合
-	* 主要目的是提高玩家流畅度
 - [ ] ## 任务名称：秽魔新增动画
 	## 策划：刘恺
 	### 任务内容：
@@ -66,21 +54,6 @@ kanban-plugin: board
 
 ## # 进行中
 
-- [ ] ## 任务名称：击倒和站起
-	## 策划：李嘉铭
-	### 任务内容：
-	- BigGuy_barehands_KnockDown_GetUp_Front
-	- BigGuy_barehands_hitted_toDown_mid_south
-- [ ] ## 任务名称：鹿的被处决动画
-	### 任务内容：
-	- Anim_Human_Execution_1h_01_Att_Montage1
-	- 2H_spear_Skill_attack_Montage
-- [ ] ## 任务名称：精英狼展示动画
-	## 策划：刘凯
-	### 任务内容：
-	- H:\Project_PJX\Animal\Wolf
-	- Wolf_BeginningShow_Montage
-	- 一个精英狼出场动画不用太长
 - [ ] ## 任务名称：新体型，服装，头发
 	## 策划：
 	### 任务内容：
@@ -88,6 +61,22 @@ kanban-plugin: board
 	- 头发
 	- 胡须
 	- 新形体：男人02，女人02，小孩
+- [ ] ## 任务名称：朝凤技能修改
+	## 策划：王亚楠
+	### 任务内容：
+	- "D:\Work_MobilGame\outsourcing\Submissions\Boss_ChaoFeng\嘲风动作提交_0726\max\Boss_CF_Attack_12.max"
+	- 拆分为三段：前摇，站起挠空气，落下
+- [ ] ## 任务名称：击倒和站起
+	## 策划：李嘉铭
+	### 任务内容：
+	- BigGuy_barehands_KnockDown_GetUp_Front
+	- BigGuy_barehands_hitted_toDown_mid_south
+- [ ] ## 任务名称：精英狼展示动画
+	## 策划：刘凯
+	### 任务内容：
+	- H:\Project_PJX\Animal\Wolf
+	- Wolf_BeginningShow_Montage
+	- 一个精英狼出场动画不用太长
 - [ ] ## 任务名称：物理资产
 	## 策划：李嘉明
 	### 任务内容：
@@ -101,6 +90,16 @@ kanban-plugin: board
 ## # 已完成
 
 **完成**
+- [x] ## 任务名称：受击动画修改
+	## 策划：卢旭
+	### 任务内容：
+	* 受击动画不再制作回到初始姿态的部分
+	* 回到初始姿态使用引擎混合
+	* 主要目的是提高玩家流畅度
+- [x] ## 任务名称：鹿的被处决动画
+	### 任务内容：
+	- Anim_Human_Execution_1h_01_Att_Montage1
+	- 2H_spear_Skill_attack_Montage
 - [x] ## 任务名称：主角吃东西动画
 	## 策划：董建成
 	### 任务内容：

@@ -1,3 +1,4 @@
+[Maya matrix nodes - Part 1: Node based matrix constraint | bindpose](https://bindpose.com/maya-matrix-based-functions-part-1-node-based-matrix-constraint/)
 最近在 Cult of rig 之后，我意识到我在我的 Rig 中的约束非常浪费。我一直都知道它们比直接连接和父子关系慢，但后来我认为这是实现 Broken hierarchy Rigs 的唯一方法。尽管我在大学里学过矩阵数学，但我从未在 maya 中使用过它，因为我奇怪地认为矩阵节点是坏的或有限的。我总是可以选择编写自己的节点，但因为我想让人们尽可能轻松地使用我的装备，所以我宁愿把所有东西都放在原版 maya 中。
 
 [](https://www.youtube.com/watch?v=zDf4Ak9R2yM)因此，当 Raffaele 使用 `matrixMult` 和 `decomposeMatrix` 节点重新设置转换的父级时，我受到了非常愉快的启发。从那时起，我尝试将这个概念应用于其他一些索具功能，例如扭曲计算和铆钉，它一直给我带来良好的效果。因此，在这篇文章中，我们将看看如何使用他在 Stream 中展示的技术来模拟 parent + scale 约束，而无需约束的性能开销，从而有效地创建基于节点的矩阵约束。
