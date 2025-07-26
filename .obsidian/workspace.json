@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/MAYA/Maya Python API/2.0-访问节点属性.md",
+                "file": "Notes/MAYA/Maya Python API/3.0-Command FLow.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.0-访问节点属性"
+              "title": "3.0-Command FLow"
             }
           }
         ]
@@ -214,8 +214,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6c4cbb6491a6afbc",
+  "active": "5587f7fdab468fd6",
   "lastOpenFiles": [
+    "Notes/MAYA/Maya Python API/2.0-访问节点属性.md",
+    "Notes/MAYA/Maya Python API/3.0-Command FLow.md",
+    "Notes/MAYA/Maya Python API/3.0-Command FLow.md.nssyncsc",
     "Notes/MAYA/Maya Python API/attachments/8b34ae22e6e5ceeae8c01292ca896baf_MD5.jpeg",
     "Notes/MAYA/Maya Python API/attachments/Pasted image 20250726081214.png",
     "Notes/MAYA/Maya Python API/attachments/2f8d17cb7d6fc91d86120611b54811fc_MD5.jpeg",
@@ -223,7 +226,6 @@
     "Notes/MAYA/Maya Python API/attachments/fe00b8fe72e0deb9894f70c8f94878e9_MD5.jpeg",
     "Notes/MAYA/Maya Python API/attachments/Pasted image 20250726080959.png",
     "Notes/MAYA/Maya Python API/1.0-获取MDagPath和MObject.md",
-    "Notes/MAYA/Maya Python API/2.0-访问节点属性.md",
     "Notes/MAYA/Maya Python API/0.0-初探Maya Python API.md",
     "Notes/math/1.0-笛卡尔坐标系.md",
     "Notes/Work/My Tasks.md",
@@ -253,7 +255,6 @@
     "Notes/math/attachments/078c17c099d17afb46ee36bff855319b_MD5.jpeg",
     "Notes/math/attachments/Pasted image 20250724123220.png",
     "Notes/math/attachments/33b953306e02f06c6ac521db3cb57344_MD5.jpeg",
-    "Notes/math/attachments/Pasted image 20250724123207.png",
     "Notes/math/attachments/0.0-三角函数.md.nssyncsc",
     "Notes/math/attachments/未命名.md.nssyncsc",
     "-冲突-CharlesTin_Win11.gitignore",
@@ -261,7 +262,6 @@
     "README-冲突-CharlesTin_Win11.md.nssyncsc",
     "Notes/program/PowerShell入门-冲突-CharlesTin_Win11.md.nssyncsc",
     "Notes/MAYA/Tips-冲突-CharlesTin_Win11.md.nssyncsc",
-    "Notes/MAYA/Rigging/基础知识/手动修改局部旋转轴为何要zeroScaleOrient-冲突-CharlesTin_Win11.md.nssyncsc",
     "Notes/Misc/Animation Pipeline.canvas",
     "Notes/Unreal/虚幻动画系统深入浅出.canvas",
     "Notes/Unreal/Unreal Python/未命名.canvas",
