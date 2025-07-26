@@ -11,14 +11,16 @@
             "id": "5587f7fdab468fd6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "Notes/MAYA/Maya Python API/3.0-Command FLow.md",
-                "mode": "source",
-                "source": false
+                "file": "Notes/Work/My Tasks.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": []
+                }
               },
-              "icon": "lucide-file",
-              "title": "3.0-Command FLow"
+              "icon": "lucide-trello",
+              "title": "My Tasks"
             }
           }
         ]
@@ -216,8 +218,8 @@
   },
   "active": "5587f7fdab468fd6",
   "lastOpenFiles": [
-    "Notes/MAYA/Maya Python API/2.0-访问节点属性.md",
     "Notes/MAYA/Maya Python API/3.0-Command FLow.md",
+    "Notes/MAYA/Maya Python API/2.0-访问节点属性.md",
     "Notes/MAYA/Maya Python API/3.0-Command FLow.md.nssyncsc",
     "Notes/MAYA/Maya Python API/attachments/8b34ae22e6e5ceeae8c01292ca896baf_MD5.jpeg",
     "Notes/MAYA/Maya Python API/attachments/Pasted image 20250726081214.png",
