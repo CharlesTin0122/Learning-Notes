@@ -11,16 +11,14 @@
             "id": "5587f7fdab468fd6",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "Notes/Work/My Tasks.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": []
-                }
+                "file": "Notes/MAYA/Maya Python API/5.0-自定义带参数的命令.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "My Tasks"
+              "icon": "lucide-file",
+              "title": "5.0-自定义带参数的命令"
             }
           }
         ]
@@ -123,13 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/MAYA/Maya Python API/2.0-访问节点属性.md",
+                "file": "Notes/MAYA/Maya Python API/5.0-自定义带参数的命令.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2.0-访问节点属性 的大纲"
+              "title": "5.0-自定义带参数的命令 的大纲"
             }
           },
           {
@@ -216,10 +214,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5587f7fdab468fd6",
+  "active": "6c4cbb6491a6afbc",
   "lastOpenFiles": [
-    "Notes/MAYA/Maya Python API/3.0-Command FLow.md",
+    "Notes/MAYA/Maya Python API/attachments/63373e6eb7a72b258047366ee6d3dcd8_MD5.jpeg",
+    "Notes/MAYA/Maya Python API/attachments/Pasted image 20250728062330.png",
+    "Notes/MAYA/Maya Python API/3.0-自定义命令.md",
+    "Notes/MAYA/Maya Python API/5.0-自定义带参数的命令.md",
+    "Notes/MAYA/Maya Python API/4.0-迭代器（Iterators）.md",
     "Notes/MAYA/Maya Python API/2.0-访问节点属性.md",
+    "Notes/Work/My Tasks.md",
     "Notes/MAYA/Maya Python API/3.0-Command FLow.md.nssyncsc",
     "Notes/MAYA/Maya Python API/attachments/8b34ae22e6e5ceeae8c01292ca896baf_MD5.jpeg",
     "Notes/MAYA/Maya Python API/attachments/Pasted image 20250726081214.png",
@@ -230,7 +233,6 @@
     "Notes/MAYA/Maya Python API/1.0-获取MDagPath和MObject.md",
     "Notes/MAYA/Maya Python API/0.0-初探Maya Python API.md",
     "Notes/math/1.0-笛卡尔坐标系.md",
-    "Notes/Work/My Tasks.md",
     "Notes/MAYA/常用插件和工具.md",
     "Notes/MAYA/创建控制器所用的曲线属性.md",
     "Notes/MAYA/动画曲线编辑辅助工具原理.md",
@@ -248,15 +250,11 @@
     "Notes/MAYA/Tips-冲突-CharlesTin_Win11.md",
     "Notes/MAYA/MAYA C++ API/MAYA的MakeLists文件解析.md",
     "Notes/MAYA/MAYA C++ API/MAYA插件开发C++开发环境搭建.md",
-    "Notes/MAYA/MAYA C++ API/Maya C++ API Programming.md",
     "Notes/MAYA/MAYA C++ API/attachments/MAYA插件开发C++开发环境搭建.png",
-    "Notes/MAYA/Maya Python API/基础知识/浅谈OpenMaya的使用 1.md",
-    "Notes/MAYA/Maya Python API/基础知识/浅谈OpenMaya的使用 9：名称空间.md",
     "Notes/MAYA/Maya Python API/基础知识",
     "Notes/MAYA/Matrix矩阵/bindpose.com",
     "Notes/math/attachments/078c17c099d17afb46ee36bff855319b_MD5.jpeg",
     "Notes/math/attachments/Pasted image 20250724123220.png",
-    "Notes/math/attachments/33b953306e02f06c6ac521db3cb57344_MD5.jpeg",
     "Notes/math/attachments/0.0-三角函数.md.nssyncsc",
     "Notes/math/attachments/未命名.md.nssyncsc",
     "-冲突-CharlesTin_Win11.gitignore",
