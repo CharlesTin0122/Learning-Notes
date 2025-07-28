@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/program/Python/Python装饰器.md",
+                "file": "Notes/MAYA/Maya Python API/5.0-自定义带参数的命令.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python装饰器"
+              "title": "5.0-自定义带参数的命令"
             }
           }
         ]
@@ -216,6 +216,7 @@
   },
   "active": "5587f7fdab468fd6",
   "lastOpenFiles": [
+    "Notes/program/Python/Python装饰器.md",
     "Notes/MAYA/Maya Python API/5.0-自定义带参数的命令.md",
     "Notes/MAYA/Maya Python API/4.0-迭代器（Iterators）.md",
     "Notes/MAYA/Maya Python API/3.0-自定义命令.md",
@@ -253,7 +254,6 @@
     "Notes/MAYA/Spring Magic 原理简析.md",
     "Notes/MAYA/Tips.md",
     "Notes/MAYA/Tips-冲突-CharlesTin_Win11.md",
-    "Notes/MAYA/MAYA C++ API/MAYA的MakeLists文件解析.md",
     "Notes/MAYA/MAYA C++ API/attachments/MAYA插件开发C++开发环境搭建.png",
     "Notes/MAYA/Maya Python API/基础知识",
     "Notes/MAYA/Matrix矩阵/bindpose.com",
