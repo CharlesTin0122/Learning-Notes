@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/7.0-自定义变形节点（Deformer Node）.md",
+                "file": "Notes/Unreal/Unreal Python/02-UnrealPython方法使用.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7.0-自定义变形节点（Deformer Node）"
+              "title": "02-UnrealPython方法使用"
             }
           }
         ]
@@ -121,13 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/MAYA/Maya Python API/6.1-编写自定义节点.md",
+                "file": "Notes/Unreal/Unreal Python/02-UnrealPython方法使用.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "6.1-编写自定义节点 的大纲"
+              "title": "02-UnrealPython方法使用 的大纲"
             }
           },
           {
@@ -216,15 +216,30 @@
   },
   "active": "5587f7fdab468fd6",
   "lastOpenFiles": [
-    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/0.0-初探Maya Python API.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/7.0-自定义变形节点（Deformer Node）.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门",
+    "Notes/Unreal/Unreal Python/01 - UnrealPython入门.md",
+    "Notes/编辑器资产与商城资产动画比对.md",
+    "Notes/MAYA/mayaPython案例.md",
+    "Notes/program/Python/Python中的pathlib和Path.md",
+    "Notes/Test-冲突-CharlesTin_Win11.md",
+    "Notes/program/Python/Python中的glob库.md",
+    "Notes/program/Python/Python中比对两个文件路径下的资产差异.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/7.0-自定义变形器节点（Deformer Node）.md",
     "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/6.1-编写自定义节点.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/6.0-Dependency Graph.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/attachments/ed7fc3adf9b2b2e97fd12bc92ad81b3b_MD5.jpeg",
+    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/attachments/Pasted image 20250730110459.png",
+    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/attachments/16db8235862e062b97c9ffded158f7ff_MD5.jpeg",
+    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/attachments/Pasted image 20250730110159.png",
+    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/attachments/dea6e95f372b66883155e54bfc432a61_MD5.jpeg",
+    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/attachments/Pasted image 20250730110112.png",
+    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/attachments",
+    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/0.0-初探Maya Python API.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/1.0-获取MDagPath和MObject.md",
     "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/2.0-访问节点属性.md",
     "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/3.0-自定义命令.md",
     "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/4.0-迭代器（Iterators）.md",
     "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/5.0-自定义带参数的命令.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/6.0-Dependency Graph.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门",
     "Notes/Unreal/深入浅出高级运动系统/2.24.3-跳跃处理-动画蓝图-状态机.md",
     "Notes/Unreal/深入浅出高级运动系统/2.24.2-跳跃处理-动画蓝图-数据获取.md",
     "Notes/Unreal/深入浅出高级运动系统/2.24.1-跳跃处理-角色蓝图.md",
@@ -235,32 +250,18 @@
     "Notes/MAYA/Maya Python API/attachments/Pasted image 20250729115517.png",
     "Notes/MAYA/Maya Python API/attachments/69c35300991f3cec8a43b0d75b5cb35a_MD5.jpeg",
     "Notes/MAYA/Maya Python API/attachments/Pasted image 20250729101515.png",
-    "Notes/MAYA/Maya Python API/attachments/90a2c4a9eeebb96c693be3d990bae324_MD5.jpeg",
-    "Notes/MAYA/Maya Python API/attachments/Pasted image 20250729100358.png",
-    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/1.0-获取MDagPath和MObject.md",
     "Notes/MAYA/什么是API，何时使用API.md",
     "Notes/MAYA/Rigging/初级/1.10-Squash & Stretch.md",
     "Notes/MAYA/Rigging/初级/1.06-Hand Rigging.md",
     "Notes/MAYA/Rigging/初级/1.05-Limb Rigging.md",
-    "Notes/MAYA/Rigging/进阶/6.0-Twist & Roll.md",
-    "Notes/MAYA/Rigging/进阶/5.0-Spine Rig.md",
-    "Notes/MAYA/Rigging/进阶/4.0-ArmRig.md",
-    "Notes/MAYA/Rigging/进阶/3.0-Hind Leg.md",
-    "Notes/MAYA/Rigging/进阶/2.0-No Flip IK.md",
-    "Notes/MAYA/Rigging/进阶/1.0-反转脚.md",
-    "Notes/MAYA/Maya Python API/attachments/63373e6eb7a72b258047366ee6d3dcd8_MD5.jpeg",
     "Notes/MAYA/Maya Python API/5.0-自定义带参数的命令.md.nssyncsc",
     "Notes/MAYA/Maya Python API/attachments/63373e6eb7a72b258047366ee6d3dcd8_MD5.jpeg.nssyncsc",
     "Notes/MAYA/Maya Python API/3.0-自定义命令.md.nssyncsc",
     "Notes/MAYA/Maya Python API/4.0-迭代器（Iterators）.md.nssyncsc",
     "Notes/MAYA/Maya Python API/3.0-Command FLow.md.nssyncsc",
-    "Notes/MAYA/Maya Python API/attachments/8b34ae22e6e5ceeae8c01292ca896baf_MD5.jpeg",
-    "Notes/MAYA/Maya Python API/attachments/Pasted image 20250726081214.png",
-    "Notes/MAYA/Maya Python API/attachments/2f8d17cb7d6fc91d86120611b54811fc_MD5.jpeg",
     "Notes/MAYA/Maya Python API/基础知识",
     "Notes/MAYA/Matrix矩阵/bindpose.com",
     "Notes/math/attachments/0.0-三角函数.md.nssyncsc",
-    "Notes/math/attachments/未命名.md.nssyncsc",
     "Notes/Misc/Animation Pipeline.canvas",
     "Notes/Unreal/虚幻动画系统深入浅出.canvas",
     "Notes/Unreal/Unreal Python/未命名.canvas",

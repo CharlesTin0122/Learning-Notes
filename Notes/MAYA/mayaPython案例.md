@@ -397,7 +397,63 @@ def remove_constraints_from_selection():
 # 调用函数移除选中物体的约束
 remove_constraints_from_selection()
 ```
+## 递归的创建骨骼链控制器
+```python
+import pymel.core as pm
 
+
+def create_controller(joint, parent_group=None, radius=1, color=None):
+    """
+    递归地为骨骼关节创建控制器和组。
+
+    :param joint: 骨骼关节 (pymel.core.nodetypes.Joint)
+    :param parent_group: 父组 (pymel.core.nodetypes.Transform)
+    :param radius: 控制器圆的半径
+    :param color: 控制器的颜色索引
+    """
+    # 创建控制器
+    ctrl_name = joint.name() + "_ctrl"
+    ctrl = pm.circle(name=ctrl_name, normal=(1, 0, 0), radius=radius)[0]
+
+    # 设置颜色（如果指定）
+    if color is not None:
+        ctrl.overrideEnabled.set(1)
+        ctrl.overrideColor.set(color)
+
+    # 创建组
+    group_name = ctrl_name + "_grp"
+    group = pm.group(empty=True, name=group_name)
+
+    # 设置变换矩阵
+    joint_matrix = joint.getMatrix(worldSpace=True)
+    ctrl.setMatrix(joint_matrix, worldSpace=True)
+    group.setMatrix(joint_matrix, worldSpace=True)
+
+    # 父化控制器到组
+    pm.parent(ctrl, group)
+
+    # 如果有父组，将组父化到父组
+    if parent_group:
+        pm.parent(group, parent_group)
+
+    # 获取子关节
+    children = joint.getChildren(type="joint")
+
+    # 递归创建子控制器的组，并父化到当前控制器的组
+    for child in children:
+        create_controller(child, group, radius, color)
+
+
+# 获取选中的根关节并运行脚本
+if __name__ == "__main__":
+    selected_joints = pm.selected(type="joint")
+    if selected_joints:
+        root_joint = selected_joints[0]
+        create_controller(root_joint, radius=2, color=6)  # 示例：半径为2，颜色为蓝色
+    else:
+        pm.warning("请先选择一个根关节。")
+
+```
 # 动画
 ## 查找动画曲线并删除
 
