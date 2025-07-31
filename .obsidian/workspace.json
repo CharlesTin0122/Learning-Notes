@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/MAYA/mayaPython案例.md",
+                "file": "Notes/program/Python/pathlib库.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mayaPython案例"
+              "title": "pathlib库"
             }
           }
         ]
@@ -121,13 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/MAYA/mayaPython案例.md",
+                "file": "Notes/program/Python/pathlib库.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "mayaPython案例 的大纲"
+              "title": "pathlib库 的大纲"
             }
           },
           {
@@ -214,10 +214,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6c4cbb6491a6afbc",
+  "active": "5587f7fdab468fd6",
   "lastOpenFiles": [
-    "Notes/Unreal/Unreal Python/02-UnrealPython方法使用.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/7.0-自定义变形器节点（Deformer Node）.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/0.0-初探Maya Python API.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/2.0-访问节点属性.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/4.0-迭代器（Iterators）.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/5.0-自定义带参数的命令.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/6.0-Dependency Graph.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/6.1-编写自定义节点.md",
     "Notes/MAYA/mayaPython案例.md",
+    "Notes/Unreal/Unreal Python/02-UnrealPython方法使用.md",
     "README.md",
     "Notes/Infomation.md",
     "Notes/最后的问题.md",
@@ -226,12 +233,10 @@
     "README-冲突-CharlesTin_Win11.md",
     "Notes/Unreal/Unreal Python/01 - UnrealPython入门.md",
     "Notes/编辑器资产与商城资产动画比对.md",
-    "Notes/program/Python/Python中的pathlib和Path.md",
+    "Notes/program/Python/pathlib库.md",
     "Notes/Test-冲突-CharlesTin_Win11.md",
     "Notes/program/Python/Python中的glob库.md",
     "Notes/program/Python/Python中比对两个文件路径下的资产差异.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/7.0-自定义变形器节点（Deformer Node）.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/6.1-编写自定义节点.md",
     "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/attachments/ed7fc3adf9b2b2e97fd12bc92ad81b3b_MD5.jpeg",
     "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/attachments/Pasted image 20250730110459.png",
     "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/attachments/16db8235862e062b97c9ffded158f7ff_MD5.jpeg",
@@ -239,13 +244,8 @@
     "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/attachments/dea6e95f372b66883155e54bfc432a61_MD5.jpeg",
     "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/attachments/Pasted image 20250730110112.png",
     "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/attachments",
-    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/0.0-初探Maya Python API.md",
     "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/1.0-获取MDagPath和MObject.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/2.0-访问节点属性.md",
     "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/3.0-自定义命令.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/4.0-迭代器（Iterators）.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/5.0-自定义带参数的命令.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/6.0-Dependency Graph.md",
     "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门",
     "Notes/Unreal/深入浅出高级运动系统/2.24.3-跳跃处理-动画蓝图-状态机.md",
     "Notes/Unreal/深入浅出高级运动系统/2.24.2-跳跃处理-动画蓝图-数据获取.md",
