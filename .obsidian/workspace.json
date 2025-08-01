@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/program/Python/pathlib库.md",
+                "file": "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/7.0-自定义变形器节点（Deformer Node）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pathlib库"
+              "title": "7.0-自定义变形器节点（Deformer Node）"
             }
           }
         ]
@@ -216,7 +216,11 @@
   },
   "active": "5587f7fdab468fd6",
   "lastOpenFiles": [
+    "Notes/Work/My Tasks.md",
+    "README.md",
+    "attachments",
     "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/7.0-自定义变形器节点（Deformer Node）.md",
+    "Notes/program/Python/pathlib库.md",
     "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/0.0-初探Maya Python API.md",
     "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/2.0-访问节点属性.md",
     "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/4.0-迭代器（Iterators）.md",
@@ -225,15 +229,12 @@
     "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/6.1-编写自定义节点.md",
     "Notes/MAYA/mayaPython案例.md",
     "Notes/Unreal/Unreal Python/02-UnrealPython方法使用.md",
-    "README.md",
     "Notes/Infomation.md",
     "Notes/最后的问题.md",
     "Notes/体型匹配流程.md",
-    "Notes/Work/My Tasks.md",
     "README-冲突-CharlesTin_Win11.md",
     "Notes/Unreal/Unreal Python/01 - UnrealPython入门.md",
     "Notes/编辑器资产与商城资产动画比对.md",
-    "Notes/program/Python/pathlib库.md",
     "Notes/Test-冲突-CharlesTin_Win11.md",
     "Notes/program/Python/Python中的glob库.md",
     "Notes/program/Python/Python中比对两个文件路径下的资产差异.md",
@@ -249,7 +250,6 @@
     "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门",
     "Notes/Unreal/深入浅出高级运动系统/2.24.3-跳跃处理-动画蓝图-状态机.md",
     "Notes/Unreal/深入浅出高级运动系统/2.24.2-跳跃处理-动画蓝图-数据获取.md",
-    "Notes/Unreal/深入浅出高级运动系统/2.24.1-跳跃处理-角色蓝图.md",
     "Notes/MAYA/Maya Python API/attachments/a63e07131cf1000686cc6241f12aacf4_MD5.jpeg",
     "Notes/MAYA/Maya Python API/attachments/Pasted image 20250729115517.png",
     "Notes/MAYA/Maya Python API/attachments/69c35300991f3cec8a43b0d75b5cb35a_MD5.jpeg",
@@ -261,7 +261,6 @@
     "Notes/MAYA/Maya Python API/3.0-Command FLow.md.nssyncsc",
     "Notes/MAYA/Maya Python API/基础知识",
     "Notes/MAYA/Matrix矩阵/bindpose.com",
-    "Notes/math/attachments/0.0-三角函数.md.nssyncsc",
     "Notes/Misc/Animation Pipeline.canvas",
     "Notes/Unreal/虚幻动画系统深入浅出.canvas",
     "Notes/Unreal/Unreal Python/未命名.canvas",
