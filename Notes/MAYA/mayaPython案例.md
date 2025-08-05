@@ -625,13 +625,46 @@ print("未知节点清理完成。")
 ```python
 import sys
 from importlib import reload
-script_path = "G:\Code\ControlCreator"
+script_path = r"G:\Code\ControlCreator"
+# insert会将路径添加到列表顶部，append会将路径添加到列表底部
+# maya查找模块会从向底查找，一旦找到就不再查找
 if script_path not in sys.path:
-    sys.path.append(script_path)
+    sys.path.insert(0, script_path)
 
 import controll_creator
 reload(controll_creator)
 controll_creator.main()
+```
+## 异常捕获
+```python
+try:
+    # 可能引发异常的代码块
+    ...
+except 异常类型1 as e:
+    # 处理异常类型1的代码
+    ...
+except 异常类型2 as e:
+    # 处理异常类型2的代码
+    ...
+else:
+    # 如果 try 块中没有异常，则执行此块
+    ...
+finally:
+    # 无论是否有异常，都会执行此块
+    ...
+```
+## 通过环境变量查看maya脚本路径
+```python
+import os
+# 通过环境变量查看
+paths = os.environ["PYTHONPATH"].split(";")
+for path in paths:
+	print(path)
+"""
+常用环境变量：MAYA_MODULE_PATH，MAYA_PLUG_IN_PATH，MAYA_SCRIPT_PATH，PYTHONPATH
+可以通过修改"D:\Backup\Documents\maya\2024\Maya.env"文件添加路径：
+PYTHONPATH = D:\Backup\Documents\maya\py
+"""
 ```
 ##  Python 将字符串作为代码执行
 
@@ -716,6 +749,43 @@ jobs = cmds.scriptJob( listJobs=True )
 # list all the existing conditions and print them
 conds = cmds.scriptJob( listConditions=True )
 ```
+## UI案例
+```python
+import maya.cmds as cmds
+
+def create_ui():
+    # Check if window already exists and delete it
+    if cmds.window("CommonControlsWindow", exists=True):
+        cmds.deleteUI("CommonControlsWindow", window=True)
+    
+    window = cmds.window("CommonControlsWindow", title="Common Controls", width=260)
+    main_layout = cmds.columnLayout(adjustableColumn=True, parent=window)
+
+    text = cmds.text("Text", parent=main_layout)
+    text_field_grp = cmds.textFieldGrp(label="Text Field:", parent=main_layout)
+    int_field_grp = cmds.intFieldGrp(label="Int Field:", parent=main_layout)
+    checkbox_grp = cmds.checkBoxGrp(label="Checkbox:", parent=main_layout)
+    radio_btn_grp = cmds.radioButtonGrp(
+        label="Radio Buttons:", 
+        labelArray3=['Red', 'Green', 'Blue'],
+        numberOfRadioButtons=3, 
+        parent=main_layout
+    )
+    options_menu_grp = cmds.optionMenuGrp(label="Options Menu:", parent=main_layout)
+    cmds.menuItem("Item 1")
+    cmds.menuItem("Item 2")
+    cmds.menuItem("Item 3")
+    
+    button = cmds.button("Button", parent=main_layout)
+    
+    cmds.showWindow(window)
+
+if __name__ == "__main__":
+    create_ui()
+```
+
+[Open: Pasted image 20250804174044.png](attachments/a6bc6e1f757a245f388f61d129f41fed_MD5.jpeg)
+![](attachments/a6bc6e1f757a245f388f61d129f41fed_MD5.jpeg)
 # maya设置
 
 ##  获得maya所有全局变量
@@ -726,7 +796,7 @@ allGlobals = pm.mel.env()
 allGlobals_sort = sorted(allGlobals)
 print(allGlobals_sort)
 ```
-##  maya内部变量
+##  maya内部变量获取路径
 ```python
 cmds.internalVar(userAppDir=True)
 # Result: 'D:/Backup/Documents/maya/'
@@ -744,12 +814,15 @@ lastFrame = pm.findKeyframe(root,which="last")
 # 设置时间栏首末帧
 pm.env.setMinTime(firstFrame)
 pm.env.setMaxTime(lastFrame)
-pm.playbackOptions(minTime=firstFrame, maxTime=lastFrame )
+pm.playbackOptions(minTime=firstFrame, maxTime=lastFrame)
 
 # 获取当前时间线的最小帧数 
 min_frame = cmds.playbackOptions(query=True, minTime=True) 
 # 获取当前时间线的最大帧数 
 max_frame = cmds.playbackOptions(query=True, maxTime=True)
+# 获取选中的时间栏周末时间
+pm.playbackOptions(query=True, selectionStartTime=True)
+pm.playbackOptions(query=True,selectionEndTime = True)
 # 调整帧率
 pm.currentUnit(time=f"{fps_val}fps")  # 设置帧率为60fps
 pm.currentUnit(time='ntscf')  # 60fps
