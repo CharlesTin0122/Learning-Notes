@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/MAYA/mayaUI/Pyside For Maya/2.9-StackedWidget.md",
+                "file": "Notes/MAYA/mayaUI/Pyside For Maya/0.6-窗口单例化.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.9-StackedWidget"
+              "title": "0.6-窗口单例化"
             }
           }
         ]
@@ -121,12 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Notes/MAYA/mayaUI/Pyside For Maya/0.6-窗口单例化.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "0.6-窗口单例化 的大纲"
             }
           },
           {
@@ -215,42 +216,42 @@
   },
   "active": "6c4cbb6491a6afbc",
   "lastOpenFiles": [
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.9-StackedWidget.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/0.0-pyside基础.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/0.1-PySide的构成.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/0.2-信号与槽.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/0.3-Shiboken.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/0.4-获取maya主窗口.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/0.5-通过选择文件获取文件路径.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/0.6-窗口单例化.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/1.0-基础案例.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/1.2-Layout案例.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/1.3-信号与槽案例.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/1.4-maya打开、导入、参考工具.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.0-常用控件.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.1-QComboBox.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.2-Spin & Double Spin Box.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.3-QSlider.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.4-GroupBox.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.5-ButtonGroup.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.6-TexEdits.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.7-TabWidgets.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.8-ListWidget.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.1-QComboBox.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.2-Spin & Double Spin Box.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/7.0-自定义变形器节点（Deformer Node）.md",
-    "Notes/MAYA/Matrix矩阵/01-Matrix FK.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.9-StackedWidget.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.10-MenuBar.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.11-QTableWidget.md",
+    "Notes/program/Python/枚举（Enum）.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/attachments/1bd47e3de2a90c7b3afff8049ebfbbd6_MD5.jpeg",
+    "Notes/MAYA/mayaUI/Pyside For Maya/attachments/Pasted image 20250808114843.png",
+    "Notes/MAYA/mayaUI/Pyside For Maya/attachments/be95cbb9ff2bebf15a81bd39725cd451_MD5.jpeg",
+    "Notes/MAYA/mayaUI/Pyside For Maya/attachments/Pasted image 20250808114733.png",
+    "Notes/MAYA/mayaUI/从负一到零的Maya Pyside2 入门篇(二).md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.7-Role：角色.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.2-信号与槽.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.5-通过选择文件获取文件路径.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.6-窗口单例化.md",
+    "Notes/program/Python/Python基础案例01(基础).md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.1-PySide的构成.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/attachments/287a267f9cc7e46b3805ed53fef0cf5e_MD5.jpeg",
+    "Notes/MAYA/mayaUI/Pyside For Maya/attachments/Pasted image 20250807155627.png",
+    "Notes/program/Python/typing标准库.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/attachments/e7b3a65120677e9f1131eaea1d4fb9c9_MD5.jpeg",
+    "Notes/MAYA/mayaUI/Pyside For Maya/attachments/Pasted image 20250807135842.png",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.0-pyside基础.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.3-Shiboken.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/attachments/148c0364d6f5db254ff83cc38cc51766_MD5.jpeg",
     "Notes/MAYA/mayaUI/Pyside For Maya/attachments/Pasted image 20250807111806.png",
-    "Notes/MAYA/mayaUI/Pyside For Maya/attachments/0a31ec95a3425e84e69b2f417fe568b8_MD5.jpeg",
-    "Notes/MAYA/mayaUI/Pyside For Maya/attachments/Pasted image 20250807102558.png",
-    "Notes/MAYA/mayaUI/Pyside For Maya/attachments/c5723ba7a69db497ad69d964fb03a4cc_MD5.jpeg",
-    "Notes/MAYA/mayaUI/Pyside For Maya/attachments/Pasted image 20250807100044.png",
-    "Notes/MAYA/mayaUI/Pyside For Maya/attachments/ca1548d4a626ea7293d68b26356a7236_MD5.jpeg",
-    "Notes/MAYA/mayaUI/Pyside For Maya/attachments/Pasted image 20250806210535.png",
-    "Notes/MAYA/mayaUI/Pyside For Maya/attachments/c549da3eab80d31084af7a3a923504d0_MD5.jpeg",
-    "Notes/MAYA/mayaUI/Pyside For Maya/attachments/Pasted image 20250806200156.png",
-    "Notes/program/Python/位运算.md",
-    "Notes/Work/My Tasks.md",
-    "Notes/program/Python/Python装饰器.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/attachments",
     "Notes/MAYA/mayaUI/Pyside For Maya",
     "attachments/000_坚果云闪电下载介绍.html.nssyncsc",
