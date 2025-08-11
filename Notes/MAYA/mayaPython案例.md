@@ -737,6 +737,36 @@ pythonCode = mel2py.mel2pyStr(mel_command, pymelNamespace='pm')
 print(pythonCode)
 ```
 ##  script job
+在 **Maya** 中，`scriptJob` 是一种事件监听机制，可以在特定事件发生时自动执行指定的脚本命令。  
+它相当于给 Maya 设置一个“触发器”或“监听器”，等事件发生时执行相应的 Python/MEL 代码：
+
+|参数|作用|
+|---|---|
+|`-event` / `event`|绑定到一个 Maya 事件（如 `"SelectionChanged"`）|
+|`-conditionTrue`|监听条件为 True 时触发|
+|`-conditionFalse`|监听条件为 False 时触发|
+|`-attributeChange`|当某个对象的属性值变化时触发|
+|`-nodeNameChanged`|节点改名时触发|
+|`-kill`|删除一个已存在的 scriptJob|
+|`-protected`|防止 `file -new` 或 `file -open` 时被清除|
+
+---
+
+- 常见事件示例
+
+以下是一些常用的 `scriptJob` 事件：
+可通过Python 中的 `cmds.scriptJob(listEvents=True)`）来获取当前 Maya 版本中所有可用的事件列表
+
+| 事件名                  | 描述          |
+| -------------------- | ----------- |
+| `"SelectionChanged"` | 当选择集发生变化时触发 |
+| `"SceneOpened"`      | 当场景文件被打开时触发 |
+| `"SceneSaved"`       | 当场景被保存时触发   |
+| `"Undo"`             | 当执行撤销时触发    |
+| `"Redo"`             | 当执行重做时触发    |
+| `"DeleteAll"`        | 删除所有节点时触发   |
+| `"ToolChanged"`      | 当前工具改变时触发   |
+- 案例
 ```python
 import maya.cmds as cmds
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/MAYA/mayaUI/Pyside For Maya/2.12-TreeWidget.md",
+                "file": "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/0.0-初探Maya Python API.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.12-TreeWidget"
+              "title": "0.0-初探Maya Python API"
             }
           }
         ]
@@ -121,13 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/MAYA/mayaUI/Pyside For Maya/2.12-TreeWidget.md",
+                "file": "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/0.0-初探Maya Python API.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2.12-TreeWidget 的大纲"
+              "title": "0.0-初探Maya Python API 的大纲"
             }
           },
           {
@@ -216,33 +216,35 @@
   },
   "active": "6c4cbb6491a6afbc",
   "lastOpenFiles": [
-    "Notes/MAYA/mayaUI/Pyside For Maya/attachments/5c6583b30227a917732f34517b9263d0_MD5.jpeg",
-    "Notes/MAYA/mayaUI/Pyside For Maya/attachments/Pasted image 20250808183305.png",
-    "Notes/MAYA/mayaUI/Pyside For Maya/0.8-右键弹出菜单.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/0.7-setData 和 Role.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/0.4-获取maya主窗口.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.12-TreeWidget.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/2.0-访问节点属性.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/1.0-获取MDagPath和MObject.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/0.0-初探Maya Python API.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/1.1-简单节点.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/1.0-简单命令.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/8.0-CallBack.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/7.0-自定义变形器节点（Deformer Node）.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/6.1-编写自定义节点.md",
     "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/6.0-Dependency Graph.md",
     "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/5.0-自定义带参数的命令.md",
     "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/4.0-迭代器（Iterators）.md",
     "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/3.0-自定义命令.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/2.0-访问节点属性.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/1.0-获取MDagPath和MObject.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/0.0-初探Maya Python API.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/0.6-窗口单例化.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/1.3-信号与槽案例.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.12-TreeWidget.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.4-Maya PySide.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/1.4-maya打开、导入、参考工具.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.0-常用控件.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.1-QComboBox.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.2-Spin & Double Spin Box.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.3-QSlider.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.4-GroupBox.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.5-ButtonGroup.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.6-TexEdits.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.7-TabWidgets.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.8-ListWidget.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.9-StackedWidget.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.10-MenuBar.md",
+    "Notes/program/Python/Python标准库.md",
+    "Notes/program/Python/pip入门指南.md",
+    "Notes/program/Python/pip.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.0-pyside基础.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.1-PySide的构成.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.2-信号与槽.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.3-Shiboken.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.5-通过选择文件获取文件路径.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.6-窗口单例化.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.7-setData 和 Role.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.8-右键弹出菜单.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/attachments/5c6583b30227a917732f34517b9263d0_MD5.jpeg",
+    "Notes/MAYA/mayaUI/Pyside For Maya/attachments/Pasted image 20250808183305.png",
     "Notes/MAYA/mayaUI/Pyside For Maya/attachments/1bd47e3de2a90c7b3afff8049ebfbbd6_MD5.jpeg",
     "Notes/MAYA/mayaUI/Pyside For Maya/attachments/Pasted image 20250808114843.png",
     "Notes/MAYA/mayaUI/Pyside For Maya/attachments/be95cbb9ff2bebf15a81bd39725cd451_MD5.jpeg",
@@ -251,7 +253,6 @@
     "Notes/MAYA/mayaUI/Pyside For Maya/attachments/Pasted image 20250807155627.png",
     "Notes/MAYA/mayaUI/Pyside For Maya/attachments/e7b3a65120677e9f1131eaea1d4fb9c9_MD5.jpeg",
     "Notes/MAYA/mayaUI/Pyside For Maya/attachments/Pasted image 20250807135842.png",
-    "Notes/MAYA/mayaUI/Pyside For Maya/attachments/148c0364d6f5db254ff83cc38cc51766_MD5.jpeg",
     "Notes/MAYA/mayaUI/Pyside For Maya/attachments",
     "Notes/MAYA/mayaUI/Pyside For Maya",
     "attachments/000_坚果云闪电下载介绍.html.nssyncsc",
@@ -261,7 +262,6 @@
     "Notes/program/Python/Python中比对两个文件路径下的资产差异.md.nssyncsc",
     "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/7.0-自定义变形器节点（Deformer Node）.md.nssyncsc",
     "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/6.1-编写自定义节点.md.nssyncsc",
-    "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/attachments/ed7fc3adf9b2b2e97fd12bc92ad81b3b_MD5.jpeg.nssyncsc",
     "Notes/Misc/Animation Pipeline.canvas",
     "Notes/Unreal/虚幻动画系统深入浅出.canvas",
     "Notes/Unreal/Unreal Python/未命名.canvas",
