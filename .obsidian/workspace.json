@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/MAYA/Maya Python API/Maya Python API 2.0/7.0-上下文（Contexts）.md",
+                "file": "Notes/MAYA/Maya Python API/Maya Python API 2.0/8.0-Locator.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7.0-上下文（Contexts）"
+              "title": "8.0-Locator"
             }
           }
         ]
@@ -203,22 +203,26 @@
   "left-ribbon": {
     "hiddenItems": {
       "daily-notes:打开/创建今天的日记": false,
-      "obsidian-kanban:创建新看板": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "command-palette:打开命令面板": false,
       "templates:插入模板": false,
-      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-kanban:创建新看板": false,
+      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "c5096204f27d1aa8",
+  "active": "04794cfa463ae512",
   "lastOpenFiles": [
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/9.1-MPxDrawOverride.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/8.2-MDagPath.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/8.0-Locator.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/9.0-MPxLocatorNode.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/7.0-上下文（Contexts）.md",
     "Notes/program/Python/uv基本使用.md",
     "Notes/program/Python/pip入门指南.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 2.0/7.0-上下文（Contexts）.md",
     "Notes/program/Python/pip.md",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/attachments/7cfa53e4983550a250ef597da6a13716_MD5.jpeg",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/attachments/Pasted image 20250815100333.png",
@@ -228,7 +232,6 @@
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/3.0-MFnDependencyNode.md",
     "Notes/Work/My Tasks.md",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/6.0-遍历DAG节点.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/8.2-MDagPath.md",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/7.0-maya的modelPanel.md",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/8.1-MFnDagNode.md",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/8.0-MItDag.md",
@@ -242,9 +245,6 @@
     "Notes/Infomation.md",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/attachments/d5fed48a218fc6b960e7aeeac2b47f95_MD5.gif",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/1.0-简单命令.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 2.0/1.1-简单节点.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 2.0/1.2-API Basics.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 2.0/3.0-自定义命令.md",
     "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/attachments/2a0981a59ae509114ef10ce59dae87cf_MD5.jpeg",
     "Notes/MAYA/Maya Python API/Maya Python API 1.0 入门/attachments/Pasted image 20250813171149.png",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/attachments/1f38cf8e340a93249132bdfffc27371f_MD5.jpeg",
