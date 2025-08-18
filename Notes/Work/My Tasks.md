@@ -6,11 +6,6 @@ kanban-plugin: board
 
 ## # 待处理
 
-- [ ] ## 任务名称：悬浮建造动画
-	## 策划：黄益
-	### 任务内容：
-	- 分三段
-	- /Script/Engine.AnimSequence'/Game/Characters/Animaiton/Unarmed/Locomotion/idles/Anim_human_floating_loop.Anim_human_floating_loop'
 - [ ] ## 任务名称：织布机动画
 	## 策划：黄益
 	### 任务内容：
@@ -80,6 +75,11 @@ kanban-plugin: board
 ## # 已完成
 
 **完成**
+- [x] ## 任务名称：悬浮建造动画
+	## 策划：黄益
+	### 任务内容：
+	- 分三段
+	- /Script/Engine.AnimSequence'/Game/Characters/Animaiton/Unarmed/Locomotion/idles/Anim_human_floating_loop.Anim_human_floating_loop'
 - [x] ## 任务名称：新体型，服装，头发
 	## 策划：
 	### 任务内容：

@@ -13,13 +13,20 @@
 这和3dsMax也不一样啊，插件怎么没安装到Maya的安装目录下呢？
 
 别急，先看一下`mtoa.mod`这个文件，mtoa是Maya to Arnold的缩写，也就是Maya版本的Arnold插件，同理3dsmax版本的Arnold缩写是MAXtoA，C4D版本的Arnold缩写是C4DtoA，Houdini版本的Arnold是HtoA。
+## 插件路径
+[Open: Pasted image 20250818161745.png](attachments/abf194fccae56b7dd1307817023e9118_MD5.jpeg)
+![](attachments/abf194fccae56b7dd1307817023e9118_MD5.jpeg)
 ## mod文件格式
 mtoa.mod默认情况下内容如下
 ```mod
 + mtoa any C:\solidangle\mtoadeploy\2018
 PATH +:= bin
-MAYA_CUSTOM_TEMPLATE_PATH +:= scripts/mtoa/ui/templates
+MAYA_PLUGINS_PATH +:= /plug-ins 
 MAYA_SCRIPT_PATH +:= scripts/mtoa/mel
+MAYA_PRESET_PATH +:= /presets
+XBMLANGPATH +:= /icons
+
+MAYA_CUSTOM_TEMPLATE_PATH +:= scripts/mtoa/ui/templates
 MAYA_RENDER_DESC_PATH += C:\solidangle\mtoadeploy\2018
 ```
 其实这个mod文件就是Maya用来加载插件的关键，可以在[官方文档](https://help.autodesk.com/view/MAYAUL/2016/CHS/?guid=__files_GUID_9E096E39_AD0D_4E40_9B2A_9127A2CAD54B_htm)查看，下面我仔细介绍一下。
