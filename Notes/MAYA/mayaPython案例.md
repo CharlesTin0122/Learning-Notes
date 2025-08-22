@@ -850,7 +850,7 @@ pm.playbackOptions(minTime=firstFrame, maxTime=lastFrame)
 min_frame = cmds.playbackOptions(query=True, minTime=True) 
 # 获取当前时间线的最大帧数 
 max_frame = cmds.playbackOptions(query=True, maxTime=True)
-# 获取选中的时间栏周末时间
+# 获取选中的时间栏区间
 pm.playbackOptions(query=True, selectionStartTime=True)
 pm.playbackOptions(query=True,selectionEndTime = True)
 # 调整帧率
