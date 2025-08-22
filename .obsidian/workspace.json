@@ -121,13 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/MAYA/Maya Python API/Chad Vernon对Maya Python API的描述.md",
+                "file": "conflict-files-obsidian-git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Chad Vernon对Maya Python API的描述 的大纲"
+              "title": "conflict-files-obsidian-git 的大纲"
             }
           },
           {
@@ -216,6 +216,8 @@
   },
   "active": "6c4cbb6491a6afbc",
   "lastOpenFiles": [
+    "Notes/MAYA/Maya Python API/Chad Vernon对Maya Python API的描述.md",
+    "conflict-files-obsidian-git.md",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/12.0-MPxData.md",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/2.0-自定义节点.md",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/1.1-简单节点.md",
@@ -226,7 +228,6 @@
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/8.3-MItSelectionList.md",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/8.0-MItDag.md",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/3.0-MFnDependencyNode.md",
-    "Notes/MAYA/Maya Python API/Chad Vernon对Maya Python API的描述.md",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/11.2-MAnimCurveChange.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.12-TreeWidget.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.11-QTableWidget.md",
@@ -241,7 +242,6 @@
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/1.2-maya Python API 和 pymel.md",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/11.0-MAnimCurve.md",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/10.1-MDagModifier.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/10.0-MDGModifier.md",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/attachments/7775c06631a14f3a2157a2d6080c6d91_MD5.jpeg",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/attachments/Pasted image 20250821095740.png",
     "Notes/MAYA/attachments/abf194fccae56b7dd1307817023e9118_MD5.jpeg",
