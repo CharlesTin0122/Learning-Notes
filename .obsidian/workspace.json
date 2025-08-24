@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/MAYA/Maya Python API/Maya Python API 2.0/10.0-skinIO.md",
+                "file": "Notes/MAYA/mayaPython案例.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10.0-skinIO"
+              "title": "mayaPython案例"
             }
           }
         ]
@@ -121,13 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/MAYA/Maya Python API/Maya Python API 2.0/10.0-skinIO.md",
+                "file": "Notes/MAYA/mayaPython案例.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "10.0-skinIO 的大纲"
+              "title": "mayaPython案例 的大纲"
             }
           },
           {
@@ -198,7 +198,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.5
+    "width": 378.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -217,12 +217,12 @@
   },
   "active": "6c4cbb6491a6afbc",
   "lastOpenFiles": [
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/10.0-skinIO.md",
     "Notes/program/Python/标准库/logging.md",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/13.0-MFnSkinCluster.md",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/13.1-MFnSet.md",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/1.2-maya Python API 和 pymel.md",
     "Notes/MAYA/mayaPython案例.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 2.0/10.0-skinIO.md",
     "59b8fe225c7dddd93ed5b17a1d7cac62_MD5.jpeg",
     "Pasted image 20250823105512.png",
     "418972f367eacf0fad86290b76934b6a_MD5.jpeg",
