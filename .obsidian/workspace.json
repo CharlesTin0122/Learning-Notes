@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/MAYA/Maya Python API/Maya Python API 2.0/10.0-skinIO.md",
+                "file": "Notes/program/Python/标准库/traceback.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10.0-skinIO"
+              "title": "traceback"
             }
           }
         ]
@@ -121,13 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/MAYA/Maya Python API/Maya Python API 2.0/10.0-skinIO.md",
+                "file": "Notes/program/Python/标准库/traceback.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "10.0-skinIO 的大纲"
+              "title": "traceback 的大纲"
             }
           },
           {
@@ -215,15 +215,15 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "6c4cbb6491a6afbc",
+  "active": "44955e3b4d69135a",
   "lastOpenFiles": [
-    "Notes/program/Python/标准库/traceback.md",
     "Notes/program/Python/标准库/json.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/10.0-skinIO.md",
+    "Notes/program/Python/标准库/traceback.md",
     "Notes/MAYA/mayaPython案例.md",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/13.2-MFnSingleIndexedComponent.md",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/13.1-MFnSet.md",
     "Notes/program/Python/标准库/pathlib库.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 2.0/10.0-skinIO.md",
     "Notes/program/Python/标准库/logging.md",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/13.0-MFnSkinCluster.md",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/1.2-maya Python API 和 pymel.md",
