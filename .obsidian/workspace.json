@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2ce548c57785dd89",
+        "id": "0c10cedceb1ab8d4",
         "type": "tabs",
         "children": [
           {
-            "id": "5587f7fdab468fd6",
+            "id": "6f8282e53f93c5af",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/MAYA/Maya Python API/Chad Vernon对Maya Python API的描述.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Chad Vernon对Maya Python API的描述"
+              "title": "新标签页"
             }
           }
         ]
@@ -150,8 +146,8 @@
                 "showSearch": false,
                 "searchQuery": ""
               },
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "lucide-ghost",
+              "title": "all-properties"
             }
           },
           {
@@ -170,8 +166,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
             }
           },
           {
@@ -202,6 +198,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:创建新数据库": false,
       "daily-notes:打开/创建今天的日记": false,
       "obsidian-kanban:创建新看板": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
@@ -214,7 +211,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6c4cbb6491a6afbc",
+  "active": "6f8282e53f93c5af",
   "lastOpenFiles": [
     "Notes/MAYA/Maya Python API/Chad Vernon对Maya Python API的描述.md",
     "conflict-files-obsidian-git.md",
