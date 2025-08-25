@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e03198784cafa85f",
+        "id": "aab5cbc963d6f254",
         "type": "tabs",
         "children": [
           {
-            "id": "6a5f003525c65e66",
+            "id": "adb0cb70a6a5c9d1",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "Notes/MAYA/Maya Python API/Maya Python API 2.0/10.0-skinIO.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "icon": "lucide-file",
+              "title": "10.0-skinIO"
             }
           }
         ]
@@ -121,13 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Notes/MAYA/Maya Python API/Maya Python API 2.0/10.0-skinIO.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "conflict-files-obsidian-git 的大纲"
+              "title": "10.0-skinIO 的大纲"
             }
           },
           {
@@ -215,9 +215,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6a5f003525c65e66",
+  "active": "adb0cb70a6a5c9d1",
   "lastOpenFiles": [
+    "Notes/MAYA/Spring Magic 原理简析.md",
+    "Notes/program/Python/标准库/json.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.6-TexEdits.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.11-QTableWidget.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.4-Maya PySide.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.12-TreeWidget.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.5-通过选择文件获取文件路径.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.6-窗口单例化.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.10-MenuBar.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/1.2-Layout案例.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/1.0-基础案例.md",
+    "Notes/program/Python/标准库/traceback.md",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/10.0-skinIO.md",
+    "Notes/program/Python/uv基本使用.md",
+    "Notes/program/Python/super关键字.md",
     "conflict-files-obsidian-git.md",
     "Notes/program/Python/标准库/枚举（Enum）.md",
     "Notes/program/Python/标准库/typing标准库.md",
@@ -232,20 +246,6 @@
     "59b8fe225c7dddd93ed5b17a1d7cac62_MD5.jpeg",
     "418972f367eacf0fad86290b76934b6a_MD5.jpeg",
     "Notes/MAYA/Maya Python API/Chad Vernon对Maya Python API的描述.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/12.0-MPxData.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 2.0/2.0-自定义节点.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 2.0/1.1-简单节点.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/3.1-节点属性为何是类属性而非实例属性.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 2.0/9.1-RetimingTool.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/11.1-MFnAnimCurve.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/8.4-MItDependencyGraph.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/8.3-MItSelectionList.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/8.0-MItDag.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/3.0-MFnDependencyNode.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/11.2-MAnimCurveChange.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.12-TreeWidget.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.11-QTableWidget.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.9-StackedWidget.md",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/attachments/7775c06631a14f3a2157a2d6080c6d91_MD5.jpeg",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/attachments/Pasted image 20250821095740.png",
     "Notes/MAYA/attachments/abf194fccae56b7dd1307817023e9118_MD5.jpeg",
