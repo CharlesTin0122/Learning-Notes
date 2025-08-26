@@ -477,6 +477,41 @@ for attr in attrs:
 ```
 
 # 数学
+
+## 线性插值
+```python
+def linear interp(source, target, t):
+	return source + (target - source) * t
+```
+
+## 映射
+```python
+    def remap(in_min, in_max, out_min, out_max, v):
+        """
+        将一个线性比例尺上的值重新映射到另一个线性比例尺上，结合了线性插值和反线性插值。
+        Args:
+            i_min (float): 输入比例尺的最小值。
+            i_max (float): 输入比例尺的最大值。
+            o_min (float): 输出比例尺的最小值。
+            o_max (float): 输出比例尺的最大值。
+            v (float): 需要重新映射的值。
+        Returns:
+            float: 重新映射后的值。
+        Examples:
+            45 == remap(0, 100, 40, 50, 50)
+            6.2 == remap(1, 5, 3, 7, 4.2)
+        """
+        # 排除除零错误
+        if in_max - in_min == 0:
+            return out_min
+        # 获得 v 在 in_min, in_max 之间的比例，0：1
+        t = (v - in_min) / (in_max - in_min)
+        # 获取out_min, out_max 对于 t 的插值
+        val = out_min + (out_max - out_min) * t
+        # 返回结果
+        return val
+```
+
 ## **关于两点之间的距离**
 
 ```python

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/MAYA/Maya Python API/Maya Python API 2.0/10.0-skinIO.md",
+                "file": "Notes/MAYA/mayaUI/Pyside For Maya/2.3-QSlider.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10.0-skinIO"
+              "title": "2.3-QSlider"
             }
           }
         ]
@@ -121,13 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/MAYA/Maya Python API/Maya Python API 2.0/10.0-skinIO.md",
+                "file": "Notes/MAYA/mayaUI/Pyside For Maya/2.3-QSlider.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "10.0-skinIO 的大纲"
+              "title": "2.3-QSlider 的大纲"
             }
           },
           {
@@ -215,37 +215,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "adb0cb70a6a5c9d1",
+  "active": "6c4cbb6491a6afbc",
   "lastOpenFiles": [
+    "Notes/MAYA/mayaPython案例.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.11-QTableWidget.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.12-TreeWidget.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/8.3-MItSelectionList.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/11.1-MFnAnimCurve.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/1.0-MObject.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/11.0-pass.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.1-QComboBox.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.3-QSlider.md",
+    "Notes/program/Python/uv基本使用.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/10.0-skinIO.md",
     "Notes/MAYA/Spring Magic 原理简析.md",
     "Notes/program/Python/标准库/json.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.6-TexEdits.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.11-QTableWidget.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/0.4-Maya PySide.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.12-TreeWidget.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/0.5-通过选择文件获取文件路径.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/0.6-窗口单例化.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.10-MenuBar.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/1.2-Layout案例.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/1.0-基础案例.md",
     "Notes/program/Python/标准库/traceback.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 2.0/10.0-skinIO.md",
-    "Notes/program/Python/uv基本使用.md",
     "Notes/program/Python/super关键字.md",
     "conflict-files-obsidian-git.md",
     "Notes/program/Python/标准库/枚举（Enum）.md",
     "Notes/program/Python/标准库/typing标准库.md",
     "Notes/program/Python/标准库/Python标准库.md",
-    "Notes/program/Python/标准库/pickle.md",
-    "Notes/program/Python/标准库/pathlib库.md",
-    "Notes/program/Python/标准库/logging.md",
     "Notes/program/Python/标准库",
-    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/13.2-MFnSingleIndexedComponent.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/13.1-MFnSet.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/13.0-MFnSkinCluster.md",
     "59b8fe225c7dddd93ed5b17a1d7cac62_MD5.jpeg",
     "418972f367eacf0fad86290b76934b6a_MD5.jpeg",
-    "Notes/MAYA/Maya Python API/Chad Vernon对Maya Python API的描述.md",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/attachments/7775c06631a14f3a2157a2d6080c6d91_MD5.jpeg",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/attachments/Pasted image 20250821095740.png",
     "Notes/MAYA/attachments/abf194fccae56b7dd1307817023e9118_MD5.jpeg",

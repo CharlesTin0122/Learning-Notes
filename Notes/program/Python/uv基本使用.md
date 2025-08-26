@@ -354,4 +354,8 @@ uv add types-maya-strict
 
 # 用于pyside2自动补全
 uv add types-pyside2 
+
+uv add Qt.py
+uv add pymel
+
 ```
