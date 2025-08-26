@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/program/Python/标准库/traceback.md",
+                "file": "Notes/MAYA/undo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "traceback"
+              "title": "undo"
             }
           }
         ]
@@ -121,13 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/program/Python/标准库/traceback.md",
+                "file": "Notes/MAYA/undo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "traceback 的大纲"
+              "title": "undo 的大纲"
             }
           },
           {
@@ -215,12 +215,19 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "44955e3b4d69135a",
+  "active": "6c4cbb6491a6afbc",
   "lastOpenFiles": [
+    "Notes/math/4.2.1-四元数（Quaternion）.md",
+    "Notes/MAYA/undo.md",
+    "Notes/math/4.2.2-四元数原理.md",
+    "Notes/math/4.2.3-四元数描述旋转.md",
+    "Notes/math/4.1-欧拉旋转.md",
+    "Notes/MAYA/mayaPython案例.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/11.1-MFnAnimCurve.md",
+    "Notes/program/Python/uv基本使用.md",
+    "Notes/program/Python/标准库/traceback.md",
     "Notes/program/Python/标准库/json.md",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/10.0-skinIO.md",
-    "Notes/program/Python/标准库/traceback.md",
-    "Notes/MAYA/mayaPython案例.md",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/13.2-MFnSingleIndexedComponent.md",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/13.1-MFnSet.md",
     "Notes/program/Python/标准库/pathlib库.md",
@@ -231,7 +238,6 @@
     "Pasted image 20250823105512.png",
     "418972f367eacf0fad86290b76934b6a_MD5.jpeg",
     "Pasted image 20250823105019.png",
-    "Notes/program/Python/uv基本使用.md",
     "Notes/program/Python/标准库/pickle.md",
     "Notes/program/Python/Python面试宝典.md",
     "Notes/program/Python/Python中比对两个文件路径下的资产差异.md",
@@ -241,13 +247,7 @@
     "Notes/program/Python/Python基础案例01(基础).md",
     "Notes/program/Python/标准库/Python标准库.md",
     "Notes/program/Python/MayaPython入门教程.md",
-    "Notes/program/Python/异常捕获.md",
-    "Notes/program/Python/位运算.md",
-    "Notes/program/Python/标准库/枚举（Enum）.md",
     "Notes/program/Python/标准库",
-    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/12.0-MPxData.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/1.3-MSyntax和MArgDatabase.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/3.1-节点属性为何是类属性而非实例属性.md",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/attachments/7775c06631a14f3a2157a2d6080c6d91_MD5.jpeg",
     "Notes/MAYA/attachments/abf194fccae56b7dd1307817023e9118_MD5.jpeg",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/attachments/eaa3b023b79e08c15b882514dcc9a5d7_MD5.jpeg",
