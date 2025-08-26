@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "2.3-QSlider"
             }
+          },
+          {
+            "id": "7ca973a303a97d74",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "conflict-files-obsidian-git.md",
+                "bFile": "conflict-files-obsidian-git.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,13 +136,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/MAYA/mayaUI/Pyside For Maya/2.3-QSlider.md",
+                "file": "conflict-files-obsidian-git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2.3-QSlider 的大纲"
+              "title": "conflict-files-obsidian-git 的大纲"
             }
           },
           {
@@ -217,6 +232,9 @@
   },
   "active": "6c4cbb6491a6afbc",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.3-QSlider.md",
+    "Notes/MAYA/undo.md",
     "Notes/MAYA/mayaPython案例.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.11-QTableWidget.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.12-TreeWidget.md",
@@ -225,7 +243,6 @@
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/1.0-MObject.md",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/11.0-pass.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.1-QComboBox.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.3-QSlider.md",
     "Notes/program/Python/uv基本使用.md",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/10.0-skinIO.md",
     "Notes/MAYA/Spring Magic 原理简析.md",
@@ -239,10 +256,8 @@
     "Notes/MAYA/mayaUI/Pyside For Maya/1.0-基础案例.md",
     "Notes/program/Python/标准库/traceback.md",
     "Notes/program/Python/super关键字.md",
-    "conflict-files-obsidian-git.md",
     "Notes/program/Python/标准库/枚举（Enum）.md",
     "Notes/program/Python/标准库/typing标准库.md",
-    "Notes/program/Python/标准库/Python标准库.md",
     "Notes/program/Python/标准库",
     "59b8fe225c7dddd93ed5b17a1d7cac62_MD5.jpeg",
     "418972f367eacf0fad86290b76934b6a_MD5.jpeg",

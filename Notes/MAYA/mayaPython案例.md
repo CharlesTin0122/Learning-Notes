@@ -475,6 +475,18 @@ attrs = wp_jnt.listAnimatable()
 for attr in attrs:
     attr.disconnect()
 ```
+## 动画曲线缓存
+- `pm.bufferCurve()`
+- 此命令作用于一个关键帧集(keyset)。关键帧集被定义为在一个或多个动画曲线上的指定时间范围内的一组关键帧。
+- 构成关键集的动画曲线依赖于 -animation 旗标的值。
+	- keysOrObjects：
+		- 如果命令行中没有指定对象（targetList）或 -attribute 标志，且 Graph Editor 中有选中的关键帧，则为这些关键帧所在的动画曲线创建缓冲曲线。
+		- 如果命令行中指定了对象（targetList）且没有选中的关键帧，则为这些对象的所有可设置关键帧的属性的动画曲线创建缓冲曲线。
+	- keys：
+		- 仅针对 Graph Editor 中当前选中的关键帧或切线（tangents）创建缓冲曲线。
+	- objects：
+		- 仅针对指定的对象（或当前选中的对象）的所有可设置关键帧的属性（keyframable attributes）创建缓冲曲线。
+	- 如果指定了 animation 参数，它会覆盖或补充 attribute 参数的行为。
 
 # 数学
 
