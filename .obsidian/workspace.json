@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "aab5cbc963d6f254",
+        "id": "812a11667aa1543e",
         "type": "tabs",
         "children": [
           {
-            "id": "7ca973a303a97d74",
+            "id": "eaef4044c62e390f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/MAYA/Rigging/进阶/0.0-MatrixRibbon.md",
+                "file": "Notes/program/Python/标准库/pathlib库.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0.0-MatrixRibbon"
+              "title": "pathlib库"
             }
           }
         ]
@@ -121,13 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/MAYA/Rigging/进阶/0.0-MatrixRibbon.md",
+                "file": "Notes/program/Python/标准库/pathlib库.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "0.0-MatrixRibbon 的大纲"
+              "title": "pathlib库 的大纲"
             }
           },
           {
@@ -212,14 +212,12 @@
       "command-palette:打开命令面板": false,
       "templates:插入模板": false,
       "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "workspaces:管理工作区布局": false
     }
   },
-  "active": "7ca973a303a97d74",
+  "active": "6c4cbb6491a6afbc",
   "lastOpenFiles": [
-    "Notes/MAYA/Rigging/进阶/attachments/b12d68ca6fa9814b8521600df5253356_MD5.jpeg",
-    "Notes/MAYA/Rigging/进阶/attachments/Pasted image 20250828203215.png",
-    "Notes/MAYA/Maya Pipeline Essentials/2.0-外部启动器（External Launcher script）.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.12-TreeWidget.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.11-QTableWidget.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.10-MenuBar.md",
@@ -228,22 +226,26 @@
     "Notes/MAYA/mayaUI/Pyside For Maya/2.7-TabWidgets.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.6-TexEdits.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.5-ButtonGroup.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.1-QComboBox.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/1.4-maya打开、导入、参考工具.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/1.2-Layout案例.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/1.0-基础案例.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.9-储存和还原界面位置和尺寸.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.8-右键弹出菜单.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.7-setData 和 Role.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.13-QFileSystemModel.md",
+    "Notes/MAYA/mayaPython案例.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.6-窗口单例化.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.4-Maya PySide.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.5-通过选择文件获取文件路径.md",
+    "Notes/MAYA/Rigging/进阶/0.0-MatrixRibbon.md",
+    "Notes/MAYA/Rigging/进阶/attachments/b12d68ca6fa9814b8521600df5253356_MD5.jpeg",
+    "Notes/MAYA/Rigging/进阶/attachments/Pasted image 20250828203215.png",
+    "Notes/MAYA/Maya Pipeline Essentials/2.0-外部启动器（External Launcher script）.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.4-GroupBox.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.3-QSlider.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.2-Spin & Double Spin Box.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.1-QComboBox.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.0-常用控件.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/1.4-maya打开、导入、参考工具.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/1.3-信号与槽案例.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/1.2-Layout案例.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/1.0-基础案例.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/0.8-右键弹出菜单.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/0.7-setData 和 Role.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/0.6-窗口单例化.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/0.5-通过选择文件获取文件路径.md",
-    "Notes/MAYA/mayaPython案例.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/0.4-Maya PySide.md",
-    "Notes/MAYA/Rigging/初级/2.00- Ribbons（丝带）.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/attachments/e3916a7013fc8116ee02b82f75a0a048_MD5.jpeg",
     "Notes/MAYA/mayaUI/Pyside For Maya/attachments/Pasted image 20250828005901.png",
     "Notes/MAYA/Maya Pipeline Essentials/attachments/ceac1d126fa3e8d3ac019db4533cf365_MD5.jpeg",
@@ -252,7 +254,6 @@
     "Notes/MAYA/Maya Pipeline Essentials/attachments/Pasted image 20250827101614.png",
     "Notes/MAYA/Maya Pipeline Essentials/attachments/e1b130976e0cb983ecfde8bd94c22383_MD5.jpeg",
     "Notes/MAYA/Maya Pipeline Essentials/attachments/Pasted image 20250827101342.png",
-    "Notes/MAYA/Maya Pipeline Essentials/attachments/17ddb76977bd23c5443e709003ce27a0_MD5.jpeg",
     "Notes/MAYA/Maya Pipeline Essentials/attachments",
     "Notes/MAYA/Maya Pipeline Essentials",
     "Notes/program/Python/标准库",
