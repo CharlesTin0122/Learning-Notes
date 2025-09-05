@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "812a11667aa1543e",
+        "id": "44ee7b1be2c0311d",
         "type": "tabs",
         "children": [
           {
-            "id": "eaef4044c62e390f",
+            "id": "4589b26af4b5ae5b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/program/Python/标准库/pathlib库.md",
+                "file": "Notes/MAYA/mayaUI/Pyside For Maya/2.18-添加图片.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pathlib库"
+              "title": "2.18-添加图片"
             }
           }
         ]
@@ -121,13 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/program/Python/标准库/pathlib库.md",
+                "file": "Notes/MAYA/mayaUI/Pyside For Maya/2.18-添加图片.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "pathlib库 的大纲"
+              "title": "2.18-添加图片 的大纲"
             }
           },
           {
@@ -160,8 +160,8 @@
             "state": {
               "type": "git-history-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "history",
+              "title": "History"
             }
           },
           {
@@ -180,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/MAYA/Rigging/进阶/0.0-MatrixRibbon.md",
+                "file": "Notes/MAYA/mayaUI/Pyside For Maya/2.18-添加图片.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +190,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "0.0-MatrixRibbon 的反向链接列表"
+              "title": "2.18-添加图片 的反向链接列表"
             }
           }
         ],
@@ -216,36 +216,37 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "6c4cbb6491a6afbc",
+  "active": "4589b26af4b5ae5b",
   "lastOpenFiles": [
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.12-TreeWidget.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.11-QTableWidget.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.10-MenuBar.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.9-StackedWidget.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.8-ListWidget.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.7-TabWidgets.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.6-TexEdits.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.5-ButtonGroup.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.1-QComboBox.md",
+    "Notes/program/Python/标准库/pathlib库.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.18-添加图片.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.11-windowFlags.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.17-QProgressDialog和QProgressBar.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.10-Qt.py模块.md",
+    "Notes/MAYA/mayaPython案例.md",
+    "Notes/Unreal/Lyra/1.3.0-八向移动.md",
+    "Notes/Unreal/Lyra/1.2.2-步幅匹配、同步组.md",
+    "Notes/Unreal/Lyra/1.2.1-同步组.md",
+    "Notes/Unreal/深入浅出高级运动系统/2.11.1-八向移动-基础移动.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.6-窗口单例化.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.4-Maya PySide.md",
+    "Notes/program/Python/uv基本使用.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.16-QMessageBox.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.15-QColorDialog.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.5-QFileDialog.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/1.4-maya打开、导入、参考工具.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/1.2-Layout案例.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/1.0-基础案例.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.0-常用控件.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/0.9-储存和还原界面位置和尺寸.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/0.8-右键弹出菜单.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/0.7-setData 和 Role.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.13-QFileSystemModel.md",
-    "Notes/MAYA/mayaPython案例.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/0.6-窗口单例化.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/0.4-Maya PySide.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/0.5-通过选择文件获取文件路径.md",
-    "Notes/MAYA/Rigging/进阶/0.0-MatrixRibbon.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.3-Shiboken.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.2-信号与槽.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.1-PySide的构成.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.0-pyside基础.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.12-TreeWidget.md",
+    "Notes/program/Python/标准库/attachments",
     "Notes/MAYA/Rigging/进阶/attachments/b12d68ca6fa9814b8521600df5253356_MD5.jpeg",
     "Notes/MAYA/Rigging/进阶/attachments/Pasted image 20250828203215.png",
-    "Notes/MAYA/Maya Pipeline Essentials/2.0-外部启动器（External Launcher script）.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.4-GroupBox.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.3-QSlider.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.2-Spin & Double Spin Box.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.0-常用控件.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/attachments/e3916a7013fc8116ee02b82f75a0a048_MD5.jpeg",
     "Notes/MAYA/mayaUI/Pyside For Maya/attachments/Pasted image 20250828005901.png",
     "Notes/MAYA/Maya Pipeline Essentials/attachments/ceac1d126fa3e8d3ac019db4533cf365_MD5.jpeg",
@@ -263,7 +264,6 @@
     "attachments/000_坚果云闪电下载介绍.html.nssyncsc",
     "attachments",
     "Notes/program/Python/pathlib库.md.nssyncsc",
-    "Notes/编辑器资产与商城资产动画比对.md.nssyncsc",
     "Notes/Misc/Animation Pipeline.canvas",
     "Notes/Unreal/虚幻动画系统深入浅出.canvas",
     "Notes/Unreal/Unreal Python/未命名.canvas",

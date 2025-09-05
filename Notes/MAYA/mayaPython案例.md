@@ -250,7 +250,7 @@ pm.dagPose(bindPose=True,save=True)
 #为蒙皮模型添加tweak调整节点，使模型蒙皮后仍可以调整点
 pm.deformableShape('SK_Human_Male_001', createTweakNode=0)
 pm.dagPose(name="rest",save=True)  # 储存dagpose
-pm.dagPose(name="rest",restore=True)  # 返回dagpose
+pm.dagPose(name="rest",restore=True)  # 恢复到指定的绑定姿势
 ```
 
 ## **通过模型获取蒙皮骨骼**
