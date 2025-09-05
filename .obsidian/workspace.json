@@ -213,13 +213,15 @@
       "templates:插入模板": false,
       "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
       "obsidian-git:Open Git source control": false,
-      "workspaces:管理工作区布局": false
+      "workspaces:管理工作区布局": false,
+      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
   "active": "4589b26af4b5ae5b",
   "lastOpenFiles": [
-    "Notes/program/Python/标准库/pathlib库.md",
+    "Notes/MAYA/Spring Magic 原理简析.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.18-添加图片.md",
+    "Notes/program/Python/标准库/pathlib库.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/0.11-windowFlags.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.17-QProgressDialog和QProgressBar.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/0.10-Qt.py模块.md",
@@ -243,7 +245,6 @@
     "Notes/MAYA/mayaUI/Pyside For Maya/0.2-信号与槽.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/0.1-PySide的构成.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/0.0-pyside基础.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.12-TreeWidget.md",
     "Notes/program/Python/标准库/attachments",
     "Notes/MAYA/Rigging/进阶/attachments/b12d68ca6fa9814b8521600df5253356_MD5.jpeg",
     "Notes/MAYA/Rigging/进阶/attachments/Pasted image 20250828203215.png",
