@@ -4,21 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "44ee7b1be2c0311d",
+        "id": "136cba101b49ac60",
         "type": "tabs",
         "children": [
           {
-            "id": "4589b26af4b5ae5b",
+            "id": "1f7b9b4ae1bdd89c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Notes/MAYA/mayaUI/Pyside For Maya/2.19-Collapsible-Widget.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": "HEAD",
+                "bRef": ""
               },
-              "icon": "lucide-file",
-              "title": "2.19-Collapsible-Widget"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ]
@@ -78,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 348.5
+    "width": 354.5
   },
   "right": {
     "id": "9a963b05dd42da39",
@@ -121,13 +122,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/MAYA/mayaUI/Pyside For Maya/2.18-添加图片.md",
+                "file": "Notes/MAYA/undo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2.18-添加图片 的大纲"
+              "title": "undo 的大纲"
             }
           },
           {
@@ -160,8 +161,8 @@
             "state": {
               "type": "git-history-view",
               "state": {},
-              "icon": "history",
-              "title": "History"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           },
           {
@@ -180,7 +181,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/MAYA/mayaUI/Pyside For Maya/2.18-添加图片.md",
+                "file": "Notes/Unreal/Control Rig/1.06 SplineIK.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +191,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2.18-添加图片 的反向链接列表"
+              "title": "1.06 SplineIK 的反向链接列表"
             }
           }
         ],
@@ -198,72 +199,71 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.5
+    "width": 378.5
   },
   "left-ribbon": {
     "hiddenItems": {
       "bases:创建新数据库": false,
       "daily-notes:打开/创建今天的日记": false,
-      "obsidian-kanban:创建新看板": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "command-palette:打开命令面板": false,
       "templates:插入模板": false,
       "obsidian-git:Open Git source control": false,
-      "workspaces:管理工作区布局": false,
-      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-kanban:创建新看板": false,
+      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "4589b26af4b5ae5b",
+  "active": "6c4cbb6491a6afbc",
   "lastOpenFiles": [
+    "Notes/MAYA/mayaUI/Pyside For Maya/4.01-Qt Designer.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.21-QScrollArea.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.20-QPalette.md",
-    "Notes/program/Python/uv基本使用.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.19-Collapsible-Widget.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.12-TreeWidget.md",
+    "Notes/program/Python/标准库/subprocess.md",
+    "Notes/program/Python/标准库/inspect.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/3.01-StyleSheet.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.18-添加图片.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.17-QProgressDialog和QProgressBar.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/4.01-Qt Designer.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.11-QTableWidget.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.9-StackedWidget.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.7-TabWidgets.md",
-    "Notes/Work/My Tasks.md",
-    "Notes/program/C++/C++高级/10 C++11容器emplace方法原理剖析/10.2 C++11容器emplace方法原理实现.md",
-    "Notes/program/C++/C++高级/10 C++11容器emplace方法原理剖析/10.1 C++11容器emplace方法的使用.md",
-    "Notes/program/C++/C++高级/09 C++研发岗校招简历书写指导/9.3 项目经验和自我评价怎么写_ev.md",
-    "Notes/program/C++/C++高级/09 C++研发岗校招简历书写指导/9.2 基本信息和技能描述怎么写_ev.md",
-    "Notes/program/C++/C++高级/09 C++研发岗校招简历书写指导/9.1 简历模板以及简历书写注意事项_ev.md",
-    "Notes/program/C++/C++高级/08 C++历届校招面经题目讲解/8.1 C++校招面经题目讲解.md",
-    "Notes/program/C++/C++高级/07 C++代码应用实践/7.6 大数的加减法_ev.md",
-    "Notes/program/C++/C++高级/07 C++代码应用实践/7.5 广度优先遍历搜索迷宫路径-求最短路径_ev.md",
-    "Notes/program/C++/C++高级/07 C++代码应用实践/7.4 深度优先遍历搜索迷宫路径_ev.md",
-    "Notes/program/C++/C++高级/07 C++代码应用实践/7.3 海量数据查重和top k综合应用_ev.md",
-    "Notes/program/C++/C++高级/07 C++代码应用实践/7.2 海量数据查重问题解决方案汇总_ev.md",
-    "Notes/program/C++/C++高级/07 C++代码应用实践/7.1 海量数据求top k问题解决方案汇总_ev.md",
-    "Notes/program/C++/C++高级/06 设计模式/6.5 代理模式.md",
-    "Notes/program/C++/C++高级/06 设计模式/6.1 单例模式.md",
-    "Notes/program/C++/C++高级/05 C++ 多线程编程/5.5 基于CAS操作的atomic原子类型.md",
-    "Notes/program/C++/C++高级/05 C++ 多线程编程/5.1 多线程编程基础概念.md",
-    "Notes/program/Python/标准库/attachments",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.16-QMessageBox.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.15-QColorDialog.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.14-QToolBox.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.13-QFileSystemModel.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.5-QFileDialog.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.11-windowFlags.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.10-Qt.py模块.md",
     "Notes/MAYA/Rigging/进阶/attachments/b12d68ca6fa9814b8521600df5253356_MD5.jpeg",
-    "Notes/MAYA/Rigging/进阶/attachments/Pasted image 20250828203215.png",
-    "Notes/MAYA/mayaUI/Pyside For Maya/attachments/e3916a7013fc8116ee02b82f75a0a048_MD5.jpeg",
-    "Notes/MAYA/mayaUI/Pyside For Maya/attachments/Pasted image 20250828005901.png",
-    "Notes/MAYA/Maya Pipeline Essentials/attachments/ceac1d126fa3e8d3ac019db4533cf365_MD5.jpeg",
-    "Notes/MAYA/Maya Pipeline Essentials/attachments/Pasted image 20250827182146.png",
-    "Notes/MAYA/Maya Pipeline Essentials/attachments/0f3b21f0c5f19dec54b7f40308ad05fb_MD5.jpeg",
-    "Notes/MAYA/Maya Pipeline Essentials/attachments/Pasted image 20250827101614.png",
+    "Notes/MAYA/Rigging/进阶/0.0-MatrixRibbon.md",
+    "Notes/MAYA/Maya Pipeline Essentials/attachments/17ddb76977bd23c5443e709003ce27a0_MD5.jpeg",
     "Notes/MAYA/Maya Pipeline Essentials/attachments/e1b130976e0cb983ecfde8bd94c22383_MD5.jpeg",
-    "Notes/MAYA/Maya Pipeline Essentials/attachments/Pasted image 20250827101342.png",
+    "Notes/MAYA/Maya Pipeline Essentials/attachments/ceac1d126fa3e8d3ac019db4533cf365_MD5.jpeg",
+    "Notes/MAYA/Maya Pipeline Essentials/attachments/0f3b21f0c5f19dec54b7f40308ad05fb_MD5.jpeg",
     "Notes/MAYA/Maya Pipeline Essentials/attachments",
+    "Notes/MAYA/Maya Pipeline Essentials/2.0-外部启动器（External Launcher script）.md",
+    "Notes/MAYA/Maya Pipeline Essentials/1.0-maya环境.md",
+    "Notes/MAYA/Maya Pipeline Essentials/0.1-需要掌握那些技能.md",
+    "Notes/MAYA/Maya Pipeline Essentials/0.0-什么是  maya unreal game development pipeline.md",
     "Notes/MAYA/Maya Pipeline Essentials",
+    "Notes/MAYA/mayaUI/Pyside For Maya/attachments/e3916a7013fc8116ee02b82f75a0a048_MD5.jpeg",
+    "Notes/MAYA/mayaUI/Pyside For Maya/attachments/Pasted image 20250828005906.png",
+    "Notes/MAYA/mayaUI/Pyside For Maya/attachments/Pasted image 20250828005901.png",
+    "Notes/MAYA/mayaUI/从负一到零的Maya Pyside2 入门篇(二).md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/1.4-maya打开、导入、参考工具.md",
+    "Notes/MAYA/undo.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/11.0-pass.md",
+    "59b8fe225c7dddd93ed5b17a1d7cac62_MD5.jpeg",
+    "Pasted image 20250823105512.png",
     "Notes/program/Python/标准库",
-    "Notes/program/Python/super关键字.md.nssyncsc",
-    "Notes/MAYA/attachments/a6bc6e1f757a245f388f61d129f41fed_MD5.jpeg.nssyncsc",
-    "Notes/program/Python/异常捕获.md.nssyncsc",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/attachments",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/attachments",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0",
+    "Notes/MAYA/mayaUI/Pyside For Maya/attachments",
+    "Notes/MAYA/mayaUI/Pyside For Maya",
     "attachments/000_坚果云闪电下载介绍.html.nssyncsc",
-    "attachments",
-    "Notes/program/Python/pathlib库.md.nssyncsc",
     "Notes/Misc/Animation Pipeline.canvas",
     "Notes/Unreal/虚幻动画系统深入浅出.canvas",
     "Notes/Unreal/Unreal Python/未命名.canvas",
