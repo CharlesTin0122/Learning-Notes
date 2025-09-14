@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/MAYA/Rigging/基础知识/手动修改局部旋转轴为何要zeroScaleOrient.md",
+                "file": "Notes/MAYA/mayaUI/Pyside For Maya/0.6-窗口单例化.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "手动修改局部旋转轴为何要zeroScaleOrient"
+              "title": "0.6-窗口单例化"
             }
           }
         ],
@@ -227,17 +227,16 @@
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "obsidian-kanban:创建新看板": false,
-      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
   "active": "159b82bdd48b0216",
   "lastOpenFiles": [
-    "Notes/MAYA/Rigging/基础知识/手动修改局部旋转轴为何要zeroScaleOrient-冲突-CharlesTin_Win11.md",
+    "Notes/MAYA/Rigging/进阶/5.0-Spine Rig.md",
     "Notes/MAYA/Rigging/基础知识/手动修改局部旋转轴为何要zeroScaleOrient.md",
+    "Notes/MAYA/Rigging/基础知识/手动修改局部旋转轴为何要zeroScaleOrient-冲突-CharlesTin_Win11.md",
     "Notes/MAYA/Rigging/基础知识/冻结变换FreezeTransformations.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.21-QScrollArea.md",
-    "Notes/MAYA/Rigging/进阶/5.0-Spine Rig.md",
     "Notes/MAYA/Rigging/初级/1.10-Squash & Stretch.md",
     "Notes/MAYA/Rigging/初级/101-IK FK Spine.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/4.01-Qt Designer.md",
