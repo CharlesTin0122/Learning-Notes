@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "44ee7b1be2c0311d",
+        "id": "d10a4e5787a21199",
         "type": "tabs",
         "children": [
           {
-            "id": "4589b26af4b5ae5b",
+            "id": "e26e069a95fdfcec",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/MAYA/mayaUI/Pyside For Maya/2.19-Collapsible-Widget.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2.19-Collapsible-Widget"
+              "title": "新标签页"
             }
           }
         ]
@@ -121,13 +117,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/MAYA/mayaUI/Pyside For Maya/2.18-添加图片.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2.18-添加图片 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -216,45 +211,44 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "4589b26af4b5ae5b",
+  "active": "e26e069a95fdfcec",
   "lastOpenFiles": [
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.21-QScrollArea.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.20-QPalette.md",
-    "Notes/program/Python/uv基本使用.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.19-Collapsible-Widget.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.17-QProgressDialog和QProgressBar.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/4.01-Qt Designer.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.11-QTableWidget.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.9-StackedWidget.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.7-TabWidgets.md",
-    "Notes/Work/My Tasks.md",
-    "Notes/program/C++/C++高级/10 C++11容器emplace方法原理剖析/10.2 C++11容器emplace方法原理实现.md",
-    "Notes/program/C++/C++高级/10 C++11容器emplace方法原理剖析/10.1 C++11容器emplace方法的使用.md",
-    "Notes/program/C++/C++高级/09 C++研发岗校招简历书写指导/9.3 项目经验和自我评价怎么写_ev.md",
-    "Notes/program/C++/C++高级/09 C++研发岗校招简历书写指导/9.2 基本信息和技能描述怎么写_ev.md",
-    "Notes/program/C++/C++高级/09 C++研发岗校招简历书写指导/9.1 简历模板以及简历书写注意事项_ev.md",
-    "Notes/program/C++/C++高级/08 C++历届校招面经题目讲解/8.1 C++校招面经题目讲解.md",
-    "Notes/program/C++/C++高级/07 C++代码应用实践/7.6 大数的加减法_ev.md",
-    "Notes/program/C++/C++高级/07 C++代码应用实践/7.5 广度优先遍历搜索迷宫路径-求最短路径_ev.md",
-    "Notes/program/C++/C++高级/07 C++代码应用实践/7.4 深度优先遍历搜索迷宫路径_ev.md",
-    "Notes/program/C++/C++高级/07 C++代码应用实践/7.3 海量数据查重和top k综合应用_ev.md",
-    "Notes/program/C++/C++高级/07 C++代码应用实践/7.2 海量数据查重问题解决方案汇总_ev.md",
-    "Notes/program/C++/C++高级/07 C++代码应用实践/7.1 海量数据求top k问题解决方案汇总_ev.md",
-    "Notes/program/C++/C++高级/06 设计模式/6.5 代理模式.md",
-    "Notes/program/C++/C++高级/06 设计模式/6.1 单例模式.md",
-    "Notes/program/C++/C++高级/05 C++ 多线程编程/5.5 基于CAS操作的atomic原子类型.md",
-    "Notes/program/C++/C++高级/05 C++ 多线程编程/5.1 多线程编程基础概念.md",
+    "Notes/MAYA/Rigging/进阶/attachments/9e644c57e208f82f2f3b6ae65193b5db_MD5.jpg",
+    "Notes/MAYA/Rigging/进阶/attachments/79000208288d9e9be5490e675422e47b_MD5.jpg",
+    "Notes/MAYA/Rigging/进阶/attachments/780edef7483d01b2aa708adb6b1858fa_MD5.jpg",
+    "Notes/MAYA/Rigging/进阶/attachments/3844d7aeae3e34832b69f466b6aea6cb_MD5.jpg",
+    "Notes/MAYA/Rigging/进阶/5.1-Spine可滑动IK控制器.md",
+    "Notes/MAYA/Rigging/进阶/attachments/5.1-Spine可滑动IK控制器-1757643159084.png",
+    "Notes/MAYA/Rigging/进阶/attachments/5.1-Spine可滑动IK控制器-1757642456304.png",
+    "Notes/MAYA/Rigging/进阶/attachments/5.1-Spine可滑动IK控制器-1757642443267.png",
+    "Notes/MAYA/Rigging/进阶/attachments/5.1-Spine可滑动IK控制器-1757642256796.png",
+    "Notes/math/2.0-向量(Vector).md",
+    "Notes/MAYA/Rigging/进阶/5.0-Spine Rig.md",
+    "Notes/MAYA/Rigging/初级/101-IK FK Spine.md",
+    "Notes/MAYA/Rigging/初级/1.03- Control Creation & Setup.md",
+    "Notes/MAYA/Rigging/初级/1.13- Face Rig - Joints & Controls.md",
+    "Notes/MAYA/Rigging/初级/1.12-GlobalControls & Scalability.md",
+    "Notes/MAYA/Rigging/初级/1.11-Space Switching.md",
+    "Notes/MAYA/Rigging/初级/1.10-Squash & Stretch.md",
+    "Notes/MAYA/Rigging/初级/1.09-Roll & Twist Joints.md",
+    "Notes/MAYA/Rigging/初级/1.08-Spine, Head & Eye 、Eyelids.md",
+    "Notes/MAYA/Rigging/初级/1.07- Leg Rigging And Reverse Foot.md",
+    "Notes/MAYA/Rigging/初级/1.06-Hand Rigging.md",
+    "Notes/MAYA/Rigging/初级/1.05-Limb Rigging.md",
+    "Notes/MAYA/Rigging/初级/1.04-Set Driven Keys & Utility Nodes.md",
+    "Notes/MAYA/Rigging/初级/1.02-Connection & Constraint.md",
+    "Notes/MAYA/Rigging/初级/1.01-Joints & Skin.md",
+    "Notes/MAYA/Rigging/初级/1.00-ModelChecking.md",
+    "Notes/MAYA/Rigging/初级/0.00-demo目标.md",
+    "Notes/MAYA/Rigging/进阶/7.0-Create Export Joints.md",
+    "Notes/MAYA/Rigging/进阶/6.0-Twist & Roll.md",
+    "Notes/MAYA/Rigging/进阶/4.0-ArmRig.md",
+    "Notes/MAYA/Rigging/进阶/3.0-Hind Leg.md",
+    "Notes/MAYA/Rigging/进阶/2.0-No Flip IK.md",
+    "Notes/MAYA/Rigging/进阶/1.0-反转脚.md",
     "Notes/program/Python/标准库/attachments",
     "Notes/MAYA/Rigging/进阶/attachments/b12d68ca6fa9814b8521600df5253356_MD5.jpeg",
     "Notes/MAYA/Rigging/进阶/attachments/Pasted image 20250828203215.png",
-    "Notes/MAYA/mayaUI/Pyside For Maya/attachments/e3916a7013fc8116ee02b82f75a0a048_MD5.jpeg",
-    "Notes/MAYA/mayaUI/Pyside For Maya/attachments/Pasted image 20250828005901.png",
-    "Notes/MAYA/Maya Pipeline Essentials/attachments/ceac1d126fa3e8d3ac019db4533cf365_MD5.jpeg",
-    "Notes/MAYA/Maya Pipeline Essentials/attachments/Pasted image 20250827182146.png",
-    "Notes/MAYA/Maya Pipeline Essentials/attachments/0f3b21f0c5f19dec54b7f40308ad05fb_MD5.jpeg",
-    "Notes/MAYA/Maya Pipeline Essentials/attachments/Pasted image 20250827101614.png",
-    "Notes/MAYA/Maya Pipeline Essentials/attachments/e1b130976e0cb983ecfde8bd94c22383_MD5.jpeg",
-    "Notes/MAYA/Maya Pipeline Essentials/attachments/Pasted image 20250827101342.png",
     "Notes/MAYA/Maya Pipeline Essentials/attachments",
     "Notes/MAYA/Maya Pipeline Essentials",
     "Notes/program/Python/标准库",
