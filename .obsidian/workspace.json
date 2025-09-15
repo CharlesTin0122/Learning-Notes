@@ -11,10 +11,14 @@
             "id": "e26e069a95fdfcec",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "conflict-files-obsidian-git"
             }
           }
         ]
@@ -211,8 +215,9 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "e26e069a95fdfcec",
+  "active": "6c4cbb6491a6afbc",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "Notes/MAYA/Rigging/进阶/attachments/9e644c57e208f82f2f3b6ae65193b5db_MD5.jpg",
     "Notes/MAYA/Rigging/进阶/attachments/79000208288d9e9be5490e675422e47b_MD5.jpg",
     "Notes/MAYA/Rigging/进阶/attachments/780edef7483d01b2aa708adb6b1858fa_MD5.jpg",
