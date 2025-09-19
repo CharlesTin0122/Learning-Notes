@@ -863,6 +863,14 @@ if __name__ == "__main__":
 
 [Open: Pasted image 20250804174044.png](attachments/a6bc6e1f757a245f388f61d129f41fed_MD5.jpeg)
 ![](attachments/a6bc6e1f757a245f388f61d129f41fed_MD5.jpeg)
+## 可撤销操作
+```python
+with pm.UndoChunk():
+    # 在此执行多个 Maya 命令
+    pm.createNode("transform", name="node1")
+    pm.createNode("transform", name="node2")
+    # 其他操作...
+```
 # maya设置
 
 ##  获得maya所有全局变量
