@@ -13,12 +13,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "Notes/MAYA/Rigging/卡通风格绑定/1.0-脊椎骨.md",
-                "bFile": "Notes/MAYA/Rigging/卡通风格绑定/1.0-脊椎骨.md",
+                "aFile": "Notes/MAYA/Rigging/进阶/5.0-Spine Rig.md",
+                "bFile": "Notes/MAYA/Rigging/进阶/5.0-Spine Rig.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: 1.0-脊椎骨"
+              "title": "Diff: 5.0-Spine Rig"
             }
           }
         ]
@@ -217,6 +217,14 @@
   },
   "active": "55e739d72c4e4910",
   "lastOpenFiles": [
+    "Notes/Work/My Tasks.md",
+    "Notes/MAYA/Rigging/进阶/1.0-反转脚.md",
+    "Notes/MAYA/Rigging/进阶/7.0-Create Export Joints.md",
+    "Notes/MAYA/Rigging/进阶/6.0-Twist & Roll.md",
+    "Notes/MAYA/Rigging/进阶/5.1-Spine可滑动IK控制器.md",
+    "Notes/MAYA/Rigging/进阶/5.0-Spine Rig.md",
+    "Notes/MAYA/Rigging/进阶/4.0-ArmRig.md",
+    "Notes/MAYA/Rigging/进阶/3.0-Hind Leg.md",
     "Notes/MAYA/Rigging/卡通风格绑定/1.0-脊椎骨.md",
     "Notes/MAYA/mayaPython案例.md",
     "Notes/MAYA/Python for Maya2018脚本编程实战案例教程.md",
@@ -230,22 +238,14 @@
     "未命名 1.base",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/2.0-MSelectionList.md",
     "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/1.2-maya Python API 和 pymel.md",
-    "Notes/MAYA/Rigging/进阶/1.0-反转脚.md",
     "Notes/MAYA/Rigging/初级/1.07- Leg Rigging And Reverse Foot.md",
     "Notes/MAYA/Rigging/初级/1.06-Hand Rigging.md",
     "Notes/MAYA/Rigging/初级/1.05-Limb Rigging.md",
     "Notes/MAYA/maya节点学习.md",
     "Notes/MAYA/Rigging/卡通风格绑定",
-    "Notes/MAYA/Rigging/进阶/6.0-Twist & Roll.md",
     "Notes/MAYA/Rigging/初级/2.04-Quadruped Limb Ribbons.md",
     "Notes/MAYA/Rigging/初级/2.03-进阶腿部绑定.md",
     "Notes/MAYA/Rigging/初级/2.02-基础腿部绑定.md",
-    "Notes/MAYA/Rigging/初级/2.01-四足动物绑定.md",
-    "Notes/MAYA/Rigging/初级/2.00- Ribbons（丝带）.md",
-    "Notes/MAYA/Rigging/进阶/4.0-ArmRig.md",
-    "Notes/MAYA/Rigging/初级/1.10-Squash & Stretch.md",
-    "Notes/MAYA/Rigging/初级/1.04-Set Driven Keys & Utility Nodes.md",
-    "Notes/MAYA/Rigging/初级/1.02-Connection & Constraint.md",
     "Notes/MAYA/Rigging/进阶/attachments/9e644c57e208f82f2f3b6ae65193b5db_MD5.jpg",
     "Notes/MAYA/Rigging/进阶/attachments/79000208288d9e9be5490e675422e47b_MD5.jpg",
     "Notes/MAYA/Rigging/进阶/attachments/780edef7483d01b2aa708adb6b1858fa_MD5.jpg",
