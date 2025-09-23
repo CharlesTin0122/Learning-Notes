@@ -397,6 +397,10 @@ def remove_constraints_from_selection():
 # 调用函数移除选中物体的约束
 remove_constraints_from_selection()
 ```
+## 列出约束节点的约束权重属性
+```python
+weight_alias_list = constraint_node.getWeightAliasList()
+```
 ## 递归的创建骨骼链控制器
 ```python
 import pymel.core as pm
@@ -727,6 +731,12 @@ pm.polyCube()
     exec(LOC) 
  
 exec_code()
+```
+## 字符串由下划线转为大驼峰
+```python
+def snake_to_pascal(s: str) -> str:
+    """字符串由下划线转为大驼峰"""
+    return "".join(word.capitalize() for word in s.split("_"))
 ```
 ## pymel中链接节点
 

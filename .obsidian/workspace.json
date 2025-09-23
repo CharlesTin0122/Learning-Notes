@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "23fa7b62a86e31d6",
+        "id": "f9a6af0bd4b7c3d3",
         "type": "tabs",
         "children": [
           {
-            "id": "55e739d72c4e4910",
+            "id": "0aaf1fcb322271e3",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Notes/MAYA/Rigging/进阶/5.0-Spine Rig.md",
-                "bFile": "Notes/MAYA/Rigging/进阶/5.0-Spine Rig.md",
-                "aRef": ""
+                "file": "Notes/MAYA/mayaUI/Pyside For Maya/2.8-ListWidget.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 5.0-Spine Rig"
+              "icon": "lucide-file",
+              "title": "2.8-ListWidget"
             }
           }
         ]
@@ -121,12 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Notes/MAYA/mayaUI/Pyside For Maya/2.8-ListWidget.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "2.8-ListWidget 的大纲"
             }
           },
           {
@@ -215,37 +216,37 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "55e739d72c4e4910",
+  "active": "6c4cbb6491a6afbc",
   "lastOpenFiles": [
-    "Notes/Work/My Tasks.md",
-    "Notes/MAYA/Rigging/进阶/1.0-反转脚.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.2-Spin & Double Spin Box.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.8-ListWidget.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.1-QComboBox.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.21-QScrollArea.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.4-GroupBox.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/1.2-Layout案例.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.6-窗口单例化.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.5-QFileDialog.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.11-QTableWidget.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.9-StackedWidget.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.7-TabWidgets.md",
+    "Notes/MAYA/mayaPython案例.md",
+    "Notes/math/Maya Math.md",
+    "Notes/MAYA/Rigging/初级/1.11-Space Switching.md",
     "Notes/MAYA/Rigging/进阶/7.0-Create Export Joints.md",
     "Notes/MAYA/Rigging/进阶/6.0-Twist & Roll.md",
     "Notes/MAYA/Rigging/进阶/5.1-Spine可滑动IK控制器.md",
     "Notes/MAYA/Rigging/进阶/5.0-Spine Rig.md",
     "Notes/MAYA/Rigging/进阶/4.0-ArmRig.md",
     "Notes/MAYA/Rigging/进阶/3.0-Hind Leg.md",
+    "Notes/MAYA/Rigging/进阶/2.0-No Flip IK.md",
+    "Notes/MAYA/Rigging/进阶/1.0-反转脚.md",
+    "Notes/MAYA/Rigging/进阶/0.0-MatrixRibbon.md",
+    "Notes/Work/My Tasks.md",
     "Notes/MAYA/Rigging/卡通风格绑定/1.0-脊椎骨.md",
-    "Notes/MAYA/mayaPython案例.md",
     "Notes/MAYA/Python for Maya2018脚本编程实战案例教程.md",
-    "Notes/MAYA/Spring Magic 原理简析.md",
-    "Notes/MAYA/Tips.md",
-    "Notes/MAYA/undo.md",
-    "Notes/MAYA/mayaUI/PyQt编写Maya插件问题汇总.md",
-    "Notes/MAYA/mayaUI/MayaUI控件汇总（Widgets）.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 2.0/7.0-上下文（Contexts）.md",
     "未命名.base",
     "未命名 1.base",
-    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/2.0-MSelectionList.md",
-    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/1.2-maya Python API 和 pymel.md",
-    "Notes/MAYA/Rigging/初级/1.07- Leg Rigging And Reverse Foot.md",
-    "Notes/MAYA/Rigging/初级/1.06-Hand Rigging.md",
-    "Notes/MAYA/Rigging/初级/1.05-Limb Rigging.md",
-    "Notes/MAYA/maya节点学习.md",
     "Notes/MAYA/Rigging/卡通风格绑定",
-    "Notes/MAYA/Rigging/初级/2.04-Quadruped Limb Ribbons.md",
-    "Notes/MAYA/Rigging/初级/2.03-进阶腿部绑定.md",
-    "Notes/MAYA/Rigging/初级/2.02-基础腿部绑定.md",
     "Notes/MAYA/Rigging/进阶/attachments/9e644c57e208f82f2f3b6ae65193b5db_MD5.jpg",
     "Notes/MAYA/Rigging/进阶/attachments/79000208288d9e9be5490e675422e47b_MD5.jpg",
     "Notes/MAYA/Rigging/进阶/attachments/780edef7483d01b2aa708adb6b1858fa_MD5.jpg",
