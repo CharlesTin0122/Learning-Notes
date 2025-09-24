@@ -397,6 +397,10 @@ def remove_constraints_from_selection():
 # 调用函数移除选中物体的约束
 remove_constraints_from_selection()
 ```
+## 列出约束节点的约束权重属性
+```python
+weight_alias_list = constraint_node.getWeightAliasList()
+```
 ## 递归的创建骨骼链控制器
 ```python
 import pymel.core as pm
@@ -728,6 +732,12 @@ pm.polyCube()
  
 exec_code()
 ```
+## 字符串由下划线转为大驼峰
+```python
+def snake_to_pascal(s: str) -> str:
+    """字符串由下划线转为大驼峰"""
+    return "".join(word.capitalize() for word in s.split("_"))
+```
 ## pymel中链接节点
 
 ```python
@@ -863,6 +873,14 @@ if __name__ == "__main__":
 
 [Open: Pasted image 20250804174044.png](attachments/a6bc6e1f757a245f388f61d129f41fed_MD5.jpeg)
 ![](attachments/a6bc6e1f757a245f388f61d129f41fed_MD5.jpeg)
+## 可撤销操作
+```python
+with pm.UndoChunk():
+    # 在此执行多个 Maya 命令
+    pm.createNode("transform", name="node1")
+    pm.createNode("transform", name="node2")
+    # 其他操作...
+```
 # maya设置
 
 ##  获得maya所有全局变量

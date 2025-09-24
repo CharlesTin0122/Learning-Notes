@@ -27,16 +27,31 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "Notes/MAYA/mayaUI/Pyside For Maya/0.6-窗口单例化.md",
-                "bFile": "Notes/MAYA/mayaUI/Pyside For Maya/0.6-窗口单例化.md",
+                "aFile": "Notes/MAYA/maya节点学习.md",
+                "bFile": "Notes/MAYA/maya节点学习.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: 0.6-窗口单例化"
+              "title": "Diff: maya节点学习"
+            }
+          },
+          {
+            "id": "3213594d3cae269d",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "Notes/MAYA/mayaPython案例.md",
+                "bFile": "Notes/MAYA/mayaPython案例.md",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: mayaPython案例"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -229,8 +244,9 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "159b82bdd48b0216",
+  "active": "3213594d3cae269d",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "Notes/MAYA/Rigging/初级/1.09-Roll & Twist Joints.md",
     "Notes/MAYA/Rigging/初级/1.05-Limb Rigging.md",
     "Notes/MAYA/maya节点学习.md",
@@ -260,7 +276,6 @@
     "Notes/MAYA/Rigging/进阶/5.0-Spine Rig.md",
     "Notes/MAYA/Rigging/基础知识/手动修改局部旋转轴为何要zeroScaleOrient.md",
     "Notes/MAYA/Rigging/基础知识/手动修改局部旋转轴为何要zeroScaleOrient-冲突-CharlesTin_Win11.md",
-    "Notes/MAYA/Rigging/基础知识/冻结变换FreezeTransformations.md",
     "Notes/MAYA/Rigging/进阶/attachments/b12d68ca6fa9814b8521600df5253356_MD5.jpeg",
     "Notes/MAYA/Maya Pipeline Essentials/attachments/17ddb76977bd23c5443e709003ce27a0_MD5.jpeg",
     "Notes/MAYA/Maya Pipeline Essentials/attachments/e1b130976e0cb983ecfde8bd94c22383_MD5.jpeg",
