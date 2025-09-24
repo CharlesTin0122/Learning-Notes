@@ -4,20 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "ec7eac33b21517bc",
+        "id": "f70e8b7c9f71eda9",
         "type": "tabs",
         "children": [
           {
-            "id": "1b019bf01dd63669",
+            "id": "bbc86665e15cb57c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Notes/MAYA/Rigging/基础知识/手动修改局部旋转轴为何要zeroScaleOrient.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "手动修改局部旋转轴为何要zeroScaleOrient"
+            }
+          },
+          {
+            "id": "159b82bdd48b0216",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "Notes/MAYA/mayaUI/Pyside For Maya/0.6-窗口单例化.md",
+                "bFile": "Notes/MAYA/mayaUI/Pyside For Maya/0.6-窗口单例化.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: 0.6-窗口单例化"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -74,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 348.5
+    "width": 354.5
   },
   "right": {
     "id": "9a963b05dd42da39",
@@ -155,8 +174,8 @@
             "state": {
               "type": "git-history-view",
               "state": {},
-              "icon": "history",
-              "title": "History"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           },
           {
@@ -175,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/MAYA/mayaUI/Pyside For Maya/2.18-添加图片.md",
+                "file": "Notes/Unreal/Control Rig/1.06 SplineIK.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +204,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2.18-添加图片 的反向链接列表"
+              "title": "1.06 SplineIK 的反向链接列表"
             }
           }
         ],
@@ -193,72 +212,71 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.5
+    "width": 378.5
   },
   "left-ribbon": {
     "hiddenItems": {
       "bases:创建新数据库": false,
       "daily-notes:打开/创建今天的日记": false,
-      "obsidian-kanban:创建新看板": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "command-palette:打开命令面板": false,
       "templates:插入模板": false,
       "obsidian-git:Open Git source control": false,
-      "workspaces:管理工作区布局": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-kanban:创建新看板": false,
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "6c4cbb6491a6afbc",
+  "active": "159b82bdd48b0216",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Notes/MAYA/Rigging/进阶/attachments/9e644c57e208f82f2f3b6ae65193b5db_MD5.jpg",
-    "Notes/MAYA/Rigging/进阶/attachments/79000208288d9e9be5490e675422e47b_MD5.jpg",
-    "Notes/MAYA/Rigging/进阶/attachments/780edef7483d01b2aa708adb6b1858fa_MD5.jpg",
-    "Notes/MAYA/Rigging/进阶/attachments/3844d7aeae3e34832b69f466b6aea6cb_MD5.jpg",
-    "Notes/MAYA/Rigging/进阶/5.1-Spine可滑动IK控制器.md",
-    "Notes/MAYA/Rigging/进阶/attachments/5.1-Spine可滑动IK控制器-1757643159084.png",
-    "Notes/MAYA/Rigging/进阶/attachments/5.1-Spine可滑动IK控制器-1757642456304.png",
-    "Notes/MAYA/Rigging/进阶/attachments/5.1-Spine可滑动IK控制器-1757642443267.png",
-    "Notes/MAYA/Rigging/进阶/attachments/5.1-Spine可滑动IK控制器-1757642256796.png",
-    "Notes/math/2.0-向量(Vector).md",
-    "Notes/MAYA/Rigging/进阶/5.0-Spine Rig.md",
+    "Notes/MAYA/Rigging/初级/1.09-Roll & Twist Joints.md",
+    "Notes/MAYA/Rigging/初级/1.05-Limb Rigging.md",
+    "Notes/MAYA/maya节点学习.md",
+    "Notes/MAYA/Rigging/初级/1.10-Squash & Stretch.md",
+    "Notes/MAYA/Rigging/进阶/7.0-Create Export Joints.md",
+    "Notes/MAYA/Rigging/进阶/6.0-Twist & Roll.md",
     "Notes/MAYA/Rigging/初级/101-IK FK Spine.md",
-    "Notes/MAYA/Rigging/初级/1.03- Control Creation & Setup.md",
+    "Notes/MAYA/Rigging/初级/100-基于矩阵的Limb Rigging.md",
+    "Notes/MAYA/Rigging/初级/2.08- Root Control Support.md",
+    "Notes/MAYA/Rigging/初级/2.07-Paw Roll & Bank.md",
+    "Notes/MAYA/Rigging/初级/2.06-Dynamic Tail & Ears.md",
+    "Notes/MAYA/Rigging/初级/2.05-Spline IK Based Spine.md",
+    "Notes/MAYA/Rigging/初级/2.04-Quadruped Limb Ribbons.md",
+    "Notes/MAYA/Rigging/初级/2.03-进阶腿部绑定.md",
+    "Notes/MAYA/Rigging/初级/2.02-基础腿部绑定.md",
+    "Notes/MAYA/Rigging/初级/2.01-四足动物绑定.md",
+    "Notes/MAYA/Rigging/初级/2.00- Ribbons（丝带）.md",
     "Notes/MAYA/Rigging/初级/1.13- Face Rig - Joints & Controls.md",
     "Notes/MAYA/Rigging/初级/1.12-GlobalControls & Scalability.md",
     "Notes/MAYA/Rigging/初级/1.11-Space Switching.md",
-    "Notes/MAYA/Rigging/初级/1.10-Squash & Stretch.md",
-    "Notes/MAYA/Rigging/初级/1.09-Roll & Twist Joints.md",
-    "Notes/MAYA/Rigging/初级/1.08-Spine, Head & Eye 、Eyelids.md",
-    "Notes/MAYA/Rigging/初级/1.07- Leg Rigging And Reverse Foot.md",
-    "Notes/MAYA/Rigging/初级/1.06-Hand Rigging.md",
-    "Notes/MAYA/Rigging/初级/1.05-Limb Rigging.md",
-    "Notes/MAYA/Rigging/初级/1.04-Set Driven Keys & Utility Nodes.md",
-    "Notes/MAYA/Rigging/初级/1.02-Connection & Constraint.md",
-    "Notes/MAYA/Rigging/初级/1.01-Joints & Skin.md",
-    "Notes/MAYA/Rigging/初级/1.00-ModelChecking.md",
-    "Notes/MAYA/Rigging/初级/0.00-demo目标.md",
-    "Notes/MAYA/Rigging/进阶/7.0-Create Export Joints.md",
-    "Notes/MAYA/Rigging/进阶/6.0-Twist & Roll.md",
-    "Notes/MAYA/Rigging/进阶/4.0-ArmRig.md",
-    "Notes/MAYA/Rigging/进阶/3.0-Hind Leg.md",
-    "Notes/MAYA/Rigging/进阶/2.0-No Flip IK.md",
-    "Notes/MAYA/Rigging/进阶/1.0-反转脚.md",
-    "Notes/program/Python/标准库/attachments",
+    "Notes/MAYA/Rigging/进阶/attachments/3844d7aeae3e34832b69f466b6aea6cb_MD5.jpg",
+    "Notes/MAYA/Rigging/进阶/5.1-Spine可滑动IK控制器.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.6-窗口单例化.md",
+    "Notes/MAYA/Rigging/进阶/attachments/9e644c57e208f82f2f3b6ae65193b5db_MD5.jpg",
+    "Notes/MAYA/Rigging/进阶/attachments/79000208288d9e9be5490e675422e47b_MD5.jpg",
+    "Notes/MAYA/Rigging/进阶/attachments/780edef7483d01b2aa708adb6b1858fa_MD5.jpg",
+    "Notes/MAYA/Rigging/进阶/5.0-Spine Rig.md",
+    "Notes/MAYA/Rigging/基础知识/手动修改局部旋转轴为何要zeroScaleOrient.md",
+    "Notes/MAYA/Rigging/基础知识/手动修改局部旋转轴为何要zeroScaleOrient-冲突-CharlesTin_Win11.md",
+    "Notes/MAYA/Rigging/基础知识/冻结变换FreezeTransformations.md",
     "Notes/MAYA/Rigging/进阶/attachments/b12d68ca6fa9814b8521600df5253356_MD5.jpeg",
-    "Notes/MAYA/Rigging/进阶/attachments/Pasted image 20250828203215.png",
+    "Notes/MAYA/Maya Pipeline Essentials/attachments/17ddb76977bd23c5443e709003ce27a0_MD5.jpeg",
+    "Notes/MAYA/Maya Pipeline Essentials/attachments/e1b130976e0cb983ecfde8bd94c22383_MD5.jpeg",
+    "Notes/MAYA/Maya Pipeline Essentials/attachments/ceac1d126fa3e8d3ac019db4533cf365_MD5.jpeg",
+    "Notes/MAYA/Maya Pipeline Essentials/attachments/0f3b21f0c5f19dec54b7f40308ad05fb_MD5.jpeg",
     "Notes/MAYA/Maya Pipeline Essentials/attachments",
     "Notes/MAYA/Maya Pipeline Essentials",
+    "Notes/MAYA/mayaUI/Pyside For Maya/attachments/e3916a7013fc8116ee02b82f75a0a048_MD5.jpeg",
     "Notes/program/Python/标准库",
-    "Notes/program/Python/super关键字.md.nssyncsc",
-    "Notes/MAYA/attachments/a6bc6e1f757a245f388f61d129f41fed_MD5.jpeg.nssyncsc",
-    "Notes/program/Python/异常捕获.md.nssyncsc",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/attachments",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/attachments",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0",
+    "Notes/MAYA/mayaUI/Pyside For Maya/attachments",
+    "Notes/MAYA/mayaUI/Pyside For Maya",
     "attachments/000_坚果云闪电下载介绍.html.nssyncsc",
-    "attachments",
-    "Notes/program/Python/pathlib库.md.nssyncsc",
     "Notes/Misc/Animation Pipeline.canvas",
     "Notes/Unreal/虚幻动画系统深入浅出.canvas",
     "Notes/Unreal/Unreal Python/未命名.canvas",
