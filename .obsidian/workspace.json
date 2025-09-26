@@ -20,8 +20,24 @@
               "icon": "lucide-file",
               "title": "7.0-Create Export Joints"
             }
+          },
+          {
+            "id": "5693dd062b82c1af",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "Notes/MAYA/maya节点学习.md",
+                "bFile": "Notes/MAYA/maya节点学习.md",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: maya节点学习"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,13 +137,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/MAYA/Rigging/进阶/7.0-Create Export Joints.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "7.0-Create Export Joints 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -216,15 +231,16 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "6c4cbb6491a6afbc",
+  "active": "5693dd062b82c1af",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Notes/MAYA/Rigging/进阶/7.0-Create Export Joints.md",
     "Notes/MAYA/Rigging/初级/1.08-Spine, Head & Eye 、Eyelids.md",
     "Notes/MAYA/Rigging/初级/1.09-Roll & Twist Joints.md",
     "Notes/MAYA/Rigging/初级/1.10-Squash & Stretch.md",
     "Notes/MAYA/Rigging/初级/1.11-Space Switching.md",
     "Notes/MAYA/Rigging/初级/1.12-GlobalControls & Scalability.md",
     "Notes/MAYA/Rigging/初级/1.13- Face Rig - Joints & Controls.md",
-    "Notes/MAYA/Rigging/进阶/7.0-Create Export Joints.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.8-ListWidget.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.2-Spin & Double Spin Box.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.1-QComboBox.md",
@@ -243,7 +259,6 @@
     "Notes/MAYA/Rigging/进阶/5.0-Spine Rig.md",
     "Notes/MAYA/Rigging/进阶/4.0-ArmRig.md",
     "Notes/MAYA/Rigging/进阶/3.0-Hind Leg.md",
-    "Notes/MAYA/Rigging/进阶/2.0-No Flip IK.md",
     "未命名.base",
     "未命名 1.base",
     "Notes/MAYA/Rigging/卡通风格绑定",
