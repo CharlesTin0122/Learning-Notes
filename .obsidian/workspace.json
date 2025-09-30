@@ -4,40 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "f9a6af0bd4b7c3d3",
+        "id": "4bf55aedfe4f0516",
         "type": "tabs",
         "children": [
           {
-            "id": "0aaf1fcb322271e3",
+            "id": "255cb9b72975a2b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/MAYA/Rigging/进阶/7.0-Create Export Joints.md",
+                "file": "Notes/MAYA/Rigging/基础知识/2.0-将旋转分解为扭转和摆动.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7.0-Create Export Joints"
-            }
-          },
-          {
-            "id": "5693dd062b82c1af",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "Notes/MAYA/maya节点学习.md",
-                "bFile": "Notes/MAYA/maya节点学习.md",
-                "aRef": "HEAD",
-                "bRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: maya节点学习"
+              "title": "2.0-将旋转分解为扭转和摆动"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -137,12 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Notes/MAYA/Rigging/基础知识/2.0-将旋转分解为扭转和摆动.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "2.0-将旋转分解为扭转和摆动 的大纲"
             }
           },
           {
@@ -231,54 +216,53 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "5693dd062b82c1af",
+  "active": "6c4cbb6491a6afbc",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Notes/MAYA/Rigging/基础知识/1.0-矩阵约束算法.md",
+    "Notes/MAYA/Rigging/基础知识/2.0-将旋转分解为扭转和摆动.md",
+    "Notes/MAYA/Rigging/基础知识/attachments/1ec1fb76f32f173ec6a431dc8f0d56a1_MD5.jpg",
+    "Notes/MAYA/Rigging/基础知识/attachments/2.0-将旋转分解为扭转和摆动-1759221896718.png",
+    "Notes/MAYA/Rigging/基础知识/attachments/5b4d9f490901617729ba47ffb999c228_MD5.jpg",
+    "Notes/MAYA/Rigging/基础知识/attachments/2.0-将旋转分解为扭转和摆动-1759221834385.png",
+    "Notes/MAYA/Rigging/基础知识/attachments/92789379d44ced30f63600bd489a96a2_MD5.jpg",
+    "Notes/MAYA/Rigging/基础知识/attachments/2.0-将旋转分解为扭转和摆动-1759217577367.png",
+    "Notes/MAYA/Rigging/基础知识/attachments/2.0-将旋转分解为扭转和摆动-1759217347701.png",
+    "Notes/MAYA/Rigging/基础知识/attachments/4075d8494445bff63b88bfa050f56b88_MD5.jpg",
+    "Notes/MAYA/Rigging/基础知识/attachments/2.0-将旋转分解为扭转和摆动-1759216992151.png",
+    "Notes/MAYA/Rigging/基础知识/attachments/9520c17ea26bf1b72adb0688e0958da7_MD5.jpg",
+    "Notes/MAYA/Rigging/基础知识/4.0-手动修改局部旋转轴为何要zeroScaleOrient.md",
+    "Notes/MAYA/Rigging/基础知识/3.0-冻结变换FreezeTransformations.md",
     "Notes/MAYA/Rigging/进阶/7.0-Create Export Joints.md",
+    "Notes/MAYA/Matrix矩阵/bindpose.com/5- Maya 矩阵节点：使用  offsetParentMatrix 进行空间切换.md",
+    "Notes/MAYA/Rigging/基础知识/attachments",
+    "Notes/MAYA/Maya Pipeline Essentials/1.0-maya环境.md",
+    "Notes/MAYA/Maya Pipeline Essentials/0.1-需要掌握那些技能.md",
+    "Notes/MAYA/Maya Pipeline Essentials/0.0-什么是  maya unreal game development pipeline.md",
+    "Notes/MAYA/maya节点学习.md",
+    "Notes/math/Maya Math.md",
+    "Notes/MAYA/Matrix矩阵/bindpose.com/1- Maya 矩阵节点：基于节点的矩阵约束.md",
+    "Notes/MAYA/mayaUI/MayaUI控件汇总（Widgets）.md",
+    "Notes/MAYA/mayaUI/MayaUI控件布局（Layout）.md",
+    "Notes/MAYA/Rigging/初级/2.04-Quadruped Limb Ribbons.md",
+    "Notes/MAYA/Rigging/初级/2.03-进阶腿部绑定.md",
+    "Notes/MAYA/Rigging/初级/2.02-基础腿部绑定.md",
+    "Notes/MAYA/Rigging/初级/1.07- Leg Rigging And Reverse Foot.md",
+    "Notes/MAYA/Rigging/初级/1.05-Limb Rigging.md",
+    "conflict-files-obsidian-git.md",
     "Notes/MAYA/Rigging/初级/1.08-Spine, Head & Eye 、Eyelids.md",
     "Notes/MAYA/Rigging/初级/1.09-Roll & Twist Joints.md",
     "Notes/MAYA/Rigging/初级/1.10-Squash & Stretch.md",
     "Notes/MAYA/Rigging/初级/1.11-Space Switching.md",
     "Notes/MAYA/Rigging/初级/1.12-GlobalControls & Scalability.md",
-    "Notes/MAYA/Rigging/初级/1.13- Face Rig - Joints & Controls.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.8-ListWidget.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.2-Spin & Double Spin Box.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.1-QComboBox.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.21-QScrollArea.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.4-GroupBox.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/1.2-Layout案例.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/0.6-窗口单例化.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/0.5-QFileDialog.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.11-QTableWidget.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.9-StackedWidget.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.7-TabWidgets.md",
-    "Notes/MAYA/mayaPython案例.md",
-    "Notes/math/Maya Math.md",
-    "Notes/MAYA/Rigging/进阶/6.0-Twist & Roll.md",
-    "Notes/MAYA/Rigging/进阶/5.1-Spine可滑动IK控制器.md",
-    "Notes/MAYA/Rigging/进阶/5.0-Spine Rig.md",
-    "Notes/MAYA/Rigging/进阶/4.0-ArmRig.md",
-    "Notes/MAYA/Rigging/进阶/3.0-Hind Leg.md",
     "未命名.base",
     "未命名 1.base",
     "Notes/MAYA/Rigging/卡通风格绑定",
-    "Notes/MAYA/Rigging/进阶/attachments/9e644c57e208f82f2f3b6ae65193b5db_MD5.jpg",
-    "Notes/MAYA/Rigging/进阶/attachments/79000208288d9e9be5490e675422e47b_MD5.jpg",
-    "Notes/MAYA/Rigging/进阶/attachments/780edef7483d01b2aa708adb6b1858fa_MD5.jpg",
-    "Notes/MAYA/Rigging/进阶/attachments/3844d7aeae3e34832b69f466b6aea6cb_MD5.jpg",
-    "Notes/MAYA/Rigging/进阶/attachments/5.1-Spine可滑动IK控制器-1757643159084.png",
-    "Notes/MAYA/Rigging/进阶/attachments/5.1-Spine可滑动IK控制器-1757642456304.png",
-    "Notes/MAYA/Rigging/进阶/attachments/5.1-Spine可滑动IK控制器-1757642443267.png",
-    "Notes/MAYA/Rigging/进阶/attachments/5.1-Spine可滑动IK控制器-1757642256796.png",
     "Notes/program/Python/标准库/attachments",
-    "Notes/MAYA/Rigging/进阶/attachments/b12d68ca6fa9814b8521600df5253356_MD5.jpeg",
-    "Notes/MAYA/Rigging/进阶/attachments/Pasted image 20250828203215.png",
     "Notes/MAYA/Maya Pipeline Essentials/attachments",
     "Notes/MAYA/Maya Pipeline Essentials",
     "Notes/program/Python/标准库",
     "Notes/program/Python/super关键字.md.nssyncsc",
     "Notes/MAYA/attachments/a6bc6e1f757a245f388f61d129f41fed_MD5.jpeg.nssyncsc",
-    "Notes/program/Python/异常捕获.md.nssyncsc",
     "Notes/Misc/Animation Pipeline.canvas",
     "Notes/Unreal/虚幻动画系统深入浅出.canvas",
     "Notes/Unreal/Unreal Python/未命名.canvas",
