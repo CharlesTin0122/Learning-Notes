@@ -11,10 +11,14 @@
             "id": "3fb566fd57aa8a96",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Notes/MAYA/Rigging/基础知识/1.0-矩阵约束算法.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "1.0-矩阵约束算法"
             }
           }
         ]
@@ -117,13 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/MAYA/Rigging/基础知识/2.0-将旋转分解为扭转和摆动.md",
+                "file": "Notes/MAYA/Rigging/基础知识/1.0-矩阵约束算法.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2.0-将旋转分解为扭转和摆动 的大纲"
+              "title": "1.0-矩阵约束算法 的大纲"
             }
           },
           {
@@ -194,7 +198,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.5
+    "width": 344.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,14 +216,23 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "3fb566fd57aa8a96",
+  "active": "6c4cbb6491a6afbc",
   "lastOpenFiles": [
+    "Notes/MAYA/mayaPython案例.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.8-列表控件-ListWidget.md",
+    "Notes/MAYA/Rigging/进阶/1.0-反转脚.md",
+    "Notes/MAYA/Rigging/基础知识/4.0-手动修改局部旋转轴为何要zeroScaleOrient.md",
+    "Notes/MAYA/Rigging/基础知识/1.0-矩阵约束算法.md",
+    "Notes/MAYA/Rigging/基础知识/2.0-将旋转分解为扭转和摆动.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.5-按钮组-ButtonGroup.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.4-Maya PySide.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.6-窗口单例化.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.4-分组框-GroupBox.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/0.0-pyside基础.md",
     "conflict-files-obsidian-git.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/0.1-PySide的构成.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/0.2-信号与槽.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/0.3-Shiboken.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/0.4-Maya PySide.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/0.5-文件选择-QFileDialog.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/0.7-setData 和 Role.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/0.10-Qt.py模块.md",
@@ -231,16 +244,7 @@
     "Notes/MAYA/mayaUI/Pyside For Maya/2.20-调色盘-QPalette.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.19-可折叠控件-CollapsibleWidget.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.18-添加图片-QImage&QPixmap.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.17-进度条-QProgressDialog和QProgressBar.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.17-QProgressDialog和QProgressBar.md.nssyncsc",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.16-消息对话框-QMessageBox.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.15-颜色选择框-QColorDialog.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.14-工具箱控件-QToolBox.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.13-文件系统-QFileSystemModel.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.12-树形控件-TreeWidget.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.11-表格控件-QTableWidget.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.10-菜单栏-MenuBar.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.9-堆栈控件-StackedWidget.md",
     "Notes/MAYA/Rigging/基础知识/attachments/1ec1fb76f32f173ec6a431dc8f0d56a1_MD5.jpg",
     "Notes/MAYA/Rigging/基础知识/attachments/2.0-将旋转分解为扭转和摆动-1759221896718.png",
     "Notes/MAYA/Rigging/基础知识/attachments/5b4d9f490901617729ba47ffb999c228_MD5.jpg",
