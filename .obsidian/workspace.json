@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "428d957ab1210956",
+        "id": "b6a9cfb498d39258",
         "type": "tabs",
         "children": [
           {
-            "id": "3fb566fd57aa8a96",
+            "id": "28c1d457f2823933",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/MAYA/Rigging/基础知识/1.0-矩阵约束算法.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "1.0-矩阵约束算法"
+              "title": "新标签页"
             }
           }
         ]
@@ -121,13 +117,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/MAYA/Rigging/基础知识/1.0-矩阵约束算法.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "1.0-矩阵约束算法 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -216,14 +211,17 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "6c4cbb6491a6afbc",
+  "active": "28c1d457f2823933",
   "lastOpenFiles": [
+    "Notes/MAYA/Rigging/基础知识/4.0-冻结变换FreezeTransformations.md",
+    "Notes/MAYA/Rigging/基础知识/2.0-将旋转分解为扭转和摆动.md",
+    "Notes/MAYA/Rigging/基础知识/3.0-mgear_matrixConstraint节点分析.md",
+    "Notes/MAYA/Rigging/基础知识/5.0-手动修改局部旋转轴为何要zeroScaleOrient.md",
+    "Notes/MAYA/Rigging/基础知识/attachments/3.0-mgear_matrixConstraint几点分析.md",
     "Notes/MAYA/mayaPython案例.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.8-列表控件-ListWidget.md",
     "Notes/MAYA/Rigging/进阶/1.0-反转脚.md",
-    "Notes/MAYA/Rigging/基础知识/4.0-手动修改局部旋转轴为何要zeroScaleOrient.md",
     "Notes/MAYA/Rigging/基础知识/1.0-矩阵约束算法.md",
-    "Notes/MAYA/Rigging/基础知识/2.0-将旋转分解为扭转和摆动.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.5-按钮组-ButtonGroup.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/0.4-Maya PySide.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/0.6-窗口单例化.md",
@@ -241,9 +239,6 @@
     "Notes/MAYA/mayaUI/Pyside For Maya/4.01-Qt Designer.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/3.01-样式表-StyleSheet.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.21-滚动区-QScrollArea.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.20-调色盘-QPalette.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.19-可折叠控件-CollapsibleWidget.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.18-添加图片-QImage&QPixmap.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.17-QProgressDialog和QProgressBar.md.nssyncsc",
     "Notes/MAYA/Rigging/基础知识/attachments/1ec1fb76f32f173ec6a431dc8f0d56a1_MD5.jpg",
     "Notes/MAYA/Rigging/基础知识/attachments/2.0-将旋转分解为扭转和摆动-1759221896718.png",
