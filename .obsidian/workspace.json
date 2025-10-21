@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b6a9cfb498d39258",
+        "id": "8dfea901453a4ec8",
         "type": "tabs",
         "children": [
           {
-            "id": "28c1d457f2823933",
+            "id": "ba6b2a23f2451a98",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Unreal/项目规范/Chaos Cloth.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Chaos Cloth"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 348.5
+    "width": 581.5
   },
   "right": {
     "id": "9a963b05dd42da39",
@@ -117,12 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Notes/Unreal/项目规范/Chaos Cloth.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "Chaos Cloth 的大纲"
             }
           },
           {
@@ -211,45 +216,45 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "28c1d457f2823933",
+  "active": "6c4cbb6491a6afbc",
   "lastOpenFiles": [
-    "Notes/MAYA/Rigging/基础知识/4.0-冻结变换FreezeTransformations.md",
-    "Notes/MAYA/Rigging/基础知识/2.0-将旋转分解为扭转和摆动.md",
-    "Notes/MAYA/Rigging/基础知识/3.0-mgear_matrixConstraint节点分析.md",
-    "Notes/MAYA/Rigging/基础知识/5.0-手动修改局部旋转轴为何要zeroScaleOrient.md",
-    "Notes/MAYA/Rigging/基础知识/attachments/3.0-mgear_matrixConstraint几点分析.md",
-    "Notes/MAYA/mayaPython案例.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.8-列表控件-ListWidget.md",
-    "Notes/MAYA/Rigging/进阶/1.0-反转脚.md",
-    "Notes/MAYA/Rigging/基础知识/1.0-矩阵约束算法.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.5-按钮组-ButtonGroup.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/0.4-Maya PySide.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/0.6-窗口单例化.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.4-分组框-GroupBox.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/0.0-pyside基础.md",
-    "conflict-files-obsidian-git.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/0.1-PySide的构成.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/0.2-信号与槽.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/0.3-Shiboken.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/0.5-文件选择-QFileDialog.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/0.7-setData 和 Role.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/0.10-Qt.py模块.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/0.11-windowFlags.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/1.4-maya打开、导入、参考工具.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/4.01-Qt Designer.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/3.01-样式表-StyleSheet.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.21-滚动区-QScrollArea.md",
+    "Notes/Unreal/项目规范/attachments/f837d615593de5351a5dd7130ce77a57_MD5.jpg",
+    "Notes/Unreal/项目规范/attachments/Chaos Cloth-1761041179996.png",
+    "Notes/Unreal/项目规范/attachments/73a7743fb6b69f7dc542c2cb046e5f0c_MD5.jpg",
+    "Notes/Unreal/项目规范/attachments/Chaos Cloth-1761041156449.png",
+    "Notes/Unreal/项目规范/attachments/4328b145839cac3b03ea51eeccdf5852_MD5.jpg",
+    "Notes/Unreal/项目规范/attachments/Chaos Cloth-1761041142419.png",
+    "Notes/Unreal/项目规范/attachments/19b797fc6c3b4dd6562628131e846645_MD5.jpg",
+    "Notes/Unreal/项目规范/attachments/Chaos Cloth-1761041079382.png",
+    "Notes/Unreal/项目规范/attachments/40267c1c794a48d5bee65b71723b4be5_MD5.jpg",
+    "Notes/Unreal/项目规范/attachments/Chaos Cloth-1761041057302.png",
+    "Notes/Unreal/项目规范/attachments/838e36b3846c2b9ec7e01c2c3a9069bc_MD5.jpg",
+    "Notes/program/PowerShell入门.md",
+    "Notes/Unreal/项目规范/Chaos Cloth.md",
+    "Notes/Unreal/项目规范/虚幻引擎中的布料资产处理.md",
+    "Notes/Unreal/项目规范/UE5 Secondary Animation in Maya and Unreal.md",
+    "Notes/Unreal/项目规范/UE5 Secondary Animation in Maya and Unreal-冲突-CharlesTin_Win11.md",
+    "Notes/Unreal/项目规范/游戏中断肢效果处理(Dismemberment System ).md",
+    "Notes/Unreal/UEC++/3.7-UPROPERTY.md",
+    "Notes/Unreal/UEC++/4.1-TArray.md",
+    "Notes/Unreal/UEC++/8.1-字符串.md",
+    "Notes/Unreal/UEC++/14.6-唯一指针.md",
+    "Notes/Unreal/UEC++/15.6-示例.md",
+    "Notes/Unreal/UEC++/15.7-阻塞主线程的方式与异步编程.md",
+    "Notes/Unreal/UEC++/17.5-MyProjectile.md",
+    "Notes/Unreal/UEC++/17.4-MyPickUpComponent.md",
+    "Notes/Unreal/UEC++/17.3-MyWeaponComponent.md",
+    "Notes/Unreal/UEC++/17.2-MyPlayerController.md",
+    "Notes/Unreal/UEC++/17.1-MyCharacter.md",
+    "Notes/Unreal/UEC++/17.0虚幻第一人称案例.md",
+    "Notes/Unreal/UEC++/15.2-并发、并行以及图示线程和线程池.md",
+    "Notes/Unreal/UEC++/5.7-第一人称射击案例.md",
+    "Notes/Unreal/UEC++/5.6-第一人称射击代码结构.md",
+    "Notes/Unreal/UEC++/5.5-组件和碰撞.md",
+    "Notes/Unreal/UEC++/5.3-玩家控制的摄像机.md",
+    "Notes/Unreal/UEC++/5.2-摄像机.md",
+    "Notes/Unreal/UEC++/3.11元数据说明符.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.17-QProgressDialog和QProgressBar.md.nssyncsc",
-    "Notes/MAYA/Rigging/基础知识/attachments/1ec1fb76f32f173ec6a431dc8f0d56a1_MD5.jpg",
-    "Notes/MAYA/Rigging/基础知识/attachments/2.0-将旋转分解为扭转和摆动-1759221896718.png",
-    "Notes/MAYA/Rigging/基础知识/attachments/5b4d9f490901617729ba47ffb999c228_MD5.jpg",
-    "Notes/MAYA/Rigging/基础知识/attachments/2.0-将旋转分解为扭转和摆动-1759221834385.png",
-    "Notes/MAYA/Rigging/基础知识/attachments/92789379d44ced30f63600bd489a96a2_MD5.jpg",
-    "Notes/MAYA/Rigging/基础知识/attachments/2.0-将旋转分解为扭转和摆动-1759217577367.png",
-    "Notes/MAYA/Rigging/基础知识/attachments/2.0-将旋转分解为扭转和摆动-1759217347701.png",
-    "Notes/MAYA/Rigging/基础知识/attachments/4075d8494445bff63b88bfa050f56b88_MD5.jpg",
-    "Notes/MAYA/Rigging/基础知识/attachments/2.0-将旋转分解为扭转和摆动-1759216992151.png",
-    "Notes/MAYA/Rigging/基础知识/attachments/9520c17ea26bf1b72adb0688e0958da7_MD5.jpg",
     "Notes/MAYA/Rigging/基础知识/attachments",
     "未命名.base",
     "未命名 1.base",

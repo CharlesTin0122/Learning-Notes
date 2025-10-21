@@ -1,0 +1,260 @@
+# 概述
+- [【UE】从零开始！Chaos布料系统究极上手指南_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1FYhbzVEFn/?spm_id_from=333.337.search-card.all.click&vd_source=0f765d25b29efef66dd4ff586509e026)
+- [【国语】虚幻引擎UE5.6《Chaos布料系统解密：艺术家实用指南》_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1UHtczNEFV?spm_id_from=333.788.videopod.sections&vd_source=0f765d25b29efef66dd4ff586509e026)
+# 原理
+- ChaosCloth的基本原理是基于低多边形的顶点位置通过模拟粒子驱动渲染模型，通过包裹变形器实现物理模型驱动渲染模型
+- [Open: Chaos Cloth-1761033295862.png](attachments/8e9ede949663198382cbe666d62b34de_MD5.jpg)
+![|905x356](attachments/8e9ede949663198382cbe666d62b34de_MD5.jpg)
+- SimulationSolverConfig节点
+- [Open: Chaos Cloth-1761035326774.png](attachments/273dcaf2b65a54f5ac3db40a9d5ce889_MD5.jpg)
+![](attachments/273dcaf2b65a54f5ac3db40a9d5ce889_MD5.jpg)
+- subStep(子步数)和Iterations（迭代次数）	
+	- subStep（子步数）是每帧计算布料状态的次数
+	- Iterations（迭代次数）是在每个子步内计算约束和碰撞的次数
+	- 他们共同作用来改善稳定性减少不真实拉伸，同时改善碰撞检测
+[Open: Chaos Cloth-1761035078361.png](attachments/7f878493329e6ac0dfa5f4ab454a36c4_MD5.jpg)
+![|600x667](attachments/7f878493329e6ac0dfa5f4ab454a36c4_MD5.jpg)
+[Open: Chaos Cloth-1761035278558.png](attachments/d215d51fce723350289269263d0be988_MD5.jpg)
+![|354x404](attachments/d215d51fce723350289269263d0be988_MD5.jpg)
+# 布料模型设计原则
+- 避免出现重叠在一起或挤压的模型区域，要求模型清晰分隔
+- [Open: Chaos Cloth-1761033555243.png](attachments/640f07111f14f244e7b7021bda4b588a_MD5.jpg)
+![|422x469](attachments/640f07111f14f244e7b7021bda4b588a_MD5.jpg)
+[Open: Chaos Cloth-1761033756477.png](attachments/cedef94b7b41dfad098c061da84e8d03_MD5.jpg)
+![|418x481](attachments/cedef94b7b41dfad098c061da84e8d03_MD5.jpg)
+- 避免模型区域堆叠，上图中的腰带和口袋，下图中的翻领和衣领
+- [Open: Chaos Cloth-1761033945349.png](attachments/e23e355925d8743992cb1782a9904a43_MD5.jpg)
+![](attachments/e23e355925d8743992cb1782a9904a43_MD5.jpg)
+- 避免在布料表面附着刚性物体：镶钻和铆钉
+- [Open: Chaos Cloth-1761034086588.png](attachments/c6850360b3e12d3d100198a139d76bca_MD5.jpg)
+![](attachments/c6850360b3e12d3d100198a139d76bca_MD5.jpg)
+- 在静止姿态下所有的悬垂物体，不能出现自我折叠和扭曲。因为在静止姿态都会出现这个问题，那么所有约束都回试图维持这个形状，应该让布料系统来实现这些弯曲和褶皱。
+- [Open: Chaos Cloth-1761034163884.png](attachments/d42400a7ffd6a4d68db57383ee6947a0_MD5.jpg)
+![|673x474](attachments/d42400a7ffd6a4d68db57383ee6947a0_MD5.jpg)
+- 在处理皮带环等附件，我们要提高网格数量和厚度。
+- [Open: Chaos Cloth-1761034295270.png](attachments/5b129e34aa756577694b089d725c194d_MD5.jpg)
+![|583x468](attachments/5b129e34aa756577694b089d725c194d_MD5.jpg)
+- 代理模型的面数要足够少，以减少消耗。拓扑结构同样重要。
+- [Open: Chaos Cloth-1761034511186.png](attachments/1afe39700185f7a65a442466fd7ad785_MD5.jpg)
+![|314x397](attachments/1afe39700185f7a65a442466fd7ad785_MD5.jpg)
+# 核心流程
+[Open: Chaos Cloth-1760955454745.png](attachments/8221fd5b556f60affb4cf12decdbdf39_MD5.jpg)
+![|564x494](attachments/8221fd5b556f60affb4cf12decdbdf39_MD5.jpg)
+## MaxDistance
+[Open: Chaos Cloth-1761041179996.png](attachments/f837d615593de5351a5dd7130ce77a57_MD5.jpg)
+![](attachments/f837d615593de5351a5dd7130ce77a57_MD5.jpg)
+- 最大距离，定点可移动的最大距离
+- [Open: Chaos Cloth-1761035780094.png](attachments/1bb1d2636447665b13df90a7bd5adbe2_MD5.jpg)
+![|324x322](attachments/1bb1d2636447665b13df90a7bd5adbe2_MD5.jpg)
+## LongRangeAttachments
+- 长距离附着，布料的拉伸效果，能对抗低子步数下产生的不真实拉伸。在最大距离之后设置。
+- 使用长距离附着时拓扑结构很重要，因为他是通过最短路径算法找到相应顶点的。
+- 本质是弹簧约束，将动态顶点约束到其最近的静态顶点。
+## backStops
+[Open: Chaos Cloth-1761041156449.png](attachments/73a7743fb6b69f7dc542c2cb046e5f0c_MD5.jpg)
+![](attachments/73a7743fb6b69f7dc542c2cb046e5f0c_MD5.jpg)
+- 是一个补充碰撞系统，为追求性能使用低子步数和低迭代次数，所以需要这样的补充碰撞系统
+- backStopRadius会在动画网格顶点生成一个碰撞球，backStopDistance会控制物理网格顶点到碰撞球的距离
+- [Open: Chaos Cloth-1761037325465.png](attachments/78ce49ca29ffe481124e036a83542c9a_MD5.jpg)
+![|582x507](attachments/78ce49ca29ffe481124e036a83542c9a_MD5.jpg)
+- 下图中紫色的是动画网格，灰色的是物理网格
+- [Open: Chaos Cloth-1761037578922.png](attachments/4fcb35149281d6477f7a286dfe12173e_MD5.jpg)
+![|556x534](attachments/4fcb35149281d6477f7a286dfe12173e_MD5.jpg)
+## AnimDrive
+[Open: Chaos Cloth-1761041142419.png](attachments/4328b145839cac3b03ea51eeccdf5852_MD5.jpg)
+![](attachments/4328b145839cac3b03ea51eeccdf5852_MD5.jpg)
+- 动画驱动是从动画网格到物理网格的弹簧约束，是对最大距离属性的补充。用于微调布料行为和解决穿透问题
+- 这个值是非线性的，是弹簧约束的强度，中间值大约在0.25而不是0.5。
+- [Open: Chaos Cloth-1761037900832.png](attachments/92f152edab0b137b2cafec37bec7adf2_MD5.jpg)
+![|455x501](attachments/92f152edab0b137b2cafec37bec7adf2_MD5.jpg)
+## Bending、Stretch和Mass
+[Open: Chaos Cloth-1761041079382.png](attachments/19b797fc6c3b4dd6562628131e846645_MD5.jpg)
+![](attachments/19b797fc6c3b4dd6562628131e846645_MD5.jpg)
+- 抗弯曲能力
+- 弯曲度和拉伸度都支持基于位置的动力学系统PBD,以及扩展版XPBD系统
+- XPBD结算器可以讲DCC软件（MarvelousDesigner）中创建的模拟数据（弯曲和拉伸属性）以USD格式导入。会显著增加性能开销。
+- 实时运算时通常使用PBD结算器
+- BendConfig有两种约束类型：
+	- HingeAngle（铰链角度）最真实支持起皱和折叠，原理是在相邻三角面之间强制新的静止角度，并抵抗新静止状态的改变。物理精度更高，开销略大。适合硬质材料。
+	- FaceSpring（面弹簧）比铰链角度开销小，但物理精度较低，不支持起皱效果。更适合柔性材料。
+- StretchConfig是抗拉伸能力
+	- StretchStiffness（拉伸刚度）：拉伸约束的强度
+	- AreaStiffness（区域刚度）：区域刚度的强度
+	- 这些数值非常敏感，微调就能产生很大效果
+- Mass是质量配置。推荐使用密度
+- [Open: Chaos Cloth-1761039052425.png](attachments/1849759ec1cf92cee02995853d51a484_MD5.jpg)
+![](attachments/1849759ec1cf92cee02995853d51a484_MD5.jpg)
+## SelfCollisionLayers
+[Open: Chaos Cloth-1761041057302.png](attachments/40267c1c794a48d5bee65b71723b4be5_MD5.jpg)
+![](attachments/40267c1c794a48d5bee65b71723b4be5_MD5.jpg)
+- 自碰撞层，本质上是分成选择节点的系统
+- [Open: Chaos Cloth-1761039186742.png](attachments/adf07e740325392716153d5b40dfe3fb_MD5.jpg)
+![](attachments/adf07e740325392716153d5b40dfe3fb_MD5.jpg)
+- 先选择面然后命名，将其提升为整形映射，同样给他一个新名称，然后要应用一个值，数字较小的数字会推动数字较大的数字，也就是月外层数值越大。最后将数值连接到SelfCollisionLayers
+- ![](attachments/67f3b31f72dd7b5d20758fbc614dfe72_MD5.jpg)
+- 反选获得未被设置层的顶点，连接到SelfCollisionDisableFace，可获得性能提升
+- [Open: Chaos Cloth-1761039565066.png](attachments/a28dfd71f2e8d2e9300ba5387039356f_MD5.jpg)
+![](attachments/a28dfd71f2e8d2e9300ba5387039356f_MD5.jpg)
+  - 完成这些后绘制CollisionThickness（碰撞厚度）
+## constraint
+[Open: Chaos Cloth-1761041015735.png](attachments/7a28bfacc6d77f4bb5add8137d364ef1_MD5.jpg)
+![](attachments/7a28bfacc6d77f4bb5add8137d364ef1_MD5.jpg)
+- 布料间约束系统：定义两组顶点集，在两组顶点集之间执行弹簧约束。以更低成本模拟碰撞效果，不实用胶囊碰撞更高效。
+- 比如你在外套里穿着毛衣，那么可以选择外套内测和毛衣外侧所有顶点创建布料间约束，这样毛衣始终与外套保持排斥
+- 布料间约束有两种类型
+	- SimulationClothVertexSpringConfig：使用顶点
+	- SimulationClothVertexFaceSpringConfig：使用用面
+- 下面案例：衣领会塌陷到肩膀里，我们不必使用开销更大的碰撞层系统，而是使用布料间约束系统
+- [Open: Chaos Cloth-1761040088932.png](attachments/9d2c86ba0b6c191b64dda20582274e4e_MD5.jpg)
+![|439x299](attachments/9d2c86ba0b6c191b64dda20582274e4e_MD5.jpg)
+- 创建源和目标选集，源选集是胸口所有顶点，目标选集是衣领所有顶点
+- [Open: Chaos Cloth-1761040250632.png](attachments/cac2d73ff9851458615f55236c4fcea5_MD5.jpg)
+![|693x587](attachments/cac2d73ff9851458615f55236c4fcea5_MD5.jpg)
+- 节点设置
+[Open: Chaos Cloth-1761040410187.png](attachments/01e0cdd0c4229bb0278dde6fc7b0f7e6_MD5.jpg)
+![](attachments/01e0cdd0c4229bb0278dde6fc7b0f7e6_MD5.jpg)
+## ProxyDeformer
+[Open: Chaos Cloth-1761041031992.png](attachments/838e36b3846c2b9ec7e01c2c3a9069bc_MD5.jpg)
+![](attachments/838e36b3846c2b9ec7e01c2c3a9069bc_MD5.jpg)
+- 代理变形器：定义模拟网格如何驱动渲染网格
+[Open: Chaos Cloth-1761040693161.png](attachments/36a0734b6b5153a3b8c0599c893809fd_MD5.jpg)
+![](attachments/36a0734b6b5153a3b8c0599c893809fd_MD5.jpg)
+- 这里变形器将口袋部分当做了腰带部分，将肩膀部分当做了衣领部分
+- 要解决这个问题，需要多组配对来定义这种关系，选择模拟网格部分和渲染网格部分将他们配对输入到代理变形器节点。告诉系统这就是驱动者和被驱动者。
+- [Open: Chaos Cloth-1761040867046.png](attachments/d64be79ffdd3edd5471512fef95841b6_MD5.jpg)
+![|541x592](attachments/d64be79ffdd3edd5471512fef95841b6_MD5.jpg)
+- 
+# 简单流程
+## 勾选插件
+[Open: Chaos Cloth-1761012906555.png](attachments/ef368f7b6eb78515a35e7725fc4024bf_MD5.jpg)
+![|1047x526](attachments/ef368f7b6eb78515a35e7725fc4024bf_MD5.jpg)
+## 创建资产
+- 创建布料资产，点击右键
+- [Open: Chaos Cloth-1761013296506.png](attachments/2d59b4e0207b436ffb30177e2e1930a0_MD5.jpg)
+![](attachments/2d59b4e0207b436ffb30177e2e1930a0_MD5.jpg)
+- 此时会生成两个资产：ClothAsset和DataFlow文件
+	- DataFlow文件用于记录节点连接信息
+- [Open: Chaos Cloth-1761013428280.png](attachments/7ca846f361850007b9f7b88168576b20_MD5.jpg)
+![](attachments/7ca846f361850007b9f7b88168576b20_MD5.jpg)
+- 我们来编辑ClothAsset资产
+
+## 资产导入
+
+[Open: Chaos Cloth-1761013780615.png](attachments/ee77f722f7bd436a94728bdf3273df8e_MD5.jpg)
+![](attachments/ee77f722f7bd436a94728bdf3273df8e_MD5.jpg)
+- 一般来说USD用于MD （Marvelous Designer）资产的导入
+- 大部分情况下布料模型制作为静态网格体
+- 我们使用静态网格体
+- [Open: Chaos Cloth-1761015055519.png](attachments/32cfd18352532437bf8b7dbec676da59_MD5.jpg)
+![](attachments/32cfd18352532437bf8b7dbec676da59_MD5.jpg)
+[Open: Chaos Cloth-1761015248375.png](attachments/a93fb6194c790ab0224fdbbfe0d53afe_MD5.jpg)
+![](attachments/a93fb6194c790ab0224fdbbfe0d53afe_MD5.jpg)
+## 传递权重
+- 使用TransferSkinWeights节点
+- [Open: Chaos Cloth-1761015133460.png](attachments/60f5a04d027ebf43e4f43abf4deccf8e_MD5.jpg)
+![](attachments/60f5a04d027ebf43e4f43abf4deccf8e_MD5.jpg)
+- [Open: Chaos Cloth-1761015197858.png](attachments/1974eece20172a19a04c2a5cac5e7f38_MD5.jpg)
+![](attachments/1974eece20172a19a04c2a5cac5e7f38_MD5.jpg)
+[Open: Chaos Cloth-1761015231186.png](attachments/bb996a90b267f38e9e3e1f5e15d5eadd_MD5.jpg)
+![](attachments/bb996a90b267f38e9e3e1f5e15d5eadd_MD5.jpg)
+## 模拟默认配置
+[Open: Chaos Cloth-1761015517900.png](attachments/cac2487627b7675e4b7abe1e57aa30a7_MD5.jpg)
+![](attachments/cac2487627b7675e4b7abe1e57aa30a7_MD5.jpg)
+- simulationDefaultConfig节点模拟默认的布料配置
+- [Open: Chaos Cloth-1761015566269.png](attachments/62215090b4aa4391b409ed44b1270439_MD5.jpg)
+![](attachments/62215090b4aa4391b409ed44b1270439_MD5.jpg)
+## 模拟最大距离
+- 添加一个WeightMap节点并命名为MaxDistance
+- [Open: Chaos Cloth-1761015767731.png](attachments/f40901d8f67df5a24498760898573571_MD5.jpg)
+![](attachments/f40901d8f67df5a24498760898573571_MD5.jpg)
+- [Open: Chaos Cloth-1761015786530.png](attachments/3745b6f5e9883043f12cfbb3ab69a280_MD5.jpg)
+![](attachments/3745b6f5e9883043f12cfbb3ab69a280_MD5.jpg)
+- WeightMap是在0:1区间取值的，然后再映射到不同取值
+- 绘制权重，有多种绘制方法可使用
+- [Open: Chaos Cloth-1761016312111.png ](attachments/5d050861d6a6c5a7db8d10e399455dff_MD5.jpg)
+![](attachments/5d050861d6a6c5a7db8d10e399455dff_MD5.jpg)
+- Brush：普通笔刷
+- Fill：填充
+- PolyLasso：网格体拉索
+- Gradient：渐变，鼠标左键选择的点权重为0，Ctrl+鼠标左键选中的点权重为1，其余点进行过度
+- HideTriangles：隐藏面，最后可点击菜单最后的是ShowAll来全部显示
+- 最终绘制
+[Open: Chaos Cloth-1761016539914.png](attachments/c57814c6e13ba949d16d67a59fdfb1cd_MD5.jpg)
+![](attachments/c57814c6e13ba949d16d67a59fdfb1cd_MD5.jpg)
+- 绘制完成后要将权重图映射到maxDistance上，链接simulationMAxDistance节点
+[Open: Chaos Cloth-1761018867156.png](attachments/a057b6b4470827e29333ca8111c7d157_MD5.jpg)
+![](attachments/a057b6b4470827e29333ca8111c7d157_MD5.jpg)
+- [Open: Chaos Cloth-1761017217962.png](attachments/234a8557814487536db8f7f1021f26bf_MD5.jpg)
+![](attachments/234a8557814487536db8f7f1021f26bf_MD5.jpg)
+## 设置物理碰撞
+[Open: Chaos Cloth-1761017284719.png](attachments/dde5ffda69bdb53747990e62f9d7eb93_MD5.jpg)
+![](attachments/dde5ffda69bdb53747990e62f9d7eb93_MD5.jpg)
+- 设置物理资产
+[Open: Chaos Cloth-1761017296006.png](attachments/23347f152cf4b10ac57a73b75076f0f0_MD5.jpg)
+![](attachments/23347f152cf4b10ac57a73b75076f0f0_MD5.jpg)
+- 设置碰撞厚度
+[Open: Chaos Cloth-1761017307637.png](attachments/41387d50f09864df7487e4cb83fdbdf3_MD5.jpg)
+![](attachments/41387d50f09864df7487e4cb83fdbdf3_MD5.jpg)
+- 现在我们可以查看布料效果，链接一个ClothAssetTerminal节点即可看到布料模拟效果
+- [Open: Chaos Cloth-1761017405074.png](attachments/c7269f1811af2341fa56244a139567d5_MD5.jpg)
+![](attachments/c7269f1811af2341fa56244a139567d5_MD5.jpg)
+[Open: Chaos Cloth-1761017453844.png](attachments/4effabb0b315db4c06f5a7506e2ea653_MD5.jpg)
+![](attachments/4effabb0b315db4c06f5a7506e2ea653_MD5.jpg)
+- 这就是一个最简单的ChaosCloth布料的制作了
+# 官方流程
+- 在创建布料资产时，会携带官方流程节点
+- [Open: Chaos Cloth-1761018436270.png](attachments/e330d9a8a8d062b178f70e179e2d7377_MD5.jpg)
+![](attachments/e330d9a8a8d062b178f70e179e2d7377_MD5.jpg)
+- 可通过调整官方流程节点来实现布料
+# 代理模型
+- 先导入代理模型
+- [Open: Chaos Cloth-1761026312930.png](attachments/83a1f3fbfcc032df193da2d509f56dca_MD5.jpg)
+![](attachments/83a1f3fbfcc032df193da2d509f56dca_MD5.jpg)
+- [Open: Chaos Cloth-1761026329124.png](attachments/c252aadcabd1bfbc6111a9af5d4c0d86_MD5.jpg)
+![](attachments/c252aadcabd1bfbc6111a9af5d4c0d86_MD5.jpg)
+- 再导入渲染模型
+- [Open: Chaos Cloth-1761026347679.png](attachments/97a997ed7236edb3588aa9bcae8827bf_MD5.jpg)
+![](attachments/97a997ed7236edb3588aa9bcae8827bf_MD5.jpg)
+- [Open: Chaos Cloth-1761026366443.png](attachments/1f6158e2fc528adca2921d6c11c0cae0_MD5.jpg)
+![](attachments/1f6158e2fc528adca2921d6c11c0cae0_MD5.jpg)
+- 进行布料合并
+- [Open: Chaos Cloth-1761026411846.png](attachments/1270afb5006d645d627aba94e3ba2a33_MD5.jpg)
+![](attachments/1270afb5006d645d627aba94e3ba2a33_MD5.jpg)
+- 然后再执行其他的布料属性设置就可以了
+# 运动学碰撞
+[Open: Chaos Cloth-1761028664323.png](attachments/ef98756d30099914bc9e48a7acad846e_MD5.jpg)
+![](attachments/ef98756d30099914bc9e48a7acad846e_MD5.jpg)
+- 我们在布料属性设置之后，布料效果输出之前加入运动学自碰撞
+- 其中skeletalMesh为角色模型
+![](attachments/8668effc8347325af5a3b486f0958784_MD5.jpg)
+- Selection是选择要碰撞的区域
+- [Open: Chaos Cloth-1761028804405.png](attachments/21e93e463102d740e5e0c3ae78ab601e_MD5.jpg)
+![](attachments/21e93e463102d740e5e0c3ae78ab601e_MD5.jpg)
+- simulationSelfCollisionConfig节点要设置碰撞厚度
+- [Open: Chaos Cloth-1761028856784.png](attachments/daae34cf69c316b6c081bb7fffc691ba_MD5.jpg)
+![](attachments/daae34cf69c316b6c081bb7fffc691ba_MD5.jpg)
+- 也可以使用静态模型然后传递权重来实现，最好简化模型来降低面数，碰撞精准但开销很大。
+# 多层布料
+[Open: Chaos Cloth-1761031863887.png](attachments/75a5f124cf799ee53b140ce615cb232f_MD5.jpg)
+![](attachments/75a5f124cf799ee53b140ce615cb232f_MD5.jpg)
+- 我们在布料属性设置之后，布料效果输出之前加入分层布料，防止布料之间的穿插
+- selection为下层裙子Mesh
+- [Open: Chaos Cloth-1761031983946.png](attachments/e0e3c0a8ddf55cbddf8a3fda71b4cb15_MD5.jpg)
+![](attachments/e0e3c0a8ddf55cbddf8a3fda71b4cb15_MD5.jpg)
+- 后面连接SelectionToIntMap节点，将其SelectionValue设置为：1
+- [Open: Chaos Cloth-1761032067855.png](attachments/67f3b31f72dd7b5d20758fbc614dfe72_MD5.jpg)
+![](attachments/67f3b31f72dd7b5d20758fbc614dfe72_MD5.jpg)
+- selection_0为上层披风Mesh
+- [Open: Chaos Cloth-1761032145233.png](attachments/6da35987eb04976ba7ef181e77df365f_MD5.jpg)
+![](attachments/6da35987eb04976ba7ef181e77df365f_MD5.jpg)
+-  后面连接SelectionToIntMap节点，将其SelectionValue设置为：2
+- [Open: Chaos Cloth-1761032168991.png](attachments/9d81fec26f9bcb3613bc90add10e3bf7_MD5.jpg)
+![](attachments/9d81fec26f9bcb3613bc90add10e3bf7_MD5.jpg)
+- 越是上层的布料，selectionValue数值越大
+- 然后将第一个SelectionToIntMap节点的IntMapName属性连接到第二个SelectionToIntMap节点的IntMapName属性上
+- 然后连接SimulationSelfCollisionConfig节点，将IntMapName属性连接到selfCollisionLayers属性，并设置碰撞厚度和摩擦力等属性
+- [Open: Chaos Cloth-1761032389123.png](attachments/bb2bedc59c4f38d032b9711779c04a9a_MD5.jpg)
+![](attachments/bb2bedc59c4f38d032b9711779c04a9a_MD5.jpg)
+- [Open: Chaos Cloth-1761032403164.png](attachments/483d92e3281d8e826dfc66068af36c95_MD5.jpg)
+![](attachments/483d92e3281d8e826dfc66068af36c95_MD5.jpg)
+- 最终输出布料，就完成了多层布料的制作。
