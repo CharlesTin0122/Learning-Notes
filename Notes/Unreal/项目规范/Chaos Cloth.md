@@ -45,7 +45,7 @@
 ![](attachments/f837d615593de5351a5dd7130ce77a57_MD5.jpg)
 - 最大距离，定点可移动的最大距离
 - [Open: Chaos Cloth-1761035780094.png](attachments/1bb1d2636447665b13df90a7bd5adbe2_MD5.jpg)
-![|324x322](attachments/1bb1d2636447665b13df90a7bd5adbe2_MD5.jpg)
+![|0x0](attachments/1bb1d2636447665b13df90a7bd5adbe2_MD5.jpg)
 ## LongRangeAttachments
 - 长距离附着，布料的拉伸效果，能对抗低子步数下产生的不真实拉伸。在最大距离之后设置。
 - 使用长距离附着时拓扑结构很重要，因为他是通过最短路径算法找到相应顶点的。
@@ -53,8 +53,9 @@
 ## backStops
 [Open: Chaos Cloth-1761041156449.png](attachments/73a7743fb6b69f7dc542c2cb046e5f0c_MD5.jpg)
 ![](attachments/73a7743fb6b69f7dc542c2cb046e5f0c_MD5.jpg)
-- 是一个补充碰撞系统，为追求性能使用低子步数和低迭代次数，所以需要这样的补充碰撞系统
-- backStopRadius会在动画网格顶点生成一个碰撞球，backStopDistance会控制物理网格顶点到碰撞球的距离
+- 是一个补充碰撞系统，为追求性能使用低子步数和低迭代次数，所以需要这样的补充碰撞系统。会在最大距离内实现逐顶点碰撞，每个顶点都有独立的后止，每个顶点都与自己的后止交互。
+- backStopRadius会在动画网格顶点生成一个碰撞球，防止物理网格穿透动画网格
+- backStopDistance会控制动画网格顶点到碰撞球的偏移距离，这个偏移是沿着顶点的**法线方向**（Normal）进行的。将碰撞球内推或外推。
 - [Open: Chaos Cloth-1761037325465.png](attachments/78ce49ca29ffe481124e036a83542c9a_MD5.jpg)
 ![|582x507](attachments/78ce49ca29ffe481124e036a83542c9a_MD5.jpg)
 - 下图中紫色的是动画网格，灰色的是物理网格
