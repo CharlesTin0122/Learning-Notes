@@ -21,5 +21,7 @@
 - t02_BatchFile
 # Unreal Engine
 - control RIg
-- 物理和布料效果
+- 次级动画效果
+- 双层布料结算：/Script/Engine.SkeletalMesh'/Game/Characters/Cloth/Male/SK_Cloth_M_Zhuoyao_A01/SK_Cloth_M_Zhuoyao_A01_Upper.SK_Cloth_M_Zhuoyao_A01_Upper'
+- 马匹ControlRig物理结算
 

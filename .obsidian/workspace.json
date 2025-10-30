@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ccd5430d1f702fcd",
+        "id": "6dc8f0720e766d77",
         "type": "tabs",
         "children": [
           {
-            "id": "d4dfcedcddc072fc",
+            "id": "1c7b412f475ef5e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Unreal/项目规范/3.0-UE5次级动画处理.md",
+                "file": "Notes/Unreal/项目规范/2.0-Chaos Cloth.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.0-UE5次级动画处理"
+              "title": "2.0-Chaos Cloth"
             }
           }
         ]
@@ -121,13 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Unreal/项目规范/虚幻引擎中的布料资产处理.md",
+                "file": "Notes/Unreal/项目规范/2.0-Chaos Cloth.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "虚幻引擎中的布料资产处理 的大纲"
+              "title": "2.0-Chaos Cloth 的大纲"
             }
           },
           {
@@ -216,31 +216,36 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "d4dfcedcddc072fc",
+  "active": "6c4cbb6491a6afbc",
   "lastOpenFiles": [
-    "Notes/Unreal/项目规范/4.0-PoseWrangler的使用.md",
+    "Notes/Unreal/项目规范/attachments/e515460e875e88d61359740a86772c6c_MD5.jpg",
+    "Notes/Unreal/项目规范/attachments/2.0-Chaos Cloth-1761710229042.png",
+    "Notes/Misc/Demo.md",
+    "Notes/Unreal/项目规范/1.0-布料资产处理.md",
+    "Notes/Unreal/项目规范/2.0-Chaos Cloth.md",
+    "Notes/MAYA/Rigging/基础知识/2.0-将旋转分解为扭转和摆动.md",
+    "Notes/MAYA/Rigging/基础知识/attachments/c897c1b42d05adff716ca8d35e82d31a_MD5.jpg",
+    "Notes/MAYA/Rigging/基础知识/attachments/2.0-将旋转分解为扭转和摆动-1761643491200.png",
+    "Notes/MAYA/Rigging/基础知识/attachments/11d6cded6bf40cc61b74a62063157823_MD5.jpg",
+    "Notes/MAYA/Rigging/基础知识/attachments/2.0-将旋转分解为扭转和摆动-1761643481775.png",
+    "Notes/Unreal/项目规范/0.0-Unreal引擎FBX资产导入注意事项.md",
     "Notes/Unreal/项目规范/3.0-UE5次级动画处理.md",
+    "Notes/MAYA/Rigging/基础知识/1.0-矩阵约束算法.md",
+    "Notes/MAYA/Rigging/基础知识/6.0-joint skin和blend shape之间的转换.md",
+    "Notes/MAYA/Rigging/基础知识/5.0-手动修改局部旋转轴为何要zeroScaleOrient.md",
+    "Notes/MAYA/Rigging/基础知识/4.0-冻结变换FreezeTransformations.md",
+    "Notes/MAYA/Rigging/基础知识/3.0-mgear_matrixConstraint节点分析.md",
+    "Notes/MAYA/动画曲线编辑辅助工具原理.md",
+    "Notes/Misc/田超个人简历.md",
+    "Notes/MAYA/常用插件和工具.md",
+    "Notes/Unreal/项目规范/4.0-PoseWrangler的使用.md",
+    "Notes/Unreal/项目规范/attachments/3eb84dffb223f78ad1f08ba4c8a150a3_MD5.jpg",
+    "Notes/Unreal/项目规范/attachments/4.0-PoseWrangler的使用-1761534365445.png",
     "Notes/MAYA/Rigging/基础知识/attachments/12a72d16a5722267cbe754f974b92fa0_MD5.jpg",
     "Notes/Unreal/项目规范/attachments/UE5 Secondary Animation in Maya and Unreal.png",
     "Notes/Unreal/项目规范/attachments/UE5 Secondary Animation in Maya and Unreal-1.png",
-    "Notes/Unreal/项目规范/attachments/UE5 Secondary Animation in Maya and Unreal-3.png",
-    "Notes/Unreal/项目规范/attachments/UE5 Secondary Animation in Maya and Unreal-6.png",
-    "Notes/Unreal/项目规范/attachments/UE5次级动画解决方案-4.png",
-    "Notes/Unreal/项目规范/attachments/UE5次级动画解决方案-5.png",
-    "Notes/Unreal/项目规范/attachments/UE5次级动画解决方案-9.png",
-    "Notes/Unreal/项目规范/attachments/UE5次级动画解决方案-13.png",
-    "Notes/Unreal/项目规范/attachments/UE5次级动画解决方案-15.png",
     "Notes/Unreal/基础知识/3.0-动画后处理Pose Process Anim Bluepint.md",
     "Notes/Unreal/基础知识/5.0-关于附加动画.md",
-    "Notes/Misc/Demo.md",
-    "Notes/Misc/田超个人简历.md",
-    "Notes/Unreal/项目规范/0.0-Unreal引擎FBX资产导入注意事项.md",
-    "Notes/Unreal/项目规范/2.0-Chaos Cloth.md",
-    "Notes/MAYA/Rigging/基础知识/1.0-矩阵约束算法.md",
-    "Notes/MAYA/Rigging/基础知识/2.0-将旋转分解为扭转和摆动.md",
-    "Notes/MAYA/Rigging/基础知识/3.0-mgear_matrixConstraint节点分析.md",
-    "Notes/MAYA/Rigging/基础知识/4.0-冻结变换FreezeTransformations.md",
-    "Notes/MAYA/Rigging/基础知识/5.0-手动修改局部旋转轴为何要zeroScaleOrient.md",
     "Notes/Misc/Win10激活.md",
     "Notes/Misc/Tian Chao's resume_old.md",
     "Notes/Misc/Tian Chao's resume.md",
@@ -249,10 +254,6 @@
     "Notes/Misc/Obsidian Markdown Examples.md",
     "Notes/Misc/lux 视频下载工具的使用.md",
     "Notes/Misc/爷爷的鬼把戏.md",
-    "Notes/Misc/学习计划.md",
-    "Notes/Misc/问题回答.md",
-    "Notes/Unreal/Control Rig/2.0-Control Rig PHYSICS.md",
-    "Notes/Unreal/Control Rig/1.06 SplineIK.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.17-QProgressDialog和QProgressBar.md.nssyncsc",
     "Notes/MAYA/Rigging/基础知识/attachments",
     "未命名.base",
