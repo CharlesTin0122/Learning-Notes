@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Unreal/项目规范/2.0-Chaos Cloth.md",
+                "file": "Notes/MAYA/Rigging/进阶/1.0-反转脚.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.0-Chaos Cloth"
+              "title": "1.0-反转脚"
             }
           }
         ]
@@ -121,13 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Unreal/项目规范/2.0-Chaos Cloth.md",
+                "file": "Notes/MAYA/Rigging/进阶/1.0-反转脚.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2.0-Chaos Cloth 的大纲"
+              "title": "1.0-反转脚 的大纲"
             }
           },
           {
@@ -218,11 +218,13 @@
   },
   "active": "6c4cbb6491a6afbc",
   "lastOpenFiles": [
+    "Notes/MAYA/Rigging/进阶/attachments/386f7530428f9cec00f07f9a5f59c8d7_MD5.jpg",
+    "Notes/MAYA/Rigging/进阶/attachments/1.0-反转脚-1761894705190.png",
+    "Notes/Unreal/项目规范/2.0-Chaos Cloth.md",
+    "Notes/Misc/Demo.md",
     "Notes/Unreal/项目规范/attachments/e515460e875e88d61359740a86772c6c_MD5.jpg",
     "Notes/Unreal/项目规范/attachments/2.0-Chaos Cloth-1761710229042.png",
-    "Notes/Misc/Demo.md",
     "Notes/Unreal/项目规范/1.0-布料资产处理.md",
-    "Notes/Unreal/项目规范/2.0-Chaos Cloth.md",
     "Notes/MAYA/Rigging/基础知识/2.0-将旋转分解为扭转和摆动.md",
     "Notes/MAYA/Rigging/基础知识/attachments/c897c1b42d05adff716ca8d35e82d31a_MD5.jpg",
     "Notes/MAYA/Rigging/基础知识/attachments/2.0-将旋转分解为扭转和摆动-1761643491200.png",
@@ -242,8 +244,6 @@
     "Notes/Unreal/项目规范/attachments/3eb84dffb223f78ad1f08ba4c8a150a3_MD5.jpg",
     "Notes/Unreal/项目规范/attachments/4.0-PoseWrangler的使用-1761534365445.png",
     "Notes/MAYA/Rigging/基础知识/attachments/12a72d16a5722267cbe754f974b92fa0_MD5.jpg",
-    "Notes/Unreal/项目规范/attachments/UE5 Secondary Animation in Maya and Unreal.png",
-    "Notes/Unreal/项目规范/attachments/UE5 Secondary Animation in Maya and Unreal-1.png",
     "Notes/Unreal/基础知识/3.0-动画后处理Pose Process Anim Bluepint.md",
     "Notes/Unreal/基础知识/5.0-关于附加动画.md",
     "Notes/Misc/Win10激活.md",
