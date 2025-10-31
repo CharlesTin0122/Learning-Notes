@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/MAYA/Rigging/基础知识/1.0-矩阵约束算法.md",
+                "file": "Notes/MAYA/什么是API，何时使用API.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.0-矩阵约束算法"
+              "title": "什么是API，何时使用API"
             }
           }
         ]
@@ -121,13 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/MAYA/Rigging/基础知识/1.0-矩阵约束算法.md",
+                "file": "Notes/MAYA/什么是API，何时使用API.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "1.0-矩阵约束算法 的大纲"
+              "title": "什么是API，何时使用API 的大纲"
             }
           },
           {
@@ -136,8 +136,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           },
           {
@@ -160,8 +160,8 @@
             "state": {
               "type": "git-history-view",
               "state": {},
-              "icon": "history",
-              "title": "History"
+              "icon": "lucide-ghost",
+              "title": "git-history-view"
             }
           },
           {
@@ -194,7 +194,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -204,25 +204,24 @@
     "hiddenItems": {
       "bases:创建新数据库": false,
       "daily-notes:打开/创建今天的日记": false,
-      "obsidian-kanban:创建新看板": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "command-palette:打开命令面板": false,
-      "templates:插入模板": false,
-      "obsidian-git:Open Git source control": false,
-      "workspaces:管理工作区布局": false,
-      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
+      "templates:插入模板": false
     }
   },
-  "active": "6c4cbb6491a6afbc",
+  "active": "875f5477b8266d87",
   "lastOpenFiles": [
+    "Notes/MAYA/基于矩阵运算的父约束.md",
+    "Notes/MAYA/动画曲线编辑辅助工具原理.md",
+    "Notes/MAYA/创建控制器所用的曲线属性.md",
+    "Notes/Work/My Tasks.md",
+    "Notes/MAYA/Rigging/基础知识/1.0-矩阵约束算法.md",
     "Notes/MAYA/mayaPython案例.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.8-列表控件-ListWidget.md",
     "Notes/MAYA/Rigging/进阶/1.0-反转脚.md",
     "Notes/MAYA/Rigging/基础知识/4.0-手动修改局部旋转轴为何要zeroScaleOrient.md",
-    "Notes/MAYA/Rigging/基础知识/1.0-矩阵约束算法.md",
     "Notes/MAYA/Rigging/基础知识/2.0-将旋转分解为扭转和摆动.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.5-按钮组-ButtonGroup.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/0.4-Maya PySide.md",
@@ -240,10 +239,6 @@
     "Notes/MAYA/mayaUI/Pyside For Maya/1.4-maya打开、导入、参考工具.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/4.01-Qt Designer.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/3.01-样式表-StyleSheet.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.21-滚动区-QScrollArea.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.20-调色盘-QPalette.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.19-可折叠控件-CollapsibleWidget.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.18-添加图片-QImage&QPixmap.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.17-QProgressDialog和QProgressBar.md.nssyncsc",
     "Notes/MAYA/Rigging/基础知识/attachments/1ec1fb76f32f173ec6a431dc8f0d56a1_MD5.jpg",
     "Notes/MAYA/Rigging/基础知识/attachments/2.0-将旋转分解为扭转和摆动-1759221896718.png",
