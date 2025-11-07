@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/program/Python/进阶/1.00-迭代器.md",
+                "file": "Notes/program/Python/进阶/2.00-生成器.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.00-迭代器"
+              "title": "2.00-生成器"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 581.5
+    "width": 407.5
   },
   "right": {
     "id": "9a963b05dd42da39",
@@ -198,7 +198,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 344.5
+    "width": 330.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,8 +216,16 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "d3a663468e80d50f",
+  "active": "6c4cbb6491a6afbc",
   "lastOpenFiles": [
+    "Notes/program/Python/进阶/1.00-迭代器.md",
+    "Notes/program/Python/进阶/基础知识/1.00-类的嵌套.md",
+    "Notes/program/Python/进阶/基础知识",
+    "Notes/program/数据结构与算法/数据结构与算法/3.1-线性表案例.md",
+    "Notes/program/C++/C++进阶/3.6 对象的深浅拷贝.md",
+    "Notes/program/C++/C++进阶/5.3 string字符串对象的迭代器iterator实现.md",
+    "Notes/program/C++/C++进阶/5.4 vector容器的迭代器iterator实现.md",
+    "Notes/program/Python/标准库/collections.md",
     "Notes/program/Python/进阶/17.00-协程.md",
     "Notes/program/Python/进阶/16.00-进程池.md",
     "Notes/program/Python/进阶/15.00-进程.md",
@@ -236,11 +244,9 @@
     "Notes/program/Python/进阶/3.00-闭包.md",
     "Notes/program/Python/进阶/3.01-装饰器.md",
     "Notes/program/Python/进阶/2.00-生成器.md",
-    "Notes/program/Python/进阶/1.00-迭代器.md",
     "Notes/math/2.0-向量(Vector).md",
     "Notes/program/Python/进阶",
     "Notes/program/Python/进阶.md",
-    "Notes/Unreal/深入浅出高级运动系统/1.15-IK解决脚穿插问题.md",
     "Notes/Unreal/深入浅出高级运动系统/attachments/1b4e3b99f7b03f1342e91229c4095392_MD5.jpg",
     "Notes/Unreal/深入浅出高级运动系统/attachments/1.15-IK解决脚穿插问题-1762416363583.png",
     "Notes/Unreal/深入浅出高级运动系统/attachments/93192e9cd3cb51bb77ab7d7c5b22c08f_MD5.jpg",
@@ -251,11 +257,6 @@
     "Notes/Unreal/深入浅出高级运动系统/attachments/1.15-IK解决脚穿插问题-1762411021274.png",
     "Notes/Unreal/深入浅出高级运动系统/attachments/032beadd36458a3b0fc158b75350c39e_MD5.jpg",
     "Notes/Unreal/深入浅出高级运动系统/attachments/1.15-IK解决脚穿插问题-1762411007546.png",
-    "Notes/Unreal/深入浅出高级运动系统/1.14-追踪探测.md",
-    "Notes/Unreal/Lyra/1.3.0-八向移动.md",
-    "Notes/Unreal/Lyra/1.2.2-步幅匹配、同步组.md",
-    "Notes/Unreal/Lyra/1.2.1-同步组.md",
-    "Notes/Unreal/Lyra/1.2.0-姿势扭曲.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.17-QProgressDialog和QProgressBar.md.nssyncsc",
     "Notes/MAYA/Rigging/基础知识/attachments",
     "未命名.base",
@@ -263,7 +264,6 @@
     "Notes/MAYA/Rigging/卡通风格绑定",
     "Notes/program/Python/标准库/attachments",
     "Notes/MAYA/Maya Pipeline Essentials/attachments",
-    "Notes/MAYA/Maya Pipeline Essentials",
     "Notes/Misc/Animation Pipeline.canvas",
     "Notes/Unreal/虚幻动画系统深入浅出.canvas",
     "Notes/Unreal/Unreal Python/未命名.canvas",
