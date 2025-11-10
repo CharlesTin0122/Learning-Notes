@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/program/Python/进阶/2.00-生成器.md",
+                "file": "Notes/program/Python/进阶/3.01-装饰器.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.00-生成器"
+              "title": "3.01-装饰器"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 407.5
+    "width": 245.5
   },
   "right": {
     "id": "9a963b05dd42da39",
@@ -198,7 +198,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5
+    "width": 255.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,9 +216,16 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "6c4cbb6491a6afbc",
+  "active": "d3a663468e80d50f",
   "lastOpenFiles": [
+    "Notes/program/Python/进阶/3.00-闭包.md",
+    "Notes/program/Python/进阶/2.01-生成器案例.md",
+    "Notes/program/Python/进阶/2.00-生成器.md",
     "Notes/program/Python/进阶/1.00-迭代器.md",
+    "Notes/program/Python/进阶/基础知识/2.00-匿名函数.md",
+    "Notes/program/Python/进阶/attachments",
+    "Notes/Misc/测试说明（中文）.md",
+    "Notes/Misc/田超个人简历.md",
     "Notes/program/Python/进阶/基础知识/1.00-类的嵌套.md",
     "Notes/program/Python/进阶/基础知识",
     "Notes/program/数据结构与算法/数据结构与算法/3.1-线性表案例.md",
@@ -240,13 +247,7 @@
     "Notes/program/Python/进阶/7.00-Property.md",
     "Notes/program/Python/进阶/6.00-深入理解面向对象.md",
     "Notes/program/Python/进阶/5.00-内建函数.md",
-    "Notes/program/Python/进阶/4.00-拷贝.md",
-    "Notes/program/Python/进阶/3.00-闭包.md",
-    "Notes/program/Python/进阶/3.01-装饰器.md",
-    "Notes/program/Python/进阶/2.00-生成器.md",
-    "Notes/math/2.0-向量(Vector).md",
     "Notes/program/Python/进阶",
-    "Notes/program/Python/进阶.md",
     "Notes/Unreal/深入浅出高级运动系统/attachments/1b4e3b99f7b03f1342e91229c4095392_MD5.jpg",
     "Notes/Unreal/深入浅出高级运动系统/attachments/1.15-IK解决脚穿插问题-1762416363583.png",
     "Notes/Unreal/深入浅出高级运动系统/attachments/93192e9cd3cb51bb77ab7d7c5b22c08f_MD5.jpg",
@@ -263,7 +264,6 @@
     "未命名 1.base",
     "Notes/MAYA/Rigging/卡通风格绑定",
     "Notes/program/Python/标准库/attachments",
-    "Notes/MAYA/Maya Pipeline Essentials/attachments",
     "Notes/Misc/Animation Pipeline.canvas",
     "Notes/Unreal/虚幻动画系统深入浅出.canvas",
     "Notes/Unreal/Unreal Python/未命名.canvas",
