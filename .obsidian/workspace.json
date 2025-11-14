@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "07a84a2cdcdab1d2",
+        "id": "5aea3841af87659a",
         "type": "tabs",
         "children": [
           {
-            "id": "99026d9d82e9f511",
+            "id": "b3e24acc836e1b45",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/program/Python/进阶/6.07-面向对象-property.md",
+                "file": "Notes/program/Python/进阶/9.00-面向对象-描述符.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6.07-面向对象-property"
+              "title": "9.00-面向对象-描述符"
             }
           }
         ]
@@ -216,16 +216,24 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "99026d9d82e9f511",
+  "active": "b3e24acc836e1b45",
   "lastOpenFiles": [
-    "Notes/program/Python/进阶/6.02-面向对象-类的方法装饰器.md",
-    "Notes/program/Python/进阶/6.03-面向对象-多继承与 MRO.md",
-    "Notes/program/Python/进阶/6.04-面向对象-内建属性.md",
-    "Notes/program/Python/进阶/6.05-面向对象-__slots__.md",
-    "Notes/program/Python/进阶/6.06-面向对象-私有化.md",
-    "Notes/program/Python/进阶/6.07-面向对象-property.md",
-    "Notes/program/Python/进阶/18.0-单例模式.md",
     "Notes/program/Python/进阶/6.01-面向对象-描述器.md",
+    "Notes/program/Python/进阶/9.00-面向对象-描述符.md",
+    "Notes/program/Python/进阶/6.02-面向对象-类的方法装饰器.md",
+    "Notes/program/Python/进阶/10.00-GIL.md",
+    "Notes/program/Python/进阶/8.00-面向对象-元类.md",
+    "Notes/program/Python/进阶/3.01-装饰器.md",
+    "Notes/program/Python/进阶/3.00-闭包.md",
+    "Notes/program/Python/进阶/2.01-生成器案例.md",
+    "Notes/program/Python/进阶/6.06-面向对象-私有化.md",
+    "Notes/program/Python/进阶/6.04-面向对象-内建属性.md",
+    "Notes/program/Python/进阶/6.03-面向对象-多继承与 MRO.md",
+    "Notes/program/Python/进阶/6.00-面向对象-封装、继承、多态.md",
+    "Notes/program/Python/进阶/6.07-面向对象-property.md",
+    "Notes/program/Python/进阶/7.00-Property.md",
+    "Notes/program/Python/进阶/6.05-面向对象-__slots__.md",
+    "Notes/program/Python/进阶/18.0-单例模式.md",
     "Notes/program/Python/进阶/5.01-map、filter、reduce.md",
     "Notes/program/Python/进阶/5.00-内建函数.md",
     "Notes/program/Python/基础/1.00-类的嵌套.md",
@@ -234,17 +242,9 @@
     "Notes/program/Python/进阶/6.04-面向对象-super关键字.md",
     "Notes/program/Python/基础/3.00-容器切片.md",
     "Notes/program/Python/Python装饰器.md",
-    "Notes/program/Python/进阶/6.00-面向对象-封装、继承、多态.md",
     "Notes/program/Python/基础/Python基础案例03(面向对象).md",
     "Notes/program/Python/基础/Python基础案例02(函数).md",
-    "Notes/program/Python/基础/Python基础案例01(基础).md",
-    "Notes/program/Python/进阶/1.00-迭代器.md",
-    "Notes/program/Python/pip入门指南.md",
-    "Notes/program/Python/pip.md",
-    "Notes/program/Python/uv基本使用.md",
-    "Notes/program/Python/基础/Python基础案例04(标准库).md",
     "Notes/program/Python/基础",
-    "Notes/program/Python/Python中比对两个文件路径下的资产差异.md",
     "Notes/program/Python/进阶/attachments",
     "Notes/program/Python/进阶/基础知识",
     "Notes/program/Python/进阶/未命名.md.nssyncsc",
