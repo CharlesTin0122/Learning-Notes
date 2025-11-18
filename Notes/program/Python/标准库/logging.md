@@ -176,7 +176,7 @@ logger.info("Info message from my_app")
 import logging
 
 # 创建 Logger
-logger = logging.getLogger('my_app')
+logger = logging.getLogger("my_app")
 logger.setLevel(logging.DEBUG)
 
 # 创建控制台 Handler
@@ -184,11 +184,13 @@ console_handler = logging.StreamHandler()
 console_handler.setLevel(logging.DEBUG)
 
 # 创建文件 Handler
-file_handler = logging.FileHandler('app.log', mode='w')
+file_handler = logging.FileHandler("app.log", mode="w")
 file_handler.setLevel(logging.INFO)
 
 # 设置格式
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+formatter = logging.Formatter(
+    "%(asctime)s - %(name)s - %(filename)s[line:%(lineno)d] - %(levelname)s - %(message)s"
+)
 console_handler.setFormatter(formatter)
 file_handler.setFormatter(formatter)
 
@@ -400,5 +402,3 @@ Python 的 `logging` 库功能强大，适合从简单脚本到复杂应用的�
 - 小型脚本：使用 `logging.basicConfig` 快速配置。
 - 大型项目：使用自定义 Logger 和配置文件，结合 Handler 和 Filter 实现模块化日志记录。
 - 生产环境：使用轮转 Handler 管理日志文件大小，按需输出到多个目标。
-
-如需更具体的使用场景或示例，请告诉我！
