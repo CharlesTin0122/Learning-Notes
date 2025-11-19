@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f6c5f0f433e67315",
+        "id": "5378bc2262e216bf",
         "type": "tabs",
         "children": [
           {
-            "id": "4113e11494ee0f88",
+            "id": "bec60ab4e12f0edb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/program/Python/进阶/12.01-线程.md",
+                "file": "Notes/program/Python/进阶/15.01-进程间的通信.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12.01-线程"
+              "title": "15.01-进程间的通信"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.5
+    "width": 356.5
   },
   "right": {
     "id": "9a963b05dd42da39",
@@ -121,13 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/program/Python/进阶/12.01-线程.md",
+                "file": "Notes/program/Python/进阶/15.01-进程间的通信.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "12.01-线程 的大纲"
+              "title": "15.01-进程间的通信 的大纲"
             }
           },
           {
@@ -216,10 +216,34 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "6c4cbb6491a6afbc",
+  "active": "bec60ab4e12f0edb",
   "lastOpenFiles": [
-    "Notes/program/Python/进阶/12.00-多任务.md",
+    "Notes/program/Python/进阶/15.00-进程.md",
+    "Notes/program/Python/进阶/15.01-进程间的通信.md",
+    "Notes/program/Python/进阶/13.00-队列.md",
     "Notes/program/Python/进阶/12.01-线程.md",
+    "Notes/program/Python/进阶/15.01-maya多进程.md",
+    "Notes/program/Python/进阶/attachments/f2117d59a1986250f7eca7ff47e0eb6b_MD5.jpg",
+    "Notes/program/Python/进阶/attachments/15.00-进程-1763541435830.png",
+    "Notes/program/Python/进阶/14.00-互斥锁.md",
+    "Notes/program/Python/进阶/14.02-死锁.md",
+    "Notes/program/Python/进阶/attachments/73272d2ec1875e3aefefea27f9bca00a_MD5.jpg",
+    "Notes/program/Python/进阶/attachments/14.00-互斥锁-1763540185169.png",
+    "Notes/program/Python/进阶/attachments/d56285d997afeebe1bafecdf57c2cd3a_MD5.jpg",
+    "Notes/program/Python/进阶/attachments/14.00-互斥锁-1763539697648.png",
+    "Notes/program/Python/进阶/attachments/95a0c8cb16172d5e159bbaa4d9f4d056_MD5.jpg",
+    "Notes/program/Python/进阶/attachments/14.00-互斥锁-1763539569739.png",
+    "Notes/program/Python/进阶/14.01-原子操作.md",
+    "Notes/program/Python/标准库/abc.md",
+    "Notes/program/Python/标准库/collections.md",
+    "Notes/program/Python/进阶/20.0-Pythonic.md",
+    "Notes/program/Python/进阶/19.1-元编程.md",
+    "Notes/program/Python/进阶/19.0-反射.md",
+    "Notes/program/Python/进阶/18.0-单例模式.md",
+    "Notes/program/Python/进阶/17.00-协程.md",
+    "Notes/program/Python/进阶/16.00-进程池.md",
+    "Notes/Misc/田超个人简历.md",
+    "Notes/program/Python/进阶/12.00-多任务.md",
     "Notes/program/Python/进阶/11.01-垃圾回收-对象池.md",
     "Notes/program/Python/标准库/logging.md",
     "Notes/program/Python/进阶/11.00-垃圾回收-概念.md",
@@ -228,37 +252,13 @@
     "Notes/program/Python/进阶/attachments/11.00-垃圾回收-概念-1763437508761.png",
     "Notes/program/Python/进阶/10.00-GIL.md",
     "Notes/program/Python/进阶/0.00-python解释器.md",
-    "Notes/program/Python/进阶/19.1-元编程.md",
-    "Notes/program/Python/进阶/19.0-反射.md",
     "Notes/program/Python/进阶/9.00-面向对象-描述符.md",
     "Excalidraw/Drawing 2024-08-07 14.38.28.excalidraw.md",
-    "Notes/program/Python/进阶/6.04-面向对象-内建属性.md",
-    "Notes/program/Python/进阶/6.06-面向对象-私有化.md",
-    "Notes/program/Python/进阶/6.07-面向对象-property.md",
-    "Notes/program/Python/进阶/6.05-面向对象-__slots__.md",
-    "Notes/program/Python/进阶/3.01-装饰器.md",
-    "Notes/program/Python/进阶/attachments/4d987a049b8577eadad50a64761bf954_MD5.jpg",
-    "Notes/program/Python/进阶/attachments/9.00-面向对象-描述符-1763349786202.png",
-    "Notes/program/Python/进阶/19.00-引用和弱引用.md",
-    "Notes/program/Python/进阶/8.00-面向对象-元类.md",
-    "Notes/program/Python/进阶/6.01-面向对象-描述器.md",
-    "Notes/program/Python/进阶/6.02-面向对象-类的方法装饰器.md",
-    "Notes/program/Python/进阶/3.00-闭包.md",
-    "Notes/program/Python/进阶/2.01-生成器案例.md",
-    "Notes/program/Python/进阶/6.03-面向对象-多继承与 MRO.md",
-    "Notes/program/Python/进阶/6.00-面向对象-封装、继承、多态.md",
-    "Notes/program/Python/进阶/18.0-单例模式.md",
     "Notes/program/Python/基础",
     "Notes/program/Python/进阶/attachments",
     "Notes/program/Python/进阶/基础知识",
     "Notes/program/Python/进阶/未命名.md.nssyncsc",
     "Notes/program/Python/进阶",
-    "Notes/Unreal/深入浅出高级运动系统/attachments/1b4e3b99f7b03f1342e91229c4095392_MD5.jpg",
-    "Notes/Unreal/深入浅出高级运动系统/attachments/1.15-IK解决脚穿插问题-1762416363583.png",
-    "Notes/Unreal/深入浅出高级运动系统/attachments/93192e9cd3cb51bb77ab7d7c5b22c08f_MD5.jpg",
-    "Notes/Unreal/深入浅出高级运动系统/attachments/1.15-IK解决脚穿插问题-1762416354633.png",
-    "Notes/Unreal/深入浅出高级运动系统/attachments/0abf6a209820a14adab3f6b70dd52a9b_MD5.jpg",
-    "Notes/Unreal/深入浅出高级运动系统/attachments/1.15-IK解决脚穿插问题-1762416337343.png",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.17-QProgressDialog和QProgressBar.md.nssyncsc",
     "Notes/MAYA/Rigging/基础知识/attachments",
     "未命名.base",
