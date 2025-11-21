@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Unreal/Lyra/0.0-项目设置.md",
+                "file": "Notes/Unreal/Lyra/1.1.1.-距离匹配实现.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0.0-项目设置"
+              "title": "1.1.1.-距离匹配实现"
             }
           }
         ]
@@ -121,13 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/program/Python/进阶/15.01-进程间的通信.md",
+                "file": "Notes/Unreal/Lyra/1.1.1.-距离匹配实现.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "15.01-进程间的通信 的大纲"
+              "title": "1.1.1.-距离匹配实现 的大纲"
             }
           },
           {
@@ -198,7 +198,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5
+    "width": 637.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,17 +216,25 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "bec60ab4e12f0edb",
+  "active": "6c4cbb6491a6afbc",
   "lastOpenFiles": [
-    "Notes/Unreal/Lyra/1.1.0-距离匹配原理.md",
-    "Notes/Unreal/Lyra/1.1.1.-距离匹配实现.md",
-    "Notes/Unreal/Lyra/1.0-基础移动.md",
-    "Notes/Unreal/Lyra/0.4-SequencePlayer 和 SequenceEvaluator.md",
-    "Notes/Unreal/Lyra/0.3-动画优化.md",
-    "Notes/Unreal/Lyra/0.2-多线程动画.md",
-    "Notes/Unreal/Lyra/0.1-Lyra项目动画概述.md",
+    "Notes/Unreal/Lyra/1.2.0-姿势扭曲.md",
+    "Notes/Unreal/Lyra/1.2.1-同步组.md",
+    "Notes/Unreal/Lyra/1.2.2-步幅匹配、同步组.md",
     "Notes/Unreal/Lyra/1.3.0-八向移动.md",
-    "Notes/Unreal/Lyra/0.0-项目设置.md",
+    "Notes/Unreal/Lyra/1.1.1.-距离匹配实现.md",
+    "Notes/Unreal/Lyra/1.1.0-距离匹配原理.md",
+    "Notes/Unreal/Lyra/基础知识/0.0-多线程动画优化.md",
+    "Notes/Unreal/Lyra/0.0-Lyra项目动画概述.md",
+    "Notes/Unreal/Lyra/1.0-基础移动.md",
+    "Notes/Unreal/深入浅出高级运动系统/1.11-动画层和动画层接口.md",
+    "Notes/Unreal/Lyra/基础知识/3.0-动画层和动画层接口.md",
+    "Notes/Unreal/Lyra/基础知识/2.0-SequencePlayer 和 SequenceEvaluator.md",
+    "Notes/Unreal/Lyra/基础知识/1.0-惯性化（inertialization）节点.md",
+    "Notes/Unreal/Lyra/0.1.-项目设置.md",
+    "Notes/Unreal/Lyra/0.2-多线程动画.md",
+    "Notes/Unreal/深入浅出高级运动系统/2.25.1-惯性化基础知识.md",
+    "Notes/Unreal/Lyra/基础知识",
     "Notes/program/Python/进阶/17.01-协程.md",
     "Notes/program/Python/进阶/12.00-多任务.md",
     "Notes/program/Python/进阶/12.02-maya多线程.md",
@@ -237,21 +245,14 @@
     "Notes/program/Python/进阶/15.01-进程间的通信.md",
     "Notes/program/Python/进阶/15.00-进程.md",
     "Notes/program/Python/进阶/12.01-线程.md",
-    "Notes/program/Python/进阶/15.01-maya多进程.md",
-    "Notes/program/Python/进阶/12.03-线程池.md",
-    "Notes/program/Python/进阶/13.00-队列.md",
     "Notes/program/Python/进阶/attachments/f2117d59a1986250f7eca7ff47e0eb6b_MD5.jpg",
     "Notes/program/Python/进阶/attachments/15.00-进程-1763541435830.png",
-    "Notes/program/Python/进阶/14.00-互斥锁.md",
-    "Notes/program/Python/进阶/14.02-死锁.md",
     "Notes/program/Python/进阶/attachments/73272d2ec1875e3aefefea27f9bca00a_MD5.jpg",
     "Notes/program/Python/进阶/attachments/14.00-互斥锁-1763540185169.png",
     "Notes/program/Python/进阶/attachments/d56285d997afeebe1bafecdf57c2cd3a_MD5.jpg",
     "Notes/program/Python/进阶/attachments/14.00-互斥锁-1763539697648.png",
     "Notes/program/Python/进阶/attachments/95a0c8cb16172d5e159bbaa4d9f4d056_MD5.jpg",
     "Notes/program/Python/进阶/attachments/14.00-互斥锁-1763539569739.png",
-    "Notes/program/Python/进阶/14.01-原子操作.md",
-    "Notes/program/Python/标准库/abc.md",
     "Notes/program/Python/进阶/attachments/7e80af3730a80d30f6679cde5a49e61b_MD5.jpg",
     "Notes/program/Python/进阶/attachments/11.00-垃圾回收-概念-1763437508761.png",
     "Notes/program/Python/基础",
@@ -263,7 +264,6 @@
     "Notes/MAYA/Rigging/基础知识/attachments",
     "未命名.base",
     "未命名 1.base",
-    "Notes/MAYA/Rigging/卡通风格绑定",
     "Notes/Misc/Animation Pipeline.canvas",
     "Notes/Unreal/虚幻动画系统深入浅出.canvas",
     "Notes/Unreal/Unreal Python/未命名.canvas",
