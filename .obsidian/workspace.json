@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Unreal/Lyra/1.1.1.-距离匹配实现.md",
+                "file": "Notes/MAYA/Rigging/基础知识/8.0-MetaHuman For Maya.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.1.1.-距离匹配实现"
+              "title": "8.0-MetaHuman For Maya"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 356.5
+    "width": 429.5
   },
   "right": {
     "id": "9a963b05dd42da39",
@@ -121,13 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Unreal/Lyra/1.1.1.-距离匹配实现.md",
+                "file": "Notes/MAYA/Rigging/基础知识/8.0-MetaHuman For Maya.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "1.1.1.-距离匹配实现 的大纲"
+              "title": "8.0-MetaHuman For Maya 的大纲"
             }
           },
           {
@@ -198,7 +198,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 637.5
+    "width": 257.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -218,11 +218,27 @@
   },
   "active": "6c4cbb6491a6afbc",
   "lastOpenFiles": [
+    "Notes/MAYA/Rigging/基础知识/attachments/316b8e9a8b3f31feeeb188d83470fce4_MD5.jpg",
+    "Notes/MAYA/Rigging/基础知识/attachments/8.0-MetaHuman For Maya-1764062772259.png",
+    "Notes/MAYA/Rigging/基础知识/attachments/9d6df8fa4f10c31eb30a29275eda1162_MD5.jpg",
+    "Notes/MAYA/Rigging/基础知识/attachments/8.0-MetaHuman For Maya-1764062749434.png",
+    "Notes/MAYA/Rigging/基础知识/attachments/c5db5c42685c709856754173e9332373_MD5.jpg",
+    "Notes/MAYA/Rigging/基础知识/attachments/8.0-MetaHuman For Maya-1764062721491.png",
+    "Notes/MAYA/Rigging/基础知识/attachments/ee828bd190f58c403c43d32c25efd9e9_MD5.jpg",
+    "Notes/MAYA/Rigging/基础知识/attachments/8.0-MetaHuman For Maya-1764061558655.png",
+    "Notes/MAYA/Rigging/基础知识/attachments/abb2d1b317e2b63d0fff7e515d3b1619_MD5.jpg",
+    "Notes/MAYA/Rigging/基础知识/attachments/8.0-MetaHuman For Maya-1764058570203.png",
+    "Notes/MAYA/Rigging/基础知识/attachments/54b6d030d1cd0932433b481b13edccaf_MD5.jpg",
+    "Notes/Infomation.md",
+    "Notes/MAYA/Rigging/基础知识/8.0-MetaHuman For Maya.md",
+    "Notes/MAYA/Rigging/基础知识/4.0-PoseWrangler的使用.md",
+    "Notes/MAYA/Rigging/基础知识/7.0-冻结变换FreezeTransformations.md",
+    "Notes/MAYA/使用mGear绑定UE5主角.md",
+    "Notes/Unreal/Lyra/1.1.1.-距离匹配实现.md",
     "Notes/Unreal/Lyra/1.2.0-姿势扭曲.md",
     "Notes/Unreal/Lyra/1.2.1-同步组.md",
     "Notes/Unreal/Lyra/1.2.2-步幅匹配、同步组.md",
     "Notes/Unreal/Lyra/1.3.0-八向移动.md",
-    "Notes/Unreal/Lyra/1.1.1.-距离匹配实现.md",
     "Notes/Unreal/Lyra/1.1.0-距离匹配原理.md",
     "Notes/Unreal/Lyra/基础知识/0.0-多线程动画优化.md",
     "Notes/Unreal/Lyra/0.0-Lyra项目动画概述.md",
@@ -239,22 +255,6 @@
     "Notes/program/Python/进阶/12.00-多任务.md",
     "Notes/program/Python/进阶/12.02-maya多线程.md",
     "Notes/program/Python/进阶/17.00-异步编程.md",
-    "Notes/program/Python/文件处理.md",
-    "Notes/program/Python/进阶/16.01-进程池中的通信.md",
-    "Notes/program/Python/进阶/16.00-进程池.md",
-    "Notes/program/Python/进阶/15.01-进程间的通信.md",
-    "Notes/program/Python/进阶/15.00-进程.md",
-    "Notes/program/Python/进阶/12.01-线程.md",
-    "Notes/program/Python/进阶/attachments/f2117d59a1986250f7eca7ff47e0eb6b_MD5.jpg",
-    "Notes/program/Python/进阶/attachments/15.00-进程-1763541435830.png",
-    "Notes/program/Python/进阶/attachments/73272d2ec1875e3aefefea27f9bca00a_MD5.jpg",
-    "Notes/program/Python/进阶/attachments/14.00-互斥锁-1763540185169.png",
-    "Notes/program/Python/进阶/attachments/d56285d997afeebe1bafecdf57c2cd3a_MD5.jpg",
-    "Notes/program/Python/进阶/attachments/14.00-互斥锁-1763539697648.png",
-    "Notes/program/Python/进阶/attachments/95a0c8cb16172d5e159bbaa4d9f4d056_MD5.jpg",
-    "Notes/program/Python/进阶/attachments/14.00-互斥锁-1763539569739.png",
-    "Notes/program/Python/进阶/attachments/7e80af3730a80d30f6679cde5a49e61b_MD5.jpg",
-    "Notes/program/Python/进阶/attachments/11.00-垃圾回收-概念-1763437508761.png",
     "Notes/program/Python/基础",
     "Notes/program/Python/进阶/attachments",
     "Notes/program/Python/进阶/基础知识",
