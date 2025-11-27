@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5378bc2262e216bf",
+        "id": "d2c464aff5c9175f",
         "type": "tabs",
         "children": [
           {
-            "id": "bec60ab4e12f0edb",
+            "id": "08b49aac810db261",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/MAYA/Rigging/基础知识/8.0-MetaHuman For Maya.md",
+                "file": "Notes/Unreal/MetaHuman/3.0-MetaHuman For Maya.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8.0-MetaHuman For Maya"
+              "title": "3.0-MetaHuman For Maya"
             }
           }
         ]
@@ -121,13 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/MAYA/Rigging/基础知识/8.0-MetaHuman For Maya.md",
+                "file": "Notes/Unreal/MetaHuman/3.0-MetaHuman For Maya.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "8.0-MetaHuman For Maya 的大纲"
+              "title": "3.0-MetaHuman For Maya 的大纲"
             }
           },
           {
@@ -218,19 +218,23 @@
   },
   "active": "6c4cbb6491a6afbc",
   "lastOpenFiles": [
-    "Notes/MAYA/Rigging/基础知识/attachments/316b8e9a8b3f31feeeb188d83470fce4_MD5.jpg",
-    "Notes/MAYA/Rigging/基础知识/attachments/8.0-MetaHuman For Maya-1764062772259.png",
-    "Notes/MAYA/Rigging/基础知识/attachments/9d6df8fa4f10c31eb30a29275eda1162_MD5.jpg",
-    "Notes/MAYA/Rigging/基础知识/attachments/8.0-MetaHuman For Maya-1764062749434.png",
-    "Notes/MAYA/Rigging/基础知识/attachments/c5db5c42685c709856754173e9332373_MD5.jpg",
-    "Notes/MAYA/Rigging/基础知识/attachments/8.0-MetaHuman For Maya-1764062721491.png",
-    "Notes/MAYA/Rigging/基础知识/attachments/ee828bd190f58c403c43d32c25efd9e9_MD5.jpg",
-    "Notes/MAYA/Rigging/基础知识/attachments/8.0-MetaHuman For Maya-1764061558655.png",
-    "Notes/MAYA/Rigging/基础知识/attachments/abb2d1b317e2b63d0fff7e515d3b1619_MD5.jpg",
-    "Notes/MAYA/Rigging/基础知识/attachments/8.0-MetaHuman For Maya-1764058570203.png",
-    "Notes/MAYA/Rigging/基础知识/attachments/54b6d030d1cd0932433b481b13edccaf_MD5.jpg",
+    "Notes/Unreal/MetaHuman/1.0-MetaHuman.md",
+    "Notes/Unreal/MetaHuman/2.0-自定义模型.md",
+    "Notes/Unreal/MetaHuman/0.0-MetaHuman基础知识.md",
+    "Notes/Unreal/MetaHuman/attachments/5ac26b1e5ea33b5425432acf6f0db4a1_MD5.jpg",
+    "Notes/Unreal/MetaHuman/attachments/2.0-自定义模型-1764148921583.png",
+    "Notes/Unreal/MetaHuman/attachments/4d55e9de382c63dcf5152cbfe0ea999a_MD5.jpg",
+    "Notes/Unreal/MetaHuman/attachments/2.0-自定义模型-1764148522517.png",
+    "Notes/Unreal/MetaHuman/attachments/cc71ea3f24adb8825d8f46d13c5b4acd_MD5.jpg",
+    "Notes/Unreal/MetaHuman/attachments/2.0-自定义模型-1764148494766.png",
+    "Notes/Unreal/MetaHuman/attachments/bddcca7f4db065c4282d2b7a5bacf2a0_MD5.jpg",
+    "Notes/Unreal/MetaHuman/attachments/2.0-自定义模型-1764148291948.png",
+    "Notes/Unreal/MetaHuman/attachments/cd154fc6e951ff682de96ecf45c67306_MD5.jpg",
+    "Notes/Unreal/MetaHuman/attachments/2.0-自定义模型-1764148251273.png",
+    "Notes/Unreal/MetaHuman/3.0-MetaHuman For Maya.md",
+    "Notes/Unreal/MetaHuman/attachments",
+    "Notes/Unreal/MetaHuman",
     "Notes/Infomation.md",
-    "Notes/MAYA/Rigging/基础知识/8.0-MetaHuman For Maya.md",
     "Notes/MAYA/Rigging/基础知识/4.0-PoseWrangler的使用.md",
     "Notes/MAYA/Rigging/基础知识/7.0-冻结变换FreezeTransformations.md",
     "Notes/MAYA/使用mGear绑定UE5主角.md",
@@ -252,9 +256,6 @@
     "Notes/Unreal/深入浅出高级运动系统/2.25.1-惯性化基础知识.md",
     "Notes/Unreal/Lyra/基础知识",
     "Notes/program/Python/进阶/17.01-协程.md",
-    "Notes/program/Python/进阶/12.00-多任务.md",
-    "Notes/program/Python/进阶/12.02-maya多线程.md",
-    "Notes/program/Python/进阶/17.00-异步编程.md",
     "Notes/program/Python/基础",
     "Notes/program/Python/进阶/attachments",
     "Notes/program/Python/进阶/基础知识",
@@ -262,8 +263,6 @@
     "Notes/program/Python/进阶",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.17-QProgressDialog和QProgressBar.md.nssyncsc",
     "Notes/MAYA/Rigging/基础知识/attachments",
-    "未命名.base",
-    "未命名 1.base",
     "Notes/Misc/Animation Pipeline.canvas",
     "Notes/Unreal/虚幻动画系统深入浅出.canvas",
     "Notes/Unreal/Unreal Python/未命名.canvas",
