@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Unreal/MetaHuman/4.4-制作FACS的混合变形.md",
+                "file": "Notes/Unreal/MetaHuman/4.5-混合变形传递算法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4.4-制作FACS的混合变形"
+              "title": "4.5-混合变形传递算法"
             }
           }
         ]
@@ -218,6 +218,8 @@
   },
   "active": "2060ccc424eeb375",
   "lastOpenFiles": [
+    "Notes/Unreal/MetaHuman/4.4-制作FACS的混合变形.md",
+    "Notes/Unreal/MetaHuman/4.5-混合变形传递算法.md",
     "Notes/Unreal/MetaHuman/attachments/e7b4a278e38bad1cd162e0b1e6024361_MD5.jpg",
     "Notes/Unreal/MetaHuman/attachments/4.4-制作FACS的混合变形-1764747166733.png",
     "Notes/Unreal/MetaHuman/attachments/304f311123699ef45a54de9778b3a327_MD5.jpg",
@@ -228,9 +230,7 @@
     "Notes/Unreal/MetaHuman/attachments/4.4-制作FACS的混合变形-1764744531424.png",
     "Notes/Unreal/MetaHuman/attachments/f0653fde48d5d82b75e0f3efb2e82b65_MD5.jpg",
     "Notes/Unreal/MetaHuman/attachments/4.4-制作FACS的混合变形-1764744426259.png",
-    "Notes/Unreal/MetaHuman/attachments/baaff33d0e9a083323f5abd93b5b64d2_MD5.jpg",
     "Notes/Unreal/MetaHuman/4.1-BlendShape Library 构建流程.md",
-    "Notes/Unreal/MetaHuman/4.4-制作FACS的混合变形.md",
     "Notes/Unreal/MetaHuman/4.3-如何基于 FACS 设计自己的面部 Rig.md",
     "Notes/Unreal/MetaHuman/4.2-FACS 与 ARKit 通道的逐项对应关系表.md",
     "Notes/Unreal/MetaHuman/4.0-FACS介绍.md",
