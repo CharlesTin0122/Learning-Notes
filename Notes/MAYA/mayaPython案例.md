@@ -232,7 +232,7 @@ pm.mel.SmoothBindSkin()
 print (pm.mel.findRelatedSkinCluster(sphere))
 # skinCluster1
 ```
-## **蒙皮和绑定姿态**
+## **蒙皮**
 
 ```python
 import pymel.core as pm
@@ -252,7 +252,16 @@ pm.deformableShape('SK_Human_Male_001', createTweakNode=0)
 pm.dagPose(name="rest",save=True)  # 储存dagpose
 pm.dagPose(name="rest",restore=True)  # 恢复到指定的绑定姿势
 ```
+## **绑定姿态**
+```python
+import pymel.core as pm
 
+dagPose = pm.dagPose(bindPose=True,q=True) # 查询绑定姿态
+pm.delete(dagPose) # 删除所有绑定姿势
+pm.dagPose(bindPose=True,save=True) # 保存当前绑定姿态
+pm.dagPose(name="rest",save=True)  # 储存dagpose
+pm.dagPose(name="rest",restore=True)  # 恢复到指定的绑定姿势
+```
 ## **通过模型获取蒙皮骨骼**
 
 ```python
