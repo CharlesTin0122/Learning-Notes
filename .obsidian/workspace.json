@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/MAYA/mayaUI/Pyside For Maya/2.8-列表控件-ListWidget.md",
+                "file": "Notes/Infomation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.8-列表控件-ListWidget"
+              "title": "Infomation"
             }
           }
         ]
@@ -218,6 +218,19 @@
   },
   "active": "64430962c0649df5",
   "lastOpenFiles": [
+    "Notes/Misc/lux 视频下载工具的使用.md",
+    "Notes/program/vscode配置C++开发环境.md",
+    "Notes/program/全面掌握 Git 版本管理.md",
+    "Notes/program/容易发音错误的单词.md",
+    "Notes/program/Scoop使用入门.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.5-按钮组-ButtonGroup.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/1.0-基础案例.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.11-windowFlags.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.10-Qt.py模块.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.9-储存和还原界面位置和尺寸.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.8-右键弹出菜单.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/0.4-Maya PySide.md",
+    "Notes/MAYA/mayaUI/Pyside For Maya/2.8-列表控件-ListWidget.md",
     "Notes/Misc/田超个人简历.md",
     "Notes/Misc/AdvancedSkeleton绑定虚幻角色流程.md",
     "Notes/Misc/Animation Pipeline.canvas",
@@ -234,7 +247,6 @@
     "Notes/Unreal/MetaHuman/4.4-制作FACS的混合变形.md",
     "Notes/Unreal/MetaHuman/4.5-混合变形传递算法.md",
     "Notes/Unreal/MetaHuman/4.3-如何基于 FACS 设计自己的面部 Rig.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/2.8-列表控件-ListWidget.md",
     "Notes/MAYA/mayaUI/Pyside For Maya/2.6-文本框-TexEdits.md",
     "Notes/Unreal/MetaHuman/1.0-MetaHuman.md",
     "Notes/Unreal/MetaHuman/0.0-MetaHuman基础知识.md",
@@ -243,17 +255,6 @@
     "Notes/Misc/学习计划.md",
     "Notes/Misc/问题回答.md",
     "Notes/Misc/测试说明.md",
-    "Notes/Misc/测试说明（中文）.md",
-    "Notes/program/Python/标准库/collections.md",
-    "Notes/Infomation.md",
-    "Notes/MAYA/mayaPython案例.md",
-    "Notes/MAYA/Maya的插件加载原理.md",
-    "Notes/Unreal/MetaHuman/3.0-MetaHuman For Maya.md",
-    "Notes/MAYA/Rigging/基础知识/4.0-PoseWrangler的使用.md",
-    "Notes/Unreal/MetaHuman/2.0-自定义模型.md",
-    "Notes/Unreal/MetaHuman/4.0-FACS介绍.md",
-    "Notes/Unreal/MetaHuman/4.1-BlendShape Library 构建流程.md",
-    "Notes/Unreal/MetaHuman/4.2-FACS 与 ARKit 通道的逐项对应关系表.md",
     "Notes/MAYA/Rigging/FACS和MetaHuman",
     "Notes/Misc/面试笔记",
     "Notes/Unreal/MetaHuman/attachments",
