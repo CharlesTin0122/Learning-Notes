@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/MAYA/布料/qualoth布料插件/1.05-连接对象.md",
+                "file": "Notes/MAYA/布料/qualoth布料插件/1.06-其他功能.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.05-连接对象"
+              "title": "1.06-其他功能"
             }
           }
         ]
@@ -121,13 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/MAYA/布料/qualoth布料插件/1.05-连接对象.md",
+                "file": "Notes/MAYA/布料/qualoth布料插件/1.06-其他功能.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "1.05-连接对象 的大纲"
+              "title": "1.06-其他功能 的大纲"
             }
           },
           {
@@ -209,30 +209,30 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-kanban:创建新看板": false,
-      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
+      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "79616f42d0ec3c18",
   "lastOpenFiles": [
+    "1.06-其他功能-1769911930198.png",
+    "1.06-清除速度和截断缓存-1769911450194.png",
+    "38e1d3ef0c09ef144413af82cc15951e_MD5.jpg",
+    "image.png",
+    "Notes/MAYA/布料/qualoth布料插件/1.05-连接对象.md",
+    "Notes/MAYA/布料/qualoth布料插件/1.06-其他功能.md",
+    "Notes/MAYA/布料/qualoth布料插件/2.02-人物服装布料结算.md",
+    "Notes/MAYA/布料/qualoth布料插件/2.01-旗帜02.md",
     "Notes/MAYA/布料/qualoth布料插件/attachments/609518c50ab98aab2e6c89f23acd61d0_MD5.jpg",
     "Notes/MAYA/布料/qualoth布料插件/attachments/1.05-连接对象-1769846381695.png",
     "Notes/MAYA/布料/qualoth布料插件/1.04-碰撞、迟滞和绘制.md",
     "Notes/MAYA/布料/qualoth布料插件/1.03-约束.md",
     "Notes/MAYA/布料/qualoth布料插件/attachments/5f5bf54835300f847e109b58aa8dbb08_MD5.jpg",
     "Notes/MAYA/布料/qualoth布料插件/attachments/1.03-约束-1769846348545.png",
-    "Notes/MAYA/布料/qualoth布料插件/1.05-连接对象.md",
     "Notes/MAYA/布料/qualoth布料插件/attachments/fb36c259547c4c7e050c4f907f3d7a74_MD5.jpg",
     "Notes/MAYA/布料/qualoth布料插件/attachments/1.05-连接对象-1769845840612.png",
-    "Notes/MAYA/布料/qualoth布料插件/2.02-人物服装布料结算.md",
-    "Notes/MAYA/布料/qualoth布料插件/2.01-旗帜02.md",
     "Notes/MAYA/布料/qualoth布料插件/attachments/c32884eaa9afcc5ebc16b68847cbda3b_MD5.jpg",
-    "Notes/MAYA/布料/qualoth布料插件/attachments/1.04-碰撞、迟滞和绘制-1769845337669.png",
-    "Notes/MAYA/布料/qualoth布料插件/attachments/666c133795a044a59e8d84f5cf367718_MD5.jpg",
-    "Notes/MAYA/布料/qualoth布料插件/attachments/1.04-碰撞、迟滞和绘制-1769844794494.png",
     "Notes/MAYA/布料/qualoth布料插件/1.00-菜单和属性.md",
-    "Notes/MAYA/布料/qualoth布料插件/attachments/bf2bfbbde1cf55c4093fde414cb4885c_MD5.jpg",
     "Notes/Unreal/Lyra/0.0-Lyra项目动画概述.md",
     "Notes/MAYA/布料/qualoth布料插件/0.00-qualoth布料插件介绍.md",
     "Notes/MAYA/mayaPython案例.md",
@@ -254,7 +254,6 @@
     "Notes/MAYA/使用mGear绑定UE5主角.md",
     "Notes/MAYA/布料/nCloth",
     "Notes/MAYA/布料",
-    "Notes/MAYA/未命名.md",
     "Notes/MAYA/布料/qualoth布料插件/attachments",
     "Notes/MAYA/布料/qualoth布料插件",
     "attachments",
