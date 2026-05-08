@@ -15,6 +15,7 @@ https://papergames.feishu.cn/wiki/ATZCwEmgyiqui0kDAJbcuyuMnUz
 # 学习计划
 - maya布料结算
 - 坐标绑定（优先胸骨绑定，真实呼吸效果）
+- MotionBuilder操作，MotionBuilder编程
 - 手动制作FACS变形
 - 绑定FACS变形
 - FACS变形使用捕捉动画

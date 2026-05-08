@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "99a5a135059d9472",
+        "id": "b88832f4e7d88ba9",
         "type": "tabs",
         "children": [
           {
-            "id": "79616f42d0ec3c18",
+            "id": "5846a96be8586629",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/MAYA/布料/qualoth布料插件/1.06-其他功能.md",
+                "file": "Notes/Unreal/布料/2.0-Chaos Cloth.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.06-其他功能"
+              "title": "2.0-Chaos Cloth"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#每帧烘焙网格",
+                "query": "PoseDriverConnect",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.5
+    "width": 397.5
   },
   "right": {
     "id": "9a963b05dd42da39",
@@ -121,13 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/MAYA/布料/qualoth布料插件/1.06-其他功能.md",
+                "file": "Notes/Unreal/布料/2.0-Chaos Cloth.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "1.06-其他功能 的大纲"
+              "title": "2.0-Chaos Cloth 的大纲"
             }
           },
           {
@@ -180,8 +180,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/MAYA/mayaUI/Pyside For Maya/2.18-添加图片.md",
-                "collapseAll": false,
+                "file": "Notes/Unreal/布料/2.0-Chaos Cloth.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -190,7 +190,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2.18-添加图片 的反向链接列表"
+              "title": "2.0-Chaos Cloth 的反向链接列表"
             }
           }
         ],
@@ -202,6 +202,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-kanban:创建新看板": false,
       "bases:新建数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -213,55 +214,55 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "79616f42d0ec3c18",
+  "active": "5846a96be8586629",
   "lastOpenFiles": [
-    "1.06-其他功能-1769911930198.png",
-    "1.06-清除速度和截断缓存-1769911450194.png",
-    "38e1d3ef0c09ef144413af82cc15951e_MD5.jpg",
-    "image.png",
-    "Notes/MAYA/布料/qualoth布料插件/1.05-连接对象.md",
-    "Notes/MAYA/布料/qualoth布料插件/1.06-其他功能.md",
-    "Notes/MAYA/布料/qualoth布料插件/2.02-人物服装布料结算.md",
-    "Notes/MAYA/布料/qualoth布料插件/2.01-旗帜02.md",
-    "Notes/MAYA/布料/qualoth布料插件/attachments/609518c50ab98aab2e6c89f23acd61d0_MD5.jpg",
-    "Notes/MAYA/布料/qualoth布料插件/attachments/1.05-连接对象-1769846381695.png",
-    "Notes/MAYA/布料/qualoth布料插件/1.04-碰撞、迟滞和绘制.md",
-    "Notes/MAYA/布料/qualoth布料插件/1.03-约束.md",
-    "Notes/MAYA/布料/qualoth布料插件/attachments/5f5bf54835300f847e109b58aa8dbb08_MD5.jpg",
-    "Notes/MAYA/布料/qualoth布料插件/attachments/1.03-约束-1769846348545.png",
-    "Notes/MAYA/布料/qualoth布料插件/attachments/fb36c259547c4c7e050c4f907f3d7a74_MD5.jpg",
-    "Notes/MAYA/布料/qualoth布料插件/attachments/1.05-连接对象-1769845840612.png",
-    "Notes/MAYA/布料/qualoth布料插件/attachments/c32884eaa9afcc5ebc16b68847cbda3b_MD5.jpg",
-    "Notes/MAYA/布料/qualoth布料插件/1.00-菜单和属性.md",
-    "Notes/Unreal/Lyra/0.0-Lyra项目动画概述.md",
-    "Notes/MAYA/布料/qualoth布料插件/0.00-qualoth布料插件介绍.md",
-    "Notes/MAYA/mayaPython案例.md",
-    "Notes/MAYA/mayaUI/Pyside For Maya/0.5-文件选择-QFileDialog.md",
-    "Notes/program/Python/pip入门指南.md",
-    "Notes/MAYA/常用插件和工具.md",
-    "Notes/Unreal/布料/3.0-布料卡住解决方案.md",
-    "Notes/Unreal/布料/2.0-Chaos Cloth.md",
     "Notes/Unreal/布料/1.0-布料资产处理.md",
-    "Notes/Unreal/项目规范/UE5动画重定向.md",
-    "Notes/Unreal/项目规范/游戏中断肢效果处理(Dismemberment System ).md",
-    "Notes/Unreal/项目规范/0.0-Unreal引擎FBX资产导入注意事项.md",
-    "Notes/Unreal/项目规范/3.0-UE5次级动画处理.md",
-    "Notes/Unreal/布料",
-    "Notes/Unreal/未命名.md",
-    "Notes/MAYA/布料/qualoth布料插件/1.02-旗帜制作.md",
-    "Notes/MAYA/布料/qualoth布料插件/1.01-布料创建过程.md",
-    "Notes/Work/Project_X12.md",
-    "Notes/MAYA/使用mGear绑定UE5主角.md",
-    "Notes/MAYA/布料/nCloth",
-    "Notes/MAYA/布料",
-    "Notes/MAYA/布料/qualoth布料插件/attachments",
-    "Notes/MAYA/布料/qualoth布料插件",
-    "attachments",
-    "Notes/MAYA/Rigging/解决方案/attachments",
-    "Notes/MAYA/Rigging/解决方案",
-    "Notes/MAYA/Rigging/坐标绑定",
+    "Notes/Unreal/布料/2.0-Chaos Cloth.md",
+    "Notes/Unreal/布料/attachments/69b045007b9281ac9cfe5cb334872ddb_MD5.jpg",
+    "Notes/Unreal/布料/attachments/image.png",
+    "Notes/Unreal/布料/attachments/79bf505a5464d03643e739b0b9567436_MD5.jpg",
+    "Notes/Unreal/布料/attachments/332ca1d757c8c9d2897f9a0ee0b1d1f2_MD5.jpg",
+    "Notes/program/PowerShell入门.md",
+    "Notes/program/Windows 命令提示符入门.md",
+    "Notes/program/API key.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/1.0-MObject.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/1.1-MGlobal.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/1.2-maya Python API 和 pymel.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/1.3-MSyntax和MArgDatabase.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/2.0-MSelectionList.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/3.0-MFnDependencyNode.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/3.1-节点属性为何是类属性而非实例属性.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/4.0-MFnDagNode.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/5.0-MFnTransform.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/6.0-Attribute和Plug.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/基础知识/11.0-pass.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/1.0-简单命令.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/1.1-简单节点.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/2.0-自定义节点.md",
+    "Notes/MAYA/Maya Python API/Maya Python API 2.0/3.0-自定义命令.md",
+    "Notes/MotionBuilder/操作/0.01-MoBu约束节点.md",
+    "Notes/math/5.0.0-数学空间层级：从拓扑到欧几里得.md",
+    "Notes/MAYA/Rigging/解决方案/1.0-PoseWrangler的使用.md",
+    "Notes/Unreal/MetaHuman/4.5-混合变形传递算法.md",
+    "Notes/Unreal/MetaHuman/4.4-制作FACS的混合变形.md",
+    "Notes/Unreal/MetaHuman/4.3-pass.md",
+    "Notes/MAYA/MayaPython",
+    "Notes/MAYA/ThirdPartyPlugins",
+    "Notes/MAYA/attachments/ec05a802bbae0da74fec6db8e8c18307_MD5.jpg",
+    "Notes/MAYA/attachments/image.png",
+    "Notes/MAYA/attachments/dd4baff0fd7a9d43ce0da40c6ddbfed2_MD5.jpg",
+    "Notes/program/Python/标准库/attachments",
+    "Notes/MotionBuilder/操作/attachments/cc09fcd215c678006c3c2d71636e10e2_MD5.jpg",
+    "Notes/MotionBuilder/操作/attachments/0.00-MoBu基础-1776222184648.png",
+    "Notes/MotionBuilder/操作/attachments/85c0005faab835a15cd4614c0380d4ee_MD5.jpg",
+    "Notes/program/C++/黑马程序员C++语法/attachments",
+    "Notes/MotionBuilder/操作/attachments",
+    "Notes/MotionBuilder/编程",
+    "Notes/MotionBuilder/操作",
+    "Notes/MAYA/Bifrost/案例/attachments",
+    "Notes/MAYA/Bifrost/案例",
+    "Notes/MAYA/Rigging/解决方案/attachments/未确认 807555.crdownload",
     "Notes/Misc/Animation Pipeline.canvas",
-    "Notes/MAYA/Rigging/FACS和MetaHuman",
     "Notes/Unreal/虚幻动画系统深入浅出.canvas",
     "Notes/Unreal/Unreal Python/未命名.canvas",
     "未命名.canvas",

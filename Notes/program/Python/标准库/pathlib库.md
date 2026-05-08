@@ -10,12 +10,12 @@ pathlib是跨平台的、面向对象的路径操作模块，可适用于不同�
 
 ## pathlib简介
 
-|类|介绍|
-|---|---|
-|PurePath|PurePath访问实际文件系统的“纯路径”，只负责对路径字符串执行操作。  <br>PurePath有两个子类，即PurePosixPath和PathWindowsPath，前者用于操作UNIX（包括 Mac OS X）风格的路径，后者用于操作Windows风格的路径。|
-|Path|Path访问实际文件系统的“真正路径”，Path对象可用于判断对应的文件是否存在、是否为文件、是否为目录等。  <br>有两个子类，即PosixPath和WindowsPath，前者用于操作UNIX（包括 Mac OS X）风格的路径，后者用于操作Windows风格的路径。  <br>考虑到操作系统的不同，Path 类的使用同 PurePath 类。|
-|PurePath和Path的区别|Path 是 PurePath 的子类，除了支持 PurePath 的各种操作、属性和方法之外，还会真正访问底层的文件系统，包括判断 Path 对应的路径是否存在，获取 Path 对应路径的各种属性（如是否只读、是文件还是文件夹等），甚至可以对文件进行读写。  <br>PurePath 和 Path 最根本的区别在于，PurePath 处理的仅是字符串，而 Path 则会真正访问底层的文件路径，因此它提供了属性和方法来访问底层的文件系统。|
-|UNIX 和 Windows 风格路径区别|UNIX 风格的路径和 Windows 风格路径的主要区别在于根路径和路径分隔符，UNIX 风格路径的根路径是斜杠（/），而 Windows 风格路径的根路径是盘符（c:）；UNIX 风格的路径的分隔符是斜杠（/），而 Windows 风格路径的分隔符是反斜杠（\）。  <br>考虑到操作系统的不同，在使用 PurePath 类时，如果在 UNIX 或 Mac OS X 系统上使用 PurePath 创建对象，该类的构造方法实际返回的是 PurePosixPath 对象；反之，如果在 Windows 系统上使用 PurePath 创建对象，该类的构造方法返回的是 PureWindowsPath 对象。|
+| 类                     | 介绍                                                                                                                                                                                                                                                                                                               |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| PurePath              | PurePath访问实际文件系统的“纯路径”，只负责对路径字符串执行操作。  <br>PurePath有两个子类，即PurePosixPath和PathWindowsPath，前者用于操作UNIX（包括 Mac OS X）风格的路径，后者用于操作Windows风格的路径。                                                                                                                                                                         |
+| Path                  | Path访问实际文件系统的“真正路径”，Path对象可用于判断对应的文件是否存在、是否为文件、是否为目录等。  <br>有两个子类，即PosixPath和WindowsPath，前者用于操作UNIX（包括 Mac OS X）风格的路径，后者用于操作Windows风格的路径。  <br>考虑到操作系统的不同，Path 类的使用同 PurePath 类。                                                                                                                                 |
+| PurePath和Path的区别      | Path 是 PurePath 的子类，除了支持 PurePath 的各种操作、属性和方法之外，还会真正访问底层的文件系统，包括判断 Path 对应的路径是否存在，获取 Path 对应路径的各种属性（如是否只读、是文件还是文件夹等），甚至可以对文件进行读写。  <br>PurePath 和 Path 最根本的区别在于，PurePath 处理的仅是字符串，而 Path 则会真正访问底层的文件路径，因此它提供了属性和方法来访问底层的文件系统。                                                                                    |
+| UNIX 和 Windows 风格路径区别 | UNIX 风格的路径和 Windows 风格路径的主要区别在于根路径和路径分隔符，UNIX 风格路径的根路径是斜杠（/），而 Windows 风格路径的根路径是盘符（c:）；UNIX 风格的路径的分隔符是斜杠（/），而 Windows 风格路径的分隔符是反斜杠（\）。  <br>考虑到操作系统的不同，在使用 PurePath 类时，如果在 UNIX 或 Mac OS X 系统上使用 PurePath 创建对象，该类的构造方法实际返回的是 PurePosixPath 对象；反之，如果在 Windows 系统上使用 PurePath 创建对象，该类的构造方法返回的是 PureWindowsPath 对象。 |
 
 Python的pathlib模块提供了一种面向对象的方式来操作文件系统路径，使得路径操作更加直观和易于使用。下面是pathlib模块的所有方法介绍：
 
