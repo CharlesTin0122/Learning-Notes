@@ -1,4 +1,9 @@
-.obsidian/
+# Obsidian: 默认忽略整个目录，仅保留跨机器共享的写作约定 / 插件清单
+.obsidian/*
+!.obsidian/app.json
+!.obsidian/core-plugins.json
+!.obsidian/community-plugins.json
+
 .obsidian-git-log.txt
 .git/
 .trash/
