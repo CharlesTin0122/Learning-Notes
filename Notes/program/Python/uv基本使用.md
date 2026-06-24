@@ -351,11 +351,10 @@ UV 是一个功能强大、速度极快的 Python 包管理和项目管理工具
 ```bash
 # 用于maya自动补全
 uv add types-maya-strict
-
+uv add motionbuilder-stubs
 # 用于pyside2自动补全
 uv add types-pyside2 
 
 uv add Qt.py
 uv add pymel
-
 ```

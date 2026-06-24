@@ -1,3 +1,8 @@
+# 工作内容
+- maya和MotionBuilder绑定
+- UE5布料解算和物理结算
+- MetaHuman
+- python 脚本插件
 # 项目检出
 ProjectP4服务器地址: x12-svn.diezhi.local:1666
 ArtP4服务器地址: x12-p4-art.diezhi.local:1667

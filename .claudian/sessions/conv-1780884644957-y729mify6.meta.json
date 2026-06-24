@@ -1,0 +1,23 @@
+{
+  "id": "conv-1780884644957-y729mify6",
+  "providerId": "claude",
+  "title": "Create npm usage guide with vibe coding",
+  "titleGenerationStatus": "success",
+  "createdAt": 1780884644957,
+  "updatedAt": 1780981916471,
+  "lastResponseAt": 1780884758785,
+  "sessionId": "35b4dfed-92e8-40ba-a551-cf6766b20fc7",
+  "providerState": {
+    "providerSessionId": "35b4dfed-92e8-40ba-a551-cf6766b20fc7"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 2,
+    "cacheCreationInputTokens": 13324,
+    "cacheReadInputTokens": 43051,
+    "contextWindow": 200000,
+    "contextTokens": 56377,
+    "percentage": 28,
+    "contextWindowIsAuthoritative": true
+  }
+}

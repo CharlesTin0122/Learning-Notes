@@ -1,0 +1,23 @@
+{
+  "id": "conv-1780454990726-4hq8e7zif",
+  "providerId": "claude",
+  "title": "Write Vibe Coding Guide",
+  "titleGenerationStatus": "success",
+  "createdAt": 1780454990727,
+  "updatedAt": 1780884534928,
+  "lastResponseAt": 1780455100687,
+  "sessionId": "ddb87487-3e7a-4b7a-b843-0e5080a850bc",
+  "providerState": {
+    "providerSessionId": "ddb87487-3e7a-4b7a-b843-0e5080a850bc"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 2,
+    "cacheCreationInputTokens": 3394,
+    "cacheReadInputTokens": 38719,
+    "contextWindow": 200000,
+    "contextTokens": 42115,
+    "percentage": 21,
+    "contextWindowIsAuthoritative": true
+  }
+}
