@@ -27,7 +27,7 @@
 
 - 实数直线（用几何直线来描述实数）：
 
-![0](Notes/math/attachments/4b001e6bfc714e809be9a9203c30aaf3_MD5.png)
+![0](attachments/4b001e6bfc714e809be9a9203c30aaf3_MD5.png)
 
 - 实数是相对虚数来说的，直到有虚数后，才把非虚数叫做实数。
 
@@ -35,7 +35,7 @@
 
 - 虚数的定义：虚数的平方是负数。如：
 
-![0](Notes/math/attachments/29ef96b8bb288f0a8904f2411984a2b5_MD5.png)
+![0](attachments/29ef96b8bb288f0a8904f2411984a2b5_MD5.png)
 
 - 但是，正数的平方是正数、负数的平方也是正数，也就是一个数的平方永远是正数或零。
 - 那么虚数有什么用？可以用来做什么？
@@ -44,7 +44,7 @@
 - i * i = -1
 - 两边开平方根得到
 
-![0](Notes/math/attachments/c84ed10adb64eef5caf4401d0f723108_MD5.png)
+![0](attachments/c84ed10adb64eef5caf4401d0f723108_MD5.png)
 
 - 也就是 i 是 -1 的平方根。
 - 如果我们接受了 i 的存在，就可以解答很多牵涉到负数平方根的问题了。
@@ -79,12 +79,12 @@ x = ± i
 
 - 虚数和实数结合在一起成为了复数，复数的用途非常广大。
 
-![0](Notes/math/attachments/57f057008b02bc0c9fb5c298bc9a1f5c_MD5.png)
+![0](attachments/57f057008b02bc0c9fb5c298bc9a1f5c_MD5.png)
 
 - 虚数有趣的属性
 - 虚数单位 i 有个有趣的属性。它自乘的积在四个答案里"循环重复"：
 
-![0](Notes/math/attachments/0ca0cae2d93d327e687bac9fa2282b34_MD5.png)
+![0](attachments/0ca0cae2d93d327e687bac9fa2282b34_MD5.png)
 
 - 结论： 虚数不是"虚"幻的，它实际存在，并且非常有用。
 
@@ -92,7 +92,7 @@ x = ± i
 
 - 复数是实数和虚数的组合：
 
-![0](Notes/math/attachments/d0764ed75f8bbb38f1e2b6c0ef1824f7_MD5.png)
+![0](attachments/d0764ed75f8bbb38f1e2b6c0ef1824f7_MD5.png)
 
 - 如： 1 + i、 39 + 3i、 0.8 − 2.2i、 −2 + π i、 √2 + i/2
 - 注意：复数是两个数加起来的，一个是实数部分，一个是虚数部分。 但这两部分都可以是 0 ，所以所有实数和虚数都是复数。
@@ -100,18 +100,18 @@ x = ± i
 
 - 实数直线是从 左向右 的， 虚数就是从上到下， 复数平面 ：
 
-![0](Notes/math/attachments/23e8f4aade534da9d8b269185bd7b070_MD5.png)
+![0](attachments/23e8f4aade534da9d8b269185bd7b070_MD5.png)
 
 - 一个复数是在复数平面上的一点：
 
-![0](Notes/math/attachments/ae4d2245f24cf6d6b9202042cd3e0e10_MD5.png)
+![0](attachments/ae4d2245f24cf6d6b9202042cd3e0e10_MD5.png)
 
 - 复数的加法
 
 - (a+bi) + (c+di) = (a+c) + (b+d)i
 - 例子：3 + 5i 加 4 − 3i
 
-![0](Notes/math/attachments/57f057008b02bc0c9fb5c298bc9a1f5c_MD5.png)
+![0](attachments/57f057008b02bc0c9fb5c298bc9a1f5c_MD5.png)
 
 - 复数的乘法
 
@@ -125,7 +125,7 @@ x = ± i
 - 复数的除法需要用到共轭。
 - 共轭是把中间的正负号改变，像这样
 
-![0](Notes/math/attachments/8b9b0b3afe5ace799596efa83986a1cb_MD5.png)
+![0](attachments/8b9b0b3afe5ace799596efa83986a1cb_MD5.png)
 
 - 共轭的一般符号是上面放一条横线：
 
@@ -137,11 +137,11 @@ x = ± i
 
 - 例子：
 
-![0](Notes/math/attachments/69b819474d21ebaa59fdf62563d7019f_MD5.png)
+![0](attachments/69b819474d21ebaa59fdf62563d7019f_MD5.png)
 
 - 解：
 
-![0](Notes/math/attachments/4ca2e1d9206e36daf8ddc963db3b9e7e_MD5.png)
+![0](attachments/4ca2e1d9206e36daf8ddc963db3b9e7e_MD5.png)
 
 - 简便计算：
 
@@ -149,21 +149,21 @@ x = ± i
 
 解：
 
-![0](Notes/math/attachments/c22865b427c9f9f6c41ce38f5fcab1a5_MD5.png)
+![0](attachments/c22865b427c9f9f6c41ce38f5fcab1a5_MD5.png)
 
 复数的用处？
 
 1）频谱分析仪： 播放音乐时时常会看到的频谱显示就是用复数计算出来的，使用的数学技巧叫 "傅里叶变换"。
 
-![0](Notes/math/attachments/5c7bba7d025840bc109cd4f840daf923_MD5.png)
+![0](attachments/5c7bba7d025840bc109cd4f840daf923_MD5.png)
 
 2）电学： 当我们把两个不对称的交流电合并时，计算合并后的电流是 非常困难 的。 但是，利用复数就可以使得计算简单很多。
 
-![0](Notes/math/attachments/fa9995e24752c9779758c09883281624_MD5.png)
+![0](attachments/fa9995e24752c9779758c09883281624_MD5.png)
 
 3） 曼德勃罗特集： 美丽的曼德勃罗特集是基于复数的。
 
-![0](Notes/math/attachments/778cde81f2fe30a49f15e523acce131a_MD5.png)
+![0](attachments/778cde81f2fe30a49f15e523acce131a_MD5.png)
 
 
 ## 欧拉公式

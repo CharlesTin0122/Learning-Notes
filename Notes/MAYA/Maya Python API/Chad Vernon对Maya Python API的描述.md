@@ -83,7 +83,7 @@ import maya.OpenMayaRender
 
 由于 Maya DG 架构的描述已经在其他地方进行了深入讨论，因此我不会在这里重现它。 我建议在文档以及其他各种 Maya 书籍和白皮书中阅读有关 Maya 依赖关系图架构的更多信息。
 
-![](Notes/MAYA/Maya%20Python%20API/attachments/874ee83611dac9d63e43b9db40a0e250_MD5.png "DGEvaluation")
+![](attachments/874ee83611dac9d63e43b9db40a0e250_MD5.png)
 
 ## Maya API 简介
 
@@ -1029,7 +1029,7 @@ OpenMaya.MScriptUtil.getFloatArrayItem(ptrDepthMap, index)
 
 MRampAttribute 允许您创建可调整的曲线或颜色属性，用户可以在其中插入和调整沿渐变点的插值。
 
-![](Notes/MAYA/Maya%20Python%20API/attachments/a7fd163269b52519db401f445031f6dd_MD5.jpg "rampDeformer")
+![](attachments/a7fd163269b52519db401f445031f6dd_MD5.jpg)
 
 为了创建斜坡属性，我们调用 MRampAttribute 中包含的方便类：
 

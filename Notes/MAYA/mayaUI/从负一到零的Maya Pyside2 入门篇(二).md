@@ -46,7 +46,7 @@ if __name__ == "__main__":
     example.show()
 ```
 
-![[aca56464501f4fcdfede7bb7077a5a12_MD5.webp]]
+![](attachments/aca56464501f4fcdfede7bb7077a5a12_MD5.webp)
 
 在本例中，我们调用了move()方法将widget 初始放置在左上角，x值从左到右递增。并且y值从上到下递增
 
@@ -56,11 +56,11 @@ if __name__ == "__main__":
 
 对于盒子布局，基本的布局类有[QHBoxLayout](https://link.zhihu.com/?target=https%3A//doc.qt.io/qt-5/qhboxlayout.html)和[QVBoxLayout](https://link.zhihu.com/?target=https%3A//doc.qt.io/qt-5/qvboxlayout.html)这两类分别对widget进行横向和纵向的排列。他们都是[QBoxLayout](https://link.zhihu.com/?target=https%3A//doc.qt.io/qt-5/qboxlayout.html)的子类，后面会称他们为 **水平布局** 和 **垂直布局**。
 
-![[7035e4b14264eacb5695f88a9f00e01f_MD5.webp]]
+![](attachments/7035e4b14264eacb5695f88a9f00e01f_MD5.webp)
 
 例如，要使用上面 Maya 选项屏幕上的三个常用按钮创建一个窗口。创建这样的布局需要有一个QHBoxLayout和一个QVBoxLayout，十分简单。
 
-![[12cc0a1bb266f3166faed4bd68af2482_MD5.webp]]
+![](attachments/12cc0a1bb266f3166faed4bd68af2482_MD5.webp)
 
 ```python
 from PySide2 import QtWidgets
@@ -109,7 +109,7 @@ if __name__ == "__main__":
 
 网格布局将空间划分为行和列，可以使用[QGridLayout](https://link.zhihu.com/?target=https%3A//doc.qt.io/qt-5/qgridlayout.html)布局创建网格布局，下如中Maya的变换属性就是如此
 
-![[bf27eb54d1f91868f41ff51a0696b9e0_MD5.webp]]
+![](attachments/bf27eb54d1f91868f41ff51a0696b9e0_MD5.webp)
 
 ```python
 from PySide2 import QtWidgets
@@ -163,7 +163,7 @@ if __name__ == "__main__":
     example.show()
 ```
 
-![[c10ae9470b2586a6a6299c7fa1c6d6bd_MD5.webp]]
+![](attachments/c10ae9470b2586a6a6299c7fa1c6d6bd_MD5.webp)
 
 在QGridLayout的情况下[可以使用addWidget() 方法](https://link.zhihu.com/?target=https%3A//doc.qt.io/qt-5/qgridlayout.html%23addWidget-1)添加小部件，但与 QBoxLayout 布局类不同，必须将行数和列数指定为参数，当然一个个的创建显然有些麻烦。我们可以利用for循环简化代码。
 
@@ -209,7 +209,7 @@ if __name__ == "__main__":
 
 grid_layout.setSizeConstraint(QtWidgets.QLayout.SetFixedSize)
 
-![[ae5af9df09693c078b1a61caae95198a_MD5.gif]]
+![](attachments/ae5af9df09693c078b1a61caae95198a_MD5.gif)
 
 ## 信号与槽 Signals & Slots
 
@@ -256,7 +256,7 @@ if __name__ == "__main__":
     example.show()
 ```
 
-![[4c27f2eae98a39871925a2474979cd02_MD5.gif]]
+![](attachments/4c27f2eae98a39871925a2474979cd02_MD5.gif)
 
 在这段代码中，QMainWindow 将 QPushButton 设置为中央小部件，我们接收信号，将此按钮连接到自定义 Python 方法 **def slot_clicked(self):** 单击该按钮，您应该会在 ScriptEditor 中看到文本“Clicked!”
 
@@ -266,7 +266,7 @@ if __name__ == "__main__":
 
 查看按钮状态，正常情况下，**# button.clicked.connect(self.slotClicked)**可以运行**，**但是在Maya 2019中这是不可能的，需要使用lamdba函数来获取状态**button.clicked.connect(lambda: self.slot_toggled(button.isChecked()))**
 
-![[dba0e53ea9e65df5108e2073c86a2e04_MD5.jpg]]
+![](attachments/dba0e53ea9e65df5108e2073c86a2e04_MD5.jpg)
 
 ### 将数据储存在变量中
 
@@ -274,7 +274,7 @@ if __name__ == "__main__":
 
 我将按钮的选中值存储在一个名为 **self.isChecked** 的变量中。可以顺利地将信息传输到另一个窗口。运行后，按下 QPushButton 应该改变一侧 UI 的 QLabel。如果小部件不提供发送其当前状态的信号的方法，则需要直接在事件代码中从小部件获取值。
 
-![[a45328c401edd8bd4345b8169f0150a2_MD5.jpg]]
+![](attachments/a45328c401edd8bd4345b8169f0150a2_MD5.jpg)
 
 ```python
 from PySide2 import QtWidgets
@@ -399,7 +399,7 @@ if __name__ == "__main__":
     
 ```
 
-![[bb6e7479bf6ce55a04f611a5a557afc0_MD5.jpg]]
+![](attachments/bb6e7479bf6ce55a04f611a5a557afc0_MD5.jpg)
 
 ### 自定义信号与槽
 
@@ -409,7 +409,7 @@ if __name__ == "__main__":
 
 使用 QtCore.Slot() 装饰器分配和重载插槽，要定义签名，只需传递 QtCore.Signal() 类之类的类型
 
-![[e64cd354b6efd28d040e20a60c44b8fd_MD5.webp]]
+![](attachments/e64cd354b6efd28d040e20a60c44b8fd_MD5.webp)
 
 ```python
 import sys
@@ -461,7 +461,7 @@ someone.speak_word.emit("Hello everybody!")
 
 在了解了这么多知识后，可以开始为maya创建自己的界面模板了。下图对这个界面结构有一个清晰的划分
 
-![[6168fd545734cc0b588881f166531142_MD5.webp]]
+![](attachments/6168fd545734cc0b588881f166531142_MD5.webp)
 
 ```python
 from PySide2 import QtWidgets

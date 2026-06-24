@@ -31,21 +31,21 @@ PySide和PyQt的主要区别是license的不同，还有一些PyQt有PySide没�
 
 打开脚本编辑器，如果你看到的脚本编辑器与我不同，那是因为我是用了Charcoal Editor 2插件。这并不是重点
 
-![00c138f7dac3600e78c90bb0dbc0b7ab_MD5](00c138f7dac3600e78c90bb0dbc0b7ab_MD5.webp)
+![00c138f7dac3600e78c90bb0dbc0b7ab_MD5](attachments/00c138f7dac3600e78c90bb0dbc0b7ab_MD5.webp)
 
 在没有这个插件的情况下 脚本编辑器的界面是这样的
 
-![8e2f3583e727270cf7f65261e195bf68_MD5](8e2f3583e727270cf7f65261e195bf68_MD5.webp)
+![8e2f3583e727270cf7f65261e195bf68_MD5](attachments/8e2f3583e727270cf7f65261e195bf68_MD5.webp)
 
 在脚本编辑器中输入**import PySide2**点击下面的按钮执行代码
 
-![3d5ca31410470d83b89ddfda1b74713b_MD5](3d5ca31410470d83b89ddfda1b74713b_MD5.webp)
+![3d5ca31410470d83b89ddfda1b74713b_MD5](attachments/3d5ca31410470d83b89ddfda1b74713b_MD5.webp)
 
 如果执行成功，上面的文本框中就会 **import PySide2**，如果你拼写有错就会得到一句报错
 
 ![5ee6efb1f92566bc5dde7fb87a055e0d_MD5](5ee6efb1f92566bc5dde7fb87a055e0d_MD5.png)
 
-![a8ae01620a4953362bfc5cf64843c348_MD5](a8ae01620a4953362bfc5cf64843c348_MD5.webp)
+![a8ae01620a4953362bfc5cf64843c348_MD5](attachments/a8ae01620a4953362bfc5cf64843c348_MD5.webp)
 
 ### 创建一个按钮
 
@@ -56,7 +56,7 @@ button = QtWidgets.QPushButton("Hello Maya!")
 button.show()
 ```
 
-![c7f0399e562ad3b335561ce3c06c0964_MD5](c7f0399e562ad3b335561ce3c06c0964_MD5.webp)
+![c7f0399e562ad3b335561ce3c06c0964_MD5](attachments/c7f0399e562ad3b335561ce3c06c0964_MD5.webp)
 
 复制上面的代码粘贴到脚本编辑器中你就得到了一个按钮，但是当你再点击Maya主窗口时，你会发现按钮不见了，这是因为它被Maya的MayaWindow盖住。后面我们会讲到如何解决这个问题。
 
@@ -77,11 +77,11 @@ app.exec_()
 
 将他粘贴到脚本编辑器中运行会给我们一个报错： **A QApplication instance already exists.** 已经存在一个桌面应用程序。
 
-![c64d2e04f2a1853be84a9a7aeeb1ff1e_MD5](c64d2e04f2a1853be84a9a7aeeb1ff1e_MD5.webp)
+![c64d2e04f2a1853be84a9a7aeeb1ff1e_MD5](attachments/c64d2e04f2a1853be84a9a7aeeb1ff1e_MD5.webp)
 
 这段代码的意思是创建一个QApplication 作为 Qt 应用程序的主程序，但在Maya的情况下，Maya本身就是一个应用程序并且已经在运行，因此我们不能创建新的主应用程序**QApplication(sys.argv)。**所以需要修改代码为**QApplication.instance()** 才可以成功执行并得到下面的界面。
 
-![5747639653b400d5d73f6243c1875b2a_MD5](5747639653b400d5d73f6243c1875b2a_MD5.webp)
+![5747639653b400d5d73f6243c1875b2a_MD5](attachments/5747639653b400d5d73f6243c1875b2a_MD5.webp)
 
 ```python3
 import sys
@@ -94,7 +94,7 @@ label.show()
 app.exec_()
 ```
 
-![5747639653b400d5d73f6243c1875b2a_MD5](5747639653b400d5d73f6243c1875b2a_MD5.webp)
+![5747639653b400d5d73f6243c1875b2a_MD5](attachments/5747639653b400d5d73f6243c1875b2a_MD5.webp)
 
 或者可以删除导入QApplication的部分执行，直接显示小部件
 
@@ -104,7 +104,7 @@ label = QLabel("<font color=red size=40>Hello World!</font>")
 label.show()
 ```
 
-![b68e3280842063cbd9e588fe5dae9be3_MD5](b68e3280842063cbd9e588fe5dae9be3_MD5.webp)
+![b68e3280842063cbd9e588fe5dae9be3_MD5](attachments/b68e3280842063cbd9e588fe5dae9be3_MD5.webp)
 
 QLabel 是一个可以显示文本和图像的小部件。
 
@@ -127,7 +127,7 @@ widget.setWindowTitle("First Window")
 widget.show()
 ```
 
-![4e1043bef5472ab3ced5040961c7edf0_MD5](4e1043bef5472ab3ced5040961c7edf0_MD5.webp)
+![4e1043bef5472ab3ced5040961c7edf0_MD5](attachments/4e1043bef5472ab3ced5040961c7edf0_MD5.webp)
 
 **from PySide2 import QtWidgets** 在这里做必要的导入。基本的 GUI 小部件可以在 QtWidgets中找到。
 
@@ -137,7 +137,7 @@ widget.show()
 
 **widget.setWindowTitle("First Window")** 可以在此处设置窗口的标题。如果未设置标题，则标题将为windowFilePath，因此对于 Maya，它将`Maya-<version>`被命名为类似
 
-![b597d2f4272101c2a4dec33b96ab54e4_MD5](b597d2f4272101c2a4dec33b96ab54e4_MD5.webp)
+![b597d2f4272101c2a4dec33b96ab54e4_MD5](attachments/b597d2f4272101c2a4dec33b96ab54e4_MD5.webp)
 
 **widget.show()** show() 方法可以显示一个小部件及其子小部件。
 
@@ -186,7 +186,7 @@ if __name__ == "__main__":
 
 Qt的功能定义了重要的信号和槽，基本上可以用来实现widget之间或者widget和你自己的Python代码之间的通信，这个时候有一个按钮有一个代码，当你按下close按钮时 窗口就会关闭
 
-![09331c4b1d533797d62f393db155e05c_MD5](09331c4b1d533797d62f393db155e05c_MD5.webp)
+![09331c4b1d533797d62f393db155e05c_MD5](attachments/09331c4b1d533797d62f393db155e05c_MD5.webp)
 
 ## 创建带菜单的界面
 
@@ -194,7 +194,7 @@ Qt的功能定义了重要的信号和槽，基本上可以用来实现widget之
 
 菜单是放置在菜单栏上的一组命令，工具栏上有应用程序中常用命令的按钮，状态栏则是显示状态信息的小部件。
 
-![2c7a1407b581ac55b7eacceb8291688c_MD5](2c7a1407b581ac55b7eacceb8291688c_MD5.webp)
+![2c7a1407b581ac55b7eacceb8291688c_MD5](attachments/2c7a1407b581ac55b7eacceb8291688c_MD5.webp)
 
 ```python
 from PySide2 import QtWidgets

@@ -1,6 +1,6 @@
 # **Profile**  
 ---  
-![[attachments/ff4df4e9dc05b695658cc432f6d7f27b_MD5.jpg#R|150]]  
+![150](attachments/ff4df4e9dc05b695658cc432f6d7f27b_MD5.jpg#R)  
 **Name:** Tian Chao (Charles Tian)  
 **Location:** Suzhou, Jiangsu, China  
 **Career Objective:** Technical Artist (Animation), Rigger, Animator  

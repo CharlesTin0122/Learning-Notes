@@ -4,7 +4,7 @@ date created: 2023-12-05 11:33
 
 ## attrColorSliderGrp
 
-![8fe23a1c3961d6ccf28d253ac5c0fa36_MD5](8fe23a1c3961d6ccf28d253ac5c0fa36_MD5.jpg)
+![8fe23a1c3961d6ccf28d253ac5c0fa36_MD5](attachments/8fe23a1c3961d6ccf28d253ac5c0fa36_MD5.jpg)
 
 ```python
 import maya.cmds as cmds
@@ -18,7 +18,7 @@ cmds.showWindow()
 
 ## attrControlGrp
 
-![e1661d55b5b413cfe6d05d5c4687be05_MD5](e1661d55b5b413cfe6d05d5c4687be05_MD5.png)
+![e1661d55b5b413cfe6d05d5c4687be05_MD5](attachments/e1661d55b5b413cfe6d05d5c4687be05_MD5.png)
 
 ```python
 import maya.cmds as cmds
@@ -31,7 +31,7 @@ cmds.showWindow()
 
 ## attrFieldGrp
 
-![226807f423250ed25169d9f161a9bb60_MD5](226807f423250ed25169d9f161a9bb60_MD5.png)
+![226807f423250ed25169d9f161a9bb60_MD5](attachments/226807f423250ed25169d9f161a9bb60_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -45,7 +45,7 @@ cmds.showWindow()
 
 ## attrFieldSliderGrp
 
-![226807f423250ed25169d9f161a9bb60_MD5](226807f423250ed25169d9f161a9bb60_MD5.png)
+![226807f423250ed25169d9f161a9bb60_MD5](attachments/226807f423250ed25169d9f161a9bb60_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -60,7 +60,7 @@ cmds.showWindow()
 
 ## attrNavigationControlGrp
 
-![5e483e69efce630b4278c33e3cb70769_MD5](5e483e69efce630b4278c33e3cb70769_MD5.png)
+![5e483e69efce630b4278c33e3cb70769_MD5](attachments/5e483e69efce630b4278c33e3cb70769_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -75,7 +75,7 @@ cmds.showWindow()
 
 ## button
 
-![44babf83ec886991f31c9067d41fb1d0_MD5](44babf83ec886991f31c9067d41fb1d0_MD5.png)
+![44babf83ec886991f31c9067d41fb1d0_MD5](attachments/44babf83ec886991f31c9067d41fb1d0_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -94,7 +94,7 @@ def defaultButtonPush(*args):
 
 ## canvas
 
-![7e6026f6f7b369ce0002a0332ae52c8b_MD5](7e6026f6f7b369ce0002a0332ae52c8b_MD5.png)
+![7e6026f6f7b369ce0002a0332ae52c8b_MD5](attachments/7e6026f6f7b369ce0002a0332ae52c8b_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -109,7 +109,7 @@ cmds.showWindow()
 
 ## channelBox
 
-![e0c391883768684a4eeea7a6dd2b8ae5_MD5](e0c391883768684a4eeea7a6dd2b8ae5_MD5.png)
+![e0c391883768684a4eeea7a6dd2b8ae5_MD5](attachments/e0c391883768684a4eeea7a6dd2b8ae5_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -123,7 +123,7 @@ cmds.showWindow()
 
 ## checkBox
 
-![d2054bd498344814c2567f0bac289e88_MD5](d2054bd498344814c2567f0bac289e88_MD5.png)
+![d2054bd498344814c2567f0bac289e88_MD5](attachments/d2054bd498344814c2567f0bac289e88_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -139,7 +139,7 @@ cmds.showWindow( window )
 
 ## checkBoxGrp
 
-![c7999a83ba375c31806bed0276800e1c_MD5](c7999a83ba375c31806bed0276800e1c_MD5.png)
+![c7999a83ba375c31806bed0276800e1c_MD5](attachments/c7999a83ba375c31806bed0276800e1c_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -158,7 +158,7 @@ cmds.showWindow(exampleWindow)
 
 ## cmdScrollFieldExecuter
 
-![bdb77d1e84d92228a30579c09d403d3d_MD5](bdb77d1e84d92228a30579c09d403d3d_MD5.png)
+![bdb77d1e84d92228a30579c09d403d3d_MD5](attachments/bdb77d1e84d92228a30579c09d403d3d_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -176,7 +176,7 @@ cmds.showWindow()
 
 ## cmdScrollFieldReporter
 
-![c452dada6cb03e622d417ad6248839b6_MD5](c452dada6cb03e622d417ad6248839b6_MD5.png)
+![c452dada6cb03e622d417ad6248839b6_MD5](attachments/c452dada6cb03e622d417ad6248839b6_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -189,7 +189,7 @@ cmds.showWindow()
 
 ## cmdShell
 
-![4a53662f236266301fdb584722d978d8_MD5](4a53662f236266301fdb584722d978d8_MD5.png)
+![4a53662f236266301fdb584722d978d8_MD5](attachments/4a53662f236266301fdb584722d978d8_MD5.png)
 
 ```py
 
@@ -216,7 +216,7 @@ cmds.showWindow( 'ExampleWindow' )
 
 ## colorIndexSliderGrp
 
-![a3a3d053ab707354df612e3c38b4ce3f_MD5](a3a3d053ab707354df612e3c38b4ce3f_MD5.png)
+![a3a3d053ab707354df612e3c38b4ce3f_MD5](attachments/a3a3d053ab707354df612e3c38b4ce3f_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -229,7 +229,7 @@ cmds.showWindow()
 
 ## colorInputWidgetGrp
 
-![3fafdb0eba3627f7cdc4a358b232c3c1_MD5](3fafdb0eba3627f7cdc4a358b232c3c1_MD5.png)
+![3fafdb0eba3627f7cdc4a358b232c3c1_MD5](attachments/3fafdb0eba3627f7cdc4a358b232c3c1_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -242,7 +242,7 @@ cmds.showWindow()
 
 ## colorSliderButtonGrp
 
-![f38335f125506aef4c551b25097ca182_MD5](f38335f125506aef4c551b25097ca182_MD5.png)
+![f38335f125506aef4c551b25097ca182_MD5](attachments/f38335f125506aef4c551b25097ca182_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -255,7 +255,7 @@ cmds.showWindow()
 
 ## colorSliderGrp
 
-![f613f68915cda42e419505060b89680b_MD5](f613f68915cda42e419505060b89680b_MD5.png)
+![f613f68915cda42e419505060b89680b_MD5](attachments/f613f68915cda42e419505060b89680b_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -269,7 +269,7 @@ cmds.showWindow()
 
 ## commandLine
 
-![70fc9de3b70950a25d5dc352e9a1aa3d_MD5](70fc9de3b70950a25d5dc352e9a1aa3d_MD5.png)
+![70fc9de3b70950a25d5dc352e9a1aa3d_MD5](attachments/70fc9de3b70950a25d5dc352e9a1aa3d_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -289,7 +289,7 @@ cmds.showWindow( window )
 
 ## componentBox
 
-![2d0d8be8b85b3275ca9ba2bff67d8dd2_MD5](2d0d8be8b85b3275ca9ba2bff67d8dd2_MD5.png)
+![2d0d8be8b85b3275ca9ba2bff67d8dd2_MD5](attachments/2d0d8be8b85b3275ca9ba2bff67d8dd2_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -303,7 +303,7 @@ cmds.showWindow()
 
 ## control
 
-![f61451d267033cebd5fae95ca2087dba_MD5](f61451d267033cebd5fae95ca2087dba_MD5.png)
+![f61451d267033cebd5fae95ca2087dba_MD5](attachments/f61451d267033cebd5fae95ca2087dba_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -321,7 +321,7 @@ cmds.control( button, query=True, visible=True )
 
 ## falloffCurve
 
-![f3a96234c191ef7b7a675f114d3fefda_MD5](f3a96234c191ef7b7a675f114d3fefda_MD5.png)
+![f3a96234c191ef7b7a675f114d3fefda_MD5](attachments/f3a96234c191ef7b7a675f114d3fefda_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -341,7 +341,7 @@ cmds.falloffCurve( 'fCurve', q=True, asString=True )
 
 ## falloffCurveAttr
 
-![df8c07af5de602fd3f04a3871c7ad61e_MD5](df8c07af5de602fd3f04a3871c7ad61e_MD5.png)
+![df8c07af5de602fd3f04a3871c7ad61e_MD5](attachments/df8c07af5de602fd3f04a3871c7ad61e_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -354,7 +354,7 @@ cmds.showWindow()
 
 ## floatField
 
-![aa936f5ac282e379ae673e094fe1c3ea_MD5](aa936f5ac282e379ae673e094fe1c3ea_MD5.png)
+![aa936f5ac282e379ae673e094fe1c3ea_MD5](attachments/aa936f5ac282e379ae673e094fe1c3ea_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -370,7 +370,7 @@ cmds.showWindow( window )
 
 ## floatFieldGrp
 
-![df0d4bd9b126c15c5cd213127424bebd_MD5](df0d4bd9b126c15c5cd213127424bebd_MD5.png)
+![df0d4bd9b126c15c5cd213127424bebd_MD5](attachments/df0d4bd9b126c15c5cd213127424bebd_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -382,7 +382,7 @@ cmds.showWindow( window )
 
 ## floatScrollBar
 
-![08fba8b009d1f8a938dae422e5c95070_MD5](08fba8b009d1f8a938dae422e5c95070_MD5.png)
+![08fba8b009d1f8a938dae422e5c95070_MD5](attachments/08fba8b009d1f8a938dae422e5c95070_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -395,7 +395,7 @@ cmds.showWindow()
 
 ## floatSlider
 
-![2d1488482de700496a6760e72d887326_MD5](2d1488482de700496a6760e72d887326_MD5.png)
+![2d1488482de700496a6760e72d887326_MD5](attachments/2d1488482de700496a6760e72d887326_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -408,7 +408,7 @@ cmds.showWindow()
 
 ## floatSlider2
 
-![9b5d515a80ff4b670e030b4abc64d179_MD5](9b5d515a80ff4b670e030b4abc64d179_MD5.png)
+![9b5d515a80ff4b670e030b4abc64d179_MD5](attachments/9b5d515a80ff4b670e030b4abc64d179_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -425,7 +425,7 @@ cmds.showWindow()
 
 ## floatSliderButtonGrp
 
-![debc03aa6e556c7c566a6882d3a1fe88_MD5](debc03aa6e556c7c566a6882d3a1fe88_MD5.png)
+![debc03aa6e556c7c566a6882d3a1fe88_MD5](attachments/debc03aa6e556c7c566a6882d3a1fe88_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -437,7 +437,7 @@ cmds.showWindow( window )
 
 ## floatSliderGrp
 
-![3643e2bc9a823721c2ee5bb6f7638506_MD5](3643e2bc9a823721c2ee5bb6f7638506_MD5.png)
+![3643e2bc9a823721c2ee5bb6f7638506_MD5](attachments/3643e2bc9a823721c2ee5bb6f7638506_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -450,7 +450,7 @@ cmds.showWindow( window )
 
 ## gradientControl
 
-![6a0ddf84a52fbee30a1402db6031f8c3_MD5](6a0ddf84a52fbee30a1402db6031f8c3_MD5.png)
+![6a0ddf84a52fbee30a1402db6031f8c3_MD5](attachments/6a0ddf84a52fbee30a1402db6031f8c3_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -463,7 +463,7 @@ cmds.showWindow()
 
 ## gradientControlNoAttr
 
-![a8eace3a8e79e0219fd99de96f618b23_MD5](a8eace3a8e79e0219fd99de96f618b23_MD5.png)
+![a8eace3a8e79e0219fd99de96f618b23_MD5](attachments/a8eace3a8e79e0219fd99de96f618b23_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -478,7 +478,7 @@ cmds.showWindow()
 
 ## helpLine
 
-![f268fab06179555d55bee6c4f1eac553_MD5](f268fab06179555d55bee6c4f1eac553_MD5.png)
+![f268fab06179555d55bee6c4f1eac553_MD5](attachments/f268fab06179555d55bee6c4f1eac553_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -510,7 +510,7 @@ cmds.showWindow( window )
 
 ## hudButton
 
-![2804bd3206dc8ab4064cae02cd258873_MD5](2804bd3206dc8ab4064cae02cd258873_MD5.png)
+![2804bd3206dc8ab4064cae02cd258873_MD5](attachments/2804bd3206dc8ab4064cae02cd258873_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -524,7 +524,7 @@ cmds.hudButton('HUDHelloButton', s=7, b=5, vis=1, l='Button', bw=80, bsh='roundR
 
 ## hudSliderButton
 
-![bed751a98cad0b64879501708b909120_MD5](bed751a98cad0b64879501708b909120_MD5.png)
+![bed751a98cad0b64879501708b909120_MD5](attachments/bed751a98cad0b64879501708b909120_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -539,7 +539,7 @@ cmds.hudSliderButton( 'HUDTranslateXSliderButton', s=5, b=5, vis=True, sl='Slide
 
 ## iconTextButton
 
-![a761464d6b173f8ed096d9a61f5534ac_MD5](a761464d6b173f8ed096d9a61f5534ac_MD5.png)
+![a761464d6b173f8ed096d9a61f5534ac_MD5](attachments/a761464d6b173f8ed096d9a61f5534ac_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -554,7 +554,7 @@ cmds.showWindow( window )
 
 ## iconTextCheckBox
 
-![b16617cd17954dbd5736af30409de1c0_MD5](b16617cd17954dbd5736af30409de1c0_MD5.png)
+![b16617cd17954dbd5736af30409de1c0_MD5](attachments/b16617cd17954dbd5736af30409de1c0_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -570,7 +570,7 @@ cmds.showWindow( window )
 
 ## iconTextRadioButton
 
-![2d27261521502524d732d96012150a59_MD5](2d27261521502524d732d96012150a59_MD5.png)
+![2d27261521502524d732d96012150a59_MD5](attachments/2d27261521502524d732d96012150a59_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -587,7 +587,7 @@ cmds.showWindow()
 
 ## iconTextRadioCollection
 
-![065a71ed702612e1e71427cf8b4b0011_MD5](065a71ed702612e1e71427cf8b4b0011_MD5.png)
+![065a71ed702612e1e71427cf8b4b0011_MD5](attachments/065a71ed702612e1e71427cf8b4b0011_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -604,7 +604,7 @@ cmds.showWindow()
 
 ## iconTextScrollList
 
-![9b5be5b725a7dd637dbc7bf36cb1367b_MD5](9b5be5b725a7dd637dbc7bf36cb1367b_MD5.png)
+![9b5be5b725a7dd637dbc7bf36cb1367b_MD5](attachments/9b5be5b725a7dd637dbc7bf36cb1367b_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -616,7 +616,7 @@ cmds.showWindow()
 
 ## iconTextStaticLabel
 
-![a62b6f5c933b1070c1ad805ae697d063_MD5](a62b6f5c933b1070c1ad805ae697d063_MD5.png)
+![a62b6f5c933b1070c1ad805ae697d063_MD5](attachments/a62b6f5c933b1070c1ad805ae697d063_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -632,7 +632,7 @@ cmds.showWindow()
 
 ## image
 
-![bbc653f92d33ac0d51342cf145429f71_MD5](bbc653f92d33ac0d51342cf145429f71_MD5.png)
+![bbc653f92d33ac0d51342cf145429f71_MD5](attachments/bbc653f92d33ac0d51342cf145429f71_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -644,7 +644,7 @@ cmds.showWindow( window )
 
 ## intField
 
-![55ff6187f9a9b4d134771a25efd5af8d_MD5](55ff6187f9a9b4d134771a25efd5af8d_MD5.png)
+![55ff6187f9a9b4d134771a25efd5af8d_MD5](attachments/55ff6187f9a9b4d134771a25efd5af8d_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -660,7 +660,7 @@ cmds.showWindow()
 
 ## intFieldGrp
 
-![c453ea89c4835e8b439933302c92eb0f_MD5](c453ea89c4835e8b439933302c92eb0f_MD5.png)
+![c453ea89c4835e8b439933302c92eb0f_MD5](attachments/c453ea89c4835e8b439933302c92eb0f_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -672,7 +672,7 @@ cmds.showWindow( window )
 
 ## intScrollBar
 
-![cf3fc8cecb357a6af45a52d85ede35b2_MD5](cf3fc8cecb357a6af45a52d85ede35b2_MD5.png)
+![cf3fc8cecb357a6af45a52d85ede35b2_MD5](attachments/cf3fc8cecb357a6af45a52d85ede35b2_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -686,7 +686,7 @@ cmds.showWindow()
 
 ## intSlider
 
-![de3069b692a879c41abfffeaf38e6797_MD5](de3069b692a879c41abfffeaf38e6797_MD5.png)
+![de3069b692a879c41abfffeaf38e6797_MD5](attachments/de3069b692a879c41abfffeaf38e6797_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -700,7 +700,7 @@ cmds.showWindow()
 
 ## intSliderGrp
 
-![1c561db89c4830cf4ee32e0a5458f277_MD5](1c561db89c4830cf4ee32e0a5458f277_MD5.png)
+![1c561db89c4830cf4ee32e0a5458f277_MD5](attachments/1c561db89c4830cf4ee32e0a5458f277_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -714,7 +714,7 @@ cmds.showWindow( )
 
 ## layerButton
 
-![d1efdd0b614cef12b956fb21eb0182f3_MD5](d1efdd0b614cef12b956fb21eb0182f3_MD5.png)
+![d1efdd0b614cef12b956fb21eb0182f3_MD5](attachments/d1efdd0b614cef12b956fb21eb0182f3_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -729,7 +729,7 @@ width = cmds.layerButton(b ,q=True, labelWidth=True )
 
 ## messageLine
 
-![b4fa85bb9c537f9e3e36597d7a0a6220_MD5](b4fa85bb9c537f9e3e36597d7a0a6220_MD5.png)
+![b4fa85bb9c537f9e3e36597d7a0a6220_MD5](attachments/b4fa85bb9c537f9e3e36597d7a0a6220_MD5.png)
 
 > 此命令创建一条消息行，其中显示工具反馈。
 
@@ -745,7 +745,7 @@ cmds.showWindow( window )
 
 ## nameField
 
-![5c855ec9ac2bf9f5e53bb0eb1b2d068b_MD5](5c855ec9ac2bf9f5e53bb0eb1b2d068b_MD5.png)
+![5c855ec9ac2bf9f5e53bb0eb1b2d068b_MD5](attachments/5c855ec9ac2bf9f5e53bb0eb1b2d068b_MD5.png)
 
 > 创建一个可编辑字段，该字段可链接到Maya对象的名称。该字段将始终显示链接对象的名称。
 
@@ -762,7 +762,7 @@ cmds.rename( objectName, 'NewName' )
 
 ## nodeTreeLister
 
-![7a519e6eedab2b2ceb04c844f72d3bc8_MD5](7a519e6eedab2b2ceb04c844f72d3bc8_MD5.png)
+![7a519e6eedab2b2ceb04c844f72d3bc8_MD5](attachments/7a519e6eedab2b2ceb04c844f72d3bc8_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -780,7 +780,7 @@ cmds.showWindow()
 
 ## palettePort
 
-![e99f9b7b2d2eb1e562c4740c42e962ca_MD5](e99f9b7b2d2eb1e562c4740c42e962ca_MD5.png)
+![e99f9b7b2d2eb1e562c4740c42e962ca_MD5](attachments/e99f9b7b2d2eb1e562c4740c42e962ca_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -798,7 +798,7 @@ cmds.showWindow()
 
 ## picture
 
-![2eb64d5e1a9aa8190a1564175d1ecf1c_MD5](2eb64d5e1a9aa8190a1564175d1ecf1c_MD5.png)
+![2eb64d5e1a9aa8190a1564175d1ecf1c_MD5](attachments/2eb64d5e1a9aa8190a1564175d1ecf1c_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -811,7 +811,7 @@ cmds.showWindow( window )
 
 ## progressBar
 
-![5838730275bb017b98acf48f6cbb5d89_MD5](5838730275bb017b98acf48f6cbb5d89_MD5.png)
+![5838730275bb017b98acf48f6cbb5d89_MD5](attachments/5838730275bb017b98acf48f6cbb5d89_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -825,7 +825,7 @@ cmds.showWindow( window )
 
 ## radioButton
 
-![7126efc403979c6a28816b2db3734abf_MD5](7126efc403979c6a28816b2db3734abf_MD5.png)
+![7126efc403979c6a28816b2db3734abf_MD5](attachments/7126efc403979c6a28816b2db3734abf_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -842,7 +842,7 @@ cmds.showWindow( window )
 
 ## radioButtonGrp
 
-![f60eb558c400018e4c30b60414bada45_MD5](f60eb558c400018e4c30b60414bada45_MD5.png)
+![f60eb558c400018e4c30b60414bada45_MD5](attachments/f60eb558c400018e4c30b60414bada45_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -862,7 +862,7 @@ cmds.showWindow( window )
 
 ## radioCollection
 
-![d296c4e4dfd7be8341b494aeefa47a7b_MD5](d296c4e4dfd7be8341b494aeefa47a7b_MD5.png)
+![d296c4e4dfd7be8341b494aeefa47a7b_MD5](attachments/d296c4e4dfd7be8341b494aeefa47a7b_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -907,7 +907,7 @@ cmds.showWindow(window)
 
 ## scriptTable
 
-![19b33a82d69d22c1d8cf9aac60d7cc58_MD5](19b33a82d69d22c1d8cf9aac60d7cc58_MD5.png)
+![19b33a82d69d22c1d8cf9aac60d7cc58_MD5](attachments/19b33a82d69d22c1d8cf9aac60d7cc58_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -929,7 +929,7 @@ cmds.showWindow( window )
 
 ## scrollField
 
-![782a51674927a1a2c6e645e1af663800_MD5](782a51674927a1a2c6e645e1af663800_MD5.png)
+![782a51674927a1a2c6e645e1af663800_MD5](attachments/782a51674927a1a2c6e645e1af663800_MD5.png)
 
 ```py
 cmds.paneLayout( configuration='horizontal4' )
@@ -941,7 +941,7 @@ cmds.scrollField( editable=True, wordWrap=False, text='Editable with no word wra
 
 ## separator
 
-![0c90d17d748b513576afdb4fa2c9cb3b_MD5](0c90d17d748b513576afdb4fa2c9cb3b_MD5.png)
+![0c90d17d748b513576afdb4fa2c9cb3b_MD5](attachments/0c90d17d748b513576afdb4fa2c9cb3b_MD5.png)
 
 ```py
 cmds.rowColumnLayout( numberOfColumns=2, columnAlign=(1, 'right'), columnAttach=(2, 'both', 0), columnWidth=(2, 150) )
@@ -961,7 +961,7 @@ cmds.setParent( '..' )
 
 ## shelfButton
 
-![761865d96dcc980b0fd42488c3444f2a_MD5](761865d96dcc980b0fd42488c3444f2a_MD5.png)
+![761865d96dcc980b0fd42488c3444f2a_MD5](attachments/761865d96dcc980b0fd42488c3444f2a_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -998,7 +998,7 @@ cmds.soundControl( 'soundScrubber', e=True, pc=cmds.soundControl('soundScrubber'
 
 ## swatchDisplayPort
 
-![edb1bcb4a4d2b1195aa78a3bd78bddc5_MD5](edb1bcb4a4d2b1195aa78a3bd78bddc5_MD5.png)
+![edb1bcb4a4d2b1195aa78a3bd78bddc5_MD5](attachments/edb1bcb4a4d2b1195aa78a3bd78bddc5_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -1011,7 +1011,7 @@ cmds.showWindow()
 
 ## switchTable
 
-![63a622309a2c0f5a303217108d126af9_MD5](63a622309a2c0f5a303217108d126af9_MD5.png)
+![63a622309a2c0f5a303217108d126af9_MD5](attachments/63a622309a2c0f5a303217108d126af9_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -1028,7 +1028,7 @@ cmds.showWindow()
 
 ## symbolButton
 
-![c637783782b062ccc91c950cc7c4af28_MD5](c637783782b062ccc91c950cc7c4af28_MD5.png)
+![c637783782b062ccc91c950cc7c4af28_MD5](attachments/c637783782b062ccc91c950cc7c4af28_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -1042,7 +1042,7 @@ cmds.showWindow()
 
 ## symbolCheckBox
 
-![7019f64ba5ecc3eed11952cadcc25d18_MD5](7019f64ba5ecc3eed11952cadcc25d18_MD5.png)
+![7019f64ba5ecc3eed11952cadcc25d18_MD5](attachments/7019f64ba5ecc3eed11952cadcc25d18_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -1071,7 +1071,7 @@ cmds.showWindow()
 
 ## textField
 
-![c1962cca266a4970b55bedf0f5b5bb6d_MD5](c1962cca266a4970b55bedf0f5b5bb6d_MD5.png)
+![c1962cca266a4970b55bedf0f5b5bb6d_MD5](attachments/c1962cca266a4970b55bedf0f5b5bb6d_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -1096,7 +1096,7 @@ cmds.showWindow()
 
 ## textFieldButtonGrp
 
-![d28356ae0bb7d0587fe4867e86166486_MD5](d28356ae0bb7d0587fe4867e86166486_MD5.png)
+![d28356ae0bb7d0587fe4867e86166486_MD5](attachments/d28356ae0bb7d0587fe4867e86166486_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -1109,7 +1109,7 @@ cmds.showWindow()
 
 ## textFieldGrp
 
-![a4ae756d1bf5e14ec764f1531a9c318e_MD5](a4ae756d1bf5e14ec764f1531a9c318e_MD5.png)
+![a4ae756d1bf5e14ec764f1531a9c318e_MD5](attachments/a4ae756d1bf5e14ec764f1531a9c318e_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -1123,7 +1123,7 @@ cmds.showWindow()
 
 ## textScrollList
 
-![11f46263496916759de455b81d6cb507_MD5](11f46263496916759de455b81d6cb507_MD5.png)
+![11f46263496916759de455b81d6cb507_MD5](attachments/11f46263496916759de455b81d6cb507_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -1153,7 +1153,7 @@ cmds.textScrollList( "myControlObj", query=True, selectUniqueTagItem=True)
 
 ## fileDialog2
 
-![2caa601059b8faacaed89aea6b418b62_MD5](2caa601059b8faacaed89aea6b418b62_MD5.png)
+![2caa601059b8faacaed89aea6b418b62_MD5](attachments/2caa601059b8faacaed89aea6b418b62_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -1164,7 +1164,7 @@ cmds.fileDialog2(fileFilter=basicFilter, dialogStyle=2,cap='小静的博客',okc
 
 ## confirmDialog
 
-![a9c208a7748b04f57a025abc14b104e5_MD5](a9c208a7748b04f57a025abc14b104e5_MD5.png)
+![a9c208a7748b04f57a025abc14b104e5_MD5](attachments/a9c208a7748b04f57a025abc14b104e5_MD5.png)
 
 ```py
 import maya.cmds as cmds
@@ -1174,7 +1174,7 @@ cmds.confirmDialog( title='Confirm', message='Are you sure?', button=['Yes','No'
 
 ## colorEditor
 
-![e61863f48e981a5092424c5610881f1a_MD5](e61863f48e981a5092424c5610881f1a_MD5.png)
+![e61863f48e981a5092424c5610881f1a_MD5](attachments/e61863f48e981a5092424c5610881f1a_MD5.png)
 
 ```py
 import maya.cmds as cmds

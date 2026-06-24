@@ -16,7 +16,7 @@ date created: 2023-12-05 11:34
 
 # Maya Math
 
-## [2.0-向量(Vector)](../math/2.0-向量(Vector).md) in Maya
+## [2.0-向量(Vector)](2.0-向量(Vector).md) in Maya
 
 ### python example
 
@@ -84,15 +84,15 @@ rotateTo_vec = vec.rotateTo(other_vec)  # 返回的是一个四元数
 - 计算向量AB和向量AC的叉乘，得到一个法向量N。
 - 计算向量AD与法向量N的点积。如果点积为零，即AD·N = 0，那么这四个点共面。如果点积不为零，则这四个点不共面。
 
-## [3.0-矩阵（Matrix ）](../math/3.0-矩阵（Matrix%20）.md) In Maya
+## [3.0-矩阵（Matrix ）](3.0-矩阵（Matrix%20）.md) In Maya
 
 ### maya矩阵中各个元素的意义
 
-![matrix in maya](maya_math_matrix_01.png)
+![matrix in maya](attachments/maya_math_matrix_01.png)
 
 - Maya矩阵各个元素描述：
 
-![matrix in maya](maya_math_matrix_02.png)
+![matrix in maya](attachments/maya_math_matrix_02.png)
 
 - Maya中的矩阵第一行前三位为X轴坐标（用于描述旋转和缩放）
 - Maya中的矩阵第二行前三位为Y轴坐标（用于描述旋转和缩放）

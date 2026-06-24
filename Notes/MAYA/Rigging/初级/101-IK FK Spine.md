@@ -1,34 +1,34 @@
 # FK Spine
 - 使用FK控制器父子约束脊椎FK骨骼
-- ![](初级/attachments/15-IK%20FK%20Spine-2.png)
+- ![](attachments/15-IK%20FK%20Spine-2.png)
 # IKSpine
 - 再复制一套IK骨骼出来作为控制骨骼
-- ![](初级/attachments/15-IK%20FK%20Spine-3.png)
+- ![](attachments/15-IK%20FK%20Spine-3.png)
 - 他们分别是
-- ![](初级/attachments/15-IK%20FK%20Spine-4.png)
+- ![](attachments/15-IK%20FK%20Spine-4.png)
 - 使用offset parent matrix使得变换属性归零
 - 使用控制器控制这些骨骼
-- ![](初级/attachments/15-IK%20FK%20Spine-14.png)
+- ![](attachments/15-IK%20FK%20Spine-14.png)
 - 注意这里是hip_ctrl 而不是spine_lower_ik_ctrl。hip_ctrl控制pelvis_ik_ctrl_jnt利用splineIK进行臀部扭动，spine_lower_ik_ctrl控制层级，实现上身转动
 - 创建曲线
-- ![](初级/attachments/15-IK%20FK%20Spine-7.png)
-- ![](初级/attachments/15-IK%20FK%20Spine-8.png)
+- ![](attachments/15-IK%20FK%20Spine-7.png)
+- ![](attachments/15-IK%20FK%20Spine-8.png)
 - 沿脊椎IK骨骼骨每个关节创建曲线
-- ![](初级/attachments/15-IK%20FK%20Spine-10.png)
+- ![](attachments/15-IK%20FK%20Spine-10.png)
 - 创建splineIK
-- ![](初级/attachments/15-IK%20FK%20Spine-9.png)
-- ![](初级/attachments/15-IK%20FK%20Spine-11.png)
+- ![](attachments/15-IK%20FK%20Spine-9.png)
+- ![](attachments/15-IK%20FK%20Spine-11.png)
 - 将曲线蒙皮给控制骨骼
-- ![](初级/attachments/15-IK%20FK%20Spine-12.png)
+- ![](attachments/15-IK%20FK%20Spine-12.png)
 - 可以通过componentEditor修改曲线点的权重
-- ![](初级/attachments/15-IK%20FK%20Spine-13.png)
+- ![](attachments/15-IK%20FK%20Spine-13.png)
 - 利用SplineIK手柄的属性实现脊椎Roll和Twist，Roll属性会使整个脊椎旋转，而Twist使整个脊椎扭曲
-- ![](初级/attachments/15-IK%20FK%20Spine-15.png)
+- ![](attachments/15-IK%20FK%20Spine-15.png)
 	- spine_lower_ik_ctrl 和 hip_ctrl 相加用于控制IK效应器的Roll属性
 	- spine_Top_ik_ctrl 和 spine_chest_ik_ctrl 相加用于控制IK效应器的Twist属性
 	-  hip_ctrl 需要将旋转值 * -1 应用于 Twist 来抵消 Roll 的旋转
 - 整理大纲视图
-- ![](初级/attachments/15-IK%20FK%20Spine-16.png)
+- ![](attachments/15-IK%20FK%20Spine-16.png)
 - 我们发现main_ctrl总控制器旋转会导致脊椎扭曲出问题，我们需要将总控制器的旋转也加到节点中
-- ![](初级/attachments/15-IK%20FK%20Spine-17.png)
-- ![](初级/attachments/15-IK%20FK%20Spine-18.png)
+- ![](attachments/15-IK%20FK%20Spine-17.png)
+- ![](attachments/15-IK%20FK%20Spine-18.png)

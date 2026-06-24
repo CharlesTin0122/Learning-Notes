@@ -12,12 +12,12 @@ tags:
 [[笔记名称]]
 [笔记别名](笔记路径)
 ```
-- [Git入门](program/Git入门指南.md)
+- [Git入门](../program/Git入门指南.md)
 ```md
 # 适用于所有markdown编辑器
 [Git入门指南](Notes/code/Git入门指南.md)
 ```
-- [[program/Git入门指南]]
+- [Git入门指南](../program/Git入门指南.md)
 ```md
 # 仅适用于obsidian
 [[Git入门指南]]
@@ -30,7 +30,7 @@ tags:
 [笔记别名](笔记路径)
 ```
 
-- 我今天学习了有关于[[../math/2.0-向量(Vector)|向量]]的知识
+- 我今天学习了有关于[向量](../math/2.0-向量(Vector).md)的知识
 ```md
 [[Notes/math/向量(Vector)|向量]]
 ```
@@ -43,7 +43,7 @@ tags:
 ```md
 [[目标笔记路径#笔记标题|链接别名]]
 ```
-- 我今天学习了有关[[../math/2.0-向量(Vector)#向量的点积|向量点乘]]的知识
+- 我今天学习了有关[向量点乘](../math/2.0-向量(Vector).md#向量的点积)的知识
 ```md
 [[Notes/math/向量(Vector)#向量的点积|向量点乘]]
 ```
@@ -52,7 +52,7 @@ tags:
 [向量点乘](Notes/math/向量(Vector)#向量的点积)
 ```
 ## 链接到笔记中的某句话
-我今天学习了[[program/Git入门指南#^ec11be]]
+我今天学习了[Git入门指南](../program/Git入门指南.md#^ec11be)
 ```md
 [[Git入门指南^]]
 ```
@@ -62,8 +62,8 @@ tags:
 ![[笔记名称#标题]]
 ![[笔记名称^某句话]]
 ```
-![[../program/Python/pip入门指南#maya安装pymel]]
-![[../program/Python/pip入门指南#^c5dc9e]]
+![pip入门指南](../program/Python/pip入门指南.md#maya安装pymel)
+![pip入门指南](../program/Python/pip入门指南.md#^c5dc9e)
 ## 链接外部网站
 - 语法
 ```md
@@ -144,11 +144,11 @@ _单下划线也是斜体_
 ```
 1. 医之好治不病以为功[^01]
 2. 天姥连天向天横，势拔五岳掩赤城。^[出自《梦游天姥吟留别》]
-3. git的使用。^[[[program/Git入门指南]]]
+3. git的使用。^[[Git入门指南](../program/Git入门指南.md)]
 
 [^01]:出自《扁鹊见蔡桓公》
 # 插入图片
-![[45dc3fe36651bc0b91d083a5340129eb_MD5.png]]
+![](attachments/45dc3fe36651bc0b91d083a5340129eb_MD5.png)
 # 插入图表
 | head1 | head2 | head3 |
 | ------|-------|-------|

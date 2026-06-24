@@ -5,7 +5,7 @@
 > 
 > 40G LPDDR5内存 1.5T SSD+2T 机械硬盘
 ## UE5 进阶方向
-![Alt text](image-11.png)
+![Alt text](attachments/image-11.png)
 ## C++ or Blueprints
 ### Gameplay Toolchain
 
@@ -104,21 +104,21 @@ Actor继承于Object，具有的一些功能：Replication,Spawn,Tick......
 
 `USceneComponent* RootComponent`
 
-![Alt text](image.png)
+![Alt text](attachments/image.png)
 
 ### Level & World
 
-![Alt text](image-1.png)
+![Alt text](attachments/image-1.png)
 
-![Alt text](image-2.png)
+![Alt text](attachments/image-2.png)
 
-![Alt text](image-3.png)
+![Alt text](attachments/image-3.png)
 
 ### WorldContext，GameInstance，Engine
 
 **WorldContext**
 
-![Alt text](image-4.png)
+![Alt text](attachments/image-4.png)
 ```cpp
 namespace EWorldType
 {
@@ -160,16 +160,16 @@ struct FWorldContext
 }
 ```
 **GameInstance**
-![Alt text](image-5.png)
+![Alt text](attachments/image-5.png)
 
 **Engine**
 
-![Alt text](image-6.png)
+![Alt text](attachments/image-6.png)
 >此处UEngine分化出了两个子类：UGameEngine和UEditorEngine。众所周知，UE的编辑器也是UE用自己的引擎渲染出来的，采用的也是Slate那套UI框架。好处有很多，比如跨平台比较统一，UI框架可以复用一套控件库，Dogfood等等，此处不再细讲。所以本质上来说，UE的编辑器其实也是个游戏！我们是在编辑器这个游戏里面创造我们自己的另一个游戏。话虽如此，但比较编辑器和游戏还是有一定差别的，所以UE会在不同模式下根据编译环境而采用不同的具体Engine类，而在基类UEngine里通过一个WorldList保存了所有的World。
 
 ### Pawn
 
-![Alt text](image-7.png)
+![Alt text](attachments/image-7.png)
 
 ![Alt text](image-8.png)
 
@@ -191,7 +191,7 @@ struct FWorldContext
 13. **可同步**
 
 ### APlayerState
-**![Alt text](image-12.png)**
+**![Alt text](attachments/image-12.png)**
 ### PlayerController & AIController
 Component-Actor-Pawn-Controller
 ![Alt text](image-9.png)
@@ -202,14 +202,14 @@ UPlayer关联，既然顾名思义是PlayerController，那自然要和Player对
 >- Level的切换，PlayerController作为网络里通道，在一起进行Level Travelling的时候，也都是先通过PlayerController来进行RPC调用，然后由PlayerController来转发到自己World中来实际进行。
 >- Voice，也是为了方便网络中语音聊天的一些控制函数。
 
-![Alt text](image-13.png)
+![Alt text](attachments/image-13.png)
 >Navigation，用于智能根据导航寻路，其中我们常用的MoveTo接口就是做这件事情的。而在移动的过程中，因为少了玩家控制的来转向，所以多了一个SetFocus来控制当前的Pawn视角朝向哪个位置。
 AI组件，运行启动行为树，使用黑板数据，探索周围环境，以后如果有别的AI算法方法实现成组件，也应该在本组件内组合启动。
 Task系统，让AI去完成一些任务，也是实现GameplayAbilities系统的一个接口。目前简单来说GameplayAbilities是为Actor添加额外能力属性集合的一个模块，比如HP，MP等。其中的GamePlayEffect也是用来实现Buffer的工具。另外GamePlayTags也是用来给Actor添加标签标记来表明状态的一种机制。目前来说该两个模块似乎都是由Epic的Game Team在维护，所以完成度不是非常的高，用的时候也往往需要根据自己情况去重构调整。
 ### GameMode
-![Alt text](image-14.png)
+![Alt text](attachments/image-14.png)
 
-![Alt text](image-15.png)
+![Alt text](attachments/image-15.png)
 ## Blueprints Misc.
 -  Actor Blueprint
 -  Anim Blueprint
