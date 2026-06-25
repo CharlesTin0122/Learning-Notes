@@ -14,6 +14,7 @@
   "sharedEnvironmentVariables": "",
   "envSnippets": [],
   "customContextLimits": {},
+  "customModelAliases": {},
   "keyboardNavigation": {
     "scrollUpKey": "w",
     "scrollDownKey": "s",
@@ -63,6 +64,589 @@
       "selectedMode": "",
       "thinkingOptionsByModel": {},
       "visibleModels": []
+    },
+    "pi": {
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "discoveredModels": [
+        {
+          "api": "anthropic-messages",
+          "contextWindow": 1000000,
+          "encodedId": "pi:paperhub-anthropic/claude-opus-4-7",
+          "id": "claude-opus-4-7",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "Claude Opus 4.7 (PaperHub)",
+          "maxTokens": 128000,
+          "provider": "paperhub-anthropic",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "anthropic-messages",
+          "contextWindow": 1000000,
+          "encodedId": "pi:paperhub-anthropic/claude-opus-4-6",
+          "id": "claude-opus-4-6",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "Claude Opus 4.6 (PaperHub)",
+          "maxTokens": 128000,
+          "provider": "paperhub-anthropic",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "anthropic-messages",
+          "contextWindow": 1000000,
+          "encodedId": "pi:paperhub-anthropic/claude-sonnet-4-6",
+          "id": "claude-sonnet-4-6",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "Claude Sonnet 4.6 (PaperHub)",
+          "maxTokens": 64000,
+          "provider": "paperhub-anthropic",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "anthropic-messages",
+          "contextWindow": 200000,
+          "encodedId": "pi:paperhub-anthropic/claude-haiku-4-5",
+          "id": "claude-haiku-4-5",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "Claude Haiku 4.5 (PaperHub)",
+          "maxTokens": 64000,
+          "provider": "paperhub-anthropic",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "anthropic-messages",
+          "contextWindow": 200000,
+          "encodedId": "pi:paperhub-anthropic/claude-sonnet-4.5",
+          "id": "claude-sonnet-4.5",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "Claude Sonnet 4.5 (PaperHub)",
+          "maxTokens": 64000,
+          "provider": "paperhub-anthropic",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "anthropic-messages",
+          "contextWindow": 200000,
+          "encodedId": "pi:paperhub-anthropic/claude-4-opus",
+          "id": "claude-4-opus",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "Claude Opus 4 (PaperHub)",
+          "maxTokens": 64000,
+          "provider": "paperhub-anthropic",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "anthropic-messages",
+          "contextWindow": 200000,
+          "encodedId": "pi:paperhub-anthropic/claude-4-sonnet",
+          "id": "claude-4-sonnet",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "Claude Sonnet 4 (PaperHub)",
+          "maxTokens": 64000,
+          "provider": "paperhub-anthropic",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-responses",
+          "contextWindow": 1050000,
+          "encodedId": "pi:paperhub-openai/gpt-5.5",
+          "id": "gpt-5.5",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "GPT-5.5 (PaperHub)",
+          "maxTokens": 128000,
+          "provider": "paperhub-openai",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-responses",
+          "contextWindow": 1050000,
+          "encodedId": "pi:paperhub-openai/gpt-5.4",
+          "id": "gpt-5.4",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "GPT-5.4 (PaperHub)",
+          "maxTokens": 128000,
+          "provider": "paperhub-openai",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-responses",
+          "contextWindow": 400000,
+          "encodedId": "pi:paperhub-openai/gpt-5.4-mini",
+          "id": "gpt-5.4-mini",
+          "input": [
+            "text"
+          ],
+          "label": "GPT-5.4 Mini (PaperHub)",
+          "maxTokens": 128000,
+          "provider": "paperhub-openai",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-responses",
+          "contextWindow": 400000,
+          "encodedId": "pi:paperhub-openai/gpt-5.4-nano",
+          "id": "gpt-5.4-nano",
+          "input": [
+            "text"
+          ],
+          "label": "GPT-5.4 Nano (PaperHub)",
+          "maxTokens": 128000,
+          "provider": "paperhub-openai",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-responses",
+          "contextWindow": 400000,
+          "encodedId": "pi:paperhub-openai/gpt-5.3-codex",
+          "id": "gpt-5.3-codex",
+          "input": [
+            "text"
+          ],
+          "label": "GPT-5.3 Codex (PaperHub)",
+          "maxTokens": 128000,
+          "provider": "paperhub-openai",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-responses",
+          "contextWindow": 128000,
+          "encodedId": "pi:paperhub-openai/gpt-5.3-chat-latest",
+          "id": "gpt-5.3-chat-latest",
+          "input": [
+            "text"
+          ],
+          "label": "GPT-5.3 Chat Latest (PaperHub)",
+          "maxTokens": 16000,
+          "provider": "paperhub-openai",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-responses",
+          "contextWindow": 400000,
+          "encodedId": "pi:paperhub-openai/gpt-5.2-codex",
+          "id": "gpt-5.2-codex",
+          "input": [
+            "text"
+          ],
+          "label": "GPT-5.2 Codex (PaperHub)",
+          "maxTokens": 128000,
+          "provider": "paperhub-openai",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-responses",
+          "contextWindow": 400000,
+          "encodedId": "pi:paperhub-openai/gpt-5.2",
+          "id": "gpt-5.2",
+          "input": [
+            "text"
+          ],
+          "label": "GPT-5.2 (PaperHub)",
+          "maxTokens": 128000,
+          "provider": "paperhub-openai",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-responses",
+          "contextWindow": 128000,
+          "encodedId": "pi:paperhub-openai/gpt-5.2-chat",
+          "id": "gpt-5.2-chat",
+          "input": [
+            "text"
+          ],
+          "label": "GPT-5.2 Chat (PaperHub)",
+          "maxTokens": 16000,
+          "provider": "paperhub-openai",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "google-generative-ai",
+          "contextWindow": 1000000,
+          "encodedId": "pi:paperhub-google/gemini-3.1-pro-preview",
+          "id": "gemini-3.1-pro-preview",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "Gemini 3.1 Pro Preview (PaperHub)",
+          "maxTokens": 65536,
+          "provider": "paperhub-google",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "google-generative-ai",
+          "contextWindow": 1000000,
+          "encodedId": "pi:paperhub-google/gemini-3.1-flash-lite-preview",
+          "id": "gemini-3.1-flash-lite-preview",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "Gemini 3.1 Flash Lite Preview (PaperHub)",
+          "maxTokens": 65536,
+          "provider": "paperhub-google",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "google-generative-ai",
+          "contextWindow": 131072,
+          "encodedId": "pi:paperhub-google/gemini-3.1-flash-image-preview",
+          "id": "gemini-3.1-flash-image-preview",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "Gemini 3.1 Flash Image Preview (PaperHub)",
+          "maxTokens": 32768,
+          "provider": "paperhub-google",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "google-generative-ai",
+          "contextWindow": 1000000,
+          "encodedId": "pi:paperhub-google/gemini-3-flash-preview",
+          "id": "gemini-3-flash-preview",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "Gemini 3 Flash Preview (PaperHub)",
+          "maxTokens": 65536,
+          "provider": "paperhub-google",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "google-generative-ai",
+          "contextWindow": 65536,
+          "encodedId": "pi:paperhub-google/gemini-3-pro-image-preview",
+          "id": "gemini-3-pro-image-preview",
+          "input": [
+            "text",
+            "image"
+          ],
+          "label": "Gemini 3 Pro Image Preview (PaperHub)",
+          "maxTokens": 32768,
+          "provider": "paperhub-google",
+          "reasoning": true,
+          "thinkingLevels": [
+            "off",
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:paperhub-deepseek/deepseek-v4-pro",
+          "id": "deepseek-v4-pro",
+          "input": [
+            "text"
+          ],
+          "label": "DeepSeek V4 Pro (PaperHub)",
+          "maxTokens": 384000,
+          "provider": "paperhub-deepseek",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 1000000,
+          "encodedId": "pi:paperhub-deepseek/deepseek-v4-flash",
+          "id": "deepseek-v4-flash",
+          "input": [
+            "text"
+          ],
+          "label": "DeepSeek V4 Flash (PaperHub)",
+          "maxTokens": 384000,
+          "provider": "paperhub-deepseek",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 256000,
+          "encodedId": "pi:paperhub-moonshot/kimi-k2.6",
+          "id": "kimi-k2.6",
+          "input": [
+            "text"
+          ],
+          "label": "Kimi K2.6 (PaperHub)",
+          "maxTokens": 16000,
+          "provider": "paperhub-moonshot",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 256000,
+          "encodedId": "pi:paperhub-moonshot/kimi-k2.5",
+          "id": "kimi-k2.5",
+          "input": [
+            "text"
+          ],
+          "label": "Kimi K2.5 (PaperHub)",
+          "maxTokens": 16000,
+          "provider": "paperhub-moonshot",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 202000,
+          "encodedId": "pi:paperhub-zhipu/glm-5.1",
+          "id": "glm-5.1",
+          "input": [
+            "text"
+          ],
+          "label": "GLM-5.1 (PaperHub)",
+          "maxTokens": 128000,
+          "provider": "paperhub-zhipu",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 198000,
+          "encodedId": "pi:paperhub-zhipu/glm-5",
+          "id": "glm-5",
+          "input": [
+            "text"
+          ],
+          "label": "GLM-5 (PaperHub)",
+          "maxTokens": 16000,
+          "provider": "paperhub-zhipu",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 256000,
+          "encodedId": "pi:paperhub-xai/grok-4",
+          "id": "grok-4",
+          "input": [
+            "text"
+          ],
+          "label": "Grok-4 (PaperHub)",
+          "maxTokens": 128000,
+          "provider": "paperhub-xai",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 2000000,
+          "encodedId": "pi:paperhub-xai/grok-4-fast",
+          "id": "grok-4-fast",
+          "input": [
+            "text"
+          ],
+          "label": "Grok-4 Fast (PaperHub)",
+          "maxTokens": 16000,
+          "provider": "paperhub-xai",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        },
+        {
+          "api": "openai-completions",
+          "contextWindow": 2000000,
+          "encodedId": "pi:paperhub-xai/grok-4-1-fast-non-reasoning",
+          "id": "grok-4-1-fast-non-reasoning",
+          "input": [
+            "text"
+          ],
+          "label": "Grok-4.1 Fast Non-Reasoning (PaperHub)",
+          "maxTokens": 16000,
+          "provider": "paperhub-xai",
+          "reasoning": false,
+          "thinkingLevels": [
+            "off"
+          ]
+        }
+      ],
+      "enabled": false,
+      "environmentHash": "",
+      "environmentVariables": "",
+      "modelAliases": {},
+      "preferredThinkingByModel": {},
+      "toolMode": "all",
+      "visibleModels": []
     }
   },
   "settingsProvider": "claude",
@@ -73,17 +657,16 @@
     "claude": "high"
   },
   "savedProviderServiceTier": {},
-  "savedProviderThinkingBudget": {
-    "claude": "medium"
-  },
+  "savedProviderThinkingBudget": {},
   "savedProviderPermissionMode": {
     "claude": "yolo"
   },
   "lastCustomModel": "",
   "maxTabs": 3,
-  "tabBarPosition": "input",
   "enableAutoScroll": true,
   "deferMathRenderingDuringStreaming": true,
+  "expandFileEditsByDefault": false,
   "chatViewPlacement": "right-sidebar",
-  "hiddenProviderCommands": {}
+  "hiddenProviderCommands": {},
+  "tabBarPosition": "input"
 }
