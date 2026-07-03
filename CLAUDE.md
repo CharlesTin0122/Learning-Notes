@@ -29,7 +29,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## 已启用的 Obsidian 插件（影响内容格式）
 
-`obsidian-excalidraw-plugin`、`obsidian-kanban`、`image-converter`、`obsidian-image-toolkit`、`oz-clear-unused-images`。看到看似畸形的 `.md`（带大段 JSON / base64）通常是这些插件生成的，**不要**当作普通 markdown 改写。
+`obsidian-excalidraw-plugin`、`obsidian-kanban`、`image-converter`、`obsidian-image-toolkit`、`oz-clear-unused-images`、`obsidian-style-settings`、`better-export-pdf`、`consistent-attachments-and-links`、`obsidian-git`。看到看似畸形的 `.md`（带大段 JSON / base64）通常是这些插件生成的，**不要**当作普通 markdown 改写。
+
+其中两个插件直接影响仓库操作：
+- `obsidian-git` 会自动生成 `vault backup: <date>` 备份提交 —— 这类提交并非人工整理，无需据此推断笔记结构变化。
+- `consistent-attachments-and-links` 会自动维护附件路径与链接一致性，这也是上文「附件放同级 `attachments/`、用相对 Markdown 链接」约定必须严格遵守的原因；手写不合规的链接可能被该插件改写或清理。
 
 ## 代码片段风格（笔记中嵌入的示例代码）
 
