@@ -1,6 +1,6 @@
 # 概述
 
-> NumPy 是 Python 科学计算的基础库，核心是高效的多维数组对象 `ndarray`。以下内容整理自 [numpy_01.py](./numpy_01.py.py)。
+> NumPy 是 Python 科学计算的基础库，核心是高效的多维数组对象 `ndarray`。
 
 ```python
 import numpy as np
@@ -35,7 +35,7 @@ matrix = np.array([[1, 2, 3], [4, 5, 6]])       # 二维数组（矩阵）
 - 矩阵每一行的长度必须相同，否则报错：
 
   ```python
-  # np.array([[1, 2, 3], [4, 5, 6, 7]])  # ❌ 报错
+  np.array([[1, 2, 3], [4, 5, 6, 7]])  # ❌ 报错
   ```
 
 ### 特殊创建方法
