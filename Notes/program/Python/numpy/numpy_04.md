@@ -1,4 +1,4 @@
-# NumPy 用法笔记 · numpy_04 —— 线性代数（向量 / 矩阵 / 四元数）
+#  线性代数（向量 / 矩阵 / 四元数）
 
 本文档介绍 NumPy 在**线性代数**方面的用法，围绕绑定 / Tech Art 日常工作（Maya、MotionBuilder、UE5）中最常用的三类对象展开：**向量、矩阵、四元数**，并附实战案例（Pole Vector 定位、LookAt 矩阵、Twist 提取、Slerp 插值、批量蒙皮权重处理）。
 
