@@ -1,6 +1,10 @@
 # 🎬 MotionBuilder 索引（MOC）
 
-> 自动生成的内容地图，共 7 篇笔记。
+> 自动生成的内容地图，共 8 篇笔记。
+
+## 📁 实战项目
+
+- [5.4-MoBu-MetaHuman面部驱动实战-OpenRigLogic](../Unreal/MetaHuman/5.4-MoBu-MetaHuman面部驱动实战-OpenRigLogic.md)（编号衔接 Unreal/MetaHuman 目录的 OpenRigLogic 系列 5.0-5.2）
 
 ## 📁 操作
 

@@ -60,7 +60,11 @@
 - [4.4-制作FACS的混合变形](MetaHuman/4.4-%E5%88%B6%E4%BD%9CFACS%E7%9A%84%E6%B7%B7%E5%90%88%E5%8F%98%E5%BD%A2.md)
 - [4.5-混合变形传递算法](MetaHuman/4.5-%E6%B7%B7%E5%90%88%E5%8F%98%E5%BD%A2%E4%BC%A0%E9%80%92%E7%AE%97%E6%B3%95.md)
 - [4.6-MetaHuman关节对位](MetaHuman/4.6-MetaHuman%E5%85%B3%E8%8A%82%E5%AF%B9%E4%BD%8D.md)
-
+- [5.0-OpenRigLogic 是什么](MetaHuman/5.0-OpenRigLogic 是什么.md)
+- [5.1-RigLogic架构设计-OpenRigLogic](MetaHuman/5.1-RigLogic架构设计-OpenRigLogic.md)
+- [5.2-OpenRigLogic编译指南](MetaHuman/5.2-OpenRigLogic编译指南.md)
+- [5.3-OpenRigLogic编译结果使用指南](MetaHuman/5.3-OpenRigLogic编译结果使用指南.md)
+- [5.4-MoBu-MetaHuman面部驱动实战-OpenRigLogic](MetaHuman/5.4-MoBu-MetaHuman面部驱动实战-OpenRigLogic.md)
 ## 📁 Physics
 
 - [0.0-UE5次级动画处理](Physics/0.0-UE5%E6%AC%A1%E7%BA%A7%E5%8A%A8%E7%94%BB%E5%A4%84%E7%90%86.md)
