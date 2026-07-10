@@ -6,8 +6,7 @@ kanban-plugin: board
 
 ## # 待处理
 
-- [ ] H10100：用DNA重新构建MHC角色，最好UE和maya都重新构建
-	H20805：头部仰头变形左侧下颌内收修改
+- [ ] H20805：maya绑定身体和头部蒙皮修改
 - [ ] - 服装修改
 	![](./attachments/My%20Tasks-1783411035573.webp)
 
