@@ -65,6 +65,11 @@
 - [5.2-OpenRigLogic编译指南](MetaHuman/5.2-OpenRigLogic编译指南.md)
 - [5.3-OpenRigLogic编译结果使用指南](MetaHuman/5.3-OpenRigLogic编译结果使用指南.md)
 - [5.4-MoBu-MetaHuman面部驱动实战-OpenRigLogic](MetaHuman/5.4-MoBu-MetaHuman面部驱动实战-OpenRigLogic.md)
+- [5.5-MetaHuman-FaceBoard面板机制解析](MetaHuman/5.5-MetaHuman-FaceBoard%E9%9D%A2%E6%9D%BF%E6%9C%BA%E5%88%B6%E8%A7%A3%E6%9E%90.md)
+- [5.6-MoBu-MetaHuman身体修形驱动-OpenRigLogic](MetaHuman/5.6-MoBu-MetaHuman%E8%BA%AB%E4%BD%93%E4%BF%AE%E5%BD%A2%E9%A9%B1%E5%8A%A8-OpenRigLogic.md)
+- [5.7-MoBu-C++RigLogic约束插件-OpenReality](MetaHuman/5.7-MoBu-C%2B%2BRigLogic%E7%BA%A6%E6%9D%9F%E6%8F%92%E4%BB%B6-OpenReality.md)
+- [5.8-MoBu-RigLogic约束插件-动画师使用指南](MetaHuman/5.8-MoBu-RigLogic%E7%BA%A6%E6%9D%9F%E6%8F%92%E4%BB%B6-%E5%8A%A8%E7%94%BB%E5%B8%88%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md)
+- [5.9-MoBu插件如何使用OpenRigLogic-原理解析](MetaHuman/5.9-MoBu%E6%8F%92%E4%BB%B6%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8OpenRigLogic-%E5%8E%9F%E7%90%86%E8%A7%A3%E6%9E%90.md)
 ## 📁 Physics
 
 - [0.0-UE5次级动画处理](Physics/0.0-UE5%E6%AC%A1%E7%BA%A7%E5%8A%A8%E7%94%BB%E5%A4%84%E7%90%86.md)

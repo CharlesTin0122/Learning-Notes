@@ -1,6 +1,6 @@
 # 🎬 MotionBuilder 索引（MOC）
 
-> 自动生成的内容地图，共 8 篇笔记。
+> 自动生成的内容地图，共 9 篇笔记。
 
 ## 📁 实战项目
 
@@ -18,3 +18,4 @@
 - [1.01-pyfbsdk](%E7%BC%96%E7%A8%8B/1.01-pyfbsdk.md)
 - [1.02-MB自定义Pyside界面](%E7%BC%96%E7%A8%8B/1.02-MB%E8%87%AA%E5%AE%9A%E4%B9%89Pyside%E7%95%8C%E9%9D%A2.md)
 - [1.03-MoBu2019的Python2编程防御](%E7%BC%96%E7%A8%8B/1.03-MoBu2019%E7%9A%84Python2%E7%BC%96%E7%A8%8B%E9%98%B2%E5%BE%A1.md)
+- [1.04-MoBuMCP远程Python执行桥编写指南](%E7%BC%96%E7%A8%8B/1.04-MoBuMCP%E8%BF%9C%E7%A8%8BPython%E6%89%A7%E8%A1%8C%E6%A1%A5%E7%BC%96%E5%86%99%E6%8C%87%E5%8D%97.md)
