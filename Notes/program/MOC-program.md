@@ -54,6 +54,7 @@
 
 - [ClaudeCode](VibeCode/ClaudeCode.md)
 - [HermesAgent使用指南](VibeCode/HermesAgent使用指南.md)
+- [PiAgent使用指南](VibeCode/PiAgent%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md)
 - [opencode](VibeCode/opencode.md)
 - [vibe-coding-guide](VibeCode/vibe-coding-guide.md)
 

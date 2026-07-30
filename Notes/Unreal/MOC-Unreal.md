@@ -54,7 +54,7 @@
 - [2.0-自定义模型](MetaHuman/2.0-自定义模型.md)
 - [3.0-MetaHuman For Maya](MetaHuman/3.0-MetaHuman%20For%20Maya.md)
 - [4.0-为MetaHuman做服装](MetaHuman/4.0-为MetaHuman做服装.md)
-- [4.1-pass](MetaHuman/4.1-pass.md)
+- [4.1-MetaHuman头部蒙皮修改](MetaHuman/4.1-MetaHuman头部蒙皮修改.md)
 - [4.2-pass](MetaHuman/4.2-pass.md)
 - [4.3-pass](MetaHuman/4.3-pass.md)
 - [4.4-制作FACS的混合变形](MetaHuman/4.4-制作FACS的混合变形.md)
