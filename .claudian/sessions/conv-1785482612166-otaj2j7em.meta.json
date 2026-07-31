@@ -1,0 +1,24 @@
+{
+  "id": "conv-1785482612166-otaj2j7em",
+  "providerId": "claude",
+  "title": "Clarify Claude's identity",
+  "titleGenerationStatus": "success",
+  "createdAt": 1785482612166,
+  "updatedAt": 1785482817900,
+  "lastResponseAt": 1785482648242,
+  "sessionId": "15a9c7d1-7a74-4f07-9e1d-ef56ce40e6c7",
+  "selectedModel": "fable",
+  "providerState": {
+    "providerSessionId": "15a9c7d1-7a74-4f07-9e1d-ef56ce40e6c7"
+  },
+  "usage": {
+    "model": "fable",
+    "inputTokens": 2,
+    "cacheCreationInputTokens": 24528,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": false,
+    "contextTokens": 24530,
+    "percentage": 2
+  }
+}

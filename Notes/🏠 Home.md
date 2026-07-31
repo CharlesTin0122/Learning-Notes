@@ -4,13 +4,13 @@
 
 ## 领域索引
 
-- 🎨 [MAYA](MAYA/MOC-MAYA.md)（236 篇）
-- 🎮 [Unreal](Unreal/MOC-Unreal.md)（232 篇）
-- 💻 [program](program/MOC-program.md)（308 篇）
-- 📐 [math](math/MOC-math.md)（15 篇）
-- 🎬 [MotionBuilder](MotionBuilder/MOC-MotionBuilder.md)（7 篇）
-- 📦 [Misc](Misc/MOC-Misc.md)（22 篇）
-- 💼 [Work](Work/MOC-Work.md)（3 篇）
+- 🎨 [[MOC-MAYA|MAYA]]（240 篇）
+- 🎮 [[MOC-Unreal|Unreal]]（242 篇）
+- 💻 [[MOC-program|program]]（310 篇）
+- 📐 [[MOC-math|math]]（15 篇）
+- 🎬 [[MOC-MotionBuilder|MotionBuilder]]（8 篇）
+- 📦 [[MOC-Misc|Misc]]（18 篇）
+- 💼 [[MOC-Work|Work]]（3 篇）
 
 ## 使用说明
 

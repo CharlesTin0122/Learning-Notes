@@ -1,0 +1,27 @@
+{
+  "id": "conv-1785482794680-x3r1yg69f",
+  "providerId": "codex",
+  "title": "你是谁》",
+  "titleGenerationStatus": "pending",
+  "createdAt": 1785482794680,
+  "updatedAt": 1785482807569,
+  "lastResponseAt": 1785482804737,
+  "sessionId": "019fb711-5817-7502-9b23-b8ac1b2fb8e0",
+  "selectedModel": "gpt-5.6-sol",
+  "providerState": {
+    "threadId": "019fb711-5817-7502-9b23-b8ac1b2fb8e0",
+    "sessionFilePath": "C:\\Users\\dalaotian\\.codex\\sessions\\2026\\07\\31\\rollout-2026-07-31T15-26-35-019fb711-5817-7502-9b23-b8ac1b2fb8e0.jsonl",
+    "transcriptRootPath": "C:\\Users\\dalaotian\\.codex\\sessions",
+    "workspaceDependencyToolVersion": 1
+  },
+  "usage": {
+    "inputTokens": 16832,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 121600,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 16832,
+    "percentage": 14,
+    "model": "gpt-5.6-sol"
+  }
+}

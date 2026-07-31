@@ -4,6 +4,6 @@
 
 ## 📄 根目录
 
-- [English](English.md)
-- [My Tasks](My%20Tasks.md)
-- [Project_X12](Project_X12.md)
+- [[English]]
+- [[My Tasks]]
+- [[Project_X12]]

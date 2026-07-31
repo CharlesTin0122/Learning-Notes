@@ -1,23 +1,24 @@
 {
   "id": "conv-1779762167054-bcqop0qc4",
   "providerId": "claude",
-  "title": "自我介绍",
-  "titleGenerationStatus": "success",
+  "title": "你是谁？",
+  "titleGenerationStatus": "failed",
   "createdAt": 1779762167054,
-  "updatedAt": 1779763521319,
-  "lastResponseAt": 1779763521319,
+  "updatedAt": 1785482604537,
+  "lastResponseAt": 1785482574108,
   "sessionId": "73e3e241-868d-488b-b7e0-4461a86e8da8",
+  "selectedModel": "fable",
   "providerState": {
     "providerSessionId": "73e3e241-868d-488b-b7e0-4461a86e8da8"
   },
   "usage": {
-    "model": "haiku",
+    "model": "fable",
     "inputTokens": 8,
     "cacheCreationInputTokens": 3042,
     "cacheReadInputTokens": 45225,
-    "contextWindow": 200000,
+    "contextWindow": 1000000,
     "contextTokens": 48275,
-    "percentage": 24,
-    "contextWindowIsAuthoritative": true
+    "percentage": 5,
+    "contextWindowIsAuthoritative": false
   }
 }
