@@ -5,7 +5,7 @@
   "useMarkdownLinks": true,
   "alwaysUpdateLinks": true,
   "trashOption": "local",
-  "showLineNumber": true,
+  "showLineNumber": false,
   "strictLineBreaks": false,
   "pdfExportSettings": {
     "includeName": true,
@@ -15,5 +15,7 @@
     "downscalePercent": 100
   },
   "promptDelete": true,
-  "openBehavior": "file:Notes/🏠 Home.md"
+  "openBehavior": "",
+  "readableLineLength": true,
+  "showIndentGuide": true
 }
