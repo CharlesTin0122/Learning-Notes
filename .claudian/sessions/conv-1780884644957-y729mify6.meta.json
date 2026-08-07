@@ -6,10 +6,12 @@
   "createdAt": 1780884644957,
   "updatedAt": 1785482597638,
   "lastResponseAt": 1780884758785,
-  "sessionId": "35b4dfed-92e8-40ba-a551-cf6766b20fc7",
+  "sessionId": null,
   "selectedModel": "opus",
   "providerState": {
-    "providerSessionId": "35b4dfed-92e8-40ba-a551-cf6766b20fc7"
+    "previousProviderSessionIds": [
+      "35b4dfed-92e8-40ba-a551-cf6766b20fc7"
+    ]
   },
   "usage": {
     "model": "opus",

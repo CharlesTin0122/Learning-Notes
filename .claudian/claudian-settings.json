@@ -6,6 +6,7 @@
   "effortLevel": "high",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
+  "titleGenerationLocale": "",
   "titleGenerationModel": "haiku",
   "excludedTags": [],
   "mediaFolder": "attachments",
@@ -24,6 +25,7 @@
   "locale": "zh-CN",
   "providerConfigs": {
     "claude": {
+      "enabled": true,
       "safeMode": "acceptEdits",
       "cliPath": "",
       "cliPathsByHost": {
@@ -34,10 +36,10 @@
       "enableBangBash": false,
       "customModels": "",
       "lastModel": "opus",
-      "modelEnvironmentType": "",
+      "modelEnvironmentType": "opus",
       "titleModelEnvironmentType": "haiku",
       "environmentVariables": "",
-      "environmentHash": ""
+      "environmentHash": "runtime-input:v1:8f05738020a8d2aff3c294a26434055eb9fe6a4f50d4f1e158f30078cd2f3af7"
     },
     "codex": {
       "enabled": true,
@@ -126,7 +128,8 @@
       "installationMethodsByHost": {
         "device:e7c14c71-3927-455e-9cbd-2cafac1af332": "native-windows"
       },
-      "wslDistroOverridesByHost": {}
+      "wslDistroOverridesByHost": {},
+      "enableUltraEffort": false
     },
     "opencode": {
       "cliPath": "",

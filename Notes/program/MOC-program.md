@@ -1,6 +1,6 @@
 # 💻 编程 索引（MOC）
 
-> 自动生成的内容地图，共 310 篇笔记。
+> 自动生成的内容地图，共 311 篇笔记。
 
 ## 📄 根目录
 
@@ -55,6 +55,7 @@
 - [[ClaudeCode]]
 - [[HermesAgent使用指南]]
 - [[PiAgent使用指南]]
+- [[oh-my-pi使用指南]]
 - [[opencode]]
 - [[vibe-coding-guide]]
 - [[vibecoding的缺点]]

@@ -6,10 +6,12 @@
   "createdAt": 1779762167054,
   "updatedAt": 1785482604537,
   "lastResponseAt": 1785482574108,
-  "sessionId": "73e3e241-868d-488b-b7e0-4461a86e8da8",
+  "sessionId": null,
   "selectedModel": "fable",
   "providerState": {
-    "providerSessionId": "73e3e241-868d-488b-b7e0-4461a86e8da8"
+    "previousProviderSessionIds": [
+      "73e3e241-868d-488b-b7e0-4461a86e8da8"
+    ]
   },
   "usage": {
     "model": "fable",

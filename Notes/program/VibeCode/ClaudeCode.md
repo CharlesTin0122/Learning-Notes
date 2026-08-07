@@ -916,3 +916,9 @@ claude --dangerously-skip-permissions
 ---
 
 _本文档基于 Claude Code 当前版本整理，功能可能随版本更新而变化。_ _官方文档：[https://docs.anthropic.com/claude-code](https://docs.anthropic.com/claude-code)_
+
+---
+
+## 相关笔记
+
+> 与开源 fork 路线的横向对照见 [oh-my-pi使用指南](oh-my-pi%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md)：那篇以本工具为基准做过四轮 Python 编辑实测（含同名遮蔽陷阱），并对比了模型支持面（omp 69 provider vs Claude Code 仅 Claude 系）与协作能力（cron/task/worktree 是 Claude Code 独有）。本篇讲怎么用好 Claude Code，那篇讲什么时候该换工具。
