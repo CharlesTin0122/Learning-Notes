@@ -107,30 +107,29 @@ pi install npm:<包名>    # 装完重启 pi 生效
 
 ### 强烈推荐（前 5 个本机已装 ✅，后 2 个见下方小节）
 
-| 包 | 功能 |
-|---|---|
-| **pi-mcp-adapter** | MCP 协议适配器，单个 `mcp` 代理工具（约 200 token）按需发现/调用 MCP 工具，server 懒启动 |
-| **pi-subagents** | 子代理：链式、并行执行、TUI 澄清 |
-| **pi-web-access** | 网页搜索/抓取、GitHub clone、PDF 提取、YouTube 理解 |
-| **pi-lens** | 实时代码反馈：LSP、linter、格式化、类型检查（弥补 pi 无内置 LSP 的短板） |
-| **cc-safety-net** | hook 拦截危险 git / 文件系统命令（pi 无权限系统，建议必装） |
-| **pi-hermes-memory** | 持久记忆 + 会话搜索 + 密钥扫描（详见 [4.1 节](#41-pi-hermes-memory持久记忆)） |
-| **@ayulab/pi-rewind** | `/rewind` 检查点导航，代码/对话可分别回滚（详见 [4.2 节](#42-ayulabpi-rewind检查点回滚)） |
+| 包                    | 功能                                                            |
+| -------------------- | ------------------------------------------------------------- |
+| **pi-mcp-adapter**   | MCP 协议适配器，单个 `mcp` 代理工具（约 200 token）按需发现/调用 MCP 工具，server 懒启动 |
+| **pi-subagents**     | 子代理：链式、并行执行、TUI 澄清                                            |
+| **pi-web-access**    | 网页搜索/抓取、GitHub clone、PDF 提取、YouTube 理解                        |
+| **pi-lens**          | 实时代码反馈：LSP、linter、格式化、类型检查（弥补 pi 无内置 LSP 的短板）                 |
+| **cc-safety-net**    | hook 拦截危险 git / 文件系统命令（pi 无权限系统，建议必装）                         |
+| **pi-hermes-memory** | 持久记忆 + 会话搜索 + 密钥扫描（详见 [4.1 节](#41-pi-hermes-memory持久记忆)）      |
 
 ### 按需选装
 
-| 包 | 功能 |
-|---|---|
-| pi-readseek / pi-hashline-edit-pro | hash 锚定读写/编辑，弱模型编辑命中率大幅提升（omp 招牌功能移植） |
-| pi-distill | 工具输出蒸馏，省 token |
-| context-mode | 号称省 98% 上下文 + FTS5 知识库，跨多款 agent 通用 |
-| @gotgenes/pi-permission-system | 系统化权限审批（与 cc-safety-net 二选一） |
-| pi-simplify | 审查最近改动代码的质量 |
-| pi-crew | 多 agent 团队 + git worktree 编排 |
-| pi-llama-cpp | 接本地 llama.cpp 模型 |
-| pi-vault-mind | Obsidian 库监听 + 向量/FTS 检索（对本知识库场景值得留意） |
-| superpowers-zh | superpowers 完整汉化 + 中文原创 skills |
-| gentle-pi | "高级架构师" harness：SDD/OpenSpec + 严格 TDD + 评审护栏 |
+| 包                                  | 功能                                           |
+| ---------------------------------- | -------------------------------------------- |
+| pi-readseek / pi-hashline-edit-pro | hash 锚定读写/编辑，弱模型编辑命中率大幅提升（omp 招牌功能移植）        |
+| pi-distill                         | 工具输出蒸馏，省 token                               |
+| context-mode                       | 号称省 98% 上下文 + FTS5 知识库，跨多款 agent 通用          |
+| @gotgenes/pi-permission-system     | 系统化权限审批（与 cc-safety-net 二选一）                 |
+| pi-simplify                        | 审查最近改动代码的质量                                  |
+| pi-crew                            | 多 agent 团队 + git worktree 编排                 |
+| pi-llama-cpp                       | 接本地 llama.cpp 模型                             |
+| pi-vault-mind                      | Obsidian 库监听 + 向量/FTS 检索（对本知识库场景值得留意）        |
+| superpowers-zh                     | superpowers 完整汉化 + 中文原创 skills               |
+| gentle-pi                          | "高级架构师" harness：SDD/OpenSpec + 严格 TDD + 评审护栏 |
 
 ### 4.1 pi-hermes-memory（持久记忆）
 

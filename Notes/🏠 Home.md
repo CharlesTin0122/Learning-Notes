@@ -4,7 +4,7 @@
 
 ## 领域索引
 
-- 🎨 [[MOC-MAYA|MAYA]]（240 篇）
+- 🎨 [[MOC-MAYA|MAYA]]（242 篇）
 - 🎮 [[MOC-Unreal|Unreal]]（245 篇）
 - 💻 [[MOC-program|program]]（311 篇）
 - 📐 [[MOC-math|math]]（15 篇）

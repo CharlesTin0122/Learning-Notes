@@ -1420,3 +1420,42 @@ def transfer_uvs_final_version():
 if __name__ == "__main__":
     transfer_uvs_final_version()
 ```
+## 传递顶点顺序
+### 核心结论
+
+|命令|作用|参数|
+|---|---|---|
+|`cmds.meshRemap()`|两个模型之间传递顶点顺序（改的是后 3 个点所属的那个模型）|必须显式传 6 个顶点：前 3 个 = 源，后 3 个 = 目标|
+|`cmds.meshReorder()`|单个模型内部按指定起始三角重排 ID|必须显式传 3 个顶点|
+
+关键坑：这俩命令不读取当前选择，必须把顶点当位置参数传进去。只 `cmds.select(...)` 然后空调用会直接报 `Must specify 6 vertices. Error parsing arguments.`（我一开始就踩了这个）。
+```python
+from maya import cmds
+
+def transfer_vertex_order(source, target, src_vtx=(0, 1, 2), tgt_vtx=(0, 1, 2)):
+    """把 source 的顶点顺序传给 target。
+
+    source / target: mesh 的 transform 或 shape 名
+    src_vtx, tgt_vtx: 三个一一对应的顶点索引（必须是同一个三角面上、
+                      且在两个模型上表示"同一个位置"的点，顺序也要对应）
+    """
+    # 插件不是默认加载的，必须先确保加载
+    if not cmds.pluginInfo('meshReorder', q=True, loaded=True):
+        cmds.loadPlugin('meshReorder')
+
+    args = ['{}.vtx[{}]'.format(source, i) for i in src_vtx]
+    args += ['{}.vtx[{}]'.format(target, i) for i in tgt_vtx]
+    cmds.meshRemap(*args)   # 前3=源，后3=目标
+
+# 单模型内部重排（指定新的起始三角）
+def reorder_self(mesh, vtx=(0, 1, 2)):
+    if not cmds.pluginInfo('meshReorder', q=True, loaded=True):
+        cmds.loadPlugin('meshReorder')
+    cmds.meshReorder(*['{}.vtx[{}]'.format(mesh, i) for i in vtx])
+```
+### 使用前提与注意
+
+- 拓扑必须完全一致（顶点数、面数、连接关系相同），否则失败。它只重排 ID，不做投影拟合。
+- 传的 3 个点必须在同一个面上、且在两个模型上是语义对应的同一角落，顺序（绕向）也要一致——选错会得到镜像/旋转错乱的映射。
+- 建议先对目标模型 `cmds.delete(target, ch=True)` 删历史，带 skinCluster/blendShape 的模型直接重排会破坏权重与目标形态对应关系。正规做法：先在干净的模型上重排顺序，再重新绑定/导入权重。
+- 如果你实际想要的不是「重排 ID」而是「把顶点位置/UV/颜色搬过去」，那是另外两个命令：`cmds.polyTransfer(target, ao=source, v=True, uv=True, vc=True)`（需要顺序已经一致），或者拓扑不一致时用 `cmds.transferAttributes(...)` 按空间投影传递。

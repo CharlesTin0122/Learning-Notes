@@ -22,7 +22,7 @@ tags:
 | 体量 | ~28,000 行，完整包结构（core/datatypes/ui/qt/…） | **单文件** `cmdx.py`，~9,100 行 |
 | 维护状态 | 活跃（2026-07 仍有提交） | 活跃（0.6.5，2026-06，已支持 Maya 2027+） |
 | 文档 | 日/英双语 Sphinx 文档 | 英文 README + 在线 Command Reference，非常详尽 |
-| 安装 | pip / 拷贝包 | pip / **直接拷一个文件进项目**（官方推荐 vendoring） |
+| 安装 | **无 PyPI 包**，clone 后拷 `python/cymel` 或加 PYTHONPATH | pip / **直接拷一个文件进项目**（官方推荐 vendoring） |
 | Maya 2024 + Py3.10 | ✅ | ✅ |
 
 ## 二、设计哲学差异（核心）
@@ -73,6 +73,8 @@ tags:
 - 实践中常见组合：**工具层 cymel/pymel 风格 + 热点路径 cmdx**
 
 ## 相关
+
+> 本篇是**选型层面**的对比。cymel 的具体 API 用法（import 约定、节点/Plug 包裹、数学类、Transformation 矩阵分解、自定义节点类、坑点速查）见 [cymel使用指南](cymel%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md)。
 
 - [PyMEL 官方 Why PyMEL?](https://help.autodesk.com/cloudhelp/2017/ENU/Maya-Tech-Docs/PyMel/why_pymel.html)
 - 类似的新库：[mayax](https://github.com/chirieac/mayax)（设计与 cmdx 相近）

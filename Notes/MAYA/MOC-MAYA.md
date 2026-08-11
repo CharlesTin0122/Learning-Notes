@@ -1,6 +1,6 @@
 # 🎨 Maya 索引（MOC）
 
-> 自动生成的内容地图，共 240 篇笔记。
+> 自动生成的内容地图，共 242 篇笔记。
 
 ## 📄 根目录
 
@@ -42,6 +42,7 @@
 - [[Python for Maya2018脚本编程实战案例教程]]
 - [[Spring Magic 原理简析]]
 - [[cymel与cmdx对比]]
+- [[cymel使用指南]]
 - [[mayaPython案例]]
 - [[maya基本材质逻辑]]
 - [[maya节点学习]]
@@ -217,6 +218,7 @@
 - [[6.0-Twist & Roll]]
 - [[7.0-Create Export Joints]]
 - [[8.0-绑定性能]]
+- [[9.0-HippyDrome身体articulation参考资料]]
 
 ### mayaUI / Pyside For Maya
 
