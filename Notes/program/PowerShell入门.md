@@ -144,3 +144,7 @@ $env:HTTPS_PROXY="http://127.0.0.1:10809"
 ```
 
 PowerShell 以其强大的自动化和管理功能成为 Windows 管理员的首选工具，它的对象处理和与 .NET 框架的集成让它具有非常灵活的操作能力。
+
+---
+
+> **相关 shell 笔记**：本篇是 Windows 原生的对象管道 shell。若需要 POSIX 工具链（`grep`/`sed`/`ssh`/`awk`）与 Git 操作，见 [Git Bash 使用指南](Git%20Bash%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md)；若需要更简洁的结构化数据查询（表格管道、`to md` 直出 Markdown），见 [Nushell 使用指南](Nushell%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md)。三者分工：PowerShell 管 Windows 系统层（注册表/WMI/服务），Git Bash 管 POSIX 脚本与版本控制，Nushell 管数据统计与格式转换。

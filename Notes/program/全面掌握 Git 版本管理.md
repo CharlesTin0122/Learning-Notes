@@ -1244,3 +1244,7 @@ git push origin --delete feature-branch# orgit push origin -d feature-branch
 # **总结**
 
 本文介绍了 Git 是什么、有什么用、为什么使用Git、学什么东西以及怎么用。重点掌握 Git 的相关基本概念，比如仓库、协议、配置用户名和邮箱等，这时最开始都要解决的问题。接下来了解本地工作区、暂存区、本地仓库、远程仓库、版本号、HEAD等的概念。重要的是具体的操作，包括基本操作、逆向操作、整理操作、分支操作、解决冲突等。最后我们需要知道 Git 在一个项目当中的使用规范。
+
+---
+
+> **配套环境笔记**：本篇正文多处使用 `git bash shell`（如克隆仓库、`ssh-keygen` 生成密钥）。Git Bash 本身的安装选项、路径写法（`/d/` 盘符）、参数路径自动转换坑与 CRLF 处理，见 [Git Bash 使用指南](Git%20Bash%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md)。另注：正文里的 `ssh-keygen -t rsa` 现已不推荐，改用 `ssh-keygen -t ed25519`（GitHub 自 2022 年起推荐，且已停止支持 DSA/较短 RSA 密钥）。

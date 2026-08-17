@@ -28,7 +28,6 @@
    | **text** | bool | False | 若为 `True`，输出为字符串；否则为字节。`encoding` 可自定义编码 |
    | **encoding** | str | None | 输出编码（仅当 `text=True` 时有效）。常用 `'utf-8'` |
 
-
    #### 返回值：`CompletedProcess` 对象
 
    ```python

@@ -679,6 +679,25 @@ cube.setMatrix(target_matrix)
 ```
 
 # 其他
+
+## json
+
+```python
+def write_json(json_data: dict, json_name: str) -> None:
+	"""将导出信息写入 json 文件。"""
+	script_path = Path(pc.internalVar(userScriptDir=True))
+	json_file = script_path / f"{json_name}.json"
+	with json_file.open("w") as d:
+		json.dump(json_data, d, indent=4)
+
+def read_json(json_name: str) -> dict:
+	"""读取 json 文件并缓存到 self.json_data。"""
+	script_path = Path(pc.internalVar(userScriptDir=True))
+	json_file = script_path / f"{json_name}.json"
+	with json_file.open("r") as r:
+		self.json_data = json.load(r)
+	return self.json_data
+```
 ## 添加名称空间
 ```python
 def add_namespace_to_objects(objects, spacename):

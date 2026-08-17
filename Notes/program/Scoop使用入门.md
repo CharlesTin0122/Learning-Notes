@@ -191,3 +191,7 @@ aria2-split (默认值: 5)
 aria2-max-connection-per-server (默认值: 5)
 aria2-min-split-size (默认值: 5M)
 ```
+
+---
+
+> **用 Scoop 安装 shell 环境**：`scoop install git` 会带来 Git Bash（用法见 [Git Bash 使用指南](Git%20Bash%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md)）；`scoop install nu` 安装 Nushell（用法见 [Nushell 使用指南](Nushell%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md)）。两者都由 Scoop 统一升级，`scoop update nu git` 即可。
