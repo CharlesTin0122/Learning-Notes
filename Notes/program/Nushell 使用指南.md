@@ -44,7 +44,7 @@ ps | sort-by mem --reverse | first 3 | select name pid mem
 | PowerShell | .NET 对象 | 部分 | Windows 系统管理、注册表、WMI |
 | **Nushell** | **结构化表格** | 是（Rust 单文件） | 数据查询/统计/转换、批量资产处理 |
 
-**Nushell 不是 bash 的替代品**，它是**数据处理专用 shell**。它的语法与 POSIX 不兼容，你不能把网上的 bash 脚本粘进去跑。理性的用法是二者并存：Git 操作和现成脚本用 Git Bash（见 [Git Bash 使用指南](Git%20Bash%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md)），需要统计/过滤/转格式时切到 Nushell。
+**Nushell 不是 bash 的替代品**，它是**数据处理专用 shell**。它的语法与 POSIX 不兼容，你不能把网上的 bash 脚本粘进去跑。理性的用法是二者并存：Git 操作和现成脚本用 Git Bash（见 [Git Bash 使用指南](Git%20Bash%20使用指南.md)），需要统计/过滤/转格式时切到 Nushell。
 
 > 版本提醒：Nushell 尚未到 1.0，**小版本间存在破坏性变更**。本篇基于 0.114.1，抄旧博客的命令时注意核对 `help <命令>`。
 
@@ -468,4 +468,4 @@ open pyproject.toml | get project.dependencies
 
 ---
 
-> 相关笔记：[Git Bash 使用指南](Git%20Bash%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md)（POSIX 工具链，与本篇互补；两者路径写法不通用，见本篇 6.1）、[PowerShell入门](PowerShell%E5%85%A5%E9%97%A8.md)（同为对象管道 shell）、[Scoop使用入门](Scoop%E4%BD%BF%E7%94%A8%E5%85%A5%E9%97%A8.md)（本篇安装方式）
+> 相关笔记：[Git Bash 使用指南](Git%20Bash%20使用指南.md)（POSIX 工具链，与本篇互补；两者路径写法不通用，见本篇 6.1）、[PowerShell入门](PowerShell入门.md)（同为对象管道 shell）、[Scoop使用入门](Scoop使用入门.md)（本篇安装方式）

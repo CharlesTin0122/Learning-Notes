@@ -20,7 +20,7 @@ Git Bash 是 Git for Windows 附带的一套 **MSYS2 精简运行时 + GNU 工�
 
 **要点**：Git Bash 不是虚拟机，`D:\X12RawFile` 在它眼里就是 `/d/X12RawFile`，读写的是同一份文件。这既是它最方便的地方，也是路径转换坑的根源（见第五章）。
 
-相关笔记：[Windows 命令提示符入门](Windows%20%E5%91%BD%E4%BB%A4%E6%8F%90%E7%A4%BA%E7%AC%A6%E5%85%A5%E9%97%A8.md)、[PowerShell入门](PowerShell%E5%85%A5%E9%97%A8.md)、[Nushell 使用指南](Nushell%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md)。
+相关笔记：[Windows 命令提示符入门](Windows%20命令提示符入门.md)、[PowerShell入门](PowerShell入门.md)、[Nushell 使用指南](Nushell%20使用指南.md)。
 
 ---
 
@@ -30,7 +30,7 @@ Git Bash 是 Git for Windows 附带的一套 **MSYS2 精简运行时 + GNU 工�
 
 Git Bash 随 Git for Windows 一起安装，官方下载：<https://git-scm.com/downloads/win>
 
-也可以用包管理器（推荐，便于统一升级，见 [Scoop使用入门](Scoop%E4%BD%BF%E7%94%A8%E5%85%A5%E9%97%A8.md)）：
+也可以用包管理器（推荐，便于统一升级，见 [Scoop使用入门](Scoop使用入门.md)）：
 
 ```powershell
 # Scoop
@@ -193,7 +193,7 @@ cat ~/.ssh/id_ed25519.pub          # 复制到 GitHub/GitLab
 ssh -T git@github.com              # 验证
 ```
 
-详见 [全面掌握 Git 版本管理](%E5%85%A8%E9%9D%A2%E6%8E%8C%E6%8F%A1%20Git%20%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86.md) 和 [Git入门指南](Git%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97.md)。
+详见 [全面掌握 Git 版本管理](全面掌握%20Git%20版本管理.md) 和 [Git入门指南](Git入门指南.md)。
 
 ### 4.4 调用 Windows 程序
 
@@ -382,8 +382,8 @@ Git Bash 不是万能的，以下场景该换：
 | 场景 | 换成 |
 |---|---|
 | 需要 Docker、systemd、apt、原生 Linux 编译 | WSL2 |
-| Windows 系统管理：注册表、服务、WMI、AD、COM | PowerShell（[PowerShell入门](PowerShell%E5%85%A5%E9%97%A8.md)） |
-| 想要结构化数据管道，少写 `awk`/`sed` | Nushell（[Nushell 使用指南](Nushell%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md)） |
+| Windows 系统管理：注册表、服务、WMI、AD、COM | PowerShell（[PowerShell入门](PowerShell入门.md)） |
+| 想要结构化数据管道，少写 `awk`/`sed` | Nushell（[Nushell 使用指南](Nushell%20使用指南.md)） |
 | 复杂逻辑、跨平台自动化 | Python |
 | 要装大量 Unix 软件包并编译 | 完整版 MSYS2（带 `pacman`） |
 
@@ -401,4 +401,4 @@ Git Bash 不是万能的，以下场景该换：
 
 ---
 
-> 相关笔记：[Nushell 使用指南](Nushell%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md)（结构化数据管道，与本篇互补）、[PowerShell入门](PowerShell%E5%85%A5%E9%97%A8.md)、[Windows 命令提示符入门](Windows%20%E5%91%BD%E4%BB%A4%E6%8F%90%E7%A4%BA%E7%AC%A6%E5%85%A5%E9%97%A8.md)、[全面掌握 Git 版本管理](%E5%85%A8%E9%9D%A2%E6%8E%8C%E6%8F%A1%20Git%20%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86.md)、[Scoop使用入门](Scoop%E4%BD%BF%E7%94%A8%E5%85%A5%E9%97%A8.md)
+> 相关笔记：[Nushell 使用指南](Nushell%20使用指南.md)（结构化数据管道，与本篇互补）、[PowerShell入门](PowerShell入门.md)、[Windows 命令提示符入门](Windows%20命令提示符入门.md)、[全面掌握 Git 版本管理](全面掌握%20Git%20版本管理.md)、[Scoop使用入门](Scoop使用入门.md)

@@ -9,7 +9,7 @@ tags:
 # cymel 使用指南
 
 > 本篇基于官方英文文档 [Introduction to cymel](https://ryusas.github.io/cymel/en/gettingstarted.html)（文档版本 **0.35.2026072800**）整理，并核对了 GitHub 仓库 [ryusas/cymel](https://github.com/ryusas/cymel)（MIT，最后提交 2026-07-28）的实际目录结构。
-> 定位对比（cymel vs cmdx vs PyMEL 该选哪个）见 [cymel与cmdx对比](cymel%E4%B8%8Ecmdx%E5%AF%B9%E6%AF%94.md)；本篇只讲**怎么用**。
+> 定位对比（cymel vs cmdx vs PyMEL 该选哪个）见 [cymel与cmdx对比](cymel与cmdx对比.md)；本篇只讲**怎么用**。
 
 ## 一、cymel 解决什么问题
 
@@ -900,9 +900,9 @@ wnd.show()
 
 ## 相关
 
-- [cymel与cmdx对比](cymel%E4%B8%8Ecmdx%E5%AF%B9%E6%AF%94.md) —— 选型层面的对比（哲学、性能、体量），本篇是它的 API 使用篇
-- [什么是API，何时使用API](%E4%BB%80%E4%B9%88%E6%98%AFAPI%EF%BC%8C%E4%BD%95%E6%97%B6%E4%BD%BF%E7%94%A8API.md) —— cymel 定位在 cmds 与 OpenMaya 之间，该篇讲何时该往下掉一层
-- [基于矩阵运算的父约束](%E5%9F%BA%E4%BA%8E%E7%9F%A9%E9%98%B5%E8%BF%90%E7%AE%97%E7%9A%84%E7%88%B6%E7%BA%A6%E6%9D%9F.md) —— 用 cymel 的 `Matrix` / `Transformation` 实现会显著简化
+- [cymel与cmdx对比](cymel与cmdx对比.md) —— 选型层面的对比（哲学、性能、体量），本篇是它的 API 使用篇
+- [什么是API，何时使用API](什么是API，何时使用API.md) —— cymel 定位在 cmds 与 OpenMaya 之间，该篇讲何时该往下掉一层
+- [基于矩阵运算的父约束](基于矩阵运算的父约束.md) —— 用 cymel 的 `Matrix` / `Transformation` 实现会显著简化
 
 ## 参考链接
 

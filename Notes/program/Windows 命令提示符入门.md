@@ -210,4 +210,4 @@ pause
 CMD 是一个功能强大的工具，能够执行文件管理、系统信息查询、网络管理等各种任务。虽然 Windows PowerShell 在现代 Windows 系统中更为强大，但 CMD 依然非常实用，尤其是在需要执行一些简单、直接的命令时。
 ---
 
-> **相关 shell 笔记**：CMD 之外的三个现代选择——[Git Bash 使用指南](Git%20Bash%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md)（POSIX 工具链，注意从 Git Bash 调 `cmd` 内建命令要写 `cmd //c`，双斜杠用于规避 MSYS 路径转换）、[PowerShell入门](PowerShell%E5%85%A5%E9%97%A8.md)（对象管道）、[Nushell 使用指南](Nushell%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md)（结构化表格管道）。
+> **相关 shell 笔记**：CMD 之外的三个现代选择——[Git Bash 使用指南](Git%20Bash%20使用指南.md)（POSIX 工具链，注意从 Git Bash 调 `cmd` 内建命令要写 `cmd //c`，双斜杠用于规避 MSYS 路径转换）、[PowerShell入门](PowerShell入门.md)（对象管道）、[Nushell 使用指南](Nushell%20使用指南.md)（结构化表格管道）。

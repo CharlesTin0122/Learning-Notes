@@ -4,10 +4,9 @@
   "title": "推荐Obsidian自动生成MOC的插件",
   "titleGenerationStatus": "success",
   "createdAt": 1785482889688,
-  "updatedAt": 1785482946552,
-  "lastResponseAt": 1785482946552,
+  "lastActivityAt": 1785482946552,
   "sessionId": "019fb712-d186-7f70-bb8d-d55597d7564f",
-  "selectedModel": "pi:paperhub-anthropic/claude-fable-5",
+  "selectedModel": "pi:paperhub-anthropic/claude-opus-5",
   "providerState": {
     "sessionFile": "C:\\Users\\dalaotian\\.pi\\agent\\sessions\\--D--Learning-Notes--\\2026-07-31T07-28-11-654Z_019fb712-d186-7f70-bb8d-d55597d7564f.jsonl",
     "sessionId": "019fb712-d186-7f70-bb8d-d55597d7564f"

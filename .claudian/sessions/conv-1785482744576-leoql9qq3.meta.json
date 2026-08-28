@@ -4,10 +4,9 @@
   "title": "介绍Claude身份和角色",
   "titleGenerationStatus": "success",
   "createdAt": 1785482744576,
-  "updatedAt": 1785482781868,
-  "lastResponseAt": 1785482760404,
+  "lastActivityAt": 1785482760404,
   "sessionId": "019fb710-9a6f-76d5-9418-a0fc3cb97133",
-  "selectedModel": "pi:paperhub-anthropic/claude-fable-5",
+  "selectedModel": "pi:paperhub-anthropic/claude-sonnet-5",
   "providerState": {
     "leafEntryId": "16ca9c02",
     "sessionFile": "C:\\Users\\dalaotian\\.pi\\agent\\sessions\\--D--Learning-Notes--\\2026-07-31T07-25-46-479Z_019fb710-9a6f-76d5-9418-a0fc3cb97133.jsonl",

@@ -8,7 +8,7 @@
 
 ## 一、omp 是什么
 
-**oh-my-pi**（命令名 `omp`）是 [Pi Agent](PiAgent%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md) 的社区重装 fork，作者 can1357。两者取向完全相反：
+**oh-my-pi**（命令名 `omp`）是 [Pi Agent](PiAgent使用指南.md) 的社区重装 fork，作者 can1357。两者取向完全相反：
 
 - **Pi**：极简自组装 —— 默认只给 4 个工具，能力靠扩展包一个个装
 - **omp**：batteries included —— 内置 LSP/DAP/AST 编辑/浏览器/桌面控制/位图上下文压缩，开箱即用
@@ -583,9 +583,9 @@ cd /tmp && omp -p --no-session --auto-approve \
 
 ## 相关笔记
 
-- [PiAgent使用指南](PiAgent%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md) —— omp 的上游项目，极简路线
+- [PiAgent使用指南](PiAgent使用指南.md) —— omp 的上游项目，极简路线
 - [ClaudeCode](ClaudeCode.md) —— 本篇多处对照的基准工具
-- [HermesAgent使用指南](HermesAgent%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md)
+- [HermesAgent使用指南](HermesAgent使用指南.md)
 - [opencode](opencode.md)
 - [vibe-coding-guide](vibe-coding-guide.md)
-- [vibecoding的缺点](vibecoding%E7%9A%84%E7%BC%BA%E7%82%B9.md)
+- [vibecoding的缺点](vibecoding的缺点.md)

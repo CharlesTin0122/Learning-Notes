@@ -1247,4 +1247,4 @@ git push origin --delete feature-branch# orgit push origin -d feature-branch
 
 ---
 
-> **配套环境笔记**：本篇正文多处使用 `git bash shell`（如克隆仓库、`ssh-keygen` 生成密钥）。Git Bash 本身的安装选项、路径写法（`/d/` 盘符）、参数路径自动转换坑与 CRLF 处理，见 [Git Bash 使用指南](Git%20Bash%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md)。另注：正文里的 `ssh-keygen -t rsa` 现已不推荐，改用 `ssh-keygen -t ed25519`（GitHub 自 2022 年起推荐，且已停止支持 DSA/较短 RSA 密钥）。
+> **配套环境笔记**：本篇正文多处使用 `git bash shell`（如克隆仓库、`ssh-keygen` 生成密钥）。Git Bash 本身的安装选项、路径写法（`/d/` 盘符）、参数路径自动转换坑与 CRLF 处理，见 [Git Bash 使用指南](Git%20Bash%20使用指南.md)。另注：正文里的 `ssh-keygen -t rsa` 现已不推荐，改用 `ssh-keygen -t ed25519`（GitHub 自 2022 年起推荐，且已停止支持 DSA/较短 RSA 密钥）。

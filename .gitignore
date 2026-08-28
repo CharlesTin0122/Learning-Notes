@@ -8,3 +8,7 @@
 .git/
 .trash/
 Thumbs.db
+
+# pi 项目配置：若在本 vault 根使用 pi，其 .pi/ 会含 node_modules 等本地状态，
+# 与笔记内容无关，不纳入版本管理。
+.pi/

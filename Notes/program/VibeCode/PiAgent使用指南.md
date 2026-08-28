@@ -31,7 +31,7 @@
 
 [oh-my-pi](https://github.com/can1357/oh-my-pi)（作者 can1357）是 Pi 的功能大幅扩展 fork，走"全家桶"路线：TypeScript + 约 8 万行 Rust 核心、Bun 运行时、hash 锚定编辑、LSP/DAP 深度集成、双内核代码执行。一句话对比：**Pi 是"给你一个干净的骨架，自己长肉"；omp 是"肉都长好了，还练过"**。Pi 缺的能力（LSP、hash 编辑、子代理等）大多可以通过 Pi Packages 补回来。
 
-> 本篇是 Pi（极简自组装路线）的指南；omp 的安装配置、中转站多 provider 方案、MCP 排查与 Python 开发实测见 [oh-my-pi使用指南](oh-my-pi%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md)。两者可并存，且共用同一份 key 与 MCP 声明。
+> 本篇是 Pi（极简自组装路线）的指南；omp 的安装配置、中转站多 provider 方案、MCP 排查与 Python 开发实测见 [oh-my-pi使用指南](oh-my-pi使用指南.md)。两者可并存，且共用同一份 key 与 MCP 声明。
 
 ---
 
@@ -279,5 +279,5 @@ pi -p "调用 mcp 工具检查 Maya 与 MoBu 状态"
 
 - [ClaudeCode](ClaudeCode.md)
 - [opencode](opencode.md)
-- [HermesAgent使用指南](HermesAgent%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md)
+- [HermesAgent使用指南](HermesAgent使用指南.md)
 - [vibe-coding-guide](vibe-coding-guide.md)

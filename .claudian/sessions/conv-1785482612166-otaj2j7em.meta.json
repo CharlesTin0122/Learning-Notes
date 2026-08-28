@@ -4,8 +4,7 @@
   "title": "Clarify Claude's identity",
   "titleGenerationStatus": "success",
   "createdAt": 1785482612166,
-  "updatedAt": 1785482817900,
-  "lastResponseAt": 1785482648242,
+  "lastActivityAt": 1785482648242,
   "sessionId": null,
   "selectedModel": "fable",
   "providerState": {

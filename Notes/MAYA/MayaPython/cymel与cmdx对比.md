@@ -74,7 +74,7 @@ tags:
 
 ## 相关
 
-> 本篇是**选型层面**的对比。cymel 的具体 API 用法（import 约定、节点/Plug 包裹、数学类、Transformation 矩阵分解、自定义节点类、坑点速查）见 [cymel使用指南](cymel%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md)。
+> 本篇是**选型层面**的对比。cymel 的具体 API 用法（import 约定、节点/Plug 包裹、数学类、Transformation 矩阵分解、自定义节点类、坑点速查）见 [cymel使用指南](cymel使用指南.md)。
 
 - [PyMEL 官方 Why PyMEL?](https://help.autodesk.com/cloudhelp/2017/ENU/Maya-Tech-Docs/PyMel/why_pymel.html)
 - 类似的新库：[mayax](https://github.com/chirieac/mayax)（设计与 cmdx 相近）
